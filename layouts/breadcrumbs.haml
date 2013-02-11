@@ -1,0 +1,5 @@
+.navigation
+  %ul.navigation
+    - breadcrumbs_trail.each do |i|
+    -   next if i.identifier == "/" and item.identifier != "/"
+      %li= link_to_unless_current(i[:nav] || i[:title], i.reps.find { |r| r.name == :default })

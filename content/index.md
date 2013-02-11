@@ -1,5 +1,6 @@
 ---
 title: Martin Michlmayr
+nav: Welcome
 ---
 
 I'm a contributor to various free and open source software projects, such

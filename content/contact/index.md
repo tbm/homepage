@@ -1,5 +1,6 @@
 ---
 title: Contact Martin Michlmayr
+nav: Contact Information
 ---
 
 The best way to reach me is by e-mail at my tbm@cyrius.com address.  Make

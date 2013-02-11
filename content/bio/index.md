@@ -1,5 +1,6 @@
 ---
 title: Biography of Martin Michlmayr
+nav: Biography
 ---
 
 I'm a contributor to various free and open source software projects and I
