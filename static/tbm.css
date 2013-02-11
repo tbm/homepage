@@ -1,0 +1,583 @@
+/*
+ * CSS definitions for http://www.cyrius.com/
+ * Copyright (C) 2004, 2005  Martin Michlmayr <tbm@cyrius.com>
+ */
+
+/*
+ * Page layout
+ */
+
+div.page
+{
+width: 100%;
+margin: 0px;
+}
+
+div.header
+{
+background: #00427B; /* blue */
+color: #FFFFFF; /* white */
+font-weight: bold;
+border-top: 4px #8E2110 solid;
+padding-top: 2px;
+padding-left: 0.5em;
+padding-bottom: 2px;
+}
+
+div.navigation
+{
+background: #FFFFFF; /* white */
+color: #00427B; /* blue */
+padding-top: 2px;
+margin-top: 0em;
+margin-left: 180px;
+padding-left: 0px;
+padding-bottom: 2px;
+border-bottom: 2px #8E2110 solid;
+font-size: 109%;
+}
+
+/* the complete site index (sidebar) */
+div.index
+{
+float:left;
+width:160px;
+margin:0;
+background: none;
+color: #000000; /* black */
+}
+
+div.index a, div.navigation a, div.pager a
+{
+text-decoration: none;
+border-bottom: none;
+}
+
+div.index a:link, div.navigation a:link, div.pager a:link
+{
+text-decoration: none;
+background: none;
+color: #00427B; /* blue */
+border-bottom: none;
+}
+
+div.index a:visited, div.navigation a:visited, div.pager a:visited
+{
+background: none;
+color: #434343; /* gray */
+text-decoration: none;
+border-bottom: none;
+}
+
+div.index a:hover, div.navigation a:hover, div.pager a:hover
+{
+text-decoration: none;
+background: none;
+color: #00427B; /* blue */
+border-bottom: none;
+}
+
+div.content
+{
+margin-left: 170px;
+margin-right: 170px;
+padding-left: 10px;
+text-align: justify;
+}
+
+/* an option bar on the right side, e.g. used by the journal */
+div.right {
+float: right;
+width: 150px;
+margin-left: 10px;
+margin-top: 0.5em;
+padding-top: 2px;
+font-size: 90%;
+}
+
+div.footer
+{
+clear:both;
+background: none;
+color: #B0B0B0; /* light gray */
+border-top: 2px #8E2110 solid; /* darkred */
+padding-top: 2px;
+margin-top: 1em;
+font-size: 90%;
+}
+
+div.bbf
+{
+	text-align: center;
+}
+
+/*
+ * Definitions for specific pages
+ */
+
+/* for my journal */
+
+div.journaldate {
+  text-align: right;
+  font-size: 80%;
+  padding-right: 15px;
+  background: none;
+  color: #636363; /* gray */
+}
+
+div.pager
+{
+text-align: center;
+}
+
+/* for the publications pages */
+ul.author
+{
+margin-left: 0;
+padding-left: 1.25em;
+}
+
+ul.author li
+{
+list-style-type: square;
+padding-bottom: 5px;
+}
+
+.author {
+background: none;
+color: #8E2110; /* darkred */
+}
+
+.affiliation {
+background: none;
+color: #000000; /* black */
+}
+
+
+/*
+ * Very general definitions
+ */
+
+body
+{
+font-family:arial,sans-serif;
+color: #000000; /* black */
+background: #FFFFFF; /* white */
+margin-top: 9px;
+}
+
+h1
+{
+background: none;
+color: #8E2110; /* darkred */
+font-weight: normal;
+font-size: 109%; /* 109% instead of 110% because IE renders 110% as bold */
+margin-top: 0.50em;
+margin-bottom: -0.4em;
+}
+
+h2
+{
+background: none;
+color: #8E2110; /* darkred */
+font-weight: normal;
+font-size: 103%;
+margin-bottom: -0.4em;
+}
+
+h2 a:hover {
+text-decoration: none;
+border-bottom: none;
+background: none;
+color: #8E2110; /* darkred */
+}
+
+h3
+{
+background: none;
+color: #434343; /* gray */
+font-weight: normal;
+font-size: 100%;
+margin-bottom: -0.4em;
+}
+
+h3 a:hover {
+text-decoration: none;
+border-bottom: none;
+background: none;
+color: #434343; /* gray */
+}
+
+p
+{
+background: none;
+color: #000000; /* black */
+margin-top: 1em;
+}
+
+ul
+{
+margin-left: 0;
+padding-left: 1.25em;
+}
+
+li
+{
+list-style-position: outside;
+list-style-type: square;
+padding-bottom: 5px;
+}
+
+a
+{
+text-decoration: none;
+}
+
+a:link
+{
+background: none;
+color: #00427B; /* blue */
+border-bottom: 1px #000000 dotted;
+}
+
+a:visited
+{
+background: none;
+color: #434343; /* gray */
+border-bottom: 1px #024f91 dotted;
+}
+
+a:hover
+{
+background: none;
+color: #000000; /* black */
+border-bottom: 1px #00427B solid; /* blue */
+}
+
+hr
+{
+background: #000000; /* black */
+color: #000000; /* black */
+width: 100%;
+border: 0;
+height: 1px
+}
+
+/*
+ * Generally useful definitions
+ */
+
+/* put code examples in a nicely coloured box and add a scrollbar if needed */
+.code {
+  background: #E0E0E0; /* some light blue/gray */
+  color: #000000; /* black */
+  padding-left: 5px;
+  overflow: auto;
+}
+
+/* mark input in code examples in a different colour */
+.input {
+background: #E0E0E0; /* some light blue/gray */
+color: #0000ff; /* blue */
+}
+
+/* smaller font */
+.small {
+font-size: 90%;
+}
+
+/* add a border to e.g. images */
+.border {
+border: #434343 1px solid;
+}
+
+.right {
+margin-left: 0.5em;
+float: right;
+}
+
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto
+}
+
+/* Create an unordered list which has a > sign instead of the bulllet.
+ * This is to be used by the index, the navigation, the journal archive
+ * index and other lists */
+ul.gt
+{
+padding-left: 0;
+}
+
+ul.gt li, ul.navigation li
+{
+list-style-type: none;
+}
+
+ul.gt li:before, ul.navigation li:before, ul.index li:before {
+display: marker;
+content: "> ";
+background: none;
+color: #00427B; /* blue */
+}
+
+/* Override some defaults for the navigation bar */
+ul.navigation
+{
+padding-left: 0;
+margin-bottom: 0;
+}
+
+ul.navigation li {
+display: inline; /* horizontal */
+padding-right: 0.20em;
+}
+
+ul.navigation li:first-child:before {
+display: marker;
+content: "";
+}
+
+ul.navigation li:before {
+color: #8E2110; /* darkred */
+}
+
+/* Override some defaults for the side index (sidebar) */
+ul.index
+{
+margin-top: 0.5em;
+padding-top: 6px;
+margin-left: 0px;
+padding-left: 0.5em;
+}
+
+ul.index li
+{
+list-style-type: none;
+padding-bottom: 5px;
+}
+
+
+/*
+ * The following is needed by BINS; based on joi.css
+ */
+
+.navbar {
+	padding-top: 0em;
+	padding-left: 5em;
+	padding-right: 5em;
+	padding-bottom: 1em;
+	margin-top: 0em;
+	margin-bottom: 2em;
+	background: #DDD;
+	color:black;
+	border-bottom: 1px solid;
+	font-size:0.6em;
+}
+
+/* details */
+
+.detail{
+	font-size: 1.0em;
+	text-align: center;
+	width: 400px;
+}
+
+.detail table{
+	margin: 0em;
+	padding: 0em;
+}
+
+/**************/
+.contentBG {
+	background: #DDD;
+	color:black;
+	margin: 0px;
+	font-size: 1em;
+}
+
+.contentBGSep {
+	background: #C9C9C9;
+	color:black;
+}
+
+/* style of preview-images without border (in the treeview) */
+.previewNoBorder {
+	position: absolute;
+	visibility: hidden;
+	z-index: 100;
+	font-size: 1em;
+}
+
+/* style of preview-images with border (in the imageview) */
+.previewBorder {
+	position: absolute;
+	visibility: hidden;
+	z-index: 100;
+	border-style: solid;
+	border-color: #EBEBEB;
+	border-width: 3px;
+	font-size: 1em;
+}
+
+.konqBorder {
+	background: #EBEBEB;
+}
+
+.content {
+	position: relative;
+	visibility: visible;
+	z-index: 1;
+}
+
+.descrTitle {
+	font-size: 1.0em;
+	font-weight: bold;
+}
+
+.descrContent {
+	font-size: 1.0em;
+}
+
+/* style of the actual page entry in the navigation bar */
+/*.highlight {
+	font-weight: bold;
+}*/
+
+/* number of images in the treeview */
+.numImg {
+	font-style: italic;
+}
+
+/* image individuelle */
+.image {
+	border: none;
+	text-align: center;
+	clear: both;
+}
+
+.im{
+	text-align: center;
+	background: #F00;
+	clear: both;
+	border: none;
+	margin: 0em;
+}
+
+.im img{
+	border: none;
+}
+
+/************************************************** Pour la zone de l'album */
+.card {
+	float: left; 
+	/* Les float ont besoin de width - il faut donc que ce champ soit */
+	/* rempli dans le fichier html avec la vraie largeure de l'image */
+	/*          width: 200px; */
+	padding: 01em 01em 01em 01em;
+	text-align: center;
+	} 
+
+.images {
+	margin: 0px;
+	text-align: left;
+	text-indent: 0em;
+	} 
+
+.imgname {
+	background: #DDD;
+	color:black;
+	margin: 0px;
+}
+
+.thumbs {
+	background: #DDD;
+	color:black;
+	margin: 0px;
+}
+
+.album {
+	margin: 0px;
+	background: #EEE;  
+	font-size: small;
+	width: 100%; 
+	border-style: none; 
+	border-color: #000000; /* black */
+	padding: 0px; 
+	text-align: left;
+	text-indent: 0em;
+	float: left;
+} 
+
+div.desccard {
+	float: left; 
+	width: 45%; 
+}
+
+div.descimg {
+	float: left;
+	margin: -20px 10px 0 0; 
+	border: none;
+	/* z-index: 10;
+	position: relative; */
+}
+
+div.desccard h3 {
+	margin: 01em 01em 01em 01em; 
+	padding: 0.2em 0 1px 150px;
+	border: 1px solid #339; 
+	background: #EEC;
+	color: #339;
+}
+
+div.desccard p {
+	margin: 1em 1em 1em 1em;
+}
+
+.imthumbs {
+	float: right;
+	clear: both;
+}
+
+/* Pour les fleches de navigation en haut et en bas des thumbs  */
+.thumbnavrow {
+	margin: 0em;
+	float: none;
+	font-size: 1.0em;
+	padding: 0em;
+}
+
+.nav{
+	margin: 0em;
+	text-align: center;
+	background: #CCC;
+	padding: 0em;
+}
+
+.nav li{
+	display: inline;
+}
+
+.navleft{
+	margin: 0em;
+	float: left;
+	padding: 0em;
+}
+
+.navright{
+	margin: 0em;
+	float: right;
+	padding: 0em;
+}
+
+.navcenter{
+	margin: 0em;
+}
+
+div.table {
+float: right; /* moves table to left and under navigation object in iceweasel,opera,konqueror */
+padding-bottom: 10px; /*seperates table title and navaigation object */
+padding-right: 5% /* "corrects  (sort of)" table placement that float:right changed in Epiphany */
+}
+
