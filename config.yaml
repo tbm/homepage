@@ -5,7 +5,7 @@ output_dir: output
 
 index_filenames: [ 'index.html' ]
 
-enable_output_diff: false
+enable_output_diff: true
 
 prune:
   auto_prune: false
