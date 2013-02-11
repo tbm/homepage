@@ -1,0 +1,4 @@
+
+deploy_check :internal_links
+deploy_check :stale
+
