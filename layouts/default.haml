@@ -8,5 +8,9 @@
     %meta{:name => "generator", :content => "nanoc " + Nanoc::VERSION}
 
   %body
-    = yield
+    .page
+      .header
+        Martin Michlmayr
+      .content
+        = yield
 
