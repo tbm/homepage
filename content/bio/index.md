@@ -1,6 +1,8 @@
 ---
 title: Biography of Martin Michlmayr
 nav: Biography
+description: A short biography of Martin Michlmayr
+keywords: [Martin Michlmayr, biography, background, interests]
 ---
 
 <% content_for :right do %>

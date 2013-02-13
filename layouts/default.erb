@@ -3,8 +3,16 @@
   <head>
     <title><%= @item[:title] %></title>
     <link href='/tbm.css' rel='stylesheet' type='text/css'>
+    <link rev="made" title="Martin Michlmayr" href="mailto:tbm@cyrius.com">
     <meta charset='utf-8'>
     <meta name='generator' content='nanoc <%= Nanoc::VERSION %>'>
+    <meta name="author" content='Martin Michlmayr'>
+    <% if @item[:description] then %>
+    <meta name="description" content="<%= @item[:description] %>">
+    <% end %>
+    <% if @item[:keywords] then %>
+    <meta name="keywords" content="<%= @item[:keywords].join(", ") %>">
+    <% end %>
   </head>
 
   <body>

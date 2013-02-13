@@ -1,6 +1,8 @@
 ---
 title: Curriculum Vitae of Martin Michlmayr
 nav: Curriculum Vitae
+description: The curriculum vitae of Martin Michlmayr
+keywords: [Martin Michlmayr, Curriculum Vitae, CV, resume, quality, free software]
 ---
 
 <% content_for :right do %>
