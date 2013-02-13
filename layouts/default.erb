@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title><%= @item[:title] %></title>
+    <link href='/tbm.css' rel='stylesheet' type='text/css'>
+    <meta charset='utf-8'>
+    <meta name='generator' content='nanoc <%= Nanoc::VERSION %>'>
+  </head>
+
+  <body>
+    <div class="page">
+
+      <div class="header">Martin Michlmayr</div>
+
+      <div class="navigation">
+        <ul class = "navigation">
+        <% breadcrumbs_trail.each do |i| %>
+        <%   next if i.identifier == "/" and item.identifier != "/" %>
+          <li><%= link_to_unless_current(i[:nav] || i[:title], i.reps.find { |r| r.name == :default }) %></li>
+        <% end %>
+        </ul>
+      </div>
+
+      <div class = "index">
+        <ul class = "index">
+          <li><%= link_to("Biography", "/bio") %></li>
+          <li><%= link_to("Curriculum Vitae", "/cv") %></li>
+          <li><%= link_to("Contact", "/contact") %></li>
+        </ul>
+      </div>
+
+      <div class="content">
+      <%= yield %>
+      </div>
+
+    </div>
+
+  </body>
+
+</html>
+

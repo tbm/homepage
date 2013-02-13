@@ -27,5 +27,5 @@ route '*' do
   end
 end
 
-layout '*', :haml, :format => :html5
+layout '*', :erb
 
