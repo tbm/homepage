@@ -21,6 +21,14 @@
         </ul>
       </div>
 
+      <% if content_for(@item, :right) then %>
+      <div class="right">
+        <% filter(:pandoc) do %>
+          <%= content_for(@item, :right) %>
+        <% end %>
+      </div>
+      <% end %>
+
       <div class = "index">
         <ul class = "index">
           <li><%= link_to("Biography", "/bio") %></li>

@@ -3,6 +3,10 @@ title: Martin Michlmayr
 nav: Welcome
 ---
 
+<% content_for :right do %>
+<img src = "images/palm.jpg" class="border" alt = "Photo of Martin" width="148" height="209" />
+<% end %>
+
 I'm a contributor to various free and open source software projects, such
 as Debian, with an interest in project management and quality assurance.  I
 work for HP's Open Source Program Office as an Open Source Community

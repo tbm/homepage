@@ -3,6 +3,32 @@ title: Biography of Martin Michlmayr
 nav: Biography
 ---
 
+<% content_for :right do %>
+<img src = "../images/r_debconf4_tbm1.jpg" class="border" alt="Martin Michlmayr" width="148" height="182" />
+
+## Passions
+
+Debian, free software, understanding how the mind/brain works, evolution,
+beach
+
+## Books
+
+Popular science (especially psychology, cognitive science, evolution),
+management, science fiction
+
+## Music
+
+Hip hop, alternative, pop
+
+## Movies
+
+The Big Lebowski, Forrest Gump, Mononoke Hime, Kill Bill
+
+## Cuisines
+
+Chinese, Asian, pizza, sea food
+<% end %>
+
 I'm a contributor to various free and open source software projects and I
 work for HP's Open Source Program Office as an Open Source Community
 Expert.  I have Master degrees in Psychology, Philosophy, and Software
