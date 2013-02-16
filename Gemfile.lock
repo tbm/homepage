@@ -5,9 +5,14 @@ GEM
     cri (2.3.0)
       colored (>= 1.2)
     haml (3.1.7)
+    json (1.7.6)
     nanoc (3.5.0)
       cri (~> 2.2)
+    nokogiri (1.5.6)
     pandoc-ruby (0.6.0)
+    w3c_validators (1.2)
+      json
+      nokogiri
 
 PLATFORMS
   ruby
@@ -16,3 +21,4 @@ DEPENDENCIES
   haml
   nanoc
   pandoc-ruby
+  w3c_validators
