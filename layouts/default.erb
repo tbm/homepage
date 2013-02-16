@@ -52,6 +52,13 @@
 
       <div class="content">
       <%= yield %>
+
+        <% unless @item[:hide_time] then %>
+        <div class="footer">
+        Last modified on <%= @item[:mtime].strftime "%Y-%m-%d %T %z" %>.
+        </div>
+        <% end %>
+
       </div>
 
     </div>

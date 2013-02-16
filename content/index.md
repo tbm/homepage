@@ -3,6 +3,7 @@ title: Martin Michlmayr
 nav: Welcome
 description: The homepage of Martin Michlmayr
 keywords: [Martin Michlmayr, Michlmayr, tbm, cyrius, cyrius.com, free software]
+hide_time: true
 ---
 
 <% content_for :right do %>
