@@ -5,16 +5,7 @@ keywords: [Debian, defects, bug tracking, quality, quality improvement, open sou
 ---
 
 <% content_for :right do %>
-<script type="text/javascript"><!--
-google_ad_client = "pub-1742473912427959";
-/* WideSkyscaper-right */
-google_ad_slot = "4331219527";
-google_ad_width = 160;
-google_ad_height = 600;
-//-->
-</script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+<%= render 'adsense-wideskyscaper-right' %>
 <% end %>
 
 <h1>A Statistical Analysis of Defects in Debian and Strategies for
