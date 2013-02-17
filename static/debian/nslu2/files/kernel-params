@@ -1,0 +1,34 @@
+#! /bin/sh
+
+PATH=/sbin:/bin
+
+# Max time to wait for writeout
+MAX_AGE=120
+CENT_AGE=$((100 * $MAX_AGE))
+# Max percent of mem to use for dirty pages
+DRATIO=10
+# Once we write, do so until this many percent of mem is still in use
+DBRATIO=1
+
+case "$1" in
+   start)
+         echo -n 0         >> /proc/sys/vm/swappiness
+         echo -n $MAX_AGE  >> /proc/sys/vm/laptop_mode
+         echo -n $CENT_AGE >> /proc/sys/vm/dirty_writeback_centisecs
+         echo -n $CENT_AGE >> /proc/sys/vm/dirty_expire_centisecs
+         echo -n $DRATIO   >> /proc/sys/vm/dirty_ratio
+         echo -n $DBRATIO  >> /proc/sys/vm/dirty_background_ratio
+         ;;
+   restart|reload|force-reload)
+         echo "Error: argument '$1' not supported" >&2
+         exit 3
+         ;;
+   stop)
+         # No-op
+         ;;
+   *)
+         echo "Usage: $0 start|stop" >&2
+         exit 3
+         ;;
+esac
+exit 0

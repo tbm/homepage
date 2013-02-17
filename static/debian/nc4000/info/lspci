@@ -1,0 +1,16 @@
+00:00.0 Host bridge: ATI Technologies Inc RS200/RS200M AGP Bridge [IGP 340M] (rev 02)
+00:01.0 PCI bridge: ATI Technologies Inc PCI Bridge [IGP 340M]
+00:06.0 Multimedia audio controller: ALi Corporation M5451 PCI AC-Link Controller Audio Device (rev 02)
+00:07.0 ISA bridge: ALi Corporation M1533/M1535 PCI to ISA Bridge [Aladdin IV/V/V+]
+00:08.0 Modem: ALi Corporation M5457 AC'97 Modem Controller
+00:09.0 Ethernet controller: Atheros Communications Inc. AR5212/AR5213 Multiprotocol MAC/baseband processor (rev 01)
+00:0b.0 CardBus bridge: O2 Micro, Inc. OZ711M1/MC1 4-in-1 MemoryCardBus Controller (rev 20)
+00:0b.1 CardBus bridge: O2 Micro, Inc. OZ711M1/MC1 4-in-1 MemoryCardBus Controller (rev 20)
+00:0b.2 System peripheral: O2 Micro, Inc. OZ711Mx 4-in-1 MemoryCardBus Accelerator
+00:10.0 IDE interface: ALi Corporation M5229 IDE (rev c4)
+00:11.0 Bridge: ALi Corporation M7101 Power Management Controller [PMU]
+00:12.0 USB Controller: NEC Corporation USB (rev 43)
+00:12.1 USB Controller: NEC Corporation USB (rev 43)
+00:12.2 USB Controller: NEC Corporation USB 2.0 (rev 04)
+00:13.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5705M Gigabit Ethernet (rev 03)
+01:05.0 VGA compatible controller: ATI Technologies Inc Radeon IGP 330M/340M/350M

@@ -1,0 +1,142 @@
+00:00.0 Host bridge: ATI Technologies Inc RS200/RS200M AGP Bridge [IGP 340M] (rev 02)
+	Flags: bus master, 66MHz, medium devsel, latency 64
+	Memory at 9c000000 (32-bit, prefetchable) [size=64M]
+	Memory at 98500000 (32-bit, prefetchable) [size=4K]
+	Capabilities: [a0] AGP version 2.0
+	Kernel driver in use: agpgart-ati
+	Kernel modules: ati-agp
+
+00:01.0 PCI bridge: ATI Technologies Inc PCI Bridge [IGP 340M]
+	Flags: bus master, 66MHz, medium devsel, latency 99
+	Bus: primary=00, secondary=01, subordinate=01, sec-latency=66
+	I/O behind bridge: 00002000-00002fff
+	Memory behind bridge: 90000000-900fffff
+	Prefetchable memory behind bridge: 94000000-97ffffff
+	Kernel modules: shpchp
+
+00:06.0 Multimedia audio controller: ALi Corporation M5451 PCI AC-Link Controller Audio Device (rev 02)
+	Subsystem: Compaq Computer Corporation Device 005a
+	Flags: bus master, medium devsel, latency 64, IRQ 11
+	I/O ports at 3000 [size=256]
+	Memory at 98100000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: [dc] Power Management version 2
+	Kernel driver in use: ALI 5451
+	Kernel modules: snd-ali5451, trident
+
+00:07.0 ISA bridge: ALi Corporation M1533/M1535 PCI to ISA Bridge [Aladdin IV/V/V+]
+	Subsystem: Compaq Computer Corporation Device 005a
+	Flags: bus master, medium devsel, latency 0
+	Capabilities: [a0] Power Management version 1
+	Kernel modules: alim1535_wdt, alim7101_wdt
+
+00:08.0 Modem: ALi Corporation M5457 AC'97 Modem Controller
+	Subsystem: Compaq Computer Corporation Device 005a
+	Flags: medium devsel, IRQ 11
+	Memory at 98180000 (32-bit, non-prefetchable) [size=4K]
+	I/O ports at 3400 [size=256]
+	Capabilities: [40] Power Management version 2
+
+00:09.0 Ethernet controller: Atheros Communications Inc. AR5212/AR5213 Multiprotocol MAC/baseband processor (rev 01)
+	Subsystem: Compaq Computer Corporation Device 00e5
+	Flags: bus master, medium devsel, latency 168, IRQ 5
+	Memory at 98080000 (32-bit, non-prefetchable) [size=64K]
+	Capabilities: [44] Power Management version 2
+	Kernel driver in use: ath5k_pci
+	Kernel modules: ath5k
+
+00:0b.0 CardBus bridge: O2 Micro, Inc. OZ711M1/MC1 4-in-1 MemoryCardBus Controller (rev 20)
+	Subsystem: Compaq Computer Corporation Device 005a
+	Flags: bus master, stepping, slow devsel, latency 168, IRQ 11
+	Memory at 98200000 (32-bit, non-prefetchable) [size=4K]
+	Bus: primary=00, secondary=02, subordinate=05, sec-latency=176
+	Memory window 0: 20000000-23fff000 (prefetchable)
+	Memory window 1: 24000000-27fff000
+	I/O window 0: 00001400-000014ff
+	I/O window 1: 00001800-000018ff
+	16-bit legacy interface ports at 0001
+	Kernel driver in use: yenta_cardbus
+	Kernel modules: yenta_socket
+
+00:0b.1 CardBus bridge: O2 Micro, Inc. OZ711M1/MC1 4-in-1 MemoryCardBus Controller (rev 20)
+	Subsystem: Compaq Computer Corporation Device 005a
+	Flags: bus master, stepping, slow devsel, latency 168, IRQ 11
+	Memory at 98280000 (32-bit, non-prefetchable) [size=4K]
+	Bus: primary=00, secondary=06, subordinate=09, sec-latency=176
+	Memory window 0: 28000000-2bfff000 (prefetchable)
+	Memory window 1: 2c000000-2ffff000
+	I/O window 0: 00001c00-00001cff
+	I/O window 1: 00003c00-00003cff
+	16-bit legacy interface ports at 0001
+	Kernel driver in use: yenta_cardbus
+	Kernel modules: yenta_socket
+
+00:0b.2 System peripheral: O2 Micro, Inc. OZ711Mx 4-in-1 MemoryCardBus Accelerator
+	Subsystem: Compaq Computer Corporation Device 005a
+	Flags: slow devsel, IRQ 11
+	Memory at 98300000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: [a0] Power Management version 2
+
+00:10.0 IDE interface: ALi Corporation M5229 IDE (rev c4) (prog-if ea)
+	Subsystem: Compaq Computer Corporation Device 005a
+	Flags: bus master, medium devsel, latency 64, IRQ 10
+	[virtual] Memory at 000001f0 (32-bit, non-prefetchable) [disabled] [size=8]
+	[virtual] Memory at 000003f0 (type 3, non-prefetchable) [disabled] [size=1]
+	[virtual] Memory at 00000170 (32-bit, non-prefetchable) [disabled] [size=8]
+	[virtual] Memory at 00000370 (type 3, non-prefetchable) [disabled] [size=1]
+	I/O ports at 3800 [size=16]
+	Capabilities: [60] Power Management version 2
+	Kernel driver in use: ALI15x3_IDE
+	Kernel modules: alim15x3
+
+00:11.0 Bridge: ALi Corporation M7101 Power Management Controller [PMU]
+	Subsystem: Compaq Computer Corporation Device 005a
+	Flags: medium devsel
+	Kernel driver in use: ali1535_smbus
+	Kernel modules: alim7101_wdt, i2c-ali15x3, i2c-ali1535
+
+00:12.0 USB Controller: NEC Corporation USB (rev 43) (prog-if 10)
+	Subsystem: Compaq Computer Corporation Device 005a
+	Flags: bus master, medium devsel, latency 64, IRQ 10
+	Memory at 98380000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: [40] Power Management version 2
+	Kernel driver in use: ohci_hcd
+	Kernel modules: ohci-hcd
+
+00:12.1 USB Controller: NEC Corporation USB (rev 43) (prog-if 10)
+	Subsystem: Compaq Computer Corporation Device 005a
+	Flags: bus master, medium devsel, latency 64, IRQ 10
+	Memory at 98400000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: [40] Power Management version 2
+	Kernel driver in use: ohci_hcd
+	Kernel modules: ohci-hcd
+
+00:12.2 USB Controller: NEC Corporation USB 2.0 (rev 04) (prog-if 20)
+	Subsystem: Compaq Computer Corporation Device 005a
+	Flags: bus master, medium devsel, latency 64, IRQ 10
+	Memory at 98480000 (32-bit, non-prefetchable) [size=256]
+	Capabilities: [40] Power Management version 2
+	Kernel driver in use: ehci_hcd
+	Kernel modules: ehci-hcd
+
+00:13.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5705M Gigabit Ethernet (rev 03)
+	Subsystem: Compaq Computer Corporation Device 005a
+	Flags: bus master, 66MHz, medium devsel, latency 64, IRQ 10
+	Memory at 98000000 (64-bit, non-prefetchable) [size=64K]
+	[virtual] Expansion ROM at 30000000 [disabled] [size=64K]
+	Capabilities: [48] Power Management version 2
+	Capabilities: [50] Vital Product Data <?>
+	Capabilities: [58] Message Signalled Interrupts: Mask- 64bit+ Queue=0/3 Enable-
+	Kernel driver in use: tg3
+	Kernel modules: tg3
+
+01:05.0 VGA compatible controller: ATI Technologies Inc Radeon IGP 330M/340M/350M
+	Subsystem: Compaq Computer Corporation Device 005a
+	Flags: stepping, 66MHz, medium devsel, IRQ 10
+	Memory at 94000000 (32-bit, prefetchable) [size=64M]
+	I/O ports at 2000 [size=256]
+	Memory at 90000000 (32-bit, non-prefetchable) [size=64K]
+	[virtual] Expansion ROM at 90020000 [disabled] [size=128K]
+	Capabilities: [58] AGP version 2.0
+	Capabilities: [50] Power Management version 2
+	Kernel modules: radeonfb
+
