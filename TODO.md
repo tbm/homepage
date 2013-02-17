@@ -26,4 +26,6 @@
 * "Last updated": accept "pagespec"
 * Add license to README and source files
 * Add "outdated" banner and noindex
+* Add Piwik or similar
+* Split out AdSense code (bbf)
 
