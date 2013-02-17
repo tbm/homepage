@@ -1,0 +1,56 @@
+---
+title: Abstract for Community Management in Open Source Projects
+description: The abstract of a paper about community management in open source projects
+keywords: [community, management, open source]
+---
+
+<% content_for :right do %>
+<script type="text/javascript"><!--
+google_ad_client = "pub-1742473912427959";
+/* WideSkyscaper-right */
+google_ad_slot = "4331219527";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+<% end %>
+
+<h1>Community Management in Open Source Projects</h1>
+
+<ul class = "author">
+<li><span class = "author">Martin Michlmayr,</span>
+    <span class = "affiliation">Open Source Program Office, HP</span></li>
+</ul>
+
+<h2>Abstract</h2>
+
+The increasing complexity of communities established around free and open
+source software (FOSS) projects as well as the increasing commercial
+interest in such projects has led to more and more communities adopting a
+dedicated community manager position.  The community manager acts as the
+liaison between company and community and ensures that there is a good
+relationship between the two.  They also facilitate the community, help it
+grow and ensure that the community stays healthy.  This paper will discuss
+community management in FOSS projects and look at the role of the community
+manager position.
+
+<h2>Availability</h2>
+
+<ul>
+
+<li><a href = "../michlmayr-community_management.pdf">PDF of the paper</a></li>
+
+<li><a href = "../michlmayr-community_management.bib">BibTeX entry</a></li>
+
+</ul>
+
+<h2>Reference</h2>
+
+Michlmayr, M. (2009).&ensp;Community Management in Open Source
+Projects.&ensp;<i>The European Journal for the Informatics
+Professional</i>, X(3).&ensp;22&ndash;26.
+
+Back to <a href = "..">my publications</a>.
+
