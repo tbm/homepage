@@ -263,6 +263,11 @@ border: 0;
 height: 1px
 }
 
+th
+{
+background-color: #E0E0FF;
+}
+
 /*
  * Generally useful definitions
  */

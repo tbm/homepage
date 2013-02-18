@@ -63,9 +63,9 @@ the u-boot variables used to boot Debian.  There are three variables
 
 <table style="border-style: none" border="1" cellpadding="5">
 
-<tr style="background-color: #E0E0FF">
-<td>Variable</td>
-<td>Setting</td>
+<tr>
+<th>Variable</th>
+<th>Setting</th>
 </tr>
 
 <tr>

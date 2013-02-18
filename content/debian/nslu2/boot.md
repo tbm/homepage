@@ -40,8 +40,8 @@ kernel and ramdisk.  Instead, it uses the following hard-coded values:
 <table style="border-style: none" border="1" cellpadding="5">
 
 <tr>
-<td>Partition</td>
-<td>Location</td>
+<th>Partition</th>
+<th>Location</th>
 </tr>
 
 <tr>
@@ -77,9 +77,9 @@ following:
 <table style="border-style: none" border="1" cellpadding="5">
 
 <tr>
-<td>Partition</td>
-<td>Location</td>
-<td>Size</td>
+<th>Partition</th>
+<th>Location</th>
+<th>Size</th>
 </tr>
 
 <tr>

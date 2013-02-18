@@ -105,9 +105,9 @@ You can check the following table to find out which string to use:
 
 <table style="border-style: none" border="1" cellpadding="5">
 
-<tr style="background-color: #E0E0FF">
-<td>Device</td>
-<td>String</td>
+<tr>
+<th>Device</th>
+<th>String</th>
 </tr>
 
 <tr>

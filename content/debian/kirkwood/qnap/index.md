@@ -26,13 +26,13 @@ Here is a table showing the differences between these devices:
 
 <table style="border-style: none" border="1" cellpadding="5">
 
-<tr style="background-color: #E0E0FF">
-<td style="background-color: white"></td>
-<td>TS-110</td>
-<td>TS-112</td>
-<td>TS-119</td>
-<td>TS-119P+</td>
-<td>TS-119P II</td>
+<tr>
+<th style="background-color: white"></th>
+<th>TS-110</th>
+<th>TS-112</th>
+<th>TS-119</th>
+<th>TS-119P+</th>
+<th>TS-119P II</th>
 </tr>
 
 <tr>
@@ -120,15 +120,14 @@ Here is a table showing the differences between these devices:
 
 <table style="border-style: none" border="1" cellpadding="5">
 
-<tr style="background-color: #E0E0FF">
-<td style="background-color: white"></td>
-
-<td>TS-210</td>
-<td>TS-212</td>
-<td>TS-219</td>
-<td>TS-219P</td>
-<td>TS-219P+</td>
-<td>TS-219P II</td>
+<tr>
+<th style="background-color: white"></th>
+<th>TS-210</th>
+<th>TS-212</th>
+<th>TS-219</th>
+<th>TS-219P</th>
+<th>TS-219P+</th>
+<th>TS-219P II</th>
 </tr>
 
 <tr>
@@ -225,16 +224,16 @@ Here is a table showing the differences between these devices:
 
 <table style="border-style: none" border="1" cellpadding="5">
 
-<tr style="background-color: #E0E0FF">
-<td style="background-color: white"></td>
-<td>TS-410</td>
-<td>TS-410U</td>
-<td>TS-412</td>
-<td>TS-419P</td>
-<td>TS-419P+</td>
-<td>TS-419P II</td>
-<td>TS-419U</td>
-<td>TS-419U+</td>
+<tr>
+<th style="background-color: white"></th>
+<th>TS-410</th>
+<th>TS-410U</th>
+<th>TS-412</th>
+<th>TS-419P</th>
+<th>TS-419P+</th>
+<th>TS-419P II</th>
+<th>TS-419U</th>
+<th>TS-419U+</th>
 </tr>
 
 <tr>

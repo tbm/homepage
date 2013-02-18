@@ -40,9 +40,9 @@ following table to see whether your device has the recovery mode already:
 <table style="border-style: none" border="1" cellpadding="5">
 
 <tr>
-<td>Checksum</td>
-<td>Recovery mode</td>
-<td>Build date</td>
+<th>Checksum</th>
+<th>Recovery mode</th>
+<th>Build date</th>
 </tr>
 
 <tr>

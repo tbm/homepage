@@ -23,9 +23,9 @@ TS-219P.  There is another page which shows the <a href =
 
 <table style="border-style: none" border="1" cellpadding="5">
 
-<tr style="background-color: #E0E0FF">
-<td>Component</td>
-<td>Comment</td>
+<tr>
+<th>Component</th>
+<th>Comment</th>
 </tr>
 
 <tr>
@@ -81,9 +81,9 @@ TS-219P.  There is another page which shows the <a href =
 
 <table style="border-style: none" border="1" cellpadding="5">
 
-<tr style="background-color: #E0E0FF">
-<td>Component</td>
-<td>Comment</td>
+<tr>
+<th>Component</th>
+<th>Comment</th>
 </tr>
 
 <tr>
