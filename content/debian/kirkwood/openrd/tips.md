@@ -6,7 +6,7 @@ keywords: [Debian, OpenRD, VGA, xgi, tips, tricks]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Tips and tricks for Debian on OpenRD</h1>
@@ -76,9 +76,9 @@ and choose `Graphical desktop environment`.
 
 Go back to my <a href = "..">Debian on OpenRD</a> page.
 
-<%= render 'paypal', :desc => "Debian/OpenRD donation" %>
+<%= render "paypal", :desc => "Debian/OpenRD donation" %>
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

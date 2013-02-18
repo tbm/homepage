@@ -8,7 +8,7 @@ keywords: [NSLU2, Linksys NSLU2, Marvell, SheevaPlug, migration]
 <% content_for :right do %>
 <img src = "../images/r_nslu2_front.jpg" class="border" alt="A NSLU2 from the front" width="148" height="218" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Migrating your Debian installation from NSLU2 to SheevaPlug</h1>
@@ -161,6 +161,6 @@ Look at the output of the last command and remove the packages with
 You're done.  Enjoy your SheevaPlug!
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

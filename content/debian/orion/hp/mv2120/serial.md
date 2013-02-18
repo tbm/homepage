@@ -6,7 +6,7 @@ keywords: [Debian, HP, mv2120, mv5100, serial, console, RS-232]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Connecting a serial console to the HP mv2120</h1>
@@ -26,6 +26,6 @@ U-Boot, the boot loader used by this device.  You have to connect with
 bit).
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

@@ -6,7 +6,7 @@ keywords: [Debian, QNAP, TS-110, TS-112, TS-119, serial, console, uboot, U-Boot]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Using U-Boot on QNAP TS-11x</h1>
@@ -84,6 +84,6 @@ Now copy `vmlinuz-2.6.32-5-kirkwood.uboot` and
 memory as described above.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

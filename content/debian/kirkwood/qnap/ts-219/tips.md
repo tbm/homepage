@@ -8,7 +8,7 @@ keywords: [Debian, QNAP, TS-210, TS-212, TS-219, TS-219P, tips, tricks]
 <% content_for :right do %>
 <img src = "../images/r_ts219p.jpg" class="border" alt="Open QNAP TS-219" width="148" height="188" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Tips and tricks for Debian on QNAP TS-21x</h1>
@@ -43,6 +43,6 @@ but don't be surprised when the "HDD2" light goes on when you access the
 first disk.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

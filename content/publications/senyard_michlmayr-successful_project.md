@@ -5,7 +5,7 @@ keywords: [success, free software, open source, FLOSS, bazaar]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>How to Have a Successful Free Software Project</h1>

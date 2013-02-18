@@ -6,7 +6,7 @@ keywords: [QNAP, TS-110, TS-112, TS-119, gallery, pictures, images, photos]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 The QNAP TS-119 from the front.<br />
@@ -25,6 +25,6 @@ A serial console connected to the QNAP TS-110.<br />
 Go back to my <a href = "..">Debian on QNAP TS-110 and TS-119</a> page.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

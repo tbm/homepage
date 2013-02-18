@@ -10,7 +10,7 @@ keywords: [Debian, lenny, installation, HP, Compaq nc4000, Compaq nc4010, laptop
 
 More <a href = "gallery">pictures are available</a>.
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian GNU/Linux on the HP Compaq nc4000</h1>
@@ -223,6 +223,6 @@ Rasmussen for information about swsusp, X.org and the wireless LED.  Fabian
 Kneißl for information about Radeon's PowerPlay feature.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

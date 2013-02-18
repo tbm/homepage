@@ -5,7 +5,7 @@ keywords: [volunteer, large projects, libre software, FLOSS, Debian]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Volunteers in Large Libre Software Projects: A Quantitative Analysis

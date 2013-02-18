@@ -6,7 +6,7 @@ keywords: [images, photos, photo gallery, nc4000, nc4010, HP, Compaq]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 Here are some pictures of the HP Compaq nc4000 notebook:
@@ -38,6 +38,6 @@ Here are some pictures of the HP Compaq nc4000 notebook:
 Go back to my <a href = "..">Debian on the HP Compaq nc4000</a> page.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

@@ -7,7 +7,7 @@ keywords: [Debian, SGI, O2, sarge, installation]
 <% content_for :right do %>
 <img src = "images/r_sgi_o2.jpg" class="border" alt="SGI O2" width="148" height="188" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 In the following, I will describe how to install Debian 5.0 (lenny) on SGI
@@ -47,6 +47,6 @@ this installation guide and using Google, you can contact the <a href =
 "http://lists.debian.org/debian-mips/">Debian MIPS</a> mailing list.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

@@ -5,7 +5,7 @@ keywords: [release management, open source, FLOSS, quality improvement]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Quality Improvement in Volunteer Free Software Projects: Exploring the

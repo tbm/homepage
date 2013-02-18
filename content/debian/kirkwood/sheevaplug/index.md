@@ -8,7 +8,7 @@ keywords: [Debian, SheevaPlug, GuruPlug, sheeva, plug, plugcomputer, NAS]
 <% content_for :right do %>
 <img src = "images/r_sheevaplug_hand.jpg" class="border" alt="SheevaPlug in my hand" width="148" height="129" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian on Plug Computers like the SheevaPlug and GuruPlug</h1>
@@ -68,6 +68,6 @@ running Debian on plug computers.</li>
 </ul>
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

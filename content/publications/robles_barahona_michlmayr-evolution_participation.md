@@ -5,7 +5,7 @@ keywords: [Debian, FLOSS, open source, volunteer management]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Evolution of Volunteer Participation in Libre Software Projects:

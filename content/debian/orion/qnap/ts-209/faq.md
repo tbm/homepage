@@ -8,7 +8,7 @@ keywords: [Debian, QNAP, TS-209, FAQ, frequently asked questions, help, troubles
 <% content_for :right do %>
 <img src = "../images/r_ts209_front.jpg" class="border" alt="QNAP TS-209 from the front" width="148" height="97" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Frequently Asked Questions (FAQ)</h1>
@@ -87,6 +87,6 @@ serial console.
 Go back to my <a href = "..">Debian on QNAP TS-209</a> page.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

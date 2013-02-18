@@ -6,7 +6,7 @@ keywords: [HP, mv2120, gallery, pictures, images, photos]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <p>
@@ -42,6 +42,6 @@ keywords: [HP, mv2120, gallery, pictures, images, photos]
 Go back to my <a href = "..">Debian on HP mv2120</a> page.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

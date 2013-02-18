@@ -8,7 +8,7 @@ keywords: [Buffalo, Revogear, Kurobox Pro, specs, specification]
 <% content_for :right do %>
 <img src = "../images/r_kuroboxpro_front.jpg" class="border" alt="Kurobox Pro from the front" width="148" height="231" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Specs of the Kurobox Pro</h1>
@@ -87,6 +87,6 @@ This page lists the internals of the Kurobox Pro.
 Go back to my <a href = "..">Debian on Kurobox Pro</a> page.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

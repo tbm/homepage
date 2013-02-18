@@ -8,7 +8,7 @@ keywords: [Debian, Thecus, N2100, installation, guide, IOP, NAS, server, hack]
 <% content_for :right do %>
 <img src = "../images/r_n2100_debian.jpg" class="border" alt="Thecus N2100" width="133" height="148" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Installing Debian on the Thecus N2100</h1>
@@ -189,9 +189,9 @@ beep -e /dev/input/event0 -f 220 -l 500 -d 500 -r 3
 </pre>
 </div>
 
-<%= render 'paypal', :desc => "Debian/N2100 donation" %>
+<%= render "paypal", :desc => "Debian/N2100 donation" %>
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

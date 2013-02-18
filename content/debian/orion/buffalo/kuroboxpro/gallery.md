@@ -6,7 +6,7 @@ keywords: [Buffalo, Revogear, Kurobox Pro, pictures, images, photos]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <p>
@@ -42,6 +42,6 @@ keywords: [Buffalo, Revogear, Kurobox Pro, pictures, images, photos]
 Go back to my <a href = "..">Debian on Kurobox Pro</a> page.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

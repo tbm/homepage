@@ -8,7 +8,7 @@ keywords: [NSLU2, Linksys NSLU2, Debian, modify, image]
 <% content_for :right do %>
 <img src = "../images/r_nslu2_front.jpg" class="border" alt="A NSLU2 from the front" width="148" height="218" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>How to modify a NSLU2 flash image</h1>
@@ -74,6 +74,6 @@ You now have a new image called `new-nslu2.img` and you can use `upslug2`
 to write it to your NSLU2.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

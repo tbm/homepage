@@ -7,7 +7,7 @@ keywords: [Debian, Cobalt, MIPS, RaQ, Qube, RaQ2, Qube2]
 <% content_for :right do %>
 <img src = "images/r_cobalt_front.jpg" class="border" alt="Cobalt Qube and two RaQs" width="148" height="109" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian on MIPS based Cobalt machines</h1>

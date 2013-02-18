@@ -8,7 +8,7 @@ keywords: [Debian, Thecus, N2100, installation, RedBoot, telnet]
 <% content_for :right do %>
 <img src = "../images/r_n2100.jpg" class="border" alt="Thecus N2100" width="141" height="148" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Using telnet to access RedBoot</h1>
@@ -66,6 +66,6 @@ been written to flash.  You can do this with the firmware upgrade option,
 simply by &quot;upgrading&quot; to the version you previously used.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

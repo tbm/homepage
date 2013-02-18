@@ -6,7 +6,7 @@ keywords: [IOP, GLAN Tank, Supertank, SOTO-HDLGW, IO-Data, ARM, pictures, images
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h2>GLAN Tank</h2>
@@ -86,6 +86,6 @@ Voila
 Go back to my <a href = "..">Debian on GLAN Tank</a> page.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

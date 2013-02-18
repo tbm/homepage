@@ -6,7 +6,7 @@ keywords: [NSLU2, pictures, images, photo gallery]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <p>
@@ -42,6 +42,6 @@ purposes.<br />
 Go back to my <a href = "..">Debian on NSLU2</a> page.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

@@ -6,7 +6,7 @@ keywords: [Debian, QNAP, TS-210, TS-212, TS-219, TS-219P, original firmware]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Restoring the original QNAP firmware</h1>
@@ -36,6 +36,6 @@ the QNAP software, your device will run the original software from QNAP
 again.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

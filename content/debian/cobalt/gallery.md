@@ -6,7 +6,7 @@ keywords: [Cobalt, MIPS, pictures, images, photo gallery]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h2>Cobalt Qube2 and two Cobalt RaQ2+</h2>
@@ -98,6 +98,6 @@ The Qube can be used as a jukebox when you equip it with a sound card.
 Go back to my <a href = "..">Debian on Cobalt</a> page.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

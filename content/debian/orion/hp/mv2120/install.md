@@ -8,7 +8,7 @@ keywords: [Debian, HP, mv2120, mv5020, installation]
 <% content_for :right do %>
 <img src = "../images/r_mv2120_front.jpg" class="border" alt="HP mv2120 from the front" width="148" height="212" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Installing Debian on the HP mv2120 and mv5020</h1>
@@ -250,6 +250,6 @@ HP mv2120.
 Go back to my <a href = "..">Debian on HP mv2120</a> page.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

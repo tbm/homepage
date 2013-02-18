@@ -7,7 +7,7 @@ keywords: [Debian, Thecus, N2100, bugs, issues, defects]
 <% content_for :right do %>
 <img src = "../images/r_n2100_debian.jpg" class="border" alt="Thecus N2100" width="133" height="148" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Known issues and bugs</h1>
@@ -24,6 +24,6 @@ the IOP32x chip.</li>
 </ul>
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

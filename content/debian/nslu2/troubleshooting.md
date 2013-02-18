@@ -8,7 +8,7 @@ keywords: [NSLU2, Linksys NSLU2, Debian, troubleshooting, problems]
 <% content_for :right do %>
 <img src = "../images/r_nslu2_front.jpg" class="border" alt="A NSLU2 from the front" width="148" height="218" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Troubleshooting</h1>
@@ -123,9 +123,9 @@ the NSLU2 can get "stuck" and removing the battery helps.
 If none of this helps, I'm afraid you probably have to connect a serial
 console or perform a new installation.
 
-<%= render 'paypal', :desc => "Debian/NSLU2 donation" %>
+<%= render "paypal", :desc => "Debian/NSLU2 donation" %>
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

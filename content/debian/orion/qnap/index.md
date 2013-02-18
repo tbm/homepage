@@ -8,7 +8,7 @@ keywords: [Debian, QNAP, QNAP Turbo Station, Orion, TS-109, TS-209, TS-409]
 <% content_for :right do %>
 <img src = "images/r_ts109_ts209_front.jpg" class="border" alt="QNAP TS-109 and TS-209 from the front" width="148" height="120" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian on QNAP Turbo Station</h1>
@@ -31,6 +31,6 @@ There is currently also work progress to support QNAP's new <a href =
 new Kirkwood chip.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

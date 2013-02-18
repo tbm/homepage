@@ -8,7 +8,7 @@ keywords: [Debian, QNAP, TS-409, recovery, emergency, rescue]
 <% content_for :right do %>
 <img src = "../images/r_ts409_front.jpg" class="border" alt="QNAP TS-409 from the front" width="148" height="147" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Recovery mode of the QNAP TS-409</h1>
@@ -273,9 +273,9 @@ More information about the recovery mode can be found on <a href =
 "http://wiki.qnap.com/wiki/Emergency_Recovery_Mode">QNAP's System Recovery
 Mode</a> page.
 
-<%= render 'paypal', :desc => "Debian/QNAP TS-409 donation" %>
+<%= render "paypal", :desc => "Debian/QNAP TS-409 donation" %>
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

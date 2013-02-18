@@ -8,7 +8,7 @@ keywords: [Debian, QNAP, TS-210, TS-212, TS-219, TS-219P, support, status]
 <% content_for :right do %>
 <img src = "../images/r_ts219p.jpg" class="border" alt="Open QNAP TS-219" width="148" height="188" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Status of QNAP TS-21x support</h1>
@@ -105,6 +105,6 @@ release (Debian wheezy, version 7.0).</td>
 </table>
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

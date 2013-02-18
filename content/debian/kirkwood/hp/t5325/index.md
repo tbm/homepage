@@ -6,7 +6,7 @@ keywords: [Debian, NAS, HP, t5325, thin client]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian on HP t5325</h1>
@@ -30,6 +30,6 @@ devices.
 Here are <a href = "install">initial install pages</a>.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

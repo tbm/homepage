@@ -6,7 +6,7 @@ keywords: [Debian, QNAP, TS-210, TS-212, TS-219, TS-219P, serial, console, RS-23
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Connecting a serial console to QNAP TS-21x devices</h1>
@@ -37,6 +37,6 @@ device.  You have to connect with 115200 baud and set the parameters to 8N1
 "../uboot">separate page about U-Boot</a>.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

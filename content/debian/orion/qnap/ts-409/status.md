@@ -8,7 +8,7 @@ keywords: [Debian, QNAP, TS-409, support, status]
 <% content_for :right do %>
 <img src = "../images/r_ts409_front.jpg" class="border" alt="QNAP TS-409 from the front" width="148" height="147" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Status of QNAP TS-409 support</h1>
@@ -88,6 +88,6 @@ the fan based on the current temperature.</td>
 </table>
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

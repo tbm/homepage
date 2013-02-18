@@ -8,7 +8,7 @@ keywords: [Buffalo, Revogear, Kurobox Pro, original firmware, guide]
 <% content_for :right do %>
 <img src = "../images/r_kuroboxpro_front.jpg" class="border" alt="Kurobox Pro from the front" width="148" height="231" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Restoring the original Buffalo firmware</h1>
@@ -56,6 +56,6 @@ nvram -c set bootcmd 'ide reset; ext2load ide 0:1 $(default_kernel_addr) /$(kern
 Go back to my <a href = "..">Debian on Kurobox Pro</a> page.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

@@ -8,7 +8,7 @@ keywords: [Debian, D-Link, DNS-323, Conceptronic, CH3SNAS, support, status]
 <% content_for :right do %>
 <img src = "../images/r_ch3snas_front.jpg" class="border" alt="Conceptronic CH3SNAS from the front" width="148" height="146" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Status of D-Link DNS-323 support</h1>
@@ -92,6 +92,6 @@ the mainline kernel since 2.6.29</td>
 </table>
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

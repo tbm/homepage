@@ -5,7 +5,7 @@ keywords: [Linux, distributions, software evolution, free software, open source,
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Macro-level software evolution: a case study of a large software</h1>

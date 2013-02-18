@@ -5,7 +5,7 @@ keywords: [volunteer management, Debian, project management]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Quality and the Reliance on Individuals in Free Software Projects</h1>

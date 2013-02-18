@@ -8,7 +8,7 @@ keywords: [Debian, Orion, Marvell, ARM, NAS, SoC]
 <% content_for :right do %>
 <img src = "images/r_mv2120_kurobox_ts109.jpg" class="border" alt="HP mv2120, Buffalo Kurobox and QNAP TS-109 from the front" width="148" height="97" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian on Orion devices</h1>
@@ -35,6 +35,6 @@ Debian also supports Marvell's <a href = "../kirkwood/">Kirkwood
 platform</a>, the successor of Orion.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

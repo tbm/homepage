@@ -6,7 +6,7 @@ keywords: [SheevaPlug, Marvell, Kirkwood, gallery, pictures, images, photos]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <a href = "../images/img_0001.jpg">
@@ -27,7 +27,7 @@ The SheevaPlug features Ethernet, USB and SD, and offers a mini USB connector fo
 <img src = "../images/img_0005s.jpg" class="border" alt = "Ethernet and USB at the bottom, SD and mini USB (serial) on the top" width="640" height="480" />
 </a>
 
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 
 <a href = "../images/img_0006.jpg">
 <img src = "../images/img_0006s.jpg" class="border" alt = "Power connector of the SheevaPlug" width="640" height="480" />
@@ -66,6 +66,6 @@ The CPU, RAM chips, flash chip and other components.<br />
 Go back to my <a href = "..">Debian on Plug Computer</a> page.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

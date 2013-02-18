@@ -6,7 +6,7 @@ keywords: [Debian, OpenRD, support, status]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Status of OpenRD support</h1>
@@ -61,6 +61,6 @@ squeeze kernel which is based on 2.6.32.</td>
 </table>
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

@@ -6,7 +6,7 @@ keywords: [Debian, QNAP, TS-409, serial, console, uboot, U-Boot]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Using U-Boot on the QNAP TS-409</h1>
@@ -132,6 +132,6 @@ Now copy `vmlinuz-2.6.32-5-orion5x.uboot` and
 memory or write them to flash as described above.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

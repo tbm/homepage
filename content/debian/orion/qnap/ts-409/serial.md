@@ -6,7 +6,7 @@ keywords: [Debian, QNAP, TS-409, serial, console, RS-232, hack]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Connecting a serial console to the QNAP TS-409</h1>
@@ -35,6 +35,6 @@ device.  You have to connect with 115200 baud and set the parameters to 8N1
 "../uboot">separate page about U-Boot</a>.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

@@ -5,7 +5,7 @@ keywords: [process maturity, success, open source, FLOSS]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Software Process Maturity and the Success of Free Software Projects</h1>

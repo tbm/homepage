@@ -8,7 +8,7 @@ keywords: [Debian, Kirkwood, Marvell, ARM, NAS, SoC]
 <% content_for :right do %>
 <img src = "sheevaplug/images/r_sheevaplug_hand.jpg" class="border" alt="SheevaPlug in my hand" width="148" height="129" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian on Kirkwood devices</h1>
@@ -40,6 +40,6 @@ about the Kirkwood SoC</a>, including datasheets and errata.</li>
 </ul>
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

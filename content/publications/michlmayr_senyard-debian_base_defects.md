@@ -5,7 +5,7 @@ keywords: [Debian, defects, bug tracking, quality, quality improvement, open sou
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>A Statistical Analysis of Defects in Debian and Strategies for

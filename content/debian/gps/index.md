@@ -5,7 +5,7 @@ keywords: [Debian, GPS]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <ul>
@@ -15,6 +15,6 @@ keywords: [Debian, GPS]
 </ul>
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

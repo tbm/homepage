@@ -6,7 +6,7 @@ keywords: [ QNAP, TS-409, TS-409U, gallery, pictures, images, photos]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 Here are some pictures of the QNAP TS-409U.  Some pictures of the TS-409
@@ -82,6 +82,6 @@ the <a href = "../../ts-109/gallery">TS-109</a> and <a href =
 "../..//ts-209/gallery">TS-209</a> galleries.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

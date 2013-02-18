@@ -5,7 +5,7 @@ keywords: [community, management, open source]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Community Management in Open Source Projects</h1>

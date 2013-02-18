@@ -8,7 +8,7 @@ keywords: [NSLU2, Linksys NSLU2, boot process, boot]
 <% content_for :right do %>
 <img src = "../images/r_nslu2_front.jpg" class="border" alt="A NSLU2 from the front" width="148" height="218" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>The Boot Process of the Linksys NSLU2 running Debian</h1>
@@ -173,9 +173,9 @@ This pretty much sums up the boot process of Debian on the Linksys NSLU2.
 
 Go back to the <a href = "..">Debian on NSLU2</a> page.
 
-<%= render 'paypal', :desc => "Debian/NSLU2 donation" %>
+<%= render "paypal", :desc => "Debian/NSLU2 donation" %>
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

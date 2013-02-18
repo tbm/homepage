@@ -8,7 +8,7 @@ keywords: [QNAP, TS-419P, gallery, pictures, images, photos]
 <% content_for :right do %>
 <img src = "../images/r_qnap_ts419p.jpg" class="border" alt="QNAP TS-419P from the front" width="148" height="148" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 A QNAP TS-419P from the front.<br />
@@ -29,6 +29,6 @@ Connecting a serial console to the QNAP TS-419P:<br />
 Go back to my <a href = "..">Debian on QNAP TS-41x</a> page.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

@@ -8,7 +8,7 @@ keywords: [Debian, NSLU2, Linksys NSLU2, DebianSlug, IXP4xx, SlugDebian, install
 <% content_for :right do %>
 <img src = "../images/r_nslu2_front.jpg" class="border" alt="A NSLU2 from the front" width="148" height="218" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian installer no longer supported on NSLU2</h1>
@@ -19,6 +19,6 @@ the installer.  You can install Debian manually using a <a href =
 "../unpack">tar ball of Debian 6.0</a>.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

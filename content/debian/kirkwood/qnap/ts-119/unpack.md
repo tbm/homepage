@@ -8,7 +8,7 @@ keywords: [Debian, lenny, QNAP, TS-110, TS-119, ARM, armel]
 <% content_for :right do %>
 <img src = "../images/r_qnap_ts110.jpg" class="border" alt="QNAP TS-110 from the front" width="148" height="206" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <p><b>This page is deprecated.  Please use <a href = "../install">the
@@ -256,9 +256,9 @@ the latest updates.</li>
 
 Go back to my <a href = "..">Debian on QNAP TS-11x</a> page.
 
-<%= render 'paypal', :desc => "Debian/QNAP TS-11x donation" %>
+<%= render "paypal", :desc => "Debian/QNAP TS-11x donation" %>
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

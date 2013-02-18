@@ -8,7 +8,7 @@ keywords: [Debian, QNAP, TS-209, tips, tricks]
 <% content_for :right do %>
 <img src = "../images/r_ts209_front.jpg" class="border" alt="QNAP TS-209 from the front" width="148" height="97" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Tips and tricks for Debian on the QNAP TS-209</h1>
@@ -33,6 +33,6 @@ rm /var/run/qcontrol.sock
 </div>
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

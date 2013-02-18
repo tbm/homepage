@@ -8,7 +8,7 @@ keywords: [Debian, Thecus, N2100, original firmware, guide]
 <% content_for :right do %>
 <img src = "../images/r_n2100.jpg" class="border" alt="Thecus N2100" width="141" height="148" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>De-installing Debian</h1>

@@ -10,7 +10,7 @@ keywords: [Debian, lenny, installation, HP, Compaq 2510p, laptop]
 
 More <a href = "gallery">pictures are available</a>.
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian GNU/Linux on the HP Compaq 2510p</h1>
@@ -42,6 +42,6 @@ the HP 2510p.</li>
 </ul>
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

@@ -6,7 +6,7 @@ keywords: [OpenRD, OpenRD-Base, OpenRD-Client, OpenRD-Ultimate, Marvell, Kirkwoo
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Installing Debian on OpenRD (Base and Client)</h1>
@@ -229,9 +229,9 @@ about running Debian on the OpenRD.
 
 Go back to my <a href = "..">Debian on OpenRD</a> page.
 
-<%= render 'paypal', :desc => "Debian/OpenRD donation" %>
+<%= render "paypal", :desc => "Debian/OpenRD donation" %>
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

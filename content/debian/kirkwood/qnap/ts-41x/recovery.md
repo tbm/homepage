@@ -8,7 +8,7 @@ keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, recovery, em
 <% content_for :right do %>
 <img src = "../images/r_qnap_ts419p.jpg" class="border" alt="QNAP TS-419P from the front" width="148" height="148" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Recovery mode of QNAP TS-41x devices</h1>
@@ -201,9 +201,9 @@ recovery image via TFTP.  When it has obtained the recovery image and
 written it to flash (which takes about 3.5 minutes), your QNAP will make
 two short beeps again and restart.
 
-<%= render 'paypal', :desc => "Debian/QNAP TS-41x donation" %>
+<%= render "paypal", :desc => "Debian/QNAP TS-41x donation" %>
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

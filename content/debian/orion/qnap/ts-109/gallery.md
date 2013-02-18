@@ -6,7 +6,7 @@ keywords: [QNAP, TS-109, gallery, pictures, images, photos]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <p>
@@ -86,6 +86,6 @@ the <a href = "../../ts-209/gallery">TS-209</a> and <a href =
 "../../ts-409/gallery">TS-409</a> galleries.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

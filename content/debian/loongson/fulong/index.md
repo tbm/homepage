@@ -6,7 +6,7 @@ keywords: [Debian, Lemote, Fulong, Fulong mini-PC, Loongson, Godson, MIPS, CPU]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian on the Fulong mini-PC</h1>
@@ -43,6 +43,6 @@ Please note that I no longer have my Fulong mini-PC, so I cannot answer any
 questions about it.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

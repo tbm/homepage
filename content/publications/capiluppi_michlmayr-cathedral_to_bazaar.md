@@ -5,7 +5,7 @@ keywords: [release management, practices, quality, open source, FLOSS, quality i
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>From the Cathedral to the Bazaar: An Empirical Study of the Lifecycle

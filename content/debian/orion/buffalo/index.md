@@ -5,7 +5,7 @@ keywords: [Debian, Buffalo, Orion, ARM]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian on Orion devices from Buffalo</h1>
@@ -15,6 +15,6 @@ Linkstation Pro and Live.  There is an <a href = "kuroboxpro">installation
 guide for Debian on the Kurobox Pro</a>.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

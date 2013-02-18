@@ -6,7 +6,7 @@ keywords: [Lemote, Fulong, Fulong mini-PC, pictures, images, photo gallery]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Fulong's mini-PC</h1>
@@ -57,6 +57,6 @@ the Loongson chip.
 </p>
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

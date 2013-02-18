@@ -2,7 +2,6 @@
 
 ## v1.0 - Replicate existing homepage
 
-* render: consistent use of quotation marks
 * Verify that output is the same
 * Apache redirects
 * Remove whitespace caused by ERB

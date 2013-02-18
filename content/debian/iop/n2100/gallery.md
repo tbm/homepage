@@ -6,7 +6,7 @@ keywords: [IOP, Thecus, N2100, ARM, pictures, images, photo gallery]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h2>Thecus N2100</h2>
@@ -99,6 +99,6 @@ After soldering a 9 pin header to the board...
 Go back to my <a href = "..">Debian on Thecus N2100</a> page.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

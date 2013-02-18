@@ -7,7 +7,7 @@ keywords: [Debian, NSLU2, flash, Linux]
 <% content_for :right do %>
 <img src = "../images/r_nslu2_front.jpg" class="border" alt="A NSLU2 from the front" width="148" height="218" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Tips for running Linux on a flash device</h1>
@@ -145,6 +145,6 @@ This article has been contributed by David Härdeman &lt;david@hardeman.nu&gt;
 Go back to the <a href = "..">Debian on NSLU2</a> page.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

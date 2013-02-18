@@ -7,7 +7,7 @@ keywords: [Debian, NAS, NSLU2, Linksys NSLU2, DebianSlug, IXP4xx, SlugDebian]
 <% content_for :right do %>
 <img src = "images/r_nslu2_front.jpg" class="border" alt="A NSLU2 from the front" width="148" height="218" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian on the Linksys NSLU2</h1>
@@ -115,6 +115,6 @@ project</a> again for donating a NSLU2 to me to help with Debian porting
 efforts.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

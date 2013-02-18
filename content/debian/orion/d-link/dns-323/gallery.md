@@ -6,7 +6,7 @@ keywords: [Debian, D-Link, DNS-323, Conceptronic, CH3SNAS, gallery, pictures, im
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <p>
@@ -36,6 +36,6 @@ keywords: [Debian, D-Link, DNS-323, Conceptronic, CH3SNAS, gallery, pictures, im
 Go back to my <a href = "..">Debian on D-Link DNS-323</a> page.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

@@ -6,7 +6,7 @@ keywords: [QNAP, TS-210, TS-212, TS-219, TS-219P, gallery, pictures, images, pho
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 On the top is a QNAP TS-219, and below a QNAP TS-209.  They look the same, but the
@@ -63,7 +63,7 @@ The TS-219 with the serial console hanging out at the front.<br />
 <img src = "../images/img_0010s.jpg" class="border" alt = "TS-219 from the front with serial connector" width="640" height="480" />
 </a>
 
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 
 The TS-219P from the front.<br />
 <a href = "../images/img_1002.jpg">
@@ -93,6 +93,6 @@ All the components of the TS-219P.<br />
 Go back to my <a href = "..">Debian on QNAP TS-219</a> page.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

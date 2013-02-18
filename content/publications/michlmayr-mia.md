@@ -5,7 +5,7 @@ keywords: [human resources, volunteers, Debian, MIA]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Managing Volunteer Activity in Free Software Projects</h1>

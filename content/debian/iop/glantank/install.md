@@ -6,7 +6,7 @@ keywords: [IOP, GLAN Tank, Supertank, SOTO-HDLGW, IO-Data, ARM, Debian, installa
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Installing Debian on GLAN Tank</h1>
@@ -176,6 +176,6 @@ Note that kernel support is still very basic.  It lacks support for:
 Go back to my <a href = "..">Debian on GLAN Tank</a> page.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

@@ -6,7 +6,7 @@ keywords: [Debian, OpenRD, OpenRD-Base, OpenRD-Client, OpenRD-Ultimate, developm
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian on the OpenRD platform</h1>
@@ -57,6 +57,6 @@ running Debian on the OpenRD.</li>
 </ul>
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

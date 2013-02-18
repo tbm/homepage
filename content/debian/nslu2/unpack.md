@@ -8,7 +8,7 @@ keywords: [Debian, squeeze, NSLU2, ARM]
 <% content_for :right do %>
 <img src = "../images/r_nslu2_front.jpg" class="border" alt="A NSLU2 from the front" width="148" height="218" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Manually unpacking a tar ball of Debian on NSLU2</h1>
@@ -219,11 +219,11 @@ If you run into any problems installing or running Debian on your Linksys
 NSLU2, please read the <a href = "../troubleshooting">troubleshooting
 page</a>.
 
-<%= render 'paypal', :desc => "Debian/NSLU2 donation" %>
+<%= render "paypal", :desc => "Debian/NSLU2 donation" %>
 
 Go back to my <a href = "..">Debian on NSLU2</a> page.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

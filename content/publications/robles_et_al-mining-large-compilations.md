@@ -5,7 +5,7 @@ keywords: [Linux, distributions, software evolution, free software, open source,
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Mining Large Software Compilations over Time: Another Perspective of

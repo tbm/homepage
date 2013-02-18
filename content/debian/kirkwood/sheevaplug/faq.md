@@ -8,7 +8,7 @@ keywords: [Debian, SheevaPlug, Marvell, FAQ, frequently asked questions, help, t
 <% content_for :right do %>
 <img src = "../images/r_sheevaplug_hand.jpg" class="border" alt="SheevaPlug in my hand" width="148" height="129" />
 
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Frequently Asked Questions (FAQ)</h1>
@@ -49,6 +49,6 @@ install a kernel, so you have to run it manually.
 Go back to my <a href = "..">Debian on Marvell SheevaPlug</a> page.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 

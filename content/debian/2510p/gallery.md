@@ -6,7 +6,7 @@ keywords: [HP, Compaq 2510p, laptop, gallery, pictures, images, photos]
 ---
 
 <% content_for :right do %>
-<%= render 'adsense-wideskyscaper-right' %>
+<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 Here are some pictures of the HP Compaq 2510p notebook:
@@ -50,6 +50,6 @@ Here are some pictures of the HP Compaq 2510p notebook:
 Go back to my <a href = "..">Debian on the HP Compaq 2510p</a> page.
 
 <div class="bbf">
-<%= render 'adsense-banner-before-footer' %>
+<%= render "adsense-banner-before-footer" %>
 </div>
 
