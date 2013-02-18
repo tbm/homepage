@@ -24,7 +24,7 @@ devices:
 
 Here is a table showing the differences between these devices:
 
-<table style="border-style: none" border="1" cellpadding="5">
+<table>
 
 <tr>
 <th style="background-color: white"></th>
@@ -118,7 +118,7 @@ Here is a table showing the differences between these devices:
 
 </table>
 
-<table style="border-style: none" border="1" cellpadding="5">
+<table>
 
 <tr>
 <th style="background-color: white"></th>
@@ -222,7 +222,7 @@ Here is a table showing the differences between these devices:
 
 </table>
 
-<table style="border-style: none" border="1" cellpadding="5">
+<table>
 
 <tr>
 <th style="background-color: white"></th>

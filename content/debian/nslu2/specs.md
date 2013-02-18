@@ -14,7 +14,8 @@ keywords: [NSLU2, Linksys NSLU2, specs, specification]
 <h1>Specs of the Linksys NSLU2</h1>
 
 <p>
-<table style="border-style: none" border="1" cellpadding="5">
+
+<table>
 
 <tr>
 <th>Component</th>

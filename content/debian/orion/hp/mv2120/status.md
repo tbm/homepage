@@ -25,7 +25,7 @@ especially if you have specific requirements (e.g. related to performance).
 The table below shows how well different components of the HP mv2120 are
 supported by Debian:
 
-<table style="border-style: none" border="1" cellpadding="5">
+<table>
 
 <tr>
 <th>Component</th>

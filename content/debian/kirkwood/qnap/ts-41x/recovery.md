@@ -104,7 +104,7 @@ depending on your machine (otherwise the machine won't load the image!).
 
 You can check the following table to find out which string to use:
 
-<table style="border-style: none" border="1" cellpadding="5">
+<table>
 
 <tr>
 <th>Device</th>

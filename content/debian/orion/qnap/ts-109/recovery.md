@@ -37,7 +37,7 @@ cksum /dev/mtdblock0
 Please compare the first value that is printed with those from the
 following table to see whether your device has the recovery mode already:
 
-<table style="border-style: none" border="1" cellpadding="5">
+<table>
 
 <tr>
 <th>Checksum</th>

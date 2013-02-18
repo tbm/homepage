@@ -23,7 +23,7 @@ chip.  Revision B1, on the other hand, uses a Marvell 88F5182 CPU which
 integrates SATA into the SoC itself.  The DNS-323 revision B1 is also sold
 by Conceptronic as the CH3SNAS.
 
-<table style="border-style: none" border="1" cellpadding="5">
+<table>
 
 <tr>
 <th>Component</th>

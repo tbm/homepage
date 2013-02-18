@@ -21,7 +21,7 @@ TS-219P.  There is another page which shows the <a href =
 
 <p>
 
-<table style="border-style: none" border="1" cellpadding="5">
+<table>
 
 <tr>
 <th>Component</th>
@@ -79,7 +79,7 @@ TS-219P.  There is another page which shows the <a href =
 
 <p>
 
-<table style="border-style: none" border="1" cellpadding="5">
+<table>
 
 <tr>
 <th>Component</th>

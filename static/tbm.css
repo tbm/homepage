@@ -263,6 +263,12 @@ border: 0;
 height: 1px
 }
 
+td, th
+{
+padding: 5px;
+border: 1px solid #C0C0C0;
+}
+
 th
 {
 background-color: #E0E0FF;

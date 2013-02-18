@@ -17,7 +17,7 @@ This page lists the internals of the Thecus N2100.  There is another page
 which shows the <a href = "../status">status of support in Debian</a> for
 these components.
 
-<table style="border-style: none" border="1" cellpadding="5">
+<table>
 
 <tr>
 <th>Component</th>

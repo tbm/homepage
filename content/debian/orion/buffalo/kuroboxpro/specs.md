@@ -15,7 +15,7 @@ keywords: [Buffalo, Revogear, Kurobox Pro, specs, specification]
 
 This page lists the internals of the Kurobox Pro.
 
-<table style="border-style: none" border="1" cellpadding="5">
+<table>
 
 <tr>
 <th>Component</th>
