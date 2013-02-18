@@ -4,7 +4,6 @@
 
 * Verify that output is the same
 * Apache redirects
-* Remove whitespace caused by ERB
 
 ## v1.1 - Migrate blog from pyblosxom
 

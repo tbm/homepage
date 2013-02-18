@@ -10,6 +10,7 @@ compile '*' do
     filter :erb
     filter :pandoc
     layout 'default'
+    filter :remove_lines_with_only_whitespace
   end
 end
 
