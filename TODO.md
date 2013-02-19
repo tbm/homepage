@@ -1,9 +1,5 @@
 # TODO list
 
-## v1.0 - Replicate existing homepage
-
-* Verify that output is the same
-
 ## v1.1 - Migrate blog from pyblosxom
 
 * Convert existing blog entris to Markdown
