@@ -14,3 +14,7 @@ The site also requires various Debian packages:
 
     apt-get install hunspell myspell-en-gb
 
+## Style guidelines
+
+* All images in the right sidebar need to have a width of 148 pixels.
+
