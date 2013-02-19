@@ -3,7 +3,6 @@
 ## v1.0 - Replicate existing homepage
 
 * Verify that output is the same
-* Apache redirects
 
 ## v1.1 - Migrate blog from pyblosxom
 
