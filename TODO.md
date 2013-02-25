@@ -9,7 +9,6 @@
 * nav: Check consistency of upper/lower casing
 * split out config data to config.yaml ("global site variable: store it in config.yaml and access it with @config[:stuff]")
 * Convert more pages to Markdown
-* nanoc 3.6: update left sidebare to use @item["/bio/"], etc
 * blog: add "read more" tags?
 * CV: automatically copy CV (pdf)?
 * "Last updated" based on mtime or git log:

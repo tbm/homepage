@@ -44,15 +44,15 @@
 
       <div class = "index">
         <ul class = "index">
-          <li><%= link_to("Biography", "/bio") %></li>
-          <li><%= link_to("Curriculum Vitae", "/cv") %></li>
+          <li><%= link_to("Biography", @items["/bio/"]) %></li>
+          <li><%= link_to("Curriculum Vitae", @items["/cv/"]) %></li>
           <li><%= link_to("Journal", "/journal") %></li>
-          <li><%= link_to("Research", "/research") %></li>
-          <li><%= link_to("Talks", "/talks") %></li>
-          <li><%= link_to("Publications", "/publications") %></li>
+          <li><%= link_to("Research", @items["/research/"]) %></li>
+          <li><%= link_to("Talks", @items["/talks/"]) %></li>
+          <li><%= link_to("Publications", @items["/publications/"]) %></li>
           <li><%= link_to("Photo Gallery", "/gallery") %></li>
-          <li><%= link_to("Debian HOWTOs", "/debian") %></li>
-          <li><%= link_to("Contact", "/contact") %></li>
+          <li><%= link_to("Debian HOWTOs", @items["/debian/"]) %></li>
+          <li><%= link_to("Contact", @items["/contact/"]) %></li>
         </ul>
       </div>
 
