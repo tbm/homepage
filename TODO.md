@@ -19,4 +19,5 @@
 * Add "outdated" banner and noindex
 * Add Piwik or similar
 * Split out AdSense code (bbf)
+* Add DOI information to papers
 
