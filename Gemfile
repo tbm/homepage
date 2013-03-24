@@ -1,5 +1,6 @@
 source :rubygems
 
+gem 'builder'
 gem 'haml'
 gem 'nanoc'
 gem 'pandoc-ruby'

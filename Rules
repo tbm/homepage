@@ -7,6 +7,10 @@ end
 compile '/static/*' do
 end
 
+compile '/blog/feed/' do
+    filter :erb
+end
+
 compile '/blog/*' do
     filter :erb
     filter :pandoc
