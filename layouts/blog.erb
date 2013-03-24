@@ -1,0 +1,49 @@
+<% render 'headers' do %>
+
+      <div class="navigation">
+        <ul class = "navigation">
+          <li><%= link_to_unless_current("Blog", @items["/blog/"]) %></li>
+        </ul>
+      </div>
+
+      <div class="right">
+<img src = "/images/r_debconf4_tbm2.jpg" class="border" alt="Martin Michlmayr" width="148" height="153" />
+
+<p>
+
+I'm a member of Debian, and I work for HP as an Open Source Community
+Expert.  The opinions expressed here are mine.
+
+</p>
+
+<p>
+
+<a href = "/blog/feed/">Subscribe</a> to the RSS feed of this blog.
+
+</p>
+
+<%= render "adsense-wideskyscaper-right" %>
+      </div>
+
+      <%= render 'nav-bar' %>
+
+      <div class="content">
+      <%= yield %>
+
+        <div class="bbf">
+        <%= render "adsense-banner-before-footer" %>
+        </div>
+
+        <% unless @item[:hide_time] then %>
+        <div class="footer">
+        <% if @item[:created_at] %>
+        Created on <%= @item[:created_at].strftime "%Y-%m-%d %T %z" %>.
+        <% else %>
+        Last modified on <%= @item[:mtime].strftime "%Y-%m-%d %T %z" %>.
+        <% end %>
+        </div>
+        <% end %>
+
+      </div>
+
+<% end %>
