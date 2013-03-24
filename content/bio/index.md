@@ -61,5 +61,5 @@ Coogee beach in Sydney and Copacabana in Rio de Janeiro).
 I'm fairly busy but I'm quite approachable and actually pretty good at
 responding to e-mail.  If you'd like to get in contact to discuss anything
 found on this web site, see my [contact page](../contact).  I also maintain
-a [blog](../journal) which I update every now and then.
+a [blog](../blog) which I update every now and then.
 
