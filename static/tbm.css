@@ -274,6 +274,10 @@ th
 background-color: #E0E0FF;
 }
 
+.phd td.months {
+text-align: right;
+}
+
 /*
  * Generally useful definitions
  */
