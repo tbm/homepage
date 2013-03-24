@@ -1,0 +1,8 @@
+<% render 'blog' do %>
+
+<% sorted_articles.select { |a| a.identifier.start_with?(@item.path) }.each do |post| %>
+<%= render 'blog-inline', { :post => post } %>
+<% end %>
+
+<% end %>
+

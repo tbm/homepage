@@ -1,5 +1,9 @@
 #!/usr/bin/env ruby
 
+preprocess do
+  create_blog_index
+end
+
 compile '/static/*' do
 end
 
@@ -8,6 +12,8 @@ compile '/blog/*' do
     filter :pandoc
     if item[:kind] == 'article' then
         layout 'blog-article'
+    elsif item[:kind] == 'blog-index' then
+        layout 'blog-index'
     else
         layout 'blog'
     end
