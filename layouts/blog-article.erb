@@ -1,0 +1,15 @@
+<% render 'blog' do %>
+
+<h2><a id="<%= File.basename @item.path %>"><%= @item[:title] %></a></h2>
+
+<%= yield %>
+
+<div class="journaldate">
+<% category = File.dirname @item.path %>
+<%= @item[:created_at] %> &mdash;
+<%= link_to category.gsub(/^.blog./, ""), category %> &mdash;
+<%= link_to "permanent link", @item.path %>
+</div>
+
+<% end %>
+

@@ -6,7 +6,11 @@ end
 compile '/blog/*' do
     filter :erb
     filter :pandoc
-    layout 'blog'
+    if item[:kind] == 'article' then
+        layout 'blog-article'
+    else
+        layout 'blog'
+    end
     filter :remove_lines_with_only_whitespace
 end
 
