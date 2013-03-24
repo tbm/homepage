@@ -3,6 +3,13 @@
 compile '/static/*' do
 end
 
+compile '/blog/*' do
+    filter :erb
+    filter :pandoc
+    layout 'blog'
+    filter :remove_lines_with_only_whitespace
+end
+
 compile '*' do
   if item.binary?
     # don’t filter binary items
