@@ -5,7 +5,13 @@ description: The blog of Martin Michlmayr
 keywords: [Martin Michlmayr, journal, blog]
 ---
 
-<% sorted_articles.each do |post| %>
+<% max = 10 %>
+
+<% sorted_articles.first(max).each do |post| %>
 <%= render 'blog-inline', { :post => post } %>
+<% end %>
+
+<% if sorted_articles.length > max %>
+You can find older blog articles in my <%= link_to "blog archive", @items["/blog/archive/"] %>.
 <% end %>
 
