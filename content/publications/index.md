@@ -5,6 +5,13 @@ description: The publications of Martin Michlmayr
 keywords: [Publications, quality, project management, release management, FLOSS]
 ---
 
+Michlmayr, M., Fitzgerald, B. (2012).&ensp;Time-Based Release Management in
+Free and Open Source (FOSS) Projects.&ensp;<i> International Journal of
+Open Source Software and Processes</i>, 4(1).&ensp;1&ndash;19.
+<a href = "michlmayr_fitzgerald-time_based_release_management">[abstract]</a>
+[available on request]
+<a href = "michlmayr_fitzgerald-time_based_release_management.bib">[bibtex]</a>
+
 Michlmayr, M. (2009).&ensp;Community Management in Open Source
 Projects.&ensp;<i>The European Journal for the Informatics
 Professional</i>, X(3).&ensp;22&ndash;26.
