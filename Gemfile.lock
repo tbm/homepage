@@ -7,7 +7,7 @@ GEM
       colored (>= 1.2)
     haml (3.1.7)
     json (1.7.6)
-    nanoc (3.6.2)
+    nanoc (3.6.3)
       cri (~> 2.3)
     nokogiri (1.5.6)
     pandoc-ruby (0.6.1)
