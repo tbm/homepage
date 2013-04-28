@@ -15,14 +15,14 @@ If you want to connect a serial console to a QNAP TS-11x device, you'll
 need a 3.3V TTL to RS-232 level shifter.  The serial connector is of type
 JST PHR-4 and the wires need to be crimped into a JST SPH-002T-P0.5S
 connector pin before it can be fitted inside the JST PHR-4 connector.  The
-pin layout is as follows from left to right:
+layout is as follows from right (1) to left (4):
 
-<ul>
-<li>GND (white)</li>
-<li>RX (black)</li>
-<li>VCC (green)</li>
+<ol>
 <li>TX (red)</li>
-</ul>
+<li>VCC (green)</li>
+<li>RX (black)</li>
+<li>GND (white)</li>
+</ol>
 
 <img src = "../images/img_0004s.jpg" class="border" alt = "TS-219 and serial console" width="640" height="480" />
 
