@@ -11,7 +11,7 @@ keywords: [SheevaPlug, Marvell, Kirkwood, u-boot]
 <%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
-<h1>Upgrading SheevaPlug's U-Boot</h1>
+<h1>Upgrading U-Boot on SheevaPlug and other plug computers</h1>
 
 This page describes how to install a new version of U-Boot on your plug
 computer.  U-Boot is the boot loader used on plug computers.
