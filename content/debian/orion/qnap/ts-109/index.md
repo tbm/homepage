@@ -29,6 +29,9 @@ TS-109.</li>
 <li><a href = "troubleshooting">Troubleshooting information</a> with common
 problems and their solutions.</li>
 
+<li>Some <a href = "tips">tips and tricks</a> about running Debian on the
+QNAP TS-109.</li>
+
 <li>A list of <a href = "known-issues">known issues and bugs</a> with
 Debian on the QNAP TS-109.</li>
 

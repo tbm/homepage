@@ -13,7 +13,17 @@ keywords: [Debian, QNAP, TS-109, tips, tricks]
 
 <h1>Tips and tricks for Debian on the QNAP TS-109</h1>
 
-There are no tips and tricks at the moment.
+<h2><a id="autopower">Automatic power on</a></h2>
+
+QNAP machines can turn on automatically when power is applied if the device
+was not powered down correctly.  This is helpful when your power goes down.
+In order to enable this feature, run the following command:
+
+<div class="code">
+<pre>
+qcontrol --direct autopower on
+</pre>
+</div>
 
 <div class="bbf">
 <%= render "adsense-banner-before-footer" %>

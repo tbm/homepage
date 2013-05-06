@@ -52,6 +52,18 @@ cat /proc/driver/rtc
 
 Look for `alrm_time` and `and alrm_date`.
 
+<h2><a id="autopower">Automatic power on</a></h2>
+
+QNAP machines can turn on automatically when power is applied if the device
+was not powered down correctly.  This is helpful when your power goes down.
+In order to enable this feature, run the following command:
+
+<div class="code">
+<pre>
+qcontrol --direct autopower on
+</pre>
+</div>
+
 <div class="bbf">
 <%= render "adsense-banner-before-footer" %>
 </div>
