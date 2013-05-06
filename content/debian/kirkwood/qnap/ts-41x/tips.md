@@ -24,11 +24,8 @@ this:
 
 <div class="code">
 <pre>
-qcontrol -d &amp;
-qcontrol fanspeed # To see all valid speed settings
-qcontrol fanspeed medium
-kill %1
-rm /var/run/qcontrol.sock
+qcontrol --direct fanspeed # To see all valid speed settings
+qcontrol --direct fanspeed medium
 </pre>
 </div>
 
