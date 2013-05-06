@@ -56,11 +56,11 @@ modprobe ftdi_sio vendor=0x0403 product=0x9e90
 Start your OpenRD and a few seconds later you should be able to connect to
 `/dev/ttyUSB1` with 115200 baud.  If you need help accessing the serial
 console, see the guides for <a href =
-"http://www.openplug.org/plugwiki/index.php/Setting_up_Serial_Console_Under_Linux">Linux</a>,
+"http://www.plugcomputer.org/Documentation/howtos/serial-terminallinuxprograms/">Linux</a>
+or
 <a href =
-"http://www.openplug.org/plugwiki/index.php/How-to_setup_PuTTY_for_the_SheevaPlug_on_Windows">Windows</a>
-or <a href = "http://openplug.org/plugforum/index.php?topic=34.0">MacOS
-X</a>.
+"http://www.plugcomputer.org/Documentation/howtos/serial-terminal/">Windows
+and MacOS X</a>.
 
 When you get serial output, press a key to interrupt the boot process.
 First of all, you have to change a setting so the device will boot the
