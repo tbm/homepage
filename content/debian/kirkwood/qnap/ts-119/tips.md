@@ -29,6 +29,29 @@ qcontrol --direct fanspeed medium
 </pre>
 </div>
 
+<h2><a id="wakealarm">Scheduled power</a></h2>
+
+You can tell your QNAP device to power on at a specific time using the
+`wakealarm` system.  For example, if you want your QNAP to power on in 5
+minutes, issue the following commands and turn off your device:
+
+<div class="code">
+<pre>
+echo 0 > /sys/class/rtc/rtc0/wakealarm
+echo `date '+%s' -d '+ 5 minutes'` > /sys/class/rtc/rtc0/wakealarm
+</pre>
+</div>
+
+You can check check whether a wakealarm has been configured with:
+
+<div class="code">
+<pre>
+cat /proc/driver/rtc
+</pre>
+</div>
+
+Look for `alrm_time` and `and alrm_date`.
+
 <div class="bbf">
 <%= render "adsense-banner-before-footer" %>
 </div>

@@ -102,7 +102,7 @@ appear in Debian in the future</td>
 
 <tr>
 <td style="color: white; background-color: #00AA00">Scheduled power</td>
-<td>Supported</td>
+<td>Supported; see <a href = "../tips/#wakealarm">instructions</a></td>
 </tr>
 
 </table>
