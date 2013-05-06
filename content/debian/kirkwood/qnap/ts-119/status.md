@@ -96,9 +96,8 @@ moment, so it's not quite useful on the TS-11x</td>
 
 <tr>
 <td style="color: white; background-color: #AA0000">Wake-on-LAN (WOL)</td>
-<td>Not supported.  Looking for a <a href =
-"http://lists.debian.org/debian-arm/2011/05/msg00030.html">volunteer who
-can adapt the Linux kernel</a></td>
+<td>Not supported.  Support has recently been added upstream so this will
+appear in Debian in the future</td>
 </tr>
 
 <tr>
