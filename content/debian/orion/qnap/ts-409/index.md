@@ -17,26 +17,6 @@ The QNAP TS-409 is a NAS device that can be used for a variety of tasks.
 In the following, I will describe what is needed to get Debian running on
 your TS-409 or TS-409U.
 
-<h2>News</h2>
-
-<ul>
-
-<li>[2011-02-06] Debian 6.0 (squeeze) <a href =
-"http://www.debian.org/News/2011/20110205a">is out</a>.  Grab it and follow
-my <a href = "install">installation guide</a>.</li>
-
-<li>[2009-10-10] Existing users of Debian on TS-409: <a href =
-"http://lists.debian.org/debian-arm/2009/10/msg00019.html">important
-problem found, please read</a>. (This does not apply to new
-installations!)</li>
-
-<li>[2008-12-09] QNAP has released a <a href =
-"http://www.cyrius.com/journal/debian/orion/qnap/recovery-mode-available">recovery
-mode</a>: this is useful in case there are problems with the installation
-or an upgrade of Debian.</li>
-
-</ul>
-
 <h2>Information</h2>
 
 <ul>
