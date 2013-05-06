@@ -37,10 +37,9 @@ HDL-GZxxx series, are very similar and might work as well.</li>
 slots, 256 MB RAM (expandable), 2 USB ports and 1 GBit Ethernet.
 Apparently this machine is also known as the Intel Baxter Creek SS4000-E.
 This system appears to be based on a design by Lanner, a company that sells
-the NAS appliances NS04-4100 and NS04-4110.  Wouter Verhelst recently
-ported Debian to this device, so it will be supported in the next release
-(Debian squeeze).  There are some <a href =
-"http://d-i.alioth.debian.org/manual/en.armel/ch05s01.html#boot-firmware-ss4000e">installation
+the NAS appliances NS04-4100 and NS04-4110.  Wouter Verhelst
+ported Debian to this device.  There are some <a href =
+"http://www.debian.org/releases/stable/armel/ch05s01.html.en#boot-firmware-ss4000e">installation
 instructions</a>.</li>
 
 </ul>

@@ -10,7 +10,7 @@ keywords: [Debian, SGI, O2, sarge, installation]
 <%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
-In the following, I will describe how to install Debian 5.0 (lenny) on SGI
+In the following, I will describe how to install Debian 7.0 (wheezy) on SGI
 O2 (IP32) machines with R5000, R5200 or RM7000 processors.
 
 Note that I will only discuss issues related to the installation on O2 and
@@ -24,7 +24,7 @@ Su's <a href = "http://js1.kicks-ass.org/~js1/debianO2.html">detailed
 run-through</a> with the O2 images I've prepared.  Once you're familiar
 with how to set up an environment to load the installer for SGI, you can
 download the <a href =
-"ftp://ftp.nl.debian.org/debian/dists/lenny/main/installer-mips/current/images/r5k-ip32/">installer
+"ftp://ftp.nl.debian.org/debian/dists/stable/main/installer-mips/current/images/r5k-ip32/">installer
 image for O2</a>.  This image supports installations both via serial
 console as well as framebuffer.
 

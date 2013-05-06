@@ -14,7 +14,7 @@ keywords: [Debian, Thecus, N2100, support, status]
 <h1>Status of Thecus N2100 support</h1>
 
 The table below shows how well different components of the Thecus N2100 are
-supported by Debian 6.0 (squeeze):
+supported by Debian 7.0 (wheezy):
 
 <table>
 

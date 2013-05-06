@@ -148,10 +148,7 @@ computers.  Instead, it takes the kernel (`/boot/vmlinuz`) and ramdisk
 (`/boot/initrd.img`) and generates u-boot images (`/boot/uImage` and
 `/boot/uInitrd`, respectively) out of them with the help of `mkimage`.
 This step is required because u-boot cannot load the kernel and ramdisk
-directly and requires special images made with `mkimage`.  (Note: in
-reality, flash-kernel is currently not called automatically in all cases;
-<a href = "http://bugs.debian.org/550584">work is going on</a> to finally
-fix this.)</li>
+directly and requires special images made with `mkimage`.</li>
 
 </ol>
 

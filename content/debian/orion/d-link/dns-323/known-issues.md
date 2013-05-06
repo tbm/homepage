@@ -17,9 +17,7 @@ and Conceptronic CH3SNAS:
 
 <ul>
 
-<li>There are no known issues with Debian 6.0.  All the problems present in
-Debian 5.0 (lack of fan support, lack of support for the temperature
-sensor; etc) have been addressed in Debian 6.0.</li>
+<li>There are no known issues with Debian 7.0.</li>
 
 </ul>
 

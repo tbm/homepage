@@ -122,8 +122,7 @@ deb http://people.debian.org/~tbm/orion lenny main
 </pre>
 </div>
 
-This is not necessary if you run Debian 6.0 (squeeze) or Debian testing or
-unstable.
+This is not necessary if you run Debian 6.0 (squeeze) or Debian 7.0 (wheezy)
 
 Now install the new kernel:
 

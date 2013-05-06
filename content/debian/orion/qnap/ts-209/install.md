@@ -28,6 +28,11 @@ Debian does not install a web interface to configure your machine, although
 it's possible to install such software.  If this is not what you want,
 please don't proceed with the installation.
 
+Note that the installer of Debian 7.0 (wheezy), our latest stable release,
+does not support the TS-209.  However, you can install Debian 6.0 (squeeze)
+according to the instructions on this page and then perform an upgrade to
+Debian 7.0 (wheezy).
+
 <h2>Requirements and Preparation</h2>
 
 In order to install Debian on a QNAP TS-209, you need the following:
@@ -215,10 +220,10 @@ following commands:
 <div class="code">
 <pre>
 cd /tmp
-busybox wget http://ftp.nl.debian.org/debian/dists/stable/main/installer-armel/current/images/orion5x/network-console/qnap/ts-209/flash-debian
-busybox wget http://ftp.nl.debian.org/debian/dists/stable/main/installer-armel/current/images/orion5x/network-console/qnap/ts-209/model
-busybox wget http://ftp.nl.debian.org/debian/dists/stable/main/installer-armel/current/images/orion5x/network-console/qnap/ts-209/initrd.gz
-busybox wget http://ftp.nl.debian.org/debian/dists/stable/main/installer-armel/current/images/orion5x/network-console/qnap/ts-209/kernel
+busybox wget http://ftp.nl.debian.org/debian/dists/squeeze/main/installer-armel/current/images/orion5x/network-console/qnap/ts-209/flash-debian
+busybox wget http://ftp.nl.debian.org/debian/dists/squeeze/main/installer-armel/current/images/orion5x/network-console/qnap/ts-209/model
+busybox wget http://ftp.nl.debian.org/debian/dists/squeeze/main/installer-armel/current/images/orion5x/network-console/qnap/ts-209/initrd.gz
+busybox wget http://ftp.nl.debian.org/debian/dists/squeeze/main/installer-armel/current/images/orion5x/network-console/qnap/ts-209/kernel
 </pre>
 </div>
 
@@ -297,7 +302,7 @@ ssh installer@<span class="input">192.168.1.100</span>
 </div>
 
 The installation itself should be pretty standard and you can follow the <a
-href = "http://www.debian.org/releases/stable/armel">installation
+href = "http://www.debian.org/releases/squeeze/armel">installation
 guide</a>.  The installer knows about the TS-209 and at the end of the
 installation it will flash a kernel and ramdisk that will automatically
 boot into Debian.  It will also install the `qcontrol` package that can be
@@ -325,6 +330,13 @@ In case you run into any bugs or problems, you may want to check the list
 of <a href = "../known-issues">known issues and bugs</a> with Debian on the
 QNAP TS-209.  Finally, make sure to read the <a href = "../tips">tips and
 tricks</a> about running Debian on the QNAP TS-209.
+
+<h2>Upgrade to Debian 7.0 (wheezy)</h2>
+
+You should upgrade to Debian 7.0, our latest stable release.  Please read
+the section on <a
+href="http://www.debian.org/releases/wheezy/armel/release-notes/ch-upgrading.en.html">upgrades
+from Debian 6.0</a> of the Debian 7.0 release notes.
 
 Go back to my <a href = "..">Debian on QNAP TS-209</a> page.
 

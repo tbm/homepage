@@ -86,7 +86,7 @@ moment, so it's not quite useful on the TS-109</td>
 
 <tr>
 <td style="color: black; background-color: #FFFF00">Crypto engine</td>
-<td>Initial support in 2.6.32</td>
+<td>Basic support</td>
 </tr>
 
 </table>

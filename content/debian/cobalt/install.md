@@ -15,7 +15,7 @@ keywords: [Debian, installation, Cobalt, MIPS, Qube, RaQ, Qube2, RaQ2]
 
 <h2>Requirements</h2>
 
-In order to install Debian 6.0 (squeeze) on a Cobalt machine, you need the
+In order to install Debian 7.0 (wheezy) on a Cobalt machine, you need the
 following:
 
 <ul>

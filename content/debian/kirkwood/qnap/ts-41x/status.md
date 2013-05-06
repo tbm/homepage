@@ -91,7 +91,7 @@ the fan based on the current temperature.</td>
 
 <tr>
 <td style="color: black; background-color: #FFFF00">Crypto engine</td>
-<td>Initial support in 2.6.32</td>
+<td>Basic support</td>
 </tr>
 
 <tr>
@@ -102,9 +102,8 @@ can adapt the Linux kernel</a></td>
 </tr>
 
 <tr>
-<td style="color: white; background-color: #AA0000">Scheduled power</td>
-<td>Not supported in Debian 6.0 but this will be supported in the next
-release (Debian wheezy, version 7.0).</td>
+<td style="color: white; background-color: #00AA00">Scheduled power</td>
+<td>Supported</td>
 </tr>
 
 </table>

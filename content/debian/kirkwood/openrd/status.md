@@ -48,14 +48,12 @@ supported by Debian:
 
 <tr>
 <td style="color: white; background-color: #00AA00">VGA</td>
-<td>Supported in the official kernel since 2.6.35 and included in
-Debian's 2.6.32 kernel in Debian squeeze.</td>
+<td>Supported</td>
 </tr>
 
 <tr>
-<td style="color: black; background-color: #FFFF00">Audio</td>
-<td>Audio is supported in 2.6.36 kernels but is not included in Debian's
-squeeze kernel which is based on 2.6.32.</td>
+<td style="color: white; background-color: #00AA00">Audio</td>
+<td>Supported</td>
 </tr>
 
 </table>

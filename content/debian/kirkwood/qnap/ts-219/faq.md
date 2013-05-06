@@ -18,9 +18,8 @@ keywords: [Debian, QNAP, TS-210, TS-212, TS-219, TS-219P, TS-219P+, FAQ, frequen
 Debian includes support for the QNAP TS-210, TS-212, TS-219, TS-219P,
 TS-219P+ and TS-219P II.  However, some functionality from the original
 firmware may not be available.  In particular, there is no automatic fan
-control and Wake-on-LAN (WOL) and scheduled power are not supported.
-Please see the <a href = "../status">status page</a> to see what is
-supported.
+control and Wake-on-LAN (WOL) is not supported.  Please see the <a href =
+"../status">status page</a> to see what is supported.
 
 <h3>Which QNAP devices are supported?</h3>
 

@@ -13,7 +13,7 @@ keywords: [Debian, squeeze, NSLU2, ARM]
 
 <h1>Manually unpacking a tar ball of Debian on NSLU2</h1>
 
-If you want to run Debian 6.0 on your NSLU2, you can manually unpack a tar
+If you want to run Debian on your NSLU2, you can manually unpack a tar
 ball which I have prepared for these systems.  You simply have to attach
 the USB drive to a PC running Linux first to prepare it according to the
 following instructions.  If you're not running Linux on your PC, you can

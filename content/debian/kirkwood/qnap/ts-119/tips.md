@@ -17,7 +17,7 @@ Here are some tips and tricks about running Debian on the QNAP TS-11x.
 
 <h2>Controlling the fan</h2>
 
-Debian currently doesn't have automatic support for the fan.  While there
+Debian 7.0 doesn't have automatic support for the fan.  While there
 is a tool that can control the fan, it won't automatically set its speeds
 according to the temperature.  If you want to manually control the fan, do
 this:

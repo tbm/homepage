@@ -18,8 +18,8 @@ keywords: [Debian, QNAP, TS-110, TS-112, TS-119, TS-119P+, FAQ, frequently asked
 Debian includes support for the QNAP TS-110, TS-112, TS-119, TS-119P+ and
 TS-119P II.  However, some functionality from the original firmware may not
 be available.  In particular, there is no automatic fan control and
-Wake-on-LAN (WOL) and scheduled power are not supported.  Please see the <a
-href = "../status">status page</a> to see what is supported.
+Wake-on-LAN (WOL) is not supported.  Please see the <a href =
+"../status">status page</a> to see what is supported.
 
 <h3>Which QNAP devices are supported?</h3>
 

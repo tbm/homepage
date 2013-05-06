@@ -15,10 +15,10 @@ keywords: [Debian, QNAP, TS-109, FAQ, frequently asked questions, help, troubles
 
 <h3>Is Debian on the QNAP TS-109 fully supported?</h3>
 
-Debian includes support for the QNAP TS-109.  However, some functionality
-from the original firmware may not be available.  In particular, the hard
-drive speed will be lower with Debian.  Please see the <a href =
-"../status">status page</a> to see what is supported.
+Debian includes support for the QNAP TS-109 but as of Debian 7.0 (wheezy)
+the installer no longer supports the TS-109.  The recommended way to
+install Debian is to <a href="../install">install Debian 6.0 (squeeze)</a>
+and then perform an upgrade to Debian 7.0 (wheezy).
 
 <h3>Is Debian on the TS-109 suited for people new to Linux?</h3>
 

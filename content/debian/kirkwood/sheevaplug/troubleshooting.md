@@ -163,21 +163,6 @@ reset
 These commands will put in the correct settings and then restart the device
 so the changes will take effect.
 
-<h2><a id = "debian">Debian</a></h2>
-
-<h3><a id = "flash-kernel">New kernel is not automatically activated</a></h3>
-
-If you have installed a new kernel package but you still have the kernel
-after a reboot, please run:
-
-<div class="code">
-<pre>
-flash-kernel
-</pre>
-</div>
-
-and then restart your machine again.  This is a known issue.
-
 <%= render "paypal", :desc => "Debian on Plug Computer donation" %>
 
 <div class="bbf">

@@ -57,13 +57,13 @@ telinit q
 </pre>
 </div>
 
-<h3><a id = "upgrade">Upgrading from Debian 5.0 (lenny) to 6.0 (squeeze)</a></h3>
+<h3><a id = "upgrade">Upgrading from Debian 6.0 (squeeze) to 7.0 (wheezy)</a></h3>
 
-Here are some notes regarding upgrades from Debian 5.0 to 6.0:
+Here are some notes regarding upgrades from Debian 6.0 to 7.0:
 
 <ul>
 
-<li>Make sure to read the release notes for Debian 6.0.  In particular,
+<li>Make sure to read the release notes for Debian 7.0.  In particular,
 follow the <a href =
 "http://www.debian.org/releases/stable/armel/release-notes/ch-upgrading.en.html">chapter
 on upgrades from Debian 5.0</a> which explains the upgrade process in great

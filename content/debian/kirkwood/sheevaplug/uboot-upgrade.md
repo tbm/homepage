@@ -86,6 +86,9 @@ binary listed here!
 (the original SheevaPlug, the eSATA SheevaPlug and the Ionics Nimbus 100)</a></li>
 
 <li><a href =
+"http://people.debian.org/~tbm/u-boot/2011.12-3/dreamplug/u-boot.kwb">DreamPlug</a></li>
+
+<li><a href =
 "http://people.debian.org/~tbm/u-boot/2011.12-3/guruplug/u-boot.kwb">GuruPlug
 (GuruPlug Server Standard and GuruPlug Server Plus)</a></li>
 

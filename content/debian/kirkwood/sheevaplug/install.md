@@ -13,20 +13,22 @@ keywords: [SheevaPlug, Marvell, Kirkwood, Debian, installer, ARM, GuruPlug]
 
 <h1>Installing Debian on Plug Computers</h1>
 
-This page describes how to install Debian 6.0 (squeeze) on plug computers,
+This page describes how to install Debian 7.0 (wheezy) on plug computers,
 such as the SheevaPlug and GuruPlug.
 
 The following devices are currently supported:
 
 <ul>
 
-<li>SheevaPlug (the SheevaPlug Development Kit)</li>
-
-<li>eSATA SheevaPlug</li>
+<li>DreamPlug</li>
 
 <li>GuruPlug Server Standard</li>
 
 <li>GuruPlug Server Plus</li>
+
+<li>SheevaPlug (the SheevaPlug Development Kit)</li>
+
+<li>SheevaPlug with eSATA</li>
 
 <li>Seagate FreeAgent DockStar (<a href = "../plugs#limited">limited
 support</a>: only if you added a serial console)</li>

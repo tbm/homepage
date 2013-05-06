@@ -35,7 +35,7 @@ been configured to boot from disk but there is no disk.  See the <a href =
 
 <h3>Will this installer also work on the Linkstation Pro/Live?</h3>
 
-The Linkstation Pro/Live are supported in Debian 6.0 (squeeze).  The
+The Linkstation Pro/Live are supported by Debian.  The
 Linkstation Pro/Live are not covered in this install guide but information
 is available on the <a href =
 "http://buffalo.nas-central.org/wiki/Install_Debian_on_the_Linkstation_Pro/Live">NAS-Central

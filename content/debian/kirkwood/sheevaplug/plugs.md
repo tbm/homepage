@@ -45,6 +45,9 @@ Technologies</a> in the US and from <a href =
 
 <li>eSATA SheevaPlug: like the SheevaPlug, but it also offers eSATA.</li>
 
+<li>DreamPlug: the DreamPlug is supported since Debian 7.0 thanks to the
+work of Ian Campbell.</li>
+
 <li>GuruPlug (GuruPlug Server Standard and GuruPlug Server Plus): in
 addition to the functionality of the SheevaPlug, the GuruPlug Server offers
 wireless and Bluetooth.  The GuruPlug Server Standard offers one Ethernet
@@ -79,15 +82,6 @@ follow the <a href = "../install">installation guide</a> to install Debian.
 how to add a serial console.  See <a href =
 "http://www.rudiswiki.de/wiki/DockStarSerialLink">here</a> and <a href =
 "http://www.yourwarrantyisvoid.com/2010/07/21/seagate-dockstar-add-an-accessible-serial-port/">here</a>.</li>
-
-</ul>
-
-<h2>Models that will be supported in the future</h2>
-
-<ul>
-
-<li>DreamPlug: the DreamPlug will be supported in Debian wheezy (Debian
-7.0) thanks to the work of Ian Campbell.</li>
 
 </ul>
 

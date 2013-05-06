@@ -16,9 +16,10 @@ keywords: [NSLU2, Linksys NSLU2, Debian, FAQ, questions]
 <h3>Is Debian on the NSLU2 fully supported?</h3>
 
 Debian includes support for the Linksys NSLU2.  Unfortunately, no installer
-is provided for Debian 6.0 (squeeze) since the installer runs out of memory
-on the NSLU2.  However, you can install a <a href = "../unpack">tar ball of
-Debian 6.0 (squeeze)</a>.
+is provided for Debian 6.0 (squeeze) or Debian 7.0 (wheezy) since the
+installer runs out of memory on the NSLU2.  However, you can install a
+<a href = "../unpack">tar ball of Debian 6.0 (squeeze)</a> and then upgrade
+to Debian 7.0 (wheezy).
 
 <h3>The NSLU2 is slow... what alternatives are there to the NSLU2?</h3>
 
