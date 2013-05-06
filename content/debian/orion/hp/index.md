@@ -12,9 +12,7 @@ keywords: [Debian, HP]
 
 <h1>Debian on HP</h1>
 
-HP only has one device based on Marvell's Orion chip at the moment.  Please
-visit the <a href = "mv2120">Debian on HP mv2120</a> page for more
-information.
+Debian supports the <a href = "mv2120">HP mv2120</a>.
 
 <div class="bbf">
 <%= render "adsense-banner-before-footer" %>
