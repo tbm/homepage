@@ -15,11 +15,7 @@ keywords: [Debian, Orion, Marvell, ARM, NAS, SoC]
 
 Orion is a system on a chip (SoC) from Marvell that integrates an ARM CPU,
 Ethernet, SATA, USB, and other functionality in one chip.  There are many
-Network Attached Storage (NAS) devices on the market that are based on an
-Orion chip.  They make nice home servers that are fairly powerful, pretty
-quiet and don't consume too much electricity.  Orion based devices are a
-great platform to run Debian and together with Debian they can be a very
-powerful environment.
+Network Attached Storage (NAS) devices that are based on an Orion chip.
 
 Debian supports a number of Orion based devices.  There are additional
 pages with instructions and information about all supported devices:

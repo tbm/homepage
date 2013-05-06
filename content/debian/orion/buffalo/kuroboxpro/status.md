@@ -14,13 +14,12 @@ keywords: [Buffalo, Revogear, Kurobox Pro, support, status]
 <h1>Status of Kurobox Pro support</h1>
 
 The Kurobox Pro is based on a Marvell Orion System on a Chip.  Marvell has
-done a lot of work in the last few months to get support for the Orion
-platform into the mainline kernel and they continue to work on getting this
-platform fully supported.  However, since this is an ongoing effort, some
-features of the Orion platform are currently not as well supported as in
-the original Marvell LSP (Linux Support Package) used by Buffalo.  Please
-take this into account before deciding whether you want to install Debian,
-especially if you have specific requirements (e.g. related to performance).
+done a lot of work to get support for the Orion platform into the mainline
+kernel.  However, some features of the Orion platform are not as well
+supported as in the original Marvell LSP (Linux Support Package) used by
+Buffalo.  Please take this into account before deciding whether you want to
+install Debian, especially if you have specific requirements (e.g. related
+to performance).
 
 The table below shows how well different components of the Kurobox Pro are
 supported by Debian:

@@ -13,15 +13,14 @@ keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, support, sta
 
 <h1>Status of QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419U and TS-410U+</h1>
 
-The QNAP TS-41x is based on a Marvell Kirkwood System on a Chip.  Marvell
-has done a lot of work in the last few months to get support for the
-Kirkwood platform into the mainline kernel and they continue to work on
-getting this platform fully supported.  However, since this is an ongoing
-effort, some features of the Kirkwood platform are currently not as well
-supported as in the original Marvell LSP (Linux Support Package) used by
-QNAP.  Please take this into account before deciding whether you want to
-install Debian, especially if you have specific requirements (e.g. related
-to performance).
+QNAP TS-41x devices are based on a Marvell Kirkwood System on a Chip.
+Marvell has done a lot of work to get support for the Kirkwood platform
+into the mainline kernel.  However, some features of the Kirkwood platform
+are not as well supported in the mainline kernel (which we use in Debian)
+as in the original Marvell LSP (Linux Support Package) used by QNAP.
+Please take this into account before deciding whether you want to install
+Debian, especially if you have specific requirements (e.g. related to
+performance).
 
 The table below shows how well different components of the QNAP TS-41x are
 supported by Debian:
