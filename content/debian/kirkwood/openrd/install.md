@@ -41,10 +41,10 @@ and <a href =
 and store them either on a USB stick or an TFTP server.
 
 Now connect a mini-USB connector to `System Debug` in order to access the
-serial console.  If you're running the Linux kernel 2.6.30.5 or higher or
-Debian's 2.6.26-20 kernel (or higher), the serial device will be recognized
-automatically.  If you're using an older kernel, you have to pass some
-parameters when loading the `ftdi_sio` module:
+serial console.  If you're running a modern Linux kernel (2.6.30.5 or
+higher), the serial device will be recognized automatically.  If you're
+using an older kernel, you have to pass some parameters when loading the
+`ftdi_sio` module:
 
 <div class="code">
 <pre>
