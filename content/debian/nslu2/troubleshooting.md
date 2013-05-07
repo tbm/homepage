@@ -27,7 +27,7 @@ problem is not covered here, feel free to contact the <a href =
 There can be a lot of reasons for that.  The manual installation method
 involves a lot of different steps, so there's a lot of potential to get
 something wrong that will cause your NSLU2 not to boot.  Please take a
-close look at the <a href = "../unpack">installation steps</a> again and
+close look at the <a href = "../unpack/">installation steps</a> again and
 make sure you followed everything correctly.  For example, if you used a
 non-standard disk layout, did you update `/etc/fstab` accordingly?
 

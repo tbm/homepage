@@ -36,12 +36,12 @@ HDL-GWxxx, and HDL-GZxxx series, are very similar.  The GLAN Tank
 
 <ul>
 
-<li>An <a href = "install">installation guide</a> for Debian on the GLAN
+<li>An <a href = "install/">installation guide</a> for Debian on the GLAN
 Tank.  A <a href =
 "http://iohack.sourceforge.jp/tanks/index.php?DEBIANonGLANTANK">Japanese
 translation</a> of these instructions are available.</li>
 
-<li>An <a href = "gallery">image gallery</a> with various pictures showing
+<li>An <a href = "gallery/">image gallery</a> with various pictures showing
 the internals of the GLAN Tank.</li>
 
 </ul>

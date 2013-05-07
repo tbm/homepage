@@ -18,7 +18,7 @@ keywords: [Debian, HP, mv2120, FAQ, frequently asked questions, help, troublesho
 Debian includes support for the HP mv2120.  However, some functionality
 from the original firmware may not be available.  In particular, the hard
 drive speed will be lower with Debian.  Please see the <a href =
-"../status">status page</a> to see what is supported.
+"../status/">status page</a> to see what is supported.
 
 <h3>Is Debian on the HP mv2120 suited for people new to Linux?</h3>
 
@@ -76,7 +76,7 @@ Your HP mv2120 will now request a recovery image via your local network.
 <h3>Is the serial header soldered onto the board already?</h3>
 
 Yes, a serial header is on the main board.  You only need to prepare a
-cable with a TTL level shifter for a <a href = "../serial">serial
+cable with a TTL level shifter for a <a href = "../serial/">serial
 console</a>.
 
 <h3>Will I need a serial console to use Debian?</h3>

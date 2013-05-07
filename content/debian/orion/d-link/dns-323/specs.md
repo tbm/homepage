@@ -14,7 +14,7 @@ keywords: [Debian, D-Link, DNS-323, Conceptronic, CH3SNAS, specs, specification]
 <h1>Specs of the D-Link DNS-323</h1>
 
 This page lists the internals of the D-Link DNS-323.  There is another page
-which shows the <a href = "../status">status of support in Debian</a> for
+which shows the <a href = "../status/">status of support in Debian</a> for
 these components.
 
 There are currently two revisions of the D-Link DNS-323, revision A1 and

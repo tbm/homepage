@@ -31,7 +31,7 @@ booting from USB when more than one USB device is connected.
 
 In order to proceed, you will either need a USB stick (or disk) or an SD
 card with at least 512 MB storage.  If you're running a version of u-boot
-older than 3.4.19 you have to <a href = "../uboot-upgrade">upgrade
+older than 3.4.19 you have to <a href = "../uboot-upgrade/">upgrade
 u-boot</a> before proceeding with this installation!  Version 3.4.19 adds
 SD support and improves USB support.
 

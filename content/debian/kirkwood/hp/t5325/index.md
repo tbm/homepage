@@ -27,7 +27,7 @@ devices.
 
 </ul>
 
-Here are <a href = "install">initial install pages</a>.
+Here are <a href = "install/">initial install pages</a>.
 
 <div class="bbf">
 <%= render "adsense-banner-before-footer" %>

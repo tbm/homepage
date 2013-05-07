@@ -60,7 +60,7 @@ tar -cjpf ~/nslu2.tar.bz2 .
 
 Now disconnect this drive and connect the drive from the second NSLU2.  You
 have to partition and format the disk.  Please see the <a href =
-"../unpack">manual installation of Debian</a> for more information on how
+"../unpack/">manual installation of Debian</a> for more information on how
 to partition and format the disk.  Make sure to use exactly the same layout
 as the first disk.  Now format it:
 

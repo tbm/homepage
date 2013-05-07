@@ -49,7 +49,7 @@ an alternative kernel and initrd via TFTP.  This is useful as a rescue mode
 in case the installation of Debian failed and you want to load the original
 firmware again.  In order to do this, you need to extract the `ramdisk.arm`
 and `zImage` files as described in the <a href =
-"../deinstall">de-installation page</a>.  You need to put this on a TFTP
+"../deinstall/">de-installation page</a>.  You need to put this on a TFTP
 server and then you can load it with:
 
 <div class="code">

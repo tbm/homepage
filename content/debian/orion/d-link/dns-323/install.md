@@ -31,7 +31,7 @@ configure your machine, although it's possible to install such software.
 Furthermore, the D-Link DNS-323 and Conceptronic CH3SNAS devices don't have
 a recovery mechanism that would allow you to load a firmware image via the
 network.  If something goes wrong, you'll have to connect a serial console
-to access the <a href = "../recovery">recovery mechanism</a>.  Please
+to access the <a href = "../recovery/">recovery mechanism</a>.  Please
 proceed only if you want to replace your firmware with Debian and if you
 can make a <a href = "http://dns323.kood.org/hardware:serial">serial
 console</a> for your device in case there are problems.  If you don't want
@@ -186,10 +186,10 @@ CH3SNAS.  You can use `apt-get` and other tools to install additional
 software.  The D-Link DNS-323 and Conceptronic CH3SNAS are ARM based
 devices and the `armel` architecture is fully supported by Debian.
 
-Finally, make sure to read the <a href = "../tips">tips and tricks</a>
+Finally, make sure to read the <a href = "../tips/">tips and tricks</a>
 about running Debian on the D-Link DNS-323 and Conceptronic CH3SNAS.  In
 case you run into any bugs or problems, you may want to check the list of
-<a href = "../known-issues">known issues and bugs</a>.
+<a href = "../known-issues/">known issues and bugs</a>.
 
 Go back to my <a href = "..">Debian on D-Link DNS-323 and
 Conceptronic CH3SNAS</a> page.

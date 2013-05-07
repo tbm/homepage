@@ -31,7 +31,7 @@ the mode you wish to use.  Broadcom has kindly provided me with a bi-endian
 image which supports both modes depending on your hardware setting.  You
 set the mode through a jumper on the board (J1) as explained in the
 BCM91250A User Manual.  Information about installing this bi-endian image
-of CFE on your board can be <a href = "cfe">found here</a>.
+of CFE on your board can be <a href = "cfe/">found here</a>.
 
 In addition to CFE, which acts as firmware, there is a program which can be
 used to load Linux.  While CFE itself can boot Linux too, SiByl (the SiByte
@@ -54,17 +54,17 @@ ball.
 
 <ul>
 
-<li><a href = "hardware">Hardware which works on the BCM91250A</a>: the
+<li><a href = "hardware/">Hardware which works on the BCM91250A</a>: the
 BCM91250A has standard PCI slots (32 and 64 bit, 3.3v only) but not all PCI
 cards (especially graphics cards) are supported.  This page lists some of
 the hardware which has been tested on the BCM91250A.</li>
 
-<li><a href = "installing-debian">Installing Debian on the BCM91250A</a>:
+<li><a href = "installing-debian/">Installing Debian on the BCM91250A</a>:
 this page offers detailed instructions about installing Debian on an IDE
 hard drive connected to the BCM91250A. (Note: this is no longer
 supported)</li>
 
-<li><a href = "cfe">CFE</a> and the BCM91250A: upgrade your firmware and
+<li><a href = "cfe/">CFE</a> and the BCM91250A: upgrade your firmware and
 install a version which supports big and little endian.</li>
 
 </ul>

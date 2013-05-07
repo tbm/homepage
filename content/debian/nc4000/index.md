@@ -8,7 +8,7 @@ keywords: [Debian, lenny, installation, HP, Compaq nc4000, Compaq nc4010, laptop
 <% content_for :right do %>
 <img src = "images/r_nc4000.jpg" class="border" alt="HP nc4000" width="148" height="122" />
 
-More <a href = "gallery">pictures are available</a>.
+More <a href = "gallery/">pictures are available</a>.
 
 <%= render "adsense-wideskyscaper-right" %>
 <% end %>

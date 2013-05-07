@@ -18,7 +18,7 @@ keywords: [Buffalo, Revogear, Kurobox Pro, FAQ, frequently asked questions, help
 Most things are working already.  You can install and use Debian on your
 device but some things are not supported as well as with the original
 firmware.  In particular, the hard drive speed will be lower with Debian.
-Please see the <a href = "../status">status page</a> to see what is
+Please see the <a href = "../status/">status page</a> to see what is
 supported.
 
 <h3>Can you install Debian to MTD flash?</h3>
@@ -31,7 +31,7 @@ firmware from Buffalo can still be found in flash.
 
 Yes, the Kurobox Pro will request a kernel and ramdisk via TFTP when it has
 been configured to boot from disk but there is no disk.  See the <a href =
-"../recovery">recovery page</a> for more information.
+"../recovery/">recovery page</a> for more information.
 
 <h3>Will this installer also work on the Linkstation Pro/Live?</h3>
 

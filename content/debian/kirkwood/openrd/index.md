@@ -20,13 +20,13 @@ these devices and use them as an ARM development environment.
 
 <ul>
 
-<li>You can use the user-friendly <a href = "install">Debian installer to
+<li>You can use the user-friendly <a href = "install/">Debian installer to
 install</a> Debian.</li>
 
-<li>A <a href = "status">status page</a> showing which components of the
+<li>A <a href = "status/">status page</a> showing which components of the
 OpenRD are currently supported.</li>
 
-<li>Some <a href = "tips">tips and tricks</a> about running Debian on the
+<li>Some <a href = "tips/">tips and tricks</a> about running Debian on the
 OpenRD.</li>
 
 </ul>

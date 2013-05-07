@@ -33,7 +33,7 @@ debugging module!
 <h2>Models with full support</h2>
 
 The following models are fully supported by Debian.  Please read the <a
-href = "../install">installation guide</a> if you want to install Debian.
+href = "../install/">installation guide</a> if you want to install Debian.
 
 <ul>
 
@@ -74,7 +74,7 @@ serial console to your device in order to install Debian.  No help is given
 here for adding a serial console so I suggest you buy a development kit
 with debugging module if you don't know how to add a serial console.  If
 you have successfully added a serial console and can interact with u-boot,
-follow the <a href = "../install">installation guide</a> to install Debian.
+follow the <a href = "../install/">installation guide</a> to install Debian.
 
 <ul>
 

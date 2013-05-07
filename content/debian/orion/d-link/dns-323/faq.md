@@ -52,7 +52,7 @@ debian-arm list.
 
 There is no recovery mode that would allow you to load a rescue firmware
 image via the network.  However, if you have a serial console, there is a
-<a href = "../recovery">recovery option</a>.
+<a href = "../recovery/">recovery option</a>.
 
 Go back to my <a href = "..">Debian on D-Link DNS-323 and Conceptronic
 CH3SNAS</a> page.

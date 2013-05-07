@@ -35,7 +35,7 @@ Once you have connected your serial console, you can use a terminal
 emulation program to connect to U-Boot, the boot loader used by this
 device.  You have to connect with 115200 baud and set the parameters to 8N1
 (8 data bits, no parity, 1 stop bit).  U-Boot on a <a href =
-"../uboot">separate page about U-Boot</a>.
+"../uboot/">separate page about U-Boot</a>.
 
 <div class="bbf">
 <%= render "adsense-banner-before-footer" %>

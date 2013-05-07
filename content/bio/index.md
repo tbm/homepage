@@ -50,7 +50,7 @@ project an association of roughly 1000 volunteers working on an operating
 system completely based on free software; I acted as the leader of Debian
 for two years.  I serve on the Board of Directors of the Open Source
 Initiative (OSI).  I also completed a PhD on the question of how to
-[perform high quality releases](../research) in free software projects.
+[perform high quality releases](../research/) in free software projects.
 
 Apart from spending time at the computer, I like to read, listen to music
 and I also travel a lot.  I have a curious fascination with the ocean and
@@ -60,6 +60,6 @@ Coogee beach in Sydney and Copacabana in Rio de Janeiro).
 
 I'm fairly busy but I'm quite approachable and actually pretty good at
 responding to e-mail.  If you'd like to get in contact to discuss anything
-found on this web site, see my [contact page](../contact).  I also maintain
-a [blog](../blog) which I update every now and then.
+found on this web site, see my [contact page](../contact/).  I also maintain
+a [blog](../blog/) which I update every now and then.
 

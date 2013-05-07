@@ -29,11 +29,11 @@ changes they have implemented to address these problems, and what
 outstanding problems they still have.
 
 Projects:
-<a href = "/blog/phd/debian">Debian</a> |
-<a href = "/blog/phd/gcc">GCC</a> |
-<a href = "/blog/phd/gnome">GNOME</a> |
-<a href = "/blog/phd/linux">Linux kernel</a> |
-<a href = "/blog/phd/openoffice">OpenOffice.org</a> |
-<a href = "/blog/phd/plone">Plone</a> |
-<a href = "/blog/phd/xorg">X.org</a>
+<a href = "/blog/phd/debian/">Debian</a> |
+<a href = "/blog/phd/gcc/">GCC</a> |
+<a href = "/blog/phd/gnome/">GNOME</a> |
+<a href = "/blog/phd/linux/">Linux kernel</a> |
+<a href = "/blog/phd/openoffice/">OpenOffice.org</a> |
+<a href = "/blog/phd/plone/">Plone</a> |
+<a href = "/blog/phd/xorg/">X.org</a>
 

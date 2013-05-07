@@ -58,24 +58,24 @@ are known:
 
 <ul>
 
-<li>An <a href = "install">installation guide</a> for Debian on the Thecus
+<li>An <a href = "install/">installation guide</a> for Debian on the Thecus
 N2100.</li>
 
-<li>A list of <a href = "known-issues">known issues and bugs</a> with
+<li>A list of <a href = "known-issues/">known issues and bugs</a> with
 Debian on the Thecus N2100.</li>
 
-<li>A <a href = "status">status page</a> showing which components of the
+<li>A <a href = "status/">status page</a> showing which components of the
 Thecus N2100 are currently supported.</li>
 
-<li>An <a href = "specs">internals page</a> listing the specs of the Thecus
+<li>An <a href = "specs/">internals page</a> listing the specs of the Thecus
 N2100.</li>
 
-<li>An <a href = "gallery">image gallery</a> with various pictures showing
+<li>An <a href = "gallery/">image gallery</a> with various pictures showing
 the internals of the Thecus N2100.</li>
 
-<li>Recovery mechanism using <a href = "telnet">telnet to RedBoot</a>.</li>
+<li>Recovery mechanism using <a href = "telnet/">telnet to RedBoot</a>.</li>
 
-<li>Some <a href = "deinstall">de-installation instructions</a> in case you
+<li>Some <a href = "deinstall/">de-installation instructions</a> in case you
 want to go back to the original Thecus firmware.</li>
 
 </ul>

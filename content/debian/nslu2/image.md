@@ -23,5 +23,5 @@ Ethernet port of your NSLU2, you have to use the <a href =
 the Debian images plus the proprietary Ethernet microcode.
 
 Once you have obtained the installer image, please follow the <a href =
-"../install">installation guide</a>.
+"../install/">installation guide</a>.
 

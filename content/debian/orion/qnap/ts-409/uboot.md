@@ -11,7 +11,7 @@ keywords: [Debian, QNAP, TS-409, serial, console, uboot, U-Boot]
 
 <h1>Using U-Boot on the QNAP TS-409</h1>
 
-If you have a <a href = "../serial">serial console</a> for your QNAP
+If you have a <a href = "../serial/">serial console</a> for your QNAP
 TS-409, you can use U-Boot, the boot loader used on the TS-409, to restore
 the original QNAP firmware or load images via the network.
 
@@ -95,7 +95,7 @@ reset
 </div>
 
 Once you have restored the QNAP firmware in flash, you have to follow the
-<a href = "../deinstall">second step described on the restore page</a> and
+<a href = "../deinstall/">second step described on the restore page</a> and
 run QNAP Finder to install the QNAP software to disk.
 
 <h2><a id = "prepare">Preparing Debian images from `/boot` to load</a></h2>

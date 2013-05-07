@@ -21,13 +21,13 @@ There are additional pages with instructions and information about all
 supported models:
 
 <ul>
-<li><a href = "ts-109">QNAP TS-109</a></li>
-<li><a href = "ts-209">QNAP TS-209</a></li>
-<li><a href = "ts-409">QNAP TS-409 and TS-409U</a></li>
+<li><a href = "ts-109/">QNAP TS-109</a></li>
+<li><a href = "ts-209/">QNAP TS-209</a></li>
+<li><a href = "ts-409/">QNAP TS-409 and TS-409U</a></li>
 </ul>
 
 There is currently also work progress to support QNAP's new <a href =
-"../../kirkwood/qnap">Turbo NAS</a> devices, which are based on Marvell's
+"../../kirkwood/qnap/">Turbo NAS</a> devices, which are based on Marvell's
 new Kirkwood chip.
 
 <div class="bbf">

@@ -57,13 +57,13 @@ management in free software projects.
 
 <li><a href = "/publications/michlmayr-phd.pdf">My PhD dissertation</a>.</li>
 
-<li>Some <a href = "summaries">summaries describing my findings</a>.</li>
+<li>Some <a href = "summaries/">summaries describing my findings</a>.</li>
 
 <li>A <a href =
 "http://video.google.com/videoplay?docid=-5503858974016723264">video of a
 talk</a> I gave at Google about my research</li>
 
-<li><a href = "/publications">My publications</a>.</li>
+<li><a href = "/publications/">My publications</a>.</li>
 
 </ul>
 

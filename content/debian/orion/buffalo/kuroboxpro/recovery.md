@@ -51,7 +51,7 @@ Alternatively, you can download the <a href =
 
 When you put these two files (`uImage.buffalo` and `initrd.buffalo`) on
 your TFTP server and boot without a hard drive, the original Buffalo
-firmware will be started.  You can then <a href = "../deinstall">configure
+firmware will be started.  You can then <a href = "../deinstall/">configure
 the u-boot environment</a> so the Kurobox Pro will start from flash.  You
 can then put the disk back into your device, boot into the Buffalo firmware
 and hopefully fix what's broken.

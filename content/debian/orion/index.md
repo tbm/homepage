@@ -21,10 +21,10 @@ Debian supports a number of Orion based devices.  There are additional
 pages with instructions and information about all supported devices:
 
 <ul>
-<li>Conceptronic CH3SNAS, see the <a href = "d-link/dns-323">D-Link DNS-323</a> page.</li>
-<li><a href = "d-link/dns-323">D-Link DNS-323</a></li>
-<li><a href = "hp/mv2120">HP mv2120</a></li>
-<li><a href = "qnap">QNAP Turbo Station (TS-109, TS-209, TS-409)</a></li>
+<li>Conceptronic CH3SNAS, see the <a href = "d-link/dns-323/">D-Link DNS-323</a> page.</li>
+<li><a href = "d-link/dns-323/">D-Link DNS-323</a></li>
+<li><a href = "hp/mv2120/">HP mv2120</a></li>
+<li><a href = "qnap/">QNAP Turbo Station (TS-109, TS-209, TS-409)</a></li>
 </ul>
 
 Debian also supports Marvell's <a href = "../kirkwood/">Kirkwood

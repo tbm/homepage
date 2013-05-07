@@ -15,7 +15,7 @@ keywords: [Debian, QNAP, TS-210, TS-219, TS-210P, specs, specification]
 
 This page lists the internals of the QNAP TS-210, QNAP TS-219 and the QNAP
 TS-219P.  There is another page which shows the <a href =
-"../status">status of support in Debian</a> for these components.
+"../status/">status of support in Debian</a> for these components.
 
 <h2>QNAP TS-210 and TS-219</h2>
 

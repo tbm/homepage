@@ -216,7 +216,7 @@ the latest updates.</li>
 <h2>Troubleshooting</h2>
 
 If you run into any problems installing or running Debian on your Linksys
-NSLU2, please read the <a href = "../troubleshooting">troubleshooting
+NSLU2, please read the <a href = "../troubleshooting/">troubleshooting
 page</a>.
 
 <%= render "paypal", :desc => "Debian/NSLU2 donation" %>

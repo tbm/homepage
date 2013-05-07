@@ -34,7 +34,7 @@ ahead with this migration:
 in a way that you cannot go back.  After making the changes described here,
 your drive won't work with the NSLU2 anymore.  It is therefore a good idea
 to first make a backup of your data to another drive. (See the <a href =
-"../clone">NSLU2 cloning guide</a> on how to make a 1:1 copy of your USB
+"../clone/">NSLU2 cloning guide</a> on how to make a 1:1 copy of your USB
 drive.)</li>
 
 <li>Support for USB hard disks is currently quite broken on the SheevaPlug.

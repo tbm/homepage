@@ -24,9 +24,9 @@ Debian supports a number of Kirkwood based devices.  There are additional
 pages with instructions and information about all supported devices:
 
 <ul>
-<li><a href = "openrd">OpenRD</a></li>
-<li><a href = "qnap">QNAP Turbo NAS (TS-11x, TS-21x and TS-41x)</a></li>
-<li><a href = "sheevaplug">Plug computers (SheevaPlug, GuruPlug and DreamPlug)</a></li>
+<li><a href = "openrd/">OpenRD</a></li>
+<li><a href = "qnap/">QNAP Turbo NAS (TS-11x, TS-21x and TS-41x)</a></li>
+<li><a href = "sheevaplug/">Plug computers (SheevaPlug, GuruPlug and DreamPlug)</a></li>
 </ul>
 
 <h2>External Resources</h2>

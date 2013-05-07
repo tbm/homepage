@@ -41,7 +41,7 @@ If you cannot connect to your QNAP, here are three things you can try:
 <ul>
 
 <li>Read the explanation of how the Debian installer <a href =
-"../install#net-config">creates the network settings</a>.</li>
+"../install/#net-config">creates the network settings</a>.</li>
 
 <li>Check the logs of your DHCP server to see whether your QNAP has
 requested an IP address.  Alternatively, you can also install the `nast`
@@ -171,8 +171,8 @@ sudo fsck /dev/sda6
 </div>
 
 If none of this helps, I'm afraid you probably have to connect <a href =
-"../serial">a serial console</a> or use the <a href =
-"../recovery">recovery mode</a> to flash the Debian installer and to
+"../serial/">a serial console</a> or use the <a href =
+"../recovery/">recovery mode</a> to flash the Debian installer and to
 perform a new installation.
 
 <%= render "paypal", :desc => "Debian/QNAP TS-409 donation" %>

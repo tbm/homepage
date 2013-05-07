@@ -21,13 +21,13 @@ Microserver using the standard installer from Debian.
 
 <ul>
 
-<li>An <a href = "install">installation guide</a> for Debian on MIPS based
+<li>An <a href = "install/">installation guide</a> for Debian on MIPS based
 Cobalt machines.</li>
 
-<li>An <a href = "gallery">image gallery</a> showing pictures of various
+<li>An <a href = "gallery/">image gallery</a> showing pictures of various
 Cobalt machines.</li>
 
-<li>A list of <a href = "faq">FAQs</a> (including troubleshooting
+<li>A list of <a href = "faq/">FAQs</a> (including troubleshooting
 information).</li>
 
 </ul>

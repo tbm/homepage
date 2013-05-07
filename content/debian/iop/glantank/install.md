@@ -126,7 +126,7 @@ cannot find a DHCP server on your network, it will fall back to a static
 configuration, namely the IP address `192.168.1.77` and a gateway and name
 server at `192.168.1.1`.  If neither DHCP is available to you nor will
 these static values work in your case, you need to <a href =
-"../preseed">preseed other values</a> into your installer image.
+"../preseed/">preseed other values</a> into your installer image.
 
 After you turn your GLAN Tank on, you have to wait for about 5 minutes
 before you can connect via SSH.  Once SSH is available, you can connect

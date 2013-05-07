@@ -14,7 +14,7 @@ keywords: [Debian, Thecus, N2100, specs, specification]
 <h1>Specs of the Thecus N2100</h1>
 
 This page lists the internals of the Thecus N2100.  There is another page
-which shows the <a href = "../status">status of support in Debian</a> for
+which shows the <a href = "../status/">status of support in Debian</a> for
 these components.
 
 <table>

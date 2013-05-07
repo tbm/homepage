@@ -14,7 +14,7 @@ keywords: [Debian, QNAP, TS-110, TS-112, TS-119, specs, specification]
 <h1>Specs of the QNAP TS-110 and TS-119</h1>
 
 This page lists the internals of the QNAP TS-110, TS-119, TS-119P+.  There
-is another page which shows the <a href = "../status">status of support in
+is another page which shows the <a href = "../status/">status of support in
 Debian</a> for these components.
 
 <table>

@@ -17,9 +17,9 @@ Debian supports QNAP's Turbo NAS devices.  This includes the following
 devices:
 
 <ul>
-<li><a href = "ts-119">QNAP TS-110, TS-112, TS-119, TS-119P+ and TS-119P II</a></li>
-<li><a href = "ts-219">QNAP TS-210, TS-212, TS-219, TS-219P, TS-219P+ and TS-219P II</a></li>
-<li><a href = "ts-41x">QNAP TS-410, TS-410U, TS-419P, TS-419P+, TS-419P II, TS-419U and TS-419U+</a></li>
+<li><a href = "ts-119/">QNAP TS-110, TS-112, TS-119, TS-119P+ and TS-119P II</a></li>
+<li><a href = "ts-219/">QNAP TS-210, TS-212, TS-219, TS-219P, TS-219P+ and TS-219P II</a></li>
+<li><a href = "ts-41x/">QNAP TS-410, TS-410U, TS-419P, TS-419P+, TS-419P II, TS-419U and TS-419U+</a></li>
 </ul>
 
 Here is a table showing the differences between these devices:

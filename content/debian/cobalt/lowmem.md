@@ -24,20 +24,20 @@ of memory your Cobalt machine has:
 <ol>
 
 <li>64 MB or more: you can follow the normal installation procedure <a href
-= "../install">described in my guide</a>.</li>
+= "../install/">described in my guide</a>.</li>
 
 <li>33-63 MB: with this amount of RAM, Debian's installer will
 automatically enter lowmem level 1.  Apart from a warning, you will see
-little differences to the <a href = "../install">normal installation
+little differences to the <a href = "../install/">normal installation
 procedure</a>.</li>
 
 <li>22-32 MB: Debian's installer will run in lowmem level 2.  You can
-mostly follow the <a href = "../install">normal installation procedure</a>
+mostly follow the <a href = "../install/">normal installation procedure</a>
 but you will get a screen where you can install additional modules not
 installed by default.</li>
 
 <li>21 MB or less: you won't be able to use Debian's installer but you can
-<a href = "../unpack">manually install Debian from a tar ball</a>.</li>
+<a href = "../unpack/">manually install Debian from a tar ball</a>.</li>
 
 </ol>
 
@@ -47,7 +47,7 @@ In Debian's installer lowmem level 2, some installer modules are not
 automatically loaded and you will therefore get a screen where you can
 select additional installer modules.  However, you can simply skip this
 menu and and follow the normal installation procedure <a href =
-"../install">described in my guide</a>.
+"../install/">described in my guide</a>.
 
 Go back to my <a href = "..">Debian on Cobalt</a> page.
 

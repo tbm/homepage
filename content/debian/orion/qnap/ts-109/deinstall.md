@@ -14,12 +14,12 @@ keywords: [Debian, QNAP, TS-109, original firmware]
 If you want to restore the original QNAP firmware for some reason, you can
 follow the instructions below.  Please note that this will only work if
 your Debian system is still working.  If your Debian system is broken but
-the machine itself works, you can use the <a href = "../recovery">recovery
+the machine itself works, you can use the <a href = "../recovery/">recovery
 mode</a> to restore the QNAP firmware.
 
 There are two steps to restore the original QNAP firmware.  First, you have
 to put the backup of the flash partitions from the QNAP firmware you made
-<a href = "../install">before the installation of Debian</a> into flash.
+<a href = "../install/">before the installation of Debian</a> into flash.
 
 <div class="code">
 <pre>

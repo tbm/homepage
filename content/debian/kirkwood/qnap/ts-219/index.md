@@ -15,38 +15,38 @@ keywords: [Debian, NAS, QNAP, QNAP Turbo NAS, Kirkwood, TS-210, TS-212, TS-219, 
 
 The QNAP TS-210, TS-212, TS-219, TS-219P, TS-219P+ and TS-219P II are
 powerful NAS devices that can be used for a variety of tasks.  You can use
-the user-friendly <a href = "install">Debian installer to install</a>
+the user-friendly <a href = "install/">Debian installer to install</a>
 Debian.
 
 <h2>Information</h2>
 
 <ul>
 
-<li>A set of <a href = "faq">Frequently Asked Questions (FAQ)</a>.</li>
+<li>A set of <a href = "faq/">Frequently Asked Questions (FAQ)</a>.</li>
 
-<li><a href = "troubleshooting">Troubleshooting information</a> with common
+<li><a href = "troubleshooting/">Troubleshooting information</a> with common
 problems and their solutions.</li>
 
-<li>Some <a href = "tips">tips and tricks</a> about running Debian on the
+<li>Some <a href = "tips/">tips and tricks</a> about running Debian on the
 QNAP TS-21x.</li>
 
-<li>A <a href = "status">status page</a> showing which components of the
+<li>A <a href = "status/">status page</a> showing which components of the
 TS-21x are currently supported.</li>
 
-<li>An <a href = "specs">internals page</a> listing the specs of the
+<li>An <a href = "specs/">internals page</a> listing the specs of the
 TS-210, TS-219 and TS-219P.</li>
 
-<li>An <a href = "gallery">image gallery</a> with various pictures showing
+<li>An <a href = "gallery/">image gallery</a> with various pictures showing
 the internals of the TS-219.</li>
 
-<li>Information about the <a href = "recovery">recovery mode</a>.</li>
+<li>Information about the <a href = "recovery/">recovery mode</a>.</li>
 
-<li>Instructions for <a href = "deinstall">restoring the original QNAP
+<li>Instructions for <a href = "deinstall/">restoring the original QNAP
 firmware</a>.</li>
 
-<li>Connecting a <a href = "serial">serial console</a>.</li>
+<li>Connecting a <a href = "serial/">serial console</a>.</li>
 
-<li>Instructions for <a href = "uboot">using U-Boot</a> (if you have a
+<li>Instructions for <a href = "uboot/">using U-Boot</a> (if you have a
 serial console).  U-Boot is the boot loader used by QNAP.</li>
 
 </ul>

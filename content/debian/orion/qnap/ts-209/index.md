@@ -21,37 +21,37 @@ running on your TS-209, TS-209 II, TS-209 Pro or TS-209 Pro II.
 
 <ul>
 
-<li>An <a href = "install">installation guide</a> for Debian on the QNAP
+<li>An <a href = "install/">installation guide</a> for Debian on the QNAP
 TS-209.</li>
 
-<li>A set of <a href = "faq">Frequently Asked Questions (FAQ)</a>.</li>
+<li>A set of <a href = "faq/">Frequently Asked Questions (FAQ)</a>.</li>
 
-<li><a href = "troubleshooting">Troubleshooting information</a> with common
+<li><a href = "troubleshooting/">Troubleshooting information</a> with common
 problems and their solutions.</li>
 
-<li>Some <a href = "tips">tips and tricks</a> about running Debian on the
+<li>Some <a href = "tips/">tips and tricks</a> about running Debian on the
 QNAP TS-209.</li>
 
-<li>A list of <a href = "known-issues">known issues and bugs</a> with
+<li>A list of <a href = "known-issues/">known issues and bugs</a> with
 Debian on the QNAP TS-209.</li>
 
-<li>A <a href = "status">status page</a> showing which components of the
+<li>A <a href = "status/">status page</a> showing which components of the
 TS-209 are currently supported.</li>
 
-<li>An <a href = "specs">internals page</a> listing the specs of the
+<li>An <a href = "specs/">internals page</a> listing the specs of the
 TS-209.</li>
 
-<li>An <a href = "gallery">image gallery</a> with various pictures showing
+<li>An <a href = "gallery/">image gallery</a> with various pictures showing
 the internals of the TS-209.</li>
 
-<li>Information about the <a href = "recovery">recovery mode</a>.</li>
+<li>Information about the <a href = "recovery/">recovery mode</a>.</li>
 
-<li>Instructions for <a href = "deinstall">restoring the original QNAP
+<li>Instructions for <a href = "deinstall/">restoring the original QNAP
 firmware</a>.</li>
 
-<li>Connecting a <a href = "serial">serial console</a>.</li>
+<li>Connecting a <a href = "serial/">serial console</a>.</li>
 
-<li>Instructions for <a href = "uboot">using U-Boot</a> (if you have a
+<li>Instructions for <a href = "uboot/">using U-Boot</a> (if you have a
 serial console).  U-Boot is the boot loader used by QNAP.</li>
 
 </ul>

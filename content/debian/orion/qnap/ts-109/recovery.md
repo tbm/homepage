@@ -98,7 +98,7 @@ href = "http://wiki.qnap.com/wiki/Emergency_Recovery_Mode">recovery mode
 page</a> (but ignore the installation instructions from that page).  Unzip
 the file and copy the `.qpkg` file to the USB stick.  Now start your QNAP
 device and connect the USB stick to it.  Login to your QNAP via telnet as
-the `admin` user as described in the <a href = "../install">installation
+the `admin` user as described in the <a href = "../install/">installation
 guide</a> and go into the directory where the USB stick is mounted.
 
 First of all, you should make a backup of your flash partitions using the
@@ -193,7 +193,7 @@ dd if=u-boot.bin of=/dev/mtdblock0
 
 You have successfully upgraded your firmware to a version that includes the
 recovery mode.  You can now go ahead with the <a href =
-"../install">installation of Debian</a>.
+"../install/">installation of Debian</a>.
 
 <h2><a id = "create">Creating recovery images</a></h2>
 

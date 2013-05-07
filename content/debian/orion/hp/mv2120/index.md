@@ -21,24 +21,24 @@ what is needed to get Debian running on your HP mv2120.
 
 <ul>
 
-<li>An <a href = "install">installation guide</a> for Debian on the HP
+<li>An <a href = "install/">installation guide</a> for Debian on the HP
 mv2120.</li>
 
-<li>A set of <a href = "faq">Frequently Asked Questions (FAQ)</a>.</li>
+<li>A set of <a href = "faq/">Frequently Asked Questions (FAQ)</a>.</li>
 
-<li>A list of <a href = "known-issues">known issues and bugs</a> with
+<li>A list of <a href = "known-issues/">known issues and bugs</a> with
 Debian on the HP mv2120.</li>
 
-<li>A <a href = "status">status page</a> showing which components of the HP
+<li>A <a href = "status/">status page</a> showing which components of the HP
 mv2120 are currently supported.</li>
 
-<li>An <a href = "specs">internals page</a> listing the specs of the HP
+<li>An <a href = "specs/">internals page</a> listing the specs of the HP
 mv2120.</li>
 
-<li>An <a href = "gallery">image gallery</a> with various pictures of the
+<li>An <a href = "gallery/">image gallery</a> with various pictures of the
 HP mv2120.</li>
 
-<li>Connecting a <a href = "serial">serial console</a>.</li>
+<li>Connecting a <a href = "serial/">serial console</a>.</li>
 
 </ul>
 

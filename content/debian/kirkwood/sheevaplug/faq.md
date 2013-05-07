@@ -17,7 +17,7 @@ keywords: [Debian, SheevaPlug, Marvell, FAQ, frequently asked questions, help, t
 
 There are many different Plug Computer models.  The SheevaPlug is the
 original one and it is well supported.  Please check which <a href =
-"../plugs">other models</a> are supported.
+"../plugs/">other models</a> are supported.
 
 <h3>How much space do I need to install Debian?</h3>
 

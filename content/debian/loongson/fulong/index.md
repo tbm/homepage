@@ -37,7 +37,7 @@ the Loongson chip.  It features:
 </ul>
 
 The Fulong mini-PC comes pre-installed with a version of Debian.  I've
-taken a <a href = "gallery">few images</a> of the Fulong mini-PC.
+taken a <a href = "gallery/">few images</a> of the Fulong mini-PC.
 
 Please note that I no longer have my Fulong mini-PC, so I cannot answer any
 questions about it.

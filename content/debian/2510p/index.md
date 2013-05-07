@@ -8,7 +8,7 @@ keywords: [Debian, lenny, installation, HP, Compaq 2510p, laptop]
 <% content_for :right do %>
 <img src = "images/r_2510p_front.jpg" class="border" alt="HP 2510p" width="148" height="128" />
 
-More <a href = "gallery">pictures are available</a>.
+More <a href = "gallery/">pictures are available</a>.
 
 <%= render "adsense-wideskyscaper-right" %>
 <% end %>
@@ -26,7 +26,7 @@ If you use the text-based Debian installer, you have to boot with
 
 <ul>
 
-<li>An <a href = "gallery">image gallery</a> with various pictures of
+<li>An <a href = "gallery/">image gallery</a> with various pictures of
 the HP 2510p.</li>
 
 </ul>

@@ -23,12 +23,12 @@ At the moment, Debian supports the following devices:
 
 <ul>
 
-<li><a href = "n2100">Thecus N2100</a>: this is a NAS device with a 600 MHz
+<li><a href = "n2100/">Thecus N2100</a>: this is a NAS device with a 600 MHz
 IOP chip, 2 SATA slots, expandable DDR RAM, 3 USB ports, 2 GBit Ethernet
 and mini-PCI.  This device is also sold by Allnet as the ALL6500 and by
 Evesham as the SilverSTOR M-Box.</li>
 
-<li><a href = "glantank">IO-Data GLAN Tank</a>: this is a NAS device with a
+<li><a href = "glantank/">IO-Data GLAN Tank</a>: this is a NAS device with a
 400 MHz IOP chip, 2 IDE slots, 128 MB RAM, 4 USB ports and 1 GBit Ethernet.
 Other devices from IO-Data, in particular the HDL-Gxxx, HDL-GWxxx, and
 HDL-GZxxx series, are very similar and might work as well.</li>

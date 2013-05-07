@@ -21,25 +21,25 @@ describe the installation and operation of Debian on the Kurobox Pro.
 
 <ul>
 
-<li>An <a href = "install">installation guide</a> for Debian on the Kurobox Pro.</li>
+<li>An <a href = "install/">installation guide</a> for Debian on the Kurobox Pro.</li>
 
-<li>A set of <a href = "faq">Frequently Asked Questions (FAQ)</a>.</li>
+<li>A set of <a href = "faq/">Frequently Asked Questions (FAQ)</a>.</li>
 
-<li>A <a href = "status">status page</a> showing which components of the
+<li>A <a href = "status/">status page</a> showing which components of the
 Kurobox Pro are currently supported.</li>
 
-<li>An <a href = "specs">internals page</a> listing the specs of the
+<li>An <a href = "specs/">internals page</a> listing the specs of the
 Kurobox Pro.</li>
 
-<li>An <a href = "gallery">image gallery</a> with various pictures of the
+<li>An <a href = "gallery/">image gallery</a> with various pictures of the
 Kurobox Pro.</li>
 
-<li>Information about the <a href = "recovery">recovery mode</a>.</li>
+<li>Information about the <a href = "recovery/">recovery mode</a>.</li>
 
-<li>Some <a href = "deinstall">de-installation instructions</a> in case you
+<li>Some <a href = "deinstall/">de-installation instructions</a> in case you
 want to go back to the original Buffalo firmware.</li>
 
-<li>Connecting a <a href = "serial">serial console</a>.</li>
+<li>Connecting a <a href = "serial/">serial console</a>.</li>
 
 </ul>
 

@@ -100,8 +100,8 @@ sudo fsck /dev/sda6
 </div>
 
 If none of this helps, I'm afraid you probably have to connect <a href =
-"../serial">a serial console</a> or use the <a href =
-"../recovery">recovery mode</a> to flash the Debian installer and to
+"../serial/">a serial console</a> or use the <a href =
+"../recovery/">recovery mode</a> to flash the Debian installer and to
 perform a new installation.
 
 <%= render "paypal", :desc => "Debian/QNAP TS-41x donation" %>

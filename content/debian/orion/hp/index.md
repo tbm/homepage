@@ -12,7 +12,7 @@ keywords: [Debian, HP]
 
 <h1>Debian on HP</h1>
 
-Debian supports the <a href = "mv2120">HP mv2120</a>.
+Debian supports the <a href = "mv2120/">HP mv2120</a>.
 
 <div class="bbf">
 <%= render "adsense-banner-before-footer" %>

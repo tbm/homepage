@@ -19,22 +19,22 @@ hardware platforms:
 
 <ul>
 
-<li><a href = "kirkwood">Devices based on Marvell's Kirkwood platform</a>
+<li><a href = "kirkwood/">Devices based on Marvell's Kirkwood platform</a>
 (such as SheevaPlug and QNAP TS-219P).</li>
 
-<li><a href = "orion">Devices based on Marvell's Orion platform</a> (such
+<li><a href = "orion/">Devices based on Marvell's Orion platform</a> (such
 as QNAP TS-109, TS-209 and TS-409).</li>
 
-<li><a href = "nslu2">Linksys NSLU2</a> (Network Storage Link for USB 2.0
+<li><a href = "nslu2/">Linksys NSLU2</a> (Network Storage Link for USB 2.0
 Disk Drives)</li>
 
-<li>Using the <a href = "gps/bt-q1000x">Qstarz BT-Q1000X</a> GPS on
+<li>Using the <a href = "gps/bt-q1000x/">Qstarz BT-Q1000X</a> GPS on
 Debian.</li>
 
-<li><a href = "iop">Intel IOP</a> based devices, such as the Thecus
+<li><a href = "iop/">Intel IOP</a> based devices, such as the Thecus
 N2100.</li>
 
-<li><a href = "cobalt">MIPS based Cobalt machines</a> (RaQ, Qube2, RaQ2,
+<li><a href = "cobalt/">MIPS based Cobalt machines</a> (RaQ, Qube2, RaQ2,
 Gateway Microserver).</li>
 
 </ul>

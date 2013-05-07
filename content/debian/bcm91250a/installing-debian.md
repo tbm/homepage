@@ -17,10 +17,10 @@ need the following:
 <ul>
 
 <li>an BCM91250A evaluation board from Broadcom with a recent version of
-CFE (see my <a href = "../cfe">page on upgrading CFE</a>).</li>
+CFE (see my <a href = "../cfe/">page on upgrading CFE</a>).</li>
 
 <li>a null modem cable.  (We will support desktop like installations with a
-<a href = "../hardware">compatible graphics card</a> and an USB keyboard in
+<a href = "../hardware/">compatible graphics card</a> and an USB keyboard in
 the future, but this currently doesn't work.)</li>
 
 <li>another machine (called the server from now on) on which you can

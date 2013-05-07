@@ -71,7 +71,7 @@ can be used to write a backup image to flash.  This is useful in case there
 are problems during the installation or upgrade of Debian.  Since this
 recovery mode is very new, it's unlikely that it's already installed on
 your QNAP.  Please follow the instructions given on the <a href =
-"../recovery">recovery mode</a> page to install the recovery mode before
+"../recovery/">recovery mode</a> page to install the recovery mode before
 proceeding with the installation of Debian!
 
 <h2>Starting the Installer</h2>
@@ -94,7 +94,7 @@ you haven't.
 First of all, you have to activate remote login so you can login to your
 TS-409 with telnet.  Use the QNAP web interface and follow these steps
 (there is a separate page showing how to <a href =
-"../remote-login">activate remote login</a> with some screenshots):
+"../remote-login/">activate remote login</a> with some screenshots):
 
 <ul>
 
@@ -327,8 +327,8 @@ is an ARM based device and the `armel` architecture is fully supported by
 Debian.
 
 In case you run into any bugs or problems, you may want to check the list
-of <a href = "../known-issues">known issues and bugs</a> with Debian on the
-QNAP TS-409.  Finally, make sure to read the <a href = "../tips">tips and
+of <a href = "../known-issues/">known issues and bugs</a> with Debian on the
+QNAP TS-409.  Finally, make sure to read the <a href = "../tips/">tips and
 tricks</a> about running Debian on the QNAP TS-409.
 
 <h2>Upgrade to Debian 7.0 (wheezy)</h2>

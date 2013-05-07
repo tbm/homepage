@@ -17,7 +17,7 @@ If you want to restore the original firmware for some reason, you can
 follow the instructions below.  Please note that this will only work if
 your Debian system is still working.  If your Debian system is broken but
 the machine itself works, it is possible to restore the original firmware
-using a <a href = "../recovery">serial console</a>.
+using a <a href = "../recovery/">serial console</a>.
 
 You first have to download the firmware image from D-Link or Conceptronic
 and then unpack it.  You can unpack it with <a href =

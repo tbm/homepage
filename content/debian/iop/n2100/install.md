@@ -58,7 +58,7 @@ anything.</li>
 Before installing Debian, make sure that you are running the <a href =
 "http://www.thecus.com/dl.php">latest version</a> of the Thecus firmware.
 In version 2.1.05 Thecus added the ability to the boot loader used on this
-machine, RedBoot, to allow users to <a href = "../telnet">connect to the
+machine, RedBoot, to allow users to <a href = "../telnet/">connect to the
 machine via telnet</a> while the machine is booting.  This gives you a
 rescue mode in case something goes wrong with the installation.  I
 therefore strongly advise you to upgrade to version 2.1.05 or higher before

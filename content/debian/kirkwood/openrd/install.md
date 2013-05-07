@@ -224,7 +224,7 @@ can use `apt-get` and other tools to install additional software.  The
 OpenRD is an ARM based device and the `armel` architecture is fully
 supported by Debian.
 
-Finally, make sure to read the <a href = "../tips">tips and tricks</a>
+Finally, make sure to read the <a href = "../tips/">tips and tricks</a>
 about running Debian on the OpenRD.
 
 Go back to my <a href = "..">Debian on OpenRD</a> page.

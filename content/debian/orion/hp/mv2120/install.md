@@ -244,7 +244,7 @@ mv2120 is an ARM based device and the `armel` architecture is fully
 supported by Debian.
 
 In case you run into any bugs or problems, you may want to check the list
-of <a href = "../known-issues">known issues and bugs</a> with Debian on the
+of <a href = "../known-issues/">known issues and bugs</a> with Debian on the
 HP mv2120.
 
 Go back to my <a href = "..">Debian on HP mv2120</a> page.

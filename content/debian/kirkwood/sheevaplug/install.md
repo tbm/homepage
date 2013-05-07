@@ -30,12 +30,12 @@ The following devices are currently supported:
 
 <li>SheevaPlug with eSATA</li>
 
-<li>Seagate FreeAgent DockStar (<a href = "../plugs#limited">limited
+<li>Seagate FreeAgent DockStar (<a href = "../plugs/#limited">limited
 support</a>: only if you added a serial console)</li>
 
 </ul>
 
-Please read the <a href = "../plugs">plug variants</a> page to find out
+Please read the <a href = "../plugs/">plug variants</a> page to find out
 about the status of other plug computers.
 
 The Debian installer doesn't currently support installations to on-board
@@ -52,7 +52,7 @@ Internet for the installation.
 <h2><a id = "uboot">Upgrading U-Boot</a></h2>
 
 You have to upgrade the u-boot boot loader before you can install Debian.
-Please visit the page describing the <a href = "../uboot-upgrade">u-boot
+Please visit the page describing the <a href = "../uboot-upgrade/">u-boot
 upgrade process</a> to ensure that you have the right version of u-boot
 before proceeding with the installation of Debian.
 
@@ -184,7 +184,7 @@ saveenv
 The commands above use `0:1` to refer to your boot partition.  This
 indicates device `0` and partition `1`.  Depending on your configuration
 and device, you may have to specify a different boot partition.  Please
-refer to the explanation on <a href = "../troubleshooting#dev-part">how to
+refer to the explanation on <a href = "../troubleshooting/#dev-part">how to
 find out your boot partition</a> in case your device does not boot with
 `0:1`.
 

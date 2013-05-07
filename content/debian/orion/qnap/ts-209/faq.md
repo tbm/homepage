@@ -17,7 +17,7 @@ keywords: [Debian, QNAP, TS-209, FAQ, frequently asked questions, help, troubles
 
 Debian includes support for the QNAP TS-209 but as of Debian 7.0 (wheezy)
 the installer no longer supports the TS-209.  The recommended way to
-install Debian is to <a href="../install">install Debian 6.0 (squeeze)</a>
+install Debian is to <a href="../install/">install Debian 6.0 (squeeze)</a>
 and then perform an upgrade to Debian 7.0 (wheezy).
 
 <h3>Is Debian on the TS-209 suited for people new to Linux?</h3>
@@ -37,7 +37,7 @@ and `chroot`.
 
 <h3>Can I go back to the QNAP firmware if I don't like Debian?</h3>
 
-Yes, you can <a href = "../deinstall">restore the original QNAP
+Yes, you can <a href = "../deinstall/">restore the original QNAP
 software</a> without any problems.
 
 <h3>Will this installer work on the TS-209 and the TS-209 Pro?</h3>
@@ -70,12 +70,12 @@ based on Marvell's Orion (ARM) chip.
 Yes, the TS-209 has a recovery mode with which a firmware image can be
 written to flash.  This is useful in case there are problems during the
 installation or an upgrade of Debian.  See the <a href =
-"../recovery">recovery mode</a> page for more information.
+"../recovery/">recovery mode</a> page for more information.
 
 <h3>Is the serial header soldered onto the board already?</h3>
 
 Yes, a serial header is on the main board.  You only need to prepare a
-cable with a TTL level shifter for a <a href = "../serial">serial
+cable with a TTL level shifter for a <a href = "../serial/">serial
 console</a>.
 
 <h3>Will I need a serial console to use Debian?</h3>

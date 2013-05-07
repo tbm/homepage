@@ -14,7 +14,7 @@ The following products are based on the Loongson:
 
 <ul>
 
-<li>Lemote's <a href = "fulong">Fulong Miniature Computer</a></li>
+<li>Lemote's <a href = "fulong/">Fulong Miniature Computer</a></li>
 
 </ul>
 

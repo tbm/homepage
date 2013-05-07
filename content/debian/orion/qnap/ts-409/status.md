@@ -39,7 +39,7 @@ supported by Debian:
 <tr>
 <td style="color: white; background-color: #00AA00">CPU</td>
 <td>Supported in mainline and Debian kernel since 2.6.25 but there is <a
-href = "../5281-d0-bug">one bug</a> you may want to know about</td>
+href = "../5281-d0-bug/">one bug</a> you may want to know about</td>
 </tr>
 
 <tr>

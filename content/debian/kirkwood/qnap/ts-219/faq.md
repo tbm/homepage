@@ -19,16 +19,16 @@ Debian includes support for the QNAP TS-210, TS-212, TS-219, TS-219P,
 TS-219P+ and TS-219P II.  However, some functionality from the original
 firmware may not be available.  In particular, there is no automatic fan
 control and Wake-on-LAN (WOL) is not supported.  Please see the <a href =
-"../status">status page</a> to see what is supported.
+"../status/">status page</a> to see what is supported.
 
 <h3>Which QNAP devices are supported?</h3>
 
 All QNAP devices based on the Marvell Kirkwood platform are supported.
-This includes the <a href = "../../ts-119">QNAP TS-110, TS-112, TS-119 and
+This includes the <a href = "../../ts-119/">QNAP TS-110, TS-112, TS-119 and
 TS-119P+</a>, QNAP TS-210, TS-219, TS-219P, TS-219P+ and TS-219P II as well
-as the <a href = "../../ts-41x">QNAP TS-410, TS-410U, TS-419P, TS-419P+,
+as the <a href = "../../ts-41x/">QNAP TS-410, TS-410U, TS-419P, TS-419P+,
 TS-419U and TS-419U+</a>.  Older QNAP devices based on the Marvell Orion
-platform are <a href = "/debian/orion/qnap">also supported</a>.  I don't
+platform are <a href = "/debian/orion/qnap/">also supported</a>.  I don't
 support any other QNAP devices, but you may find information and help <a
 href = "http://forum.qnap.com/viewforum.php?f=147">on the QNAP forum</a>.
 
@@ -49,7 +49,7 @@ and `chroot`.
 
 <h3>Can I go back to the QNAP firmware if I don't like Debian?</h3>
 
-Yes, you can <a href = "../deinstall">restore the original QNAP
+Yes, you can <a href = "../deinstall/">restore the original QNAP
 software</a> without any problems.
 
 <h3>Is there a recovery mode?</h3>
@@ -57,12 +57,12 @@ software</a> without any problems.
 Yes, all TS-21x devices have a recovery mode with which a firmware image
 can be written to flash.  This is useful in case there are problems during
 the installation or an upgrade of Debian.  See the <a href =
-"../recovery">recovery mode</a> page for more information.
+"../recovery/">recovery mode</a> page for more information.
 
 <h3>Is the serial header soldered onto the board already?</h3>
 
 Yes, a serial header is on the main board.  You only need to prepare a
-cable with a TTL level shifter for a <a href = "../serial">serial
+cable with a TTL level shifter for a <a href = "../serial/">serial
 console</a>.
 
 <h3>Will I need a serial console to use Debian?</h3>

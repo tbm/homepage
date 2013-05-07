@@ -36,33 +36,33 @@ easy-to-use Debian installer is no longer available for the NSLU2 because
 the device does not have enough RAM.  While it's still possible to install
 Debian on the NSLU2 using the manual method described on this page, I
 suggest you upgrade to a more modern devices, such as a <a href =
-"../kirkwood/sheevaplug">SheevaPlug</a> or a <a href =
-"../kirkwood/qnap">NAS device from QNAP</a>.
+"../kirkwood/sheevaplug/">SheevaPlug</a> or a <a href =
+"../kirkwood/qnap/">NAS device from QNAP</a>.
 
 <h2>Information</h2>
 
 <ul>
 
-<li>An <a href = "unpack">installation guide</a> for Debian on the Linksys
+<li>An <a href = "unpack/">installation guide</a> for Debian on the Linksys
 NSLU2.</li>
 
-<li>A set of <a href = "faq">Frequently Asked Questions (FAQ)</a>.</li>
+<li>A set of <a href = "faq/">Frequently Asked Questions (FAQ)</a>.</li>
 
-<li><a href = "troubleshooting">Troubleshooting information</a> with common
+<li><a href = "troubleshooting/">Troubleshooting information</a> with common
 problems and their solutions.</li>
 
-<li>Some <a href = "tips">tips and tricks</a> about running Debian on the
+<li>Some <a href = "tips/">tips and tricks</a> about running Debian on the
 Linksys NSLU2.</li>
 
-<li>An <a href = "gallery">image gallery</a> with various pictures showing
+<li>An <a href = "gallery/">image gallery</a> with various pictures showing
 the internals of the NSLU2.</li>
 
-<li>An <a href = "specs">internals page</a> listing the specs of the
+<li>An <a href = "specs/">internals page</a> listing the specs of the
 Linksys NSLU2.</li>
 
-<li>Some advances guides: <a href = "clone">cloning a NSLU2</a> and <a href
-= "repack">modifying a NSLU2 flash image</a>.  You can also find an <a href
-= "boot">explanation of the boot process</a> of the NSLU2 running
+<li>Some advances guides: <a href = "clone/">cloning a NSLU2</a> and <a href
+= "repack/">modifying a NSLU2 flash image</a>.  You can also find an <a href
+= "boot/">explanation of the boot process</a> of the NSLU2 running
 Debian.</li>
 
 </ul>

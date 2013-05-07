@@ -177,7 +177,7 @@ the u-boot configuration environment before we modified it), you should
 make a copy of `/dev/mtdblock1`.  This is the flash partition where the
 kernel is stored.  While the installation of Debian won't modify the flash
 content, a copy of the kernel may come in handy if you have to use the <a
-href = "../recovery">recovery mode</a>.  Follow these steps to make the
+href = "../recovery/">recovery mode</a>.  Follow these steps to make the
 backup:
 
 <div class="code">

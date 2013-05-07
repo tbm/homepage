@@ -17,7 +17,7 @@ If you need to restore the original Thecus firmware for some reason, you
 can follow the instructions below.  Please note that this will only work if
 your Debian system is still working.  If Debian is broken but the machine
 itself works, it is possible to restore the original firmware from within
-RedBoot, either by using <a href = "../telnet">telnet to RedBoot</a> or a
+RedBoot, either by using <a href = "../telnet/">telnet to RedBoot</a> or a
 serial console.
 
 First of all, you need to get a copy of the N2100 firmware.  If you don't

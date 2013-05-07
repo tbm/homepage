@@ -14,7 +14,7 @@ keywords: [Debian, HP, mv2120, specs, specification]
 <h1>Specs of the HP mv2120</h1>
 
 This page lists the internals of the HP mv2120.  There is another page
-which shows the <a href = "../status">status of support in Debian</a> for
+which shows the <a href = "../status/">status of support in Debian</a> for
 these components.
 
 <table>
