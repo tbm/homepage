@@ -66,7 +66,7 @@ Here are some notes regarding upgrades from Debian 6.0 to 7.0:
 <li>Make sure to read the release notes for Debian 7.0.  In particular,
 follow the <a href =
 "http://www.debian.org/releases/stable/armel/release-notes/ch-upgrading.en.html">chapter
-on upgrades from Debian 5.0</a> which explains the upgrade process in great
+on upgrades from Debian 6.0</a> which explains the upgrade process in great
 detail.</li>
 
 <li>Make sure to remove the package `apt-xapian-index` from your system
