@@ -66,7 +66,7 @@ installing Debian.  If you don't have a Thecus N2100, but an Allnet or
 another box, you first need to make a simple change so that you can upgrade
 to the Thecus firmware.  This change is documented on the Thecus wiki in
 the page about <a href =
-"http://onbeat.dk/thecus/index.php/N2100_ALLNET_to_Thecus">turning your
+"http://naswebsite.com/wiki/N2100_ALLNET_to_Thecus">turning your
 Allnet into a Thecus</a>.
 
 <h2>Starting the Installer</h2>
@@ -143,7 +143,7 @@ ssh installer@<span class="input">192.168.1.100</span>
 <h2>Installing Debian</h2>
 
 The installation itself should be pretty standard and you can follow the <a
-href = "http://www.debian.org/releases/stable/armel">installation guide</a>.
+href = "http://www.debian.org/releases/stable/armel/">installation guide</a>.
 It knows about the N2100 and at the end of the installation it will flash a
 kernel and ramdisk that will automatically boot into Debian.
 

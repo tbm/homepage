@@ -46,7 +46,7 @@ HP mv2120.</li>
 
 <ul>
 
-<li><a href = "http://www.k0lee.com/hpmediavault/index.html">HP Media Vault
+<li><a href = "http://k0lee.com/hpmediavault/index.php">HP Media Vault
 FAQ and Knowledge base</a>, maintained by Lee Devlin.</li>
 
 <li>Information about <a href = "http://hp.nas-central.org/">HP devices at

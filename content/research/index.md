@@ -59,8 +59,7 @@ management in free software projects.
 
 <li>Some <a href = "summaries/">summaries describing my findings</a>.</li>
 
-<li>A <a href =
-"http://video.google.com/videoplay?docid=-5503858974016723264">video of a
+<li>A <a href = "http://www.youtube.com/watch?v=IKsQsxubuAA">video of a
 talk</a> I gave at Google about my research</li>
 
 <li><a href = "/publications/">My publications</a>.</li>

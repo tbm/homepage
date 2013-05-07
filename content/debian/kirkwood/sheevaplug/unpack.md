@@ -24,7 +24,7 @@ Debian can, in theory, be installed to any of them but currently only
 installations to a USB stick or disk as well as to an SD card are described
 here.  Please note that while USB sticks work fine, the current version of
 u-boot (the boot loader on the SheevaPlug) seems to have <a href =
-"http://openplug.org/plugforum/index.php?topic=131.0">some trouble</a> with
+"http://www.plugcomputer.org/plugforum/index.php?topic=131.0">some trouble</a> with
 USB hard disks... they will work but you may have to restart the device
 several times so u-boot will find the disk.  There are also problems
 booting from USB when more than one USB device is connected.

@@ -302,7 +302,7 @@ ssh installer@<span class="input">192.168.1.100</span>
 </div>
 
 The installation itself should be pretty standard and you can follow the <a
-href = "http://www.debian.org/releases/squeeze/armel">installation
+href = "http://www.debian.org/releases/squeeze/armel/">installation
 guide</a>.  The installer knows about the TS-109 and at the end of the
 installation it will flash a kernel and ramdisk that will automatically
 boot into Debian.  It will also install the `qcontrol` package that can be

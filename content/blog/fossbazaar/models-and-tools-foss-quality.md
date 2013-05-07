@@ -60,10 +60,10 @@ processes, they are interested in developing a Capability Maturity Model
 
 These projects are very ambitious but they certainly have the potential to
 make a great contribution.  There is also quite a bit of overlap between
-these projects, which is why some of them have united and formed the <a
-href = "http://flossquality.eu/">Flossquality initiative</a> (FLOSS stands
-for &quot;free, libre and open source software&quot;).  These projects are
-relatively young, but I look forward to their results.
+these projects, which is why some of them have united and formed the
+Flossquality initiative</a> (FLOSS stands for &quot;free, libre and open
+source software&quot;).  These projects are relatively young, but I look
+forward to their results.
 
 (Originally published on <a href = "https://fossbazaar.org/">FOSSBazaar</a>)
 

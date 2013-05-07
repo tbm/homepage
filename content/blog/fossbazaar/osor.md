@@ -19,8 +19,8 @@ Danish public administration.  The Norwegian software exchange
 
 It seems as if every country is working on their own software repository to
 share FOSS.  As such, it's great to see that the European Commission is
-taking a step towards bringing everyone together by introducing the <a href
-= "http://www.osor.eu/">Open Source Observatory and Repository (OSOR)</a>
+taking a step towards bringing everyone together by introducing the
+Open Source Observatory and Repository (OSOR)
 for European public administrations.  The goal of OSOR is to provide a
 platform for the exchange of information, experiences and FOSS code for the
 use in public administrations.

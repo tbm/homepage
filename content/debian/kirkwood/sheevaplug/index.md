@@ -63,7 +63,7 @@ for questions specifically related to the ARM port of Debian or about
 running Debian on plug computers.</li>
 
 <li>If you don't want to post to a mailing list, please use the
-<a href = "http://openplug.org/plugforum/">Plug Computer Forum</a>.</li>
+<a href = "http://www.plugcomputer.org/plugforum/">Plug Computer Forum</a>.</li>
 
 </ul>
 

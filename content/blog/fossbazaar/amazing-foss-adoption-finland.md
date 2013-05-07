@@ -4,8 +4,7 @@ created_at: 2008-10-18 20:47:43 +0200
 kind: article
 ---
 
-I attended <a href = "http://www.mindtrek.org/openmind">Openmind</a> last
-week, an interesting conference organized by the Finnish Centre for Open
+I attended Openmind last week, an interesting conference organized by the Finnish Centre for Open
 Source Solutions (COSS) to bring together open source professionals,
 community members and academics in Finland.  In the session about business
 aspects of open source, in which I gave a talk about FOSS Governance, Nina

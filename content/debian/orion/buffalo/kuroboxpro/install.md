@@ -241,7 +241,7 @@ ssh installer@<span class="input">192.168.11.150</span>
 </div>
 
 The installation should be pretty standard and you can follow the <a href =
-"http://www.debian.org/releases/stable/armel">installation guide</a>.  The
+"http://www.debian.org/releases/stable/armel/">installation guide</a>.  The
 installer knows about the Kurobox Pro and at the end of the installation it
 install a kernel and ramdisk that will automatically boot Debian.  It will
 also install the `micro-evtd` package that can be used to control the fan,

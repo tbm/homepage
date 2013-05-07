@@ -139,7 +139,7 @@ bootm 0x00800000 0x01100000
 <h2><a id = "install">The Installation</a></h2>
 
 The installation itself should be pretty standard and you can follow the <a
-href = "http://www.debian.org/releases/stable/armel">installation
+href = "http://www.debian.org/releases/stable/armel/">installation
 guide</a>.  The installer knows about all supported plug computers and will
 create a bootable kernel and ramdisk at the end of the installation.  The
 installer will also offer a partition layout that is known to work.  If you

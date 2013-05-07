@@ -5,7 +5,7 @@ kind: article
 ---
 
 The EU is sponsoring a new two year project called <a href =
-"http://www.flossinclude.eu/">FLOSSInclude</a> to explore the use of FOSS as a
+FLOSSInclude to explore the use of FOSS as a
 development tool.  In particular, the aim of FLOSSInclude is to study what
 is needed to &quot;increase the deployment, development and societal impact
 of FOSS in Africa, Asia and Latin America&quot;.  The project starts with

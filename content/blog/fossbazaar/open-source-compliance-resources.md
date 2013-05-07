@@ -21,7 +21,7 @@ the Free Software Foundation (FSF), the maintainers of the GPL license.
 They offer a lot of information about the GPL and other open source
 licenses.</li>
 
-<li>The <a href = "http://www.fsfe.org/projects/ftf/ftf.en.html">Freedom
+<li>The <a href = "http://fsfe.org/activities/ftf/ftf.en.html">Freedom
 Task Force (FTF)</a> of the Free Software Foundation Europe (FSFE) shares
 knowledge about open source licensing and offers training about licensing
 and related topics for companies.</li>
@@ -50,7 +50,7 @@ a legal issues primer for open source projects.</li>
 about the governance of open source.  It provides a platform to discuss and
 exchange best practices related to the governance of open source.</li>
 
-<li>The <a href = "http://www.fsfe.org/projects/ftf/network.en.html">FSFE
+<li>The <a href = "http://fsfe.org/activities/ftf/network.en.html">FSFE
 Legal Network</a> is an invitation-only network of legal professionals and
 compliance folks that aims to facilitate knowledge exchange.</li>
 
@@ -81,7 +81,7 @@ source issues.</li>
 disseminate legal knowledge and develop best practices.</li>
 
 <li>The <a href =
-"http://fsfe.org/projects/ftf/activities-workshop.en.html">European Legal
+"http://fsfe.org/activities/ftf/legal-conference.en.html">European Legal
 Network (ELN) workshop</a> is the annual meeting of the FSFE legal
 network.</li>
 

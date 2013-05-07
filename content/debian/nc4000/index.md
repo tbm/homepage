@@ -151,8 +151,7 @@ disk and power it off).  Suspend to memory does not work on the nc4000.
 
 <h2><a id = "modem">Modem</a></h2>
 
-Not tested.  Bdale Garbee said he <a href =
-"http://www.gag.com/~bdale/nc4000/">got it to work</a>.
+Not tested.  Bdale Garbee said he got it to work.
 
 <h2><a id = "irda">IRDA</a></h2>
 
@@ -178,7 +177,7 @@ look at the configuration file, `/etc/laptop-mode/laptop-mode.conf`.
 <ul>
 
 <li>Aleksandr Koltsoff told me that <a href =
-"http://syslinux.zytor.com/memdisk.php">memdisk</a> (a program to boot e.g.
+"http://www.syslinux.org/wiki/index.php/MEMDISK">memdisk</a> (a program to boot e.g.
 from a floppy image via the network) does not work; interestingly, I
 observed the same so this seems to be a bug in the nc4000.  Aleksandr
 observes that &quot;there's definitely something fishy about the BIOS since
@@ -200,9 +199,6 @@ the output from <a href = "info/lspciv">`lspci -v`</a> and <a href =
 <h2><a id = "links">Links</a></h2>
 
 <ul>
-
-<li>Bdale Garbee's <a href = "http://www.gag.com/~bdale/nc4000/">Debian on
-the HP nc4000</a> page.</li>
 
 <li>Bob Proulx's <a href = "http://www.proulx.com/~bob/nc4000/"> Debian
 GNU/Linux on the HP Compaq nc4000 Laptop</a> page.</li>

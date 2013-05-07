@@ -17,7 +17,7 @@ of folks who won't buy hardware with NVidia chips for this reason.  Intel
 is the number 1 choice at the moment because they work closely with the
 community.  Related to this, the Linux Foundation and kernel community
 released a <a href =
-"http://linux-foundation.org/weblogs/press/2008/06/23/linux-kernel-developers-issue-statement-re-open-drivers/">statement
+"http://www.linuxfoundation.org/collaborate/workgroups/technical-advisory-board-tab/devicedriverstatement">statement
 regarding open drivers</a>.</li>
 
 <li>When Sun finally made Java available as open source, they argued that
@@ -52,7 +52,7 @@ company behind KVM.</li>
 changing Red Hat to Oracle, without engaging in the Red Hat community.</li>
 
 <li>There's <a href =
-"http://www.firstmonday.org/Issues/issue10_5/rossi/">a paper</a> that looks
+"http://firstmonday.org/ojs/index.php/fm/article/view/1242">a paper</a> that looks
 at "empirical evidence on the incentives of firms that engage in OS
 activities".  They look at 146 Italian companies supplying open source
 solutions, but unfortunately the study doesn't include any major

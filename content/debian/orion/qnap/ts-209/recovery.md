@@ -229,9 +229,9 @@ so you have a recovery image in case something goes wrong.
 
 If you want to make a QNAP recovery image containing the Debian installer,
 you can follow these steps.  First of all, download the <a href =
-"http://ftp.nl.debian.org/debian/dists/stable/main/installer-armel/current/images/orion5x/network-console/qnap/ts-209/initrd.gz">initrd</a>
+"http://ftp.nl.debian.org/debian/dists/squeeze/main/installer-armel/current/images/orion5x/network-console/qnap/ts-209/initrd.gz">initrd</a>
 and <a href =
-"http://ftp.nl.debian.org/debian/dists/stable/main/installer-armel/current/images/orion5x/network-console/qnap/ts-209/kernel">kernel</a>
+"http://ftp.nl.debian.org/debian/dists/squeeze/main/installer-armel/current/images/orion5x/network-console/qnap/ts-209/kernel">kernel</a>
 for the installer.  You now have to pad the kernel so it is the right size:
 
 <div class="code">

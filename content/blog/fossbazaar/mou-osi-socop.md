@@ -6,8 +6,8 @@ kind: article
 
 I visited Seoul last week to represent the Open Source Initiative (OSI) at
 an open source conference and to sign a Memorandum of Understanding (MOU)
-with the <a href = "http://www.socop.or.kr/english/main/main.jsp">Korea
-Software Copyright Committee</a> (SOCOP).  SOCOP organized a conference
+with the Korea
+Software Copyright Committee (SOCOP).  SOCOP organized a conference
 with the title "Free Open Source Software License Insight Conference", and
 the international speakers included Brett Smith of the FSF, Brendan Scott
 of Open Source Law, Michael Coté of RedMonk and myself.  From the questions

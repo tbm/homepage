@@ -25,7 +25,7 @@ and thereby allow us to defend the project should there be a legal
 dispute regarding the software at some future time."  Contributor
 Agreements also ensure that contributions cannot be withdrawn by the
 contributor, as the <a href =
-"http://www.djangoproject.com/foundation/cla/faq/">FAQ for the Django
+"https://www.djangoproject.com/foundation/cla/faq/">FAQ for the Django
 CLA</a> explains: "The CLA also ensures that once you have provided a
 contribution, you cannot try to withdraw permission for its use at a
 later date.  People and companies can therefore use Django, confident

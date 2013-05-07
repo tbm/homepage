@@ -25,9 +25,5 @@ The following products are based on the Loongson:
 <li><a href = "http://en.wikipedia.org/wiki/Godson">Wikipedia entry</a>
 about Loongson and Godson.</li>
 
-<li><a href =
-"http://blog.360.yahoo.com/blog-t7XKGI8kebP22pOrg03O8w--?cq=1">Blog with
-updates regarding Loongson</a></li>
-
 </ul>
 
