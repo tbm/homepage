@@ -23,6 +23,21 @@ include the full boot log as well as the output of `printenv` from U-Boot.
 
 <h2><a id = "u-boot">U-Boot</a></h2>
 
+<h3><a id = "uncompress">No output after "Uncompressing Linux..."</a></h3>
+
+You get no output after seeing this line:
+
+<div class="code">
+<pre>
+Uncompressing Linux... done, booting the kernel.
+</pre>
+</div>
+
+If you've just upgraded from Debian 6.0 (squeeze) to Debian 7.0 (wheezy),
+your version of u-boot is too old.  You need 2011.12-3 (or higher).  Please
+<a href = "../uboot-upgrade/">upgrade u-boot</a> and everything will work
+again.  There's no need to re-install Debian!
+
 <h3><a id = "bad-magic">Error "Bad Magic Number" when loading image</a></h3>
 
 Some users report that they get the following error when booting:
