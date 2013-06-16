@@ -57,10 +57,10 @@ whatever you can spare if you're using a USB stick).  Now format the drive:
 
 <div class="code">
 <pre>
-% mkfs.ext2 /dev/sdb1
-% mkfs.ext3 /dev/sdb2
-% mkfs.ext3 /dev/sdb6
-% mkswap /dev/sdb5
+mkfs.ext2 /dev/sdb1
+mkfs.ext3 /dev/sdb2
+mkfs.ext3 /dev/sdb6
+mkswap /dev/sdb5
 </pre>
 </div>
 
@@ -68,9 +68,9 @@ Mount the disk somewhere:
 
 <div class="code">
 <pre>
-% mount /dev/sdb2 /mnt
-% mkdir /mnt/boot
-% mount /dev/sdb1 /mnt/boot
+mount /dev/sdb2 /mnt
+mkdir /mnt/boot
+mount /dev/sdb1 /mnt/boot
 </pre>
 </div>
 
@@ -82,8 +82,8 @@ with a standard set of packages of Debian 6.0.7 (squeeze, 2013-06-16).
 
 <div class="code">
 <pre>
-% wget http://people.debian.org/~tbm/nslu2/squeeze/base.tar.bz2
-% wget http://people.debian.org/~tbm/nslu2/squeeze/base.tar.bz2.asc
+wget http://people.debian.org/~tbm/nslu2/squeeze/base.tar.bz2
+wget http://people.debian.org/~tbm/nslu2/squeeze/base.tar.bz2.asc
 </pre>
 </div>
 
@@ -91,8 +91,8 @@ Verify that the GPG signature matches:
 
 <div class="code">
 <pre>
-% gpg --keyserver subkeys.pgp.net --recv-key 68FD549F
-% gpg --verify base.tar.bz2.asc base.tar.bz2
+gpg --keyserver subkeys.pgp.net --recv-key 68FD549F
+gpg --verify base.tar.bz2.asc base.tar.bz2
 </pre>
 </div>
 
@@ -101,11 +101,11 @@ disk:
 
 <div class="code">
 <pre>
-% cd /mnt
-% tar -xjvf ~/base.tar.bz2
-% cd /
-% umount /mnt/boot
-% umount /mnt
+cd /mnt
+tar -xjvf ~/base.tar.bz2
+cd /
+umount /mnt/boot
+umount /mnt
 </pre>
 </div>
 
