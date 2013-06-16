@@ -78,7 +78,7 @@ Mount the disk somewhere:
 
 Download the compressed base system (about 150 MB; it will require about
 465 MB of disk space when you unpack it).  This contains a basic system
-with a standard set of packages of Debian 6.0.3 (squeeze, 2011-12-09).
+with a standard set of packages of Debian 6.0.7 (squeeze, 2013-06-16).
 
 <div class="code">
 <pre>
@@ -142,7 +142,7 @@ upgrade mode.</li>
 
 Then download the <a href =
 "http://www.cyrius.com/debian/nslu2/files/armel/sda2-2.6.32-5">the squeeze
-firmware</a> image (md5sum: `3e33b90e75fa608d61578a47a6046045`) and write
+firmware</a> image (md5sum: `3c1457de133ac0f3a8b1a1423f7d0c2c`) and write
 it to your NSLU2 using upslug2:
 
 <div class="code">
