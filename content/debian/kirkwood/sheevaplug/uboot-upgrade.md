@@ -98,7 +98,9 @@ FreeAgent DockStar</a></li>
 
 </ul>
 
-There are different ways to upgrade U-Boot on your plug computer:
+You have to complete three steps in order to install the new U-Boot.
+First, you have to load the new U-Boot to your plug computer, either via
+USB or TFTP:
 
 <ul>
 
@@ -112,8 +114,6 @@ computer, connect the serial console and type the following commands:
 <pre>
 usb start
 fatload usb 0:1 0x0800000 u-boot.kwb
-nand erase 0x0 0x60000
-nand write 0x0800000 0x0 0x60000
 </pre>
 </div>
 
@@ -130,8 +130,6 @@ the following commands:
 setenv serverip 192.168.1.2 # IP of your TFTP server
 setenv ipaddr 192.168.1.200
 tftpboot 0x0800000 u-boot.kwb
-nand erase 0x0 0x60000
-nand write 0x0800000 0x0 0x60000
 </pre>
 </div>
 
@@ -139,8 +137,37 @@ nand write 0x0800000 0x0 0x60000
 
 </ul>
 
-Regardless of how you installed U-Boot, you now have to restart your
-machine to load the new version of U-Boot:
+Second, you have to flash the new U-Boot:
+
+<ul>
+
+<li>SheevaPlug (and SheevaPlug variants) and GuruPlug:
+
+<div class="code">
+<pre>
+nand erase 0x0 0x60000
+nand write 0x0800000 0x0 0x60000
+</pre>
+</div>
+
+</li>
+
+<li>DreamPlug:
+
+<div class="code">
+<pre>
+sf probe 0
+sf erase 0x0 0x60000
+sf write 0x0800000 0x0 0x60000
+</pre>
+</div>
+
+</li>
+
+</ul>
+
+Finally, you now have to restart your machine to activate the new version
+of U-Boot:
 
 <div class="code">
 <pre>

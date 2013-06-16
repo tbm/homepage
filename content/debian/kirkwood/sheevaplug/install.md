@@ -58,11 +58,22 @@ before proceeding with the installation of Debian.
 
 <h2><a id = "starting">Starting the Installer</a></h2>
 
-First of all, you have to download the installer.  Download the <a href =
+First of all, you have to download the installer.  Download the uImage and
+uInitrd files and store them either on a USB stick, MMC/SD card or a TFTP
+server:
+
+* DreamPlug: <a href =
+"ftp://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/dreamplug/uImage">uImage</a>
+and <a href =
+"ftp://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/dreamplug/uInitrd">uInitrd</a>
+* GuruPlug: <a href =
+"ftp://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/guruplug/uImage">uImage</a>
+and <a href =
+"ftp://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/guruplug/uInitrd">uInitrd</a>
+* SheevaPlug and SheevaPlug variants: <a href =
 "ftp://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/sheevaplug/uImage">uImage</a>
 and <a href =
 "ftp://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/sheevaplug/uInitrd">uInitrd</a>
-and store them either on a USB stick, MMC/SD card or a TFTP server.
 
 Now connect the install medium (USB stick, SD card or eSATA disk) to your
 plug computer and connect a mini-USB connector in order to access the
@@ -78,8 +89,8 @@ the installer from.  Also note that you may have to replace `fatload` with
 `ext2load` in case you used the ext2 or ext3 filesystem on your USB stick
 or MMC card.
 
-Note for GuruPlug users: on the GuruPlug, MMC/SD cards show up as USB
-devices.  Therefore, if you're using a MMC/SD card, make sure to follow the
+Note for GuruPlug and DreamPlug users: MMC/SD cards show up as USB devices.
+Therefore, if you're using a MMC/SD card, make sure to follow the
 instructions for USB devices and not for MMC/SD.
 
 <ul>
