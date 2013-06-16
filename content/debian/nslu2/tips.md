@@ -123,7 +123,7 @@ drive.
 
 By the way, when upgrading from Debian 5.0 to 6.0, the upgrade process will
 automatically convert your `/etc/fstab` to UUIDs.  However, the tar ball of
-Debian 6.0 provided here still use `/dev/sda1`-style names.
+Debian provided here still use `/dev/sda1`-style names.
 
 <div class="bbf">
 <%= render "adsense-banner-before-footer" %>

@@ -31,7 +31,7 @@ particular, check out the <a href =
 
 Finally, please note that the NSLU2 is a very low-end device by today's
 standards.  In particular, the NSLU2 has only 32 MB of RAM, which is not
-much to run a modern operating system like Debian 6.0 (squeeze).  The
+much to run a modern operating system.  The
 easy-to-use Debian installer is no longer available for the NSLU2 because
 the device does not have enough RAM.  While it's still possible to install
 Debian on the NSLU2 using the manual method described on this page, I

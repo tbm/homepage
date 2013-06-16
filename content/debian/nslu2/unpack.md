@@ -76,9 +76,15 @@ mount /dev/sdb1 /mnt/boot
 
 <h2>Downloading and installing the Debian base system</h2>
 
-Download the compressed base system (about 150 MB; it will require about
-465 MB of disk space when you unpack it).  This contains a basic system
-with a standard set of packages of Debian 6.0.7 (squeeze, 2013-06-16).
+You have to download the compressed base system.  The tar ball contains a
+basic system with a standard set of Debian packages.  You can choose
+between a tar ball containing Debian 6 (squeeze) and Debian 7 (wheezy):
+
+<ul>
+
+<li>Debian 6 (squeeze): this tar ball is about 150 MB and takes about 465
+MB of disk space when you unpack it.  It contains Debian 6.0.7 as of
+2013-06-16.
 
 <div class="code">
 <pre>
@@ -86,6 +92,22 @@ wget http://people.debian.org/~tbm/nslu2/squeeze/base.tar.bz2
 wget http://people.debian.org/~tbm/nslu2/squeeze/base.tar.bz2.asc
 </pre>
 </div>
+
+</li>
+
+<li>Debian 7 (wheezy): this tar ball is about 175 MB and takes about 550 MB
+of disk space when you unpack it.  It contains Debian 7.1 as of 2013-06-16.
+
+<div class="code">
+<pre>
+wget http://people.debian.org/~tbm/nslu2/wheezy/base.tar.bz2
+wget http://people.debian.org/~tbm/nslu2/wheezy/base.tar.bz2.asc
+</pre>
+</div>
+
+</li>
+
+</ul>
 
 Verify that the GPG signature matches:
 
@@ -140,14 +162,18 @@ upgrade mode.</li>
 
 </ol>
 
-Then download the <a href =
-"http://www.cyrius.com/debian/nslu2/files/armel/sda2-2.6.32-5">the squeeze
-firmware</a> image (md5sum: `3c1457de133ac0f3a8b1a1423f7d0c2c`) and write
-it to your NSLU2 using upslug2:
+Download the firmware image:
+
+* <a href = "http://www.cyrius.com/debian/nslu2/files/armel/sda2-2.6.32-5">Debian 6
+(squeeze)</a> (md5sum: `3c1457de133ac0f3a8b1a1423f7d0c2c`)
+* <a href = "http://www.cyrius.com/debian/nslu2/files/armel/sda2-3.2.0-4">Debian 7
+(wheezy)</a> (md5sum: `adb46e8e114834ef840bc50011361c4b`)
+
+Write the firmware file to your NSLU2 using upslug2:
 
 <div class="code">
 <pre>
-upslug2 -i sda2-2.6.32-5
+upslug2 -i sda2-<span class="input">version</span>
 </pre>
 </div>
 
