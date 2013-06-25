@@ -113,9 +113,14 @@ computer, connect the serial console and type the following commands:
 <div class="code">
 <pre>
 usb start
-fatload usb 0:1 0x0800000 u-boot.kwb
+fatload usb <span class="input">0:1</span> 0x0800000 u-boot.kwb
 </pre>
 </div>
+
+On the GuruPlug and DreamPlug, you likely have to replace `0:1` with `2:1`.
+See the explanation on <a href = "../troubleshooting/#dev-part">how to find
+out your devices and partitions</a> in case your device does not boot with
+`0:1` or `2:1`.
 
 </li>
 

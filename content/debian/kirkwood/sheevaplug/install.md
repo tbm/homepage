@@ -91,7 +91,9 @@ or MMC card.
 
 Note for GuruPlug and DreamPlug users: MMC/SD cards show up as USB devices.
 Therefore, if you're using a MMC/SD card, make sure to follow the
-instructions for USB devices and not for MMC/SD.
+instructions for USB devices and not for MMC/SD.  Furthermore, you'll have
+to use a different device ID: `0:1` is the internal microSD, `1:1` the
+external SD card and `2:1` an external USB device, like a USB stick.
 
 <ul>
 
@@ -100,8 +102,8 @@ instructions for USB devices and not for MMC/SD.
 <div class="code">
 <pre>
 usb start
-fatload usb 0:1 0x00800000 /uImage
-fatload usb 0:1 0x01100000 /uInitrd
+fatload usb <span class="input">0:1</span> 0x00800000 /uImage
+fatload usb <span class="input">0:1</span> 0x01100000 /uInitrd
 </pre>
 </div>
 
