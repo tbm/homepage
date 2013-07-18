@@ -18,7 +18,7 @@ TS-21x/TS-22x.
 
 <h2>Controlling the fan</h2>
 
-Debian 7.0 doesn't have automatic support for the fan.  While there
+Debian 7 doesn't have automatic support for the fan.  While there
 is a tool that can control the fan, it won't automatically set its speeds
 according to the temperature.  If you want to manually control the fan, do
 this:
