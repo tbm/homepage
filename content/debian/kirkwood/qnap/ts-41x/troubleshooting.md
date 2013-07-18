@@ -1,8 +1,8 @@
 ---
-title: Troubleshooting Debian on QNAP TS-41x
+title: Troubleshooting Debian on QNAP TS-41x/TS-42x
 nav: Troubleshooting
-description: Troubleshooting Debian on QNAP TS-41x
-keywords: [Debian, QNAP, NAS, TS-410, TS-410U, TS-412, TS-419P, TS-419U, troubleshooting, problems]
+description: Troubleshooting Debian on QNAP TS-41x/TS-42x
+keywords: [Debian, QNAP, NAS, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420, TS-421, troubleshooting, problems]
 ---
 
 <% content_for :right do %>
@@ -14,8 +14,8 @@ keywords: [Debian, QNAP, NAS, TS-410, TS-410U, TS-412, TS-419P, TS-419U, trouble
 <h1>Troubleshooting</h1>
 
 This page describes common problems that users of Debian on the QNAP
-TS-410, TS-410U, TS-412, TS-419P, TS-419P+ and TS-419U have run into.  If
-you have any problems with your QNAP TS-41x, either while trying to install
+TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419U, TS-420 and TS-421 have run into.  If
+you have any problems with your QNAP device, either while trying to install
 Debian or when running Debian, please look through this page carefully to
 see whether you can find a solution.  If your problem is not covered here,
 feel free to contact the <a href =
@@ -104,7 +104,7 @@ If none of this helps, I'm afraid you probably have to connect <a href =
 "../recovery/">recovery mode</a> to flash the Debian installer and to
 perform a new installation.
 
-<%= render "paypal", :desc => "Debian/QNAP TS-41x donation" %>
+<%= render "paypal", :desc => "Debian/QNAP TS-41x/TS-42x donation" %>
 
 <div class="bbf">
 <%= render "adsense-banner-before-footer" %>

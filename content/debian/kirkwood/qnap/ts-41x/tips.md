@@ -1,8 +1,8 @@
 ---
-title: Tips and tricks for Debian on QNAP TS-41x
+title: Tips and tricks for Debian on QNAP TS-41x/TS-42x
 nav: Tips
-description: Tips and tricks for Debian on the QNAP TS-41x
-keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, tips, tricks]
+description: Tips and tricks for Debian on the QNAP TS-41x/TS-42x
+keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420, TS-421, tips, tricks]
 ---
 
 <% content_for :right do %>
@@ -11,9 +11,10 @@ keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, tips, tricks
 <%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
-<h1>Tips and tricks for Debian on the QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+ and TS-419U</h1>
+<h1>Tips and tricks for Debian on the QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419U, TS-420 and TS-421</h1>
 
-Here are some tips and tricks about running Debian on the QNAP TS-41x.
+Here are some tips and tricks about running Debian on the QNAP
+TS-41x/TS-42x.
 
 <h2>Controlling the fan</h2>
 

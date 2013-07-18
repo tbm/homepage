@@ -1,8 +1,8 @@
 ---
-title: U-Boot on the QNAP TS-41x
+title: U-Boot on the QNAP TS-41x/TS-42x
 nav: U-Boot
-description: Using U-Boot on the QNAP TS-41x
-keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, serial, console, uboot, U-Boot]
+description: Using U-Boot on the QNAP TS-41x/TS-42x
+keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420, TS-421, serial, console, uboot, U-Boot]
 ---
 
 <% content_for :right do %>
@@ -11,10 +11,10 @@ keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, serial, cons
 <%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
-<h1>Using U-Boot on the QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+ and TS-419U</h1>
+<h1>Using U-Boot on the QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419U, TS-420 and TS-421</h1>
 
 If you have a <a href = "../serial/">serial console</a> for your QNAP
-TS-41x, you can use U-Boot, the boot loader used on the TS-41x, to restore
+device, you can use U-Boot, the boot loader used on the TS-41x/TS-42x, to restore
 the original QNAP firmware or load images via the network.
 
 <h2><a id = "load">Loading the installer image</a></h2>

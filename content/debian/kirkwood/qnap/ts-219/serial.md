@@ -1,17 +1,17 @@
 ---
-title: Serial console for QNAP TS-21x
+title: Serial console for QNAP TS-21x/TS-22x
 nav: Serial Console
-description: Connecting a serial console to QNAP TS-21x
-keywords: [Debian, QNAP, TS-210, TS-212, TS-219, TS-219P, serial, console, RS-232, hack]
+description: Connecting a serial console to QNAP TS-21x/TS-22x
+keywords: [Debian, QNAP, TS-210, TS-212, TS-219, TS-219P, TS-220, TS-221, serial, console, RS-232, hack]
 ---
 
 <% content_for :right do %>
 <%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
-<h1>Connecting a serial console to QNAP TS-21x devices</h1>
+<h1>Connecting a serial console to QNAP TS-21x/TS-22x devices</h1>
 
-If you want to connect a serial console to a QNAP TS-21x device, you'll
+If you want to connect a serial console to a QNAP TS-21x/TS-22x device, you'll
 need a 3.3V TTL to RS-232 level shifter.  The serial connector is of type
 JST PHR-4 and the wires need to be crimped into a JST SPH-002T-P0.5S
 connector pin before it can be fitted inside the JST PHR-4 connector.  The

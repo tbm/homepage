@@ -1,8 +1,8 @@
 ---
-title: Debian on QNAP TS-41x
-nav: TS-41x
-description: Instructions for running Debian on the QNAP TS-41x
-keywords: [Debian, NAS, QNAP, QNAP Turbo NAS, Kirkwood, TS-410, TS-410U, TS-412, TS-419P, TS-419U]
+title: Debian on QNAP TS-41x/TS-42x
+nav: TS-41x/TS-42x
+description: Instructions for running Debian on the QNAP TS-41x/TS-42x
+keywords: [Debian, NAS, QNAP, QNAP Turbo NAS, Kirkwood, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420, TS-421]
 ---
 
 <% content_for :right do %>
@@ -11,9 +11,9 @@ keywords: [Debian, NAS, QNAP, QNAP Turbo NAS, Kirkwood, TS-410, TS-410U, TS-412,
 <%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
-<h1>Debian on QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419U and TS-419U+</h1>
+<h1>Debian on QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419U, TS-419U+, TS-420 and TS-421</h1>
 
-The QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419U and TS-419U+
+The QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419U, TS-419U+, TS-420 and TS-421
 are powerful NAS devices that can be used for a variety of tasks.  You can
 use the user-friendly <a href = "install/">Debian installer to install</a>
 Debian.
@@ -28,10 +28,10 @@ Debian.
 problems and their solutions.</li>
 
 <li>Some <a href = "tips/">tips and tricks</a> about running Debian on the
-QNAP TS-41x.</li>
+QNAP TS-41x/TS-42x.</li>
 
 <li>A <a href = "status/">status page</a> showing which components of the
-TS-41x are currently supported.</li>
+TS-41x/TS-42x are currently supported.</li>
 
 <li>An <a href = "gallery/">image gallery</a> with some pictures of the
 TS-419P.</li>
@@ -63,21 +63,20 @@ at NAS-Central</a>.</li>
 
 <h2>Help</h2>
 
-If you have problems with Debian on QNAP TS-410, TS-410U, TS-412, TS-419P,
-TS-419P+, TS-419U or TS-419U+ and cannot solve them with Google, you can
-consult the following resources:
+If you have problems with Debian on QNAP TS-41x/TS-42x and cannot solve
+them with Google, you can consult the following resources:
 
 <ul>
 
 <li>The <a href = "http://lists.debian.org/debian-arm/">debian-arm list</a>
 for questions specifically related to the ARM port of Debian or about
-running Debian on the QNAP TS-41x.</li>
+running Debian on the QNAP TS-41x/TS-42x.</li>
 
 <li>If you don't want to post to a mailing list, please post to the
 <a href = "http://forum.qnap.com/viewforum.php?f=147">Debian area
 on the QNAP forum</a>.</li>
 
-<li>For questions about the QNAP TS-41x that are not related to Debian,
+<li>For questions about QNAP devices that are not related to Debian,
 please use the <a href = "http://forum.qnap.com/">QNAP forum</a>.</li>
 
 </ul>

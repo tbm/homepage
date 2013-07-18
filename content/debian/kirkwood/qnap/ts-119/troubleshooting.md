@@ -1,8 +1,8 @@
 ---
-title: Troubleshooting Debian on QNAP TS-11x
+title: Troubleshooting Debian on QNAP TS-11x/TS-12x
 nav: Troubleshooting
-description: Troubleshooting Debian on QNAP TS-11x
-keywords: [Debian, QNAP, NAS, TS-110, TS-112, TS-119, troubleshooting, problems]
+description: Troubleshooting Debian on QNAP TS-11x/TS-12x
+keywords: [Debian, QNAP, NAS, TS-110, TS-112, TS-119, TS-120, TS-121, troubleshooting, problems]
 ---
 
 <% content_for :right do %>
@@ -13,8 +13,8 @@ keywords: [Debian, QNAP, NAS, TS-110, TS-112, TS-119, troubleshooting, problems]
 
 <h1>Troubleshooting</h1>
 
-This page describes common problems that users of Debian on the QNAP TS-11x
-have run into.  If you have any problems with your QNAP TS-11x, either
+This page describes common problems that users of Debian on the QNAP TS-11x/TS-121
+have run into.  If you have any problems with your QNAP device, either
 while trying to install Debian or when running Debian, please look through
 this page carefully to see whether you can find a solution.  If your
 problem is not covered here, feel free to contact the <a href =
@@ -175,7 +175,7 @@ If none of this helps, I'm afraid you probably have to connect <a href =
 "../recovery/">recovery mode</a> to flash the Debian installer and to
 perform a new installation.
 
-<%= render "paypal", :desc => "Debian/QNAP TS-11x donation" %>
+<%= render "paypal", :desc => "Debian/QNAP TS-11x/TS-12x donation" %>
 
 <div class="bbf">
 <%= render "adsense-banner-before-footer" %>

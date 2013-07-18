@@ -22,7 +22,7 @@ A serial console connected to the QNAP TS-110.<br />
 <img src = "../images/img_0103s.jpg" class="border" alt = "QNAP TS-110 with serial console" width="640" height="480" />
 </a>
 
-Go back to my <a href = "..">Debian on QNAP TS-110 and TS-119</a> page.
+Go back to my <a href = "..">Debian on QNAP TS-11x/TS-12x</a> page.
 
 <div class="bbf">
 <%= render "adsense-banner-before-footer" %>

@@ -1,8 +1,8 @@
 ---
-title: Serial console for QNAP TS-41x
+title: Serial console for QNAP TS-41x/TS-42x
 nav: Serial Console
-description: Connecting a serial console to the QNAP TS-41x
-keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, serial, console, RS-232, hack]
+description: Connecting a serial console to the QNAP TS-41x/TS-42x
+keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420, TS-421, serial, console, RS-232, hack]
 ---
 
 <% content_for :right do %>
@@ -11,9 +11,9 @@ keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, serial, cons
 <%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
-<h1>Connecting a serial console to the QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+ and TS-419U</h1>
+<h1>Connecting a serial console to the QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+. TS-419U, TS-420 and TS-421</h1>
 
-If you want to connect a serial console to the QNAP TS-41x, you'll need a
+If you want to connect a serial console to the QNAP TS-41x/TS-42x, you'll need a
 3.3V TTL to RS-232 level shifter.  The serial connector is marked as CN1
 and is of type JST PHR-4.  The pin layout is as follows (from the top to
 the bottom):

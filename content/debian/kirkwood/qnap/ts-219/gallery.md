@@ -90,7 +90,7 @@ All the components of the TS-219P.<br />
 <img src = "../images/img_1006s.jpg" class="border" alt = "TS-219P components" width="640" height="480" />
 </a>
 
-Go back to my <a href = "..">Debian on QNAP TS-219</a> page.
+Go back to my <a href = "..">Debian on QNAP TS-21x/TS-22x</a> page.
 
 <div class="bbf">
 <%= render "adsense-banner-before-footer" %>

@@ -1,8 +1,8 @@
 ---
-title: Recovery mode of QNAP TS-11x
+title: Recovery mode of QNAP TS-11x/TS-12x
 nav: Recovery mode
-description: System Recovery Mode of QNAP TS-11x
-keywords: [Debian, QNAP, TS-110, TS-112, TS-119, TS-119P+, recovery, emergency, rescue]
+description: System Recovery Mode of QNAP TS-11x/TS-12x
+keywords: [Debian, QNAP, TS-110, TS-112, TS-119, TS-119P+, TS-120, TS-121, recovery, emergency, rescue]
 ---
 
 <% content_for :right do %>
@@ -11,9 +11,9 @@ keywords: [Debian, QNAP, TS-110, TS-112, TS-119, TS-119P+, recovery, emergency, 
 <%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
-<h1>Recovery mode of QNAP TS-11x devices</h1>
+<h1>Recovery mode of QNAP TS-11x/TS-12x devices</h1>
 
-QNAP TS-11x devices have a recovery mode that can be used when there is a
+QNAP TS-11x/TS-12x devices have a recovery mode that can be used when there is a
 problem with your installation of Debian that renders your device
 unbootable.  The system recovery mode allows you write a recovery image to
 flash via the network using the TFTP protocol.  This pages describes how
@@ -23,7 +23,7 @@ alternative to the instructions on this page, you can use a <a href =
 
 <h2><a id = "create">Creating recovery images</a></h2>
 
-In order to create a recovery image for your QNAP TS-11x, you have to take
+In order to create a recovery image for your QNAP TS-11x or TS-12x, you have to take
 an exact copy of your flash memory.  That is, the recovery image consists
 of the following parts of your flash in this order: `mtd0`, `mtd4`, `mtd5`,
 `mtd1`, `mtd2`, `mtd3`.  You may wonder about this strange order but this
@@ -135,6 +135,16 @@ You can check the following table to find out which string to use:
 <td>`F_TS-119P2+`</td>
 </tr>
 
+<tr>
+<td>TS-120</td>
+<td>`F_TS-120`</td>
+</tr>
+
+<tr>
+<td>TS-121</td>
+<td>`F_TS-121`</td>
+</tr>
+
 </table>
 
 One some devices (but not on the TS-119P+), you can check the backup you
@@ -180,7 +190,7 @@ recovery image via TFTP.  When it has obtained the recovery image and
 written it to flash (which takes about 3.5 minutes), your QNAP will make
 two short beeps again and restart.
 
-<%= render "paypal", :desc => "Debian/QNAP TS-11x donation" %>
+<%= render "paypal", :desc => "Debian/QNAP TS-11x/TS-12x donation" %>
 
 <div class="bbf">
 <%= render "adsense-banner-before-footer" %>

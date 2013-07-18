@@ -1,8 +1,8 @@
 ---
-title: Debian on QNAP TS-21x
-nav: TS-21x
-description: Instructions for running Debian on the QNAP TS-21x
-keywords: [Debian, NAS, QNAP, QNAP Turbo NAS, Kirkwood, TS-210, TS-212, TS-219, TS-219P, TS-219P+, TS-219P II]
+title: Debian on QNAP TS-21x/TS-22x
+nav: TS-21x/TS-22x
+description: Instructions for running Debian on the QNAP TS-21x/TS-22x
+keywords: [Debian, NAS, QNAP, QNAP Turbo NAS, Kirkwood, TS-210, TS-212, TS-219, TS-219P, TS-219P+, TS-219P II, TS-220, TS-221]
 ---
 
 <% content_for :right do %>
@@ -11,9 +11,9 @@ keywords: [Debian, NAS, QNAP, QNAP Turbo NAS, Kirkwood, TS-210, TS-212, TS-219, 
 <%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
-<h1>Debian on QNAP TS-21x devices</h1>
+<h1>Debian on QNAP TS-21x/TS-22x devices</h1>
 
-The QNAP TS-210, TS-212, TS-219, TS-219P, TS-219P+ and TS-219P II are
+The QNAP TS-210, TS-212, TS-219, TS-219P, TS-219P+, TS-219P II, TS-220 and TS-221 are
 powerful NAS devices that can be used for a variety of tasks.  You can use
 the user-friendly <a href = "install/">Debian installer to install</a>
 Debian.
@@ -28,10 +28,10 @@ Debian.
 problems and their solutions.</li>
 
 <li>Some <a href = "tips/">tips and tricks</a> about running Debian on the
-QNAP TS-21x.</li>
+QNAP TS-21x/TS-22x.</li>
 
 <li>A <a href = "status/">status page</a> showing which components of the
-TS-21x are currently supported.</li>
+TS-21x/TS-22x are currently supported.</li>
 
 <li>An <a href = "specs/">internals page</a> listing the specs of the
 TS-210, TS-219 and TS-219P.</li>
@@ -62,20 +62,20 @@ at NAS-Central</a>.</li>
 
 <h2>Help</h2>
 
-If you have problems with Debian on QNAP TS-210, TS-219 or TS-219P and
+If you have problems with Debian on QNAP TS-21x or TS-22x and
 cannot solve them with Google, you can consult the following resources:
 
 <ul>
 
 <li>The <a href = "http://lists.debian.org/debian-arm/">debian-arm list</a>
 for questions specifically related to the ARM port of Debian or about
-running Debian on the QNAP TS-21x.</li>
+running Debian on the QNAP TS-21x/TS-22x.</li>
 
 <li>If you don't want to post to a mailing list, please post to the
 <a href = "http://forum.qnap.com/viewforum.php?f=147">Debian area
 on the QNAP forum</a>.</li>
 
-<li>For questions about the QNAP TS-21x that are not related to Debian,
+<li>For questions about QNAP devices that are not related to Debian,
 please use the <a href = "http://forum.qnap.com/">QNAP forum</a>.</li>
 
 </ul>

@@ -1,8 +1,8 @@
 ---
-title: Installing Debian on QNAP TS-41x
+title: Installing Debian on QNAP TS-41x/TS-42x
 nav: Installing Debian
-description: Installation instructions for Debian on QNAP TS-41x
-keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, ARM, armel, installation]
+description: Installation instructions for Debian on QNAP TS-41x/TS-42x
+keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420, TS-421, ARM, armel, installation]
 ---
 
 <% content_for :right do %>
@@ -11,11 +11,11 @@ keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, ARM, armel, 
 <%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
-<h1>Installing Debian on the QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419U and TS-419U+</h1>
+<h1>Installing Debian on the QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419U, TS-419U+, TS-420 and TS-421</h1>
 
 <h2>Overview</h2>
 
-In a nutshell, the installation of Debian on your QNAP TS-41x works like
+In a nutshell, the installation of Debian on your QNAP TS-41x/TS-42x works like
 this: you use the QNAP firmware to write a Debian installer image to flash.
 When you restart your device, Debian installer starts and allows you to
 login via SSH to perform the installation.  Debian will be installed to
@@ -34,7 +34,7 @@ In order to install Debian on a QNAP device, you need the following:
 
 <ul>
 
-<li>A QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419U or TS-419U+.</li>
+<li>A QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419U, TS-419U+, TS-420 or TS-421.</li>
 
 <li>An internal SATA disk.</li>
 
@@ -50,7 +50,7 @@ for Windows.</li>
 
 <h2>Making a Backup</h2>
 
-You have to make a backup of all the data stored on your TS-41x before
+You have to make a backup of all the data stored on your QNAP before
 starting with the installation of Debian since Debian will format the whole
 disk during the installation.  Also, Debian will replace the QNAP firmware
 in flash, so it's also recommended to make a copy of the flash (mtd)
@@ -109,7 +109,7 @@ commands:
 cd /tmp
 busybox wget ftp://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/initrd.gz
 busybox wget ftp://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/kernel
-busybox wget ftp://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/flash-debian
+busybox wget http://people.debian.org/~tbm/qnap/flash-debian
 busybox wget ftp://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/model
 </pre>
 </div>
@@ -137,7 +137,7 @@ Please reboot your QNAP device.
 </pre>
 </div>
 
-Once the command has completed, you can reboot your TS-41x:
+Once the command has completed, you can reboot your QNAP device:
 
 <div class="code">
 <pre>
@@ -149,7 +149,7 @@ exit
 <h2><a id = "install">The Installation</a></h2>
 
 After you have flashed the Debian installer image and restarted your QNAP
-device, the Debian installer will start.  Since the TS-41x does not have
+device, the Debian installer will start.  Since the TS-41x/TS-42x does not have
 any IO device, SSH will be used for the installation.  The installer will
 bring up the network, start the OpenSSH server and you can then connect to
 the device using SSH.  You have to wait a few minutes after starting the
@@ -163,7 +163,7 @@ TS-419P, this is the lower (and not the upper) connector!
 
 <a id = "net-config"></a>
 
-Since most TS-41x do not have an LCD, the installer cannot tell you which
+Since most TS-41x/TS-42x devices do not have an LCD, the installer cannot tell you which
 IP address to connect to or which password to use.  (On the TS-41x, the LCD
 is currently not supported but will be supported in the future.)  With
 regards to the IP address, the following strategy is used:
@@ -173,8 +173,8 @@ regards to the IP address, the following strategy is used:
 <li>If your QNAP firmware is configured to use DHCP (the default
 configuration from QNAP), Debian installer will try to acquire an IP
 address with DHCP.  If you have not initialized your QNAP firmware with
-QFinder, DHCP will be used.  You can use the MAC address of your TS-41x to
-tell your DHCP server to give out a specific IP address to your
+QFinder, DHCP will be used.  You can use the MAC address of your QNAP
+device to tell your DHCP server to give out a specific IP address to your
 machine.</li>
 
 <li>If you configured a static address in your QNAP firmware, this
@@ -182,15 +182,15 @@ configuration will be used.  However, if your network configuration was
 incomplete (e.g. IP address or DNS were missing), the installer will use
 DHCP instead.</li>
 
-<li>If DHCP is used but your DHCP server does not respond, the TS-41x will
+<li>If DHCP is used but your DHCP server does not respond, the device will
 use the fallback address `192.168.1.100`.  If you are unsure what the
-address of your TS-41x is, unplug the Ethernet cable, start the machine
+address of your QNAP is, unplug the Ethernet cable, start the machine
 again, wait until Debian installer is ready for SSH and then plug the cable
 back in and connect to this fallback address.</li>
 
 </ul>
 
-Please make sure that the TS-41x is on a local network to which only you
+Please make sure that the QNAP is on a local network to which only you
 have access since the installer uses a very generic password, namely
 `install`. The user is `installer`.  Before you can connect to the
 installer via SSH, you have to remove the SSH key from the QNAP firmware
@@ -199,7 +199,7 @@ than the Debian installer, so when you try to connect to Debian you will
 get an error saying that the remote host identification has changed.  Edit
 ~/.ssh/known_hosts and remove the entry for the IP address of your QNAP
 device.  Now connect to the installer (again, replacing the address in the
-example with the actual IP address of your TS-41x) and login as user
+example with the actual IP address of your QNAP) and login as user
 `installer` with the password `install`:
 
 <div class="code">
@@ -210,12 +210,12 @@ ssh installer@<span class="input">192.168.1.100</span>
 
 The installation itself should be pretty standard and you can follow the <a
 href = "http://www.debian.org/releases/stable/armel/">installation
-guide</a>.  The installer knows about the TS-41x and at the end of the
+guide</a>.  The installer knows about the TS-41x/TS-42x and at the end of the
 installation it will flash a kernel and ramdisk that will automatically
 boot into Debian.  It will also install the `qcontrol` package that can be
 used to control the fan, LEDs and beeper on your QNAP device.
 
-Since the TS-41x boots from flash you don't have many limitations as to how
+Since the TS-41x/TS-42x boots from flash you don't have many limitations as to how
 you partition your hard drive.  You can use LVM and RAID and a number of
 filesystems.
 
@@ -223,22 +223,22 @@ At the end of the installation, the installer will write the new kernel to
 flash.  Afterwards you will get a confirmation that the installation is
 complete.  Confirm, wait for the installer to finish and once your SSH
 session terminates, wait a few minutes before you can connect to your newly
-installed system via SSH.  The TS-41x will beep when you can connect via
+installed system via SSH.  Your QNAP device will beep when you can connect via
 SSH.  You will be able to log in as `root` or your newly created user.
 
 <h2>Success</h2>
 
 You should now have a complete Debian system running on your QNAP.  You can
-use `apt-get` and other tools to install additional software.  The TS-41x
-is an ARM based device and the `armel` architecture is fully supported by
-Debian.
+use `apt-get` and other tools to install additional software.  The
+TS-41x/TS-42x is an ARM based device and the `armel` architecture is fully
+supported by Debian.
 
 Finally, make sure to read the <a href = "../tips/">tips and tricks</a>
-about running Debian on the QNAP TS-41x.
+about running Debian on the QNAP TS-41x/TS-42x.
 
-Go back to my <a href = "..">Debian on QNAP TS-41x</a> page.
+Go back to my <a href = "..">Debian on QNAP TS-41x/TS-42x</a> page.
 
-<%= render "paypal", :desc => "Debian/QNAP TS-41x donation" %>
+<%= render "paypal", :desc => "Debian/QNAP TS-41x/TS-42x donation" %>
 
 <div class="bbf">
 <%= render "adsense-banner-before-footer" %>

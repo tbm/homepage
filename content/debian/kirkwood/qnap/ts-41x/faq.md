@@ -1,8 +1,8 @@
 ---
-title: FAQ about Debian on QNAP TS-41x
+title: FAQ about Debian on QNAP TS-41x/TS-42x
 nav: FAQ
-description: FAQ about Debian on QNAP TS-41x
-keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, FAQ, frequently asked questions, help, troubleshooting]
+description: FAQ about Debian on QNAP TS-41x/TS-42x
+keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420, TS-421, FAQ, frequently asked questions, help, troubleshooting]
 ---
 
 <% content_for :right do %>
@@ -13,10 +13,10 @@ keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, FAQ, frequen
 
 <h1>Frequently Asked Questions (FAQ)</h1>
 
-<h3>Is Debian on the QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419U and TS-419U+ fully supported?</h3>
+<h3>Is Debian on the QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419U, TS-419U+, TS-420 and TS-421 fully supported?</h3>
 
 Debian includes support for the QNAP TS-410, TS-410U, TS-412, TS-419P,
-TS-419P+, TS-419U and TS-419U+.  However, some functionality from the
+TS-419P+, TS-419U, TS-419U+, TS-420 and TS-421.  However, some functionality from the
 original firmware may not be available.  In particular, there is no
 automatic fan control and Wake-on-LAN (WOL) is not supported.  Please see
 the <a href = "../status/">status page</a> to see what is supported.
@@ -25,15 +25,15 @@ the <a href = "../status/">status page</a> to see what is supported.
 
 All QNAP devices based on the Marvell Kirkwood platform are supported.
 This includes the <a href = "../../ts-119/">QNAP TS-110, TS-112, TS-119,
-TS-119P+ and TS-119P II</a>, <a href = "../../ts-219/">QNAP TS-210, TS-219,
-TS-219P, TS-219P+ and TS-219P II</a> as well as the QNAP TS-410, TS-410U,
-TS-412, TS-419P, TS-419P+, TS-419U and TS-419U+.  Older QNAP devices based
+TS-119P+, TS-119P II, TS-120 and TS-121</a>, <a href = "../../ts-219/">QNAP TS-210, TS-219,
+TS-219P, TS-219P+, TS-219P II, TS-220 and TS-221</a> as well as the QNAP TS-410, TS-410U,
+TS-412, TS-419P, TS-419P+, TS-419U, TS-419U+, TS-420 and TS-421.  Older QNAP devices based
 on the Marvell Orion platform are <a href = "/debian/orion/qnap/">also
 supported</a>.  I don't support any other QNAP devices, but you may find
 information and help <a href =
 "http://forum.qnap.com/viewforum.php?f=147">on the QNAP forum</a>.
 
-<h3>Is Debian on the TS-41x suited for people new to Linux?</h3>
+<h3>Is Debian on QNAP suited for people new to Linux?</h3>
 
 No, I would not recommend you install Debian on your QNAP if you don't have
 any experience with Linux and Debian.  Debian will not install a web
@@ -55,7 +55,7 @@ software</a> without any problems.
 
 <h3>Is there a recovery mode?</h3>
 
-Yes, the TS-41x devices all have a recovery mode with which a firmware
+Yes, the TS-41x/TS-42x devices all have a recovery mode with which a firmware
 image can be written to flash.  This is useful in case there are problems
 during the installation or an upgrade of Debian.  See the <a href =
 "../recovery/">recovery mode</a> page for more information.
@@ -71,7 +71,7 @@ console</a>.
 No, the installation and operation of Debian on your QNAP doesn't require a
 serial console.
 
-Go back to my <a href = "..">Debian on QNAP TS-41x</a> page.
+Go back to my <a href = "..">Debian on QNAP TS-41x/TS-42x</a> page.
 
 <div class="bbf">
 <%= render "adsense-banner-before-footer" %>

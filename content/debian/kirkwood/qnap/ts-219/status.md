@@ -1,8 +1,8 @@
 ---
-title: Status of QNAP TS-21x support
+title: Status of QNAP TS-21x/TS-22x support
 nav: Status
-description: Status of QNAP TS-21x support in Debian
-keywords: [Debian, QNAP, TS-210, TS-212, TS-219, TS-219P, support, status]
+description: Status of QNAP TS-21x/TS-22x support in Debian
+keywords: [Debian, QNAP, TS-210, TS-212, TS-219, TS-219P, TS-220, TS-221, support, status]
 ---
 
 <% content_for :right do %>
@@ -11,9 +11,9 @@ keywords: [Debian, QNAP, TS-210, TS-212, TS-219, TS-219P, support, status]
 <%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
-<h1>Status of QNAP TS-21x support</h1>
+<h1>Status of QNAP TS-21x/TS-22x support</h1>
 
-QNAP TS-21x devices are based on a Marvell Kirkwood System on a Chip.
+QNAP TS-21x/TS-22x devices are based on a Marvell Kirkwood System on a Chip.
 Marvell has done a lot of work to get support for the Kirkwood platform
 into the mainline kernel.  However, some features of the Kirkwood platform
 are not as well supported in the mainline kernel (which we use in Debian)
@@ -22,8 +22,8 @@ Please take this into account before deciding whether you want to install
 Debian, especially if you have specific requirements (e.g. related to
 performance).
 
-The table below shows how well different components of the QNAP TS-21x are
-supported by Debian:
+The table below shows how well different components of the QNAP
+TS-21x/TS-22x are supported by Debian:
 
 <table>
 

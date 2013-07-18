@@ -1,8 +1,8 @@
 ---
-title: Troubleshooting Debian on QNAP TS-21x
+title: Troubleshooting Debian on QNAP TS-21x/TS-22x
 nav: Troubleshooting
-description: Troubleshooting Debian on QNAP TS-21x
-keywords: [Debian, QNAP, NAS, TS-210, TS-212, TS-219, TS-219P, troubleshooting, problems]
+description: Troubleshooting Debian on QNAP TS-21x/TS-22x
+keywords: [Debian, QNAP, NAS, TS-210, TS-212, TS-219, TS-219P, TS-220, TS-221, troubleshooting, problems]
 ---
 
 <% content_for :right do %>
@@ -14,8 +14,8 @@ keywords: [Debian, QNAP, NAS, TS-210, TS-212, TS-219, TS-219P, troubleshooting, 
 <h1>Troubleshooting</h1>
 
 This page describes common problems that users of Debian on the QNAP
-TS-210, TS-212, TS-219 and TS-219P have run into.  If you have any problems
-with your QNAP TS-21x, either while trying to install Debian or when
+TS-210, TS-212, TS-219, TS-219P, TS-220 and TS-221 have run into.  If you have any problems
+with your QNAP device, either while trying to install Debian or when
 running Debian, please look through this page carefully to see whether you
 can find a solution.  If your problem is not covered here, feel free to
 contact the <a href = "http://lists.debian.org/debian-arm/">debian-arm
@@ -176,7 +176,7 @@ If none of this helps, I'm afraid you probably have to connect <a href =
 "../recovery/">recovery mode</a> to flash the Debian installer and to
 perform a new installation.
 
-<%= render "paypal", :desc => "Debian/QNAP TS-21x donation" %>
+<%= render "paypal", :desc => "Debian/QNAP TS-21x/TS-22x donation" %>
 
 <div class="bbf">
 <%= render "adsense-banner-before-footer" %>

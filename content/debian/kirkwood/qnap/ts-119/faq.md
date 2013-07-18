@@ -1,8 +1,8 @@
 ---
-title: FAQ about Debian on QNAP TS-11x
+title: FAQ about Debian on QNAP TS-11x/TS-12x
 nav: FAQ
-description: FAQ about Debian on QNAP TS-11x
-keywords: [Debian, QNAP, TS-110, TS-112, TS-119, TS-119P+, FAQ, frequently asked questions, help, troubleshooting]
+description: FAQ about Debian on QNAP TS-11x/TS-12x
+keywords: [Debian, QNAP, TS-110, TS-112, TS-119, TS-119P+, TS-120, TS-121, FAQ, frequently asked questions, help, troubleshooting]
 ---
 
 <% content_for :right do %>
@@ -13,10 +13,10 @@ keywords: [Debian, QNAP, TS-110, TS-112, TS-119, TS-119P+, FAQ, frequently asked
 
 <h1>Frequently Asked Questions (FAQ)</h1>
 
-<h3>Is Debian on the QNAP TS-110, TS-112, TS-119, TS-119P+ and TS-119P II fully supported?</h3>
+<h3>Is Debian on the QNAP TS-110, TS-112, TS-119, TS-119P+, TS-119P II, TS-120 and TS-121 fully supported?</h3>
 
-Debian includes support for the QNAP TS-110, TS-112, TS-119, TS-119P+ and
-TS-119P II.  However, some functionality from the original firmware may not
+Debian includes support for the QNAP TS-110, TS-112, TS-119, TS-119P+,
+TS-119P II, TS-120 and TS-121.  However, some functionality from the original firmware may not
 be available.  In particular, there is no automatic fan control and
 Wake-on-LAN (WOL) is not supported.  Please see the <a href =
 "../status/">status page</a> to see what is supported.
@@ -24,16 +24,16 @@ Wake-on-LAN (WOL) is not supported.  Please see the <a href =
 <h3>Which QNAP devices are supported?</h3>
 
 All QNAP devices based on the Marvell Kirkwood platform are supported.
-This includes the QNAP TS-110, TS-112, TS-119, TS-119P+ and TS-119P II, <a
-href = "../../ts-219/">QNAP TS-210, TS-212, TS-219, TS-219P and TS-219P+</a>
+This includes the QNAP TS-110, TS-112, TS-119, TS-119P+, TS-119P II, TS-120 and TS-121, <a
+href = "../../ts-219/">QNAP TS-210, TS-212, TS-219, TS-219P, TS-219P+, TS-220 and TS-221</a>
 as well as the <a href = "../../ts-41x/">QNAP TS-410, TS-410U, TS-419P,
-TS-419P+, TS-419U and TS-419U+</a>.  Older QNAP devices based on the
+TS-419P+, TS-419U, TS-419U+, TS-420 and TS-421</a>.  Older QNAP devices based on the
 Marvell Orion platform are <a href = "/debian/orion/qnap/">also
 supported</a>.  I don't support any other QNAP devices, but you may find
 information and help <a href =
 "http://forum.qnap.com/viewforum.php?f=147">on the QNAP forum</a>.
 
-<h3>Is Debian on the TS-11x suited for people new to Linux?</h3>
+<h3>Is Debian on QNAP suited for people new to Linux?</h3>
 
 No, I would not recommend you install Debian on your QNAP if you don't have
 any experience with Linux and Debian.  Debian will not install a web
@@ -78,7 +78,7 @@ possible to run Debian on such a device.  However, so far this has not
 been tested.  If you're interested in running Debian on your Q600,
 please <a href = "/contact/">contact me</a> and I'll help you.
 
-Go back to my <a href = "..">Debian on QNAP TS-11x</a> page.
+Go back to my <a href = "..">Debian on QNAP TS-11x/TS-12x</a> page.
 
 <div class="bbf">
 <%= render "adsense-banner-before-footer" %>

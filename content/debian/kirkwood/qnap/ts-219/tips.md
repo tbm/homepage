@@ -1,8 +1,8 @@
 ---
-title: Tips and tricks for Debian on QNAP TS-21x
+title: Tips and tricks for Debian on QNAP TS-21x/TS-22x
 nav: Tips
-description: Tips and tricks for Debian on QNAP TS-21x
-keywords: [Debian, QNAP, TS-210, TS-212, TS-219, TS-219P, tips, tricks]
+description: Tips and tricks for Debian on QNAP TS-21x/TS-22x
+keywords: [Debian, QNAP, TS-210, TS-212, TS-219, TS-219P, TS-220, TS-221, tips, tricks]
 ---
 
 <% content_for :right do %>
@@ -11,9 +11,10 @@ keywords: [Debian, QNAP, TS-210, TS-212, TS-219, TS-219P, tips, tricks]
 <%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
-<h1>Tips and tricks for Debian on QNAP TS-21x</h1>
+<h1>Tips and tricks for Debian on QNAP TS-21x/TS-22x</h1>
 
-Here are some tips and tricks about running Debian on the QNAP TS-21x.
+Here are some tips and tricks about running Debian on the QNAP
+TS-21x/TS-22x.
 
 <h2>Controlling the fan</h2>
 
