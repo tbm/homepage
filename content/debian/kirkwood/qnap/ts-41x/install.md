@@ -226,6 +226,12 @@ session terminates, wait a few minutes before you can connect to your newly
 installed system via SSH.  Your QNAP device will beep when you can connect via
 SSH.  You will be able to log in as `root` or your newly created user.
 
+**Note:** on some QNAP devices, the installation fails because it cannot
+write the kernel to flash.  This is because some QNAP devices have a flash
+chip that is currently not supported by Debian.  This will be fixed in the
+next stable update.  Please see [this post for more
+information](http://forum.qnap.com/viewtopic.php?f=147&t=78916).
+
 <h2>Success</h2>
 
 You should now have a complete Debian system running on your QNAP.  You can
