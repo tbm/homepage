@@ -53,13 +53,8 @@ TS-11x/TS-12x are supported by Debian:
 </tr>
 
 <tr>
-<td style="color: white; background-color: #00AA00">USB 2.0</td>
+<td style="color: white; background-color: #00AA00">USB</td>
 <td>Supported</td>
-</tr>
-
-<tr>
-<td style="color: white; background-color: #AA0000">USB 3.0</td>
-<td>Not supported. This will be fixed in 7.0.1</td>
 </tr>
 
 <tr>
