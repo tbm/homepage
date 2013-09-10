@@ -33,7 +33,7 @@ Uncompressing Linux... done, booting the kernel.
 </pre>
 </div>
 
-If you've just upgraded from Debian 6.0 (squeeze) to Debian 7.0 (wheezy),
+If you've just upgraded from Debian 6.0 (squeeze) to Debian 7 (wheezy),
 your version of u-boot is too old.  You need 2011.12-3 (or higher).  Please
 <a href = "../uboot-upgrade/">upgrade u-boot</a> and everything will work
 again.  There's no need to re-install Debian!

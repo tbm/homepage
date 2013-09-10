@@ -28,10 +28,10 @@ Debian does not install a web interface to configure your machine, although
 it's possible to install such software.  If this is not what you want,
 please don't proceed with the installation.
 
-Note that the installer of Debian 7.0 (wheezy), our latest stable release,
+Note that the installer of Debian 7 (wheezy), our latest stable release,
 does not support the TS-209.  However, you can install Debian 6.0 (squeeze)
 according to the instructions on this page and then perform an upgrade to
-Debian 7.0 (wheezy).
+Debian 7 (wheezy).
 
 <h2>Requirements and Preparation</h2>
 
@@ -331,12 +331,12 @@ of <a href = "../known-issues/">known issues and bugs</a> with Debian on the
 QNAP TS-209.  Finally, make sure to read the <a href = "../tips/">tips and
 tricks</a> about running Debian on the QNAP TS-209.
 
-<h2>Upgrade to Debian 7.0 (wheezy)</h2>
+<h2>Upgrade to Debian 7 (wheezy)</h2>
 
-You should upgrade to Debian 7.0, our latest stable release.  Please read
+You should upgrade to Debian 7, our latest stable release.  Please read
 the section on <a
 href="http://www.debian.org/releases/wheezy/armel/release-notes/ch-upgrading.en.html">upgrades
-from Debian 6.0</a> of the Debian 7.0 release notes.
+from Debian 6.0</a> of the Debian 7 release notes.
 
 Go back to my <a href = "..">Debian on QNAP TS-209</a> page.
 

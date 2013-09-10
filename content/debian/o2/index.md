@@ -10,7 +10,7 @@ keywords: [Debian, SGI, O2, sarge, installation]
 <%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
-In the following, I will describe how to install Debian 7.0 (wheezy) on SGI
+In the following, I will describe how to install Debian 7 (wheezy) on SGI
 O2 (IP32) machines with R5000, R5200 or RM7000 processors.
 
 Note that I will only discuss issues related to the installation on O2 and

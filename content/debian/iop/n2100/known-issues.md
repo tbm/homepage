@@ -14,7 +14,7 @@ keywords: [Debian, Thecus, N2100, bugs, issues, defects]
 
 Here is a list of known issues and bugs with Debian on the Thecus N2100.
 
-<h2>Debian 7.0 (wheezy) with 3.2 kernel</h2>
+<h2>Debian 7 (wheezy) with 3.2 kernel</h2>
 
 <ul>
 

@@ -13,7 +13,7 @@ keywords: [SheevaPlug, Marvell, Kirkwood, Debian, installer, ARM, GuruPlug]
 
 <h1>Installing Debian on Plug Computers</h1>
 
-This page describes how to install Debian 7.0 (wheezy) on plug computers,
+This page describes how to install Debian 7 (wheezy) on plug computers,
 such as the SheevaPlug and GuruPlug.
 
 The following devices are currently supported:

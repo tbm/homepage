@@ -17,7 +17,7 @@ and Conceptronic CH3SNAS:
 
 <ul>
 
-<li>There are no known issues with Debian 7.0.</li>
+<li>There are no known issues with Debian 7.</li>
 
 </ul>
 
