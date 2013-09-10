@@ -17,7 +17,7 @@ and Conceptronic CH3SNAS:
 
 <ul>
 
-<li>There are no known issues with Debian 7.</li>
+<li><a href="http://bugs.debian.org/622325">I2C problems</a></li>
 
 </ul>
 
