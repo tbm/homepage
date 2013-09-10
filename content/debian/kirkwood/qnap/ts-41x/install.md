@@ -229,7 +229,8 @@ SSH.  You will be able to log in as `root` or your newly created user.
 **Note:** on some QNAP devices, the installation fails because it cannot
 write the kernel to flash.  This is because some QNAP devices have a flash
 chip that is currently not supported by Debian.  This will be fixed in the
-next stable update.  Please see [this post for more
+next stable update (Debian 7.2), which is currently planned for October 13.
+Please see [this post for more
 information](http://forum.qnap.com/viewtopic.php?f=147&t=78916).
 
 <h2>Success</h2>
