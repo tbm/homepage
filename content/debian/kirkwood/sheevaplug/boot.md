@@ -139,8 +139,8 @@ indicates the output of `uname&nbsp;-r` from the new kernel).</li>
 
 <li>The program `initramfs-tools` is called to generate the ramdisk on disk
 (`/boot/initrd.img-$VERSION`).  During the ramdisk generation, the script
-`/usr/share/hooks/flash_kernel_set_root` is called on plug computers to
-write the name of the root device to the ramdisk.</li>
+`/usr/share/initramfs-tools/hooks/flash_kernel_set_root` is called on plug
+computers to write the name of the root device to the ramdisk.</li>
 
 <li>Finally, `flash-kernel` is called to activate the new kernel.  Despite
 the name, `flash-kernel` does not write the kernel to flash on plug
