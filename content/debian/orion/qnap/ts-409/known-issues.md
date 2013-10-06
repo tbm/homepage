@@ -16,6 +16,12 @@ Here is a list of known issues and bugs with Debian on the QNAP TS-409:
 
 <ul>
 
+<li>There's a timing issue that will result in <a
+href="http://comments.gmane.org/gmane.linux.ide/47799">not all disks being
+recognized</a> in time on boot.  If you're experience, you can <a
+href="http://forum.qnap.com/viewtopic.php?p=284721#p284592">use a
+workaround</a>.</li>
+
 <li>No automatic temperature regulation: there is currently no regulation
 of the fan speed depending on the system temperature.</li>
 
