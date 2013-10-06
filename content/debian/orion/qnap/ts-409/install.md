@@ -29,7 +29,7 @@ it's possible to install such software.  If this is not what you want,
 please don't proceed with the installation.
 
 Note that the installer of Debian 7 (wheezy), our latest stable release,
-does not support the TS-209.  However, you can install Debian 6.0 (squeeze)
+does not support the TS-409.  However, you can install Debian 6.0 (squeeze)
 according to the instructions on this page and then perform an upgrade to
 Debian 7 (wheezy).
 
