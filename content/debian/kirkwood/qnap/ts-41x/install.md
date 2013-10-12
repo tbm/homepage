@@ -107,10 +107,10 @@ commands:
 <div class="code">
 <pre>
 cd /tmp
-busybox wget ftp://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/initrd.gz
-busybox wget ftp://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/kernel
-busybox wget ftp://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/flash-debian
-busybox wget ftp://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/model
+busybox wget http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/initrd.gz
+busybox wget http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/kernel
+busybox wget http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/flash-debian
+busybox wget http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/model
 </pre>
 </div>
 

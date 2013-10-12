@@ -63,17 +63,17 @@ uInitrd files and store them either on a USB stick, MMC/SD card or a TFTP
 server:
 
 * DreamPlug: <a href =
-"ftp://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/dreamplug/uImage">uImage</a>
+"http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/dreamplug/uImage">uImage</a>
 and <a href =
-"ftp://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/dreamplug/uInitrd">uInitrd</a>
+"http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/dreamplug/uInitrd">uInitrd</a>
 * GuruPlug: <a href =
-"ftp://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/guruplug/uImage">uImage</a>
+"http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/guruplug/uImage">uImage</a>
 and <a href =
-"ftp://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/guruplug/uInitrd">uInitrd</a>
+"http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/guruplug/uInitrd">uInitrd</a>
 * SheevaPlug and SheevaPlug variants: <a href =
-"ftp://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/sheevaplug/uImage">uImage</a>
+"http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/sheevaplug/uImage">uImage</a>
 and <a href =
-"ftp://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/sheevaplug/uInitrd">uInitrd</a>
+"http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/sheevaplug/uInitrd">uInitrd</a>
 
 Now connect the install medium (USB stick, SD card or eSATA disk) to your
 plug computer and connect a mini-USB connector in order to access the

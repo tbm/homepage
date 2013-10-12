@@ -24,7 +24,7 @@ Su's <a href = "http://js1.kicks-ass.org/~js1/debianO2.html">detailed
 run-through</a> with the O2 images I've prepared.  Once you're familiar
 with how to set up an environment to load the installer for SGI, you can
 download the <a href =
-"ftp://ftp.nl.debian.org/debian/dists/stable/main/installer-mips/current/images/r5k-ip32/">installer
+"http://ftp.nl.debian.org/debian/dists/stable/main/installer-mips/current/images/r5k-ip32/">installer
 image for O2</a>.  This image supports installations both via serial
 console as well as framebuffer.
 
