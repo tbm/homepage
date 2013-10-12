@@ -108,7 +108,7 @@ Issue the following commands to download the Debian installer images:
 cd /tmp
 busybox wget ftp://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-219/initrd.gz
 busybox wget ftp://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-219/kernel
-busybox wget http://people.debian.org/~tbm/qnap/flash-debian
+busybox wget ftp://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-219/flash-debian
 busybox wget ftp://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-219/model
 </pre>
 </div>
