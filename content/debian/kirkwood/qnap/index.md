@@ -33,6 +33,8 @@ Here is a table showing the differences between these devices:
 <th>TS-119</th>
 <th>TS-119P+</th>
 <th>TS-119P II</th>
+<th>TS-120</th>
+<th>TS-121</th>
 </tr>
 
 <tr>
@@ -40,6 +42,8 @@ Here is a table showing the differences between these devices:
 <td>800 MHz</td>
 <td>1.2 GHz</td>
 <td>1.2 GHz</td>
+<td>1.6 GHz</td>
+<td>2.0 GHz</td>
 <td>1.6 GHz</td>
 <td>2.0 GHz</td>
 </tr>
@@ -51,10 +55,14 @@ Here is a table showing the differences between these devices:
 <td>512 MB</td>
 <td>512 MB</td>
 <td>512 MB</td>
+<td>512 MB</td>
+<td>1 GB</td>
 </tr>
 
 <tr>
 <td style="background-color: #E0E0FF">Flash</td>
+<td>16 MB</td>
+<td>16 MB</td>
 <td>16 MB</td>
 <td>16 MB</td>
 <td>16 MB</td>
@@ -69,10 +77,14 @@ Here is a table showing the differences between these devices:
 <td>1</td>
 <td>1</td>
 <td>1</td>
+<td>1</td>
+<td>1</td>
 </tr>
 
 <tr>
 <td style="background-color: #E0E0FF">eSATA</td>
+<td>1</td>
+<td>1</td>
 <td>1</td>
 <td>1</td>
 <td>1</td>
@@ -87,10 +99,14 @@ Here is a table showing the differences between these devices:
 <td>1</td>
 <td>1</td>
 <td>1</td>
+<td>1</td>
+<td>1</td>
 </tr>
 
 <tr>
 <td style="background-color: #E0E0FF">USB back</td>
+<td>2</td>
+<td>2</td>
 <td>2</td>
 <td>2</td>
 <td>2</td>
@@ -105,6 +121,8 @@ Here is a table showing the differences between these devices:
 <td>1</td>
 <td>1</td>
 <td>1</td>
+<td>1</td>
+<td>1</td>
 </tr>
 
 <tr>
@@ -112,6 +130,8 @@ Here is a table showing the differences between these devices:
 <td>1</td>
 <td>1</td>
 <td>no</td>
+<td>1</td>
+<td>1</td>
 <td>1</td>
 <td>1</td>
 </tr>
@@ -128,6 +148,8 @@ Here is a table showing the differences between these devices:
 <th>TS-219P</th>
 <th>TS-219P+</th>
 <th>TS-219P II</th>
+<th>TS-220</th>
+<th>TS-221</th>
 </tr>
 
 <tr>
@@ -136,6 +158,8 @@ Here is a table showing the differences between these devices:
 <td>1.2 GHz</td>
 <td>1.2 GHz</td>
 <td>1.2 GHz</td>
+<td>1.6 GHz</td>
+<td>2.0 GHz</td>
 <td>1.6 GHz</td>
 <td>2.0 GHz</td>
 </tr>
@@ -148,10 +172,14 @@ Here is a table showing the differences between these devices:
 <td>512 MB</td>
 <td>512 MB</td>
 <td>512 MB</td>
+<td>512 MB</td>
+<td>1 GB</td>
 </tr>
 
 <tr>
 <td style="background-color: #E0E0FF">Flash</td>
+<td>16 MB</td>
+<td>16 MB</td>
 <td>16 MB</td>
 <td>16 MB</td>
 <td>16 MB</td>
@@ -168,6 +196,8 @@ Here is a table showing the differences between these devices:
 <td>2</td>
 <td>2</td>
 <td>2</td>
+<td>2</td>
+<td>2</td>
 </tr>
 
 <tr>
@@ -178,10 +208,14 @@ Here is a table showing the differences between these devices:
 <td>2</td>
 <td>2</td>
 <td>2</td>
+<td>2</td>
+<td>2</td>
 </tr>
 
 <tr>
 <td style="background-color: #E0E0FF">USB front</td>
+<td>1</td>
+<td>1</td>
 <td>1</td>
 <td>1</td>
 <td>1</td>
@@ -198,6 +232,8 @@ Here is a table showing the differences between these devices:
 <td>2</td>
 <td>2</td>
 <td>2</td>
+<td>2</td>
+<td>2</td>
 </tr>
 
 <tr>
@@ -208,10 +244,14 @@ Here is a table showing the differences between these devices:
 <td>1</td>
 <td>1</td>
 <td>1</td>
+<td>1</td>
+<td>1</td>
 </tr>
 
 <tr>
 <td style="background-color: #E0E0FF">Fan</td>
+<td>1</td>
+<td>1</td>
 <td>1</td>
 <td>1</td>
 <td>1</td>
@@ -232,8 +272,6 @@ Here is a table showing the differences between these devices:
 <th>TS-419P</th>
 <th>TS-419P+</th>
 <th>TS-419P II</th>
-<th>TS-419U</th>
-<th>TS-419U+</th>
 </tr>
 
 <tr>
@@ -244,8 +282,6 @@ Here is a table showing the differences between these devices:
 <td>1.2 GHz</td>
 <td>1.6 GHz</td>
 <td>2.0 GHz</td>
-<td>1.2 GHz</td>
-<td>1.6 GHz</td>
 </tr>
 
 <tr>
@@ -256,14 +292,10 @@ Here is a table showing the differences between these devices:
 <td>512 MB</td>
 <td>512 MB</td>
 <td>512 MB</td>
-<td>512 MB</td>
-<td>512 MB</td>
 </tr>
 
 <tr>
 <td style="background-color: #E0E0FF">Flash</td>
-<td>16 MB</td>
-<td>16 MB</td>
 <td>16 MB</td>
 <td>16 MB</td>
 <td>16 MB</td>
@@ -280,14 +312,10 @@ Here is a table showing the differences between these devices:
 <td>4</td>
 <td>4</td>
 <td>4</td>
-<td>4</td>
-<td>4</td>
 </tr>
 
 <tr>
 <td style="background-color: #E0E0FF">eSATA</td>
-<td>2</td>
-<td>2</td>
 <td>2</td>
 <td>2</td>
 <td>2</td>
@@ -304,14 +332,10 @@ Here is a table showing the differences between these devices:
 <td>1</td>
 <td>1</td>
 <td>1</td>
-<td>1</td>
-<td>1</td>
 </tr>
 
 <tr>
 <td style="background-color: #E0E0FF">USB back</td>
-<td>3</td>
-<td>3</td>
 <td>3</td>
 <td>3</td>
 <td>3</td>
@@ -328,8 +352,6 @@ Here is a table showing the differences between these devices:
 <td>2</td>
 <td>2</td>
 <td>2</td>
-<td>2</td>
-<td>2</td>
 </tr>
 
 <tr>
@@ -340,8 +362,90 @@ Here is a table showing the differences between these devices:
 <td>1</td>
 <td>1</td>
 <td>1</td>
+</tr>
+
+</table>
+
+<table>
+
+<tr>
+<th style="background-color: white"></th>
+<th>TS-419U</th>
+<th>TS-419U+</th>
+<th>TS-420</th>
+<th>TS-421</th>
+</tr>
+
+<tr>
+<td style="background-color: #E0E0FF">CPU</td>
+<td>1.2 GHz</td>
+<td>1.6 GHz</td>
+<td>1.6 GHz</td>
+<td>2.0 GHz</td>
+</tr>
+
+<tr>
+<td style="background-color: #E0E0FF">RAM</td>
+<td>512 MB</td>
+<td>512 MB</td>
+<td>512 MB</td>
+<td>1 GB</td>
+</tr>
+
+<tr>
+<td style="background-color: #E0E0FF">Flash</td>
+<td>16 MB</td>
+<td>16 MB</td>
+<td>16 MB</td>
+<td>16 MB</td>
+</tr>
+
+<tr>
+<td style="background-color: #E0E0FF">HDD</td>
+<td>4</td>
+<td>4</td>
+<td>4</td>
+<td>4</td>
+</tr>
+
+<tr>
+<td style="background-color: #E0E0FF">eSATA</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+</tr>
+
+<tr>
+<td style="background-color: #E0E0FF">USB front</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+
+<tr>
+<td style="background-color: #E0E0FF">USB back</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+</tr>
+
+<tr>
+<td style="background-color: #E0E0FF">Ethernet</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+</tr>
+
+<tr>
+<td style="background-color: #E0E0FF">Fan</td>
 <td>3</td>
 <td>2</td>
+<td>1</td>
+<td>1</td>
 </tr>
 
 </table>
