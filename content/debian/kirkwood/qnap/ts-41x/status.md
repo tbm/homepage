@@ -11,7 +11,7 @@ keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420, TS-4
 <%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
-<h1>Status of QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419U, TS-410U+, TS-420 and TS-421</h1>
+<h1>Status of QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419P II, TS-419U, TS-410U+, TS-420 and TS-421</h1>
 
 QNAP TS-41x/TS-42x devices are based on a Marvell Kirkwood System on a Chip.
 Marvell has done a lot of work to get support for the Kirkwood platform

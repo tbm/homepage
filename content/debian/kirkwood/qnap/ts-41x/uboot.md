@@ -11,7 +11,7 @@ keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420, TS-4
 <%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
-<h1>Using U-Boot on the QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419U, TS-420 and TS-421</h1>
+<h1>Using U-Boot on the QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419P II, TS-419U, TS-420 and TS-421</h1>
 
 If you have a <a href = "../serial/">serial console</a> for your QNAP
 device, you can use U-Boot, the boot loader used on the TS-41x/TS-42x, to restore

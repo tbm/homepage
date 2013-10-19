@@ -11,9 +11,9 @@ keywords: [Debian, NAS, QNAP, QNAP Turbo NAS, Kirkwood, TS-410, TS-410U, TS-412,
 <%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
-<h1>Debian on QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419U, TS-419U+, TS-420 and TS-421</h1>
+<h1>Debian on QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419P II, TS-419U, TS-419U+, TS-420 and TS-421</h1>
 
-The QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419U, TS-419U+, TS-420 and TS-421
+The QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419P II, TS-419U, TS-419U+, TS-420 and TS-421
 are powerful NAS devices that can be used for a variety of tasks.  You can
 use the user-friendly <a href = "install/">Debian installer to install</a>
 Debian.
