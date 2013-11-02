@@ -68,14 +68,15 @@ TS-41x/TS-42x are supported by Debian:
 </tr>
 
 <tr>
-<td style="color: white; background-color: #AA0000">LCD (TS-419P/TS-419P+)</td>
-<td>Supported in upstream qcontrol but not yet in Debian</td>
+<td style="color: white; background-color: #00AA00">LCD</td>
+<td>Supported in qcontrol; you have to <a href="../tips/#qcontrol-upgrade">install
+the qcontrol backport</a></td>
 </tr>
 
 <tr>
-<td style="color: black; background-color: #FFFF00">Fan</td>
-<td>Supported in qcontrol, but there is no automatic regulation of
-the fan based on the current temperature.</td>
+<td style="color: white; background-color: #00AA00">Fan</td>
+<td>Supported in qcontrol; you can <a href="../tips/#qcontrol-upgrade">upgrade
+qcontrol</a> to get automatic temperature regulation.</td>
 </tr>
 
 <tr>

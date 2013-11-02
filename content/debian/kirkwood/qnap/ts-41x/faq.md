@@ -16,10 +16,10 @@ keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419P II, TS-419U, 
 <h3>Is Debian on the QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419P II, TS-419U, TS-419U+, TS-420 and TS-421 fully supported?</h3>
 
 Debian includes support for the QNAP TS-410, TS-410U, TS-412, TS-419P,
-TS-419P+, TS-419P II, TS-419U, TS-419U+, TS-420 and TS-421.  However, some functionality from the
-original firmware may not be available.  In particular, there is no
-automatic fan control and Wake-on-LAN (WOL) is not supported.  Please see
-the <a href = "../status/">status page</a> to see what is supported.
+TS-419P+, TS-419P II, TS-419U, TS-419U+, TS-420 and TS-421.  However, some
+functionality from the original firmware may not be available.  For
+example, Wake-on-LAN (WOL) is not supported.  Please see the <a href =
+"../status/">status page</a> to see what is supported.
 
 <h3>Which QNAP devices are supported?</h3>
 
