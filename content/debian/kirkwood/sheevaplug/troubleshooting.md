@@ -23,6 +23,18 @@ include the full boot log as well as the output of `printenv` from U-Boot.
 
 <h2><a id = "u-boot">U-Boot</a></h2>
 
+<h3><a id = "serial">Cannot connect to serial console</a></h3>
+
+If you cannot connect to the serial console of your plug computer, make
+sure that your device is working correctly.  It has been reported that the
+power supply for SheevaPlug devices can stop working after continued use,
+so this might be the reason why you cannot connect to the serial console.
+
+If your device is working correctly but you get a "permission denied" error
+when connecting to the serial console, make sure that your user is in the
+`dialout` group.  This is the group associated with the `/dev/ttyUSBx`
+device nodes.
+
 <h3><a id = "uncompress">No output after "Uncompressing Linux..."</a></h3>
 
 You get no output after seeing this line:
