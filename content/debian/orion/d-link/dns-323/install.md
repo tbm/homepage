@@ -162,6 +162,12 @@ ssh installer@<span class="input">192.168.1.100</span>
 </pre>
 </div>
 
+**Important note:** When you connect to the installer, one of the first
+screens will allow you to select additional installer modules.  Make sure
+to select the `ext3` module.  If you don't select the `ext3` module, the
+installer will not work correctly due to <a
+href="http://bugs.debian.org/729445">a bug</a>.
+
 The installation itself should be pretty standard and you can follow the <a
 href = "http://www.debian.org/releases/stable/armel/">installation
 guide</a>.  The installer knows about the DNS-323 and CH3SNAS and at the
