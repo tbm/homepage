@@ -18,7 +18,6 @@ and Conceptronic CH3SNAS:
 <ul>
 
 <li>There are no known issues at the moment.</li>
-<a href="http://bugs.debian.org/622325">I2C problems</a></li>
 
 </ul>
 
