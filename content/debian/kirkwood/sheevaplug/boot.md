@@ -135,7 +135,7 @@ new kernel:
 
 <li>When you install a kernel package, the file `/boot/vmlinuz-$VERSION` is
 installed and modules are installed under `/lib/modules/$VERSION` ($VERSION
-indicates the output of `uname&nbsp;-r` from the new kernel).</li>
+indicates the output of `uname`&nbsp;`-r` from the new kernel).</li>
 
 <li>The program `initramfs-tools` is called to generate the ramdisk on disk
 (`/boot/initrd.img-$VERSION`).  During the ramdisk generation, the script
