@@ -103,6 +103,9 @@ Nimbus and Cumulus need an external JTAG/serial module.  The Stratus and
 Cirrus have an internal JTAG/serial module but <em>only</em> only the
 Development Kit version.</li>
 
+<li>D2Plug: it would be possible to support this device in Debian but it
+seems that nobody is working on it.</li>
+
 </ul>
 
 <h2>Unsupported models without plans to support</h2>
