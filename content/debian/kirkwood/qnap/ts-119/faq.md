@@ -2,7 +2,7 @@
 title: FAQ about Debian on QNAP TS-11x/TS-12x
 nav: FAQ
 description: FAQ about Debian on QNAP TS-11x/TS-12x
-keywords: [Debian, QNAP, TS-110, TS-112, TS-119, TS-119P+, TS-120, TS-121, FAQ, frequently asked questions, help, troubleshooting]
+keywords: [Debian, QNAP, TS-110, TS-112, TS-112P, TS-119, TS-119P+, TS-120, TS-121, FAQ, frequently asked questions, help, troubleshooting]
 ---
 
 <% content_for :right do %>
@@ -13,9 +13,9 @@ keywords: [Debian, QNAP, TS-110, TS-112, TS-119, TS-119P+, TS-120, TS-121, FAQ, 
 
 <h1>Frequently Asked Questions (FAQ)</h1>
 
-<h3>Is Debian on the QNAP TS-110, TS-112, TS-119, TS-119P+, TS-119P II, TS-120 and TS-121 fully supported?</h3>
+<h3>Is Debian on the QNAP TS-110, TS-112, TS-112P, TS-119, TS-119P+, TS-119P II, TS-120 and TS-121 fully supported?</h3>
 
-Debian includes support for the QNAP TS-110, TS-112, TS-119, TS-119P+,
+Debian includes support for the QNAP TS-110, TS-112, TS-112P, TS-119, TS-119P+,
 TS-119P II, TS-120 and TS-121.  However, some functionality from the
 original firmware may not be available.  For example, Wake-on-LAN (WOL) is
 not supported.  Please see the <a href = "../status/">status page</a> to
@@ -24,8 +24,8 @@ see what is supported.
 <h3>Which QNAP devices are supported?</h3>
 
 All QNAP devices based on the Marvell Kirkwood platform are supported.
-This includes the QNAP TS-110, TS-112, TS-119, TS-119P+, TS-119P II, TS-120 and TS-121, <a
-href = "../../ts-219/">QNAP TS-210, TS-212, TS-219, TS-219P, TS-219P+, TS-220 and TS-221</a>
+This includes the QNAP TS-110, TS-112, TS-112P, TS-119, TS-119P+, TS-119P II, TS-120 and TS-121, <a
+href = "../../ts-219/">QNAP HS-210, TS-210, TS-212, TS-212-E, TS-219, TS-219P, TS-219P+, TS-220 and TS-221</a>
 as well as the <a href = "../../ts-41x/">QNAP TS-410, TS-410U, TS-419P,
 TS-419P+, TS-419U, TS-419U+, TS-420 and TS-421</a>.  Older QNAP devices based on the
 Marvell Orion platform are <a href = "/debian/orion/qnap/">also

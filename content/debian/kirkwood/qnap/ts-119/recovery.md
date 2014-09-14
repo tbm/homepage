@@ -2,7 +2,7 @@
 title: Recovery mode of QNAP TS-11x/TS-12x
 nav: Recovery mode
 description: System Recovery Mode of QNAP TS-11x/TS-12x
-keywords: [Debian, QNAP, TS-110, TS-112, TS-119, TS-119P+, TS-120, TS-121, recovery, emergency, rescue]
+keywords: [Debian, QNAP, TS-110, TS-112, TS-112P, TS-119, TS-119P+, TS-120, TS-121, recovery, emergency, rescue]
 ---
 
 <% content_for :right do %>
@@ -118,6 +118,11 @@ You can check the following table to find out which string to use:
 <tr>
 <td>TS-112</td>
 <td>`F_TS-112`</td>
+</tr>
+
+<tr>
+<td>TS-112P</td>
+<td>`F_TS-112P`</td>
 </tr>
 
 <tr>

@@ -2,7 +2,7 @@
 title: Status of QNAP TS-11x/TS-12x support
 nav: Status
 description: Status of QNAP TS-11x/TS-12x support in Debian
-keywords: [Debian, QNAP, TS-110, TS-112, TS-119, TS-120, TS-121, support, status]
+keywords: [Debian, QNAP, TS-110, TS-112, TS-112P, TS-119, TS-120, TS-121, support, status]
 ---
 
 <% content_for :right do %>

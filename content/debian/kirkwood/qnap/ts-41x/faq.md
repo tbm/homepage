@@ -24,8 +24,8 @@ example, Wake-on-LAN (WOL) is not supported.  Please see the <a href =
 <h3>Which QNAP devices are supported?</h3>
 
 All QNAP devices based on the Marvell Kirkwood platform are supported.
-This includes the <a href = "../../ts-119/">QNAP TS-110, TS-112, TS-119,
-TS-119P+, TS-119P II, TS-120 and TS-121</a>, <a href = "../../ts-219/">QNAP TS-210, TS-219,
+This includes the <a href = "../../ts-119/">QNAP TS-110, TS-112, TS-112P, TS-119,
+TS-119P+, TS-119P II, TS-120 and TS-121</a>, <a href = "../../ts-219/">QNAP HS-210, TS-210, TS-212, TS-212-E, TS-219,
 TS-219P, TS-219P+, TS-219P II, TS-220 and TS-221</a> as well as the QNAP TS-410, TS-410U,
 TS-412, TS-419P, TS-419P+, TS-419P II, TS-419U, TS-419U+, TS-420 and TS-421.  Older QNAP devices based
 on the Marvell Orion platform are <a href = "/debian/orion/qnap/">also

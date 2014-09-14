@@ -2,7 +2,7 @@
 title: Tips and tricks for Debian on QNAP TS-11x/TS-12x
 nav: Tips
 description: Tips and tricks for Debian on QNAP TS-11x/TS-12x
-keywords: [Debian, QNAP, TS-110, TS-112, TS-119, TS-120, TS-121, tips, tricks]
+keywords: [Debian, QNAP, TS-110, TS-112, TS-112P, TS-119, TS-120, TS-121, tips, tricks]
 ---
 
 <% content_for :right do %>

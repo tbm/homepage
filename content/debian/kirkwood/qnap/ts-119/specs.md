@@ -2,7 +2,7 @@
 title: Specification of the QNAP TS-119 and TS-119
 nav: Specs
 description: Specs of the QNAP TS-110 and TS-119
-keywords: [Debian, QNAP, TS-110, TS-112, TS-119, specs, specification]
+keywords: [Debian, QNAP, TS-110, TS-112, TS-112P, TS-119, specs, specification]
 ---
 
 <% content_for :right do %>

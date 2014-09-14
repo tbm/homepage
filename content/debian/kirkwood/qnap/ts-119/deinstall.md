@@ -2,7 +2,7 @@
 title: De-installing Debian on QNAP TS-11x/TS-12x
 nav: De-installing Debian
 description: Restoring the original QNAP Firmware on QNAP TS-11x/TS-12x
-keywords: [Debian, QNAP, TS-110, TS-112, TS-119, TS-120, TS-121, original firmware]
+keywords: [Debian, QNAP, TS-110, TS-112, TS-112P, TS-119, TS-120, TS-121, original firmware]
 ---
 
 <% content_for :right do %>

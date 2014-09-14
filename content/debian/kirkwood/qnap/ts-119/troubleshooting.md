@@ -2,7 +2,7 @@
 title: Troubleshooting Debian on QNAP TS-11x/TS-12x
 nav: Troubleshooting
 description: Troubleshooting Debian on QNAP TS-11x/TS-12x
-keywords: [Debian, QNAP, NAS, TS-110, TS-112, TS-119, TS-120, TS-121, troubleshooting, problems]
+keywords: [Debian, QNAP, NAS, TS-110, TS-112, TS-112P, TS-119, TS-120, TS-121, troubleshooting, problems]
 ---
 
 <% content_for :right do %>

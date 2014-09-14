@@ -2,7 +2,7 @@
 title: U-Boot on QNAP TS-11x/TS-12x
 nav: U-Boot
 description: Using U-Boot on the QNAP TS-11x/TS-12x
-keywords: [Debian, QNAP, TS-110, TS-112, TS-119, TS-120, TS-121, serial, console, uboot, U-Boot]
+keywords: [Debian, QNAP, TS-110, TS-112, TS-112P, TS-119, TS-120, TS-121, serial, console, uboot, U-Boot]
 ---
 
 <% content_for :right do %>

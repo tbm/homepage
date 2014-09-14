@@ -2,7 +2,7 @@
 title: Recovery mode of QNAP TS-21x/TS-22x
 nav: Recovery mode
 description: System Recovery Mode of QNAP TS-21x/TS-22x
-keywords: [Debian, QNAP, TS-210, TS-212, TS-219, TS-219P, TS-219P+, TS-220, TS-221, recovery, emergency, rescue]
+keywords: [Debian, QNAP, HS-210, TS-210, TS-212, TS-219, TS-219P, TS-219P+, TS-220, TS-221, recovery, emergency, rescue]
 ---
 
 <% content_for :right do %>
@@ -11,9 +11,9 @@ keywords: [Debian, QNAP, TS-210, TS-212, TS-219, TS-219P, TS-219P+, TS-220, TS-2
 <%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
-<h1>Recovery mode of QNAP TS-21x/TS-22x devices</h1>
+<h1>Recovery mode of QNAP HS-210, TS-21x and TS-22x devices</h1>
 
-QNAP TS-21x/TS-22x devices have a recovery mode that can be used when there is a
+QNAP HS-210, TS-21x and TS-22x devices have a recovery mode that can be used when there is a
 problem with your installation of Debian that renders your device
 unbootable.  The system recovery mode allows you write a recovery image to
 flash via the network using the TFTP protocol.  This pages describes how
@@ -108,6 +108,11 @@ You can check the following table to find out which string to use:
 <tr>
 <th>Device</th>
 <th>String</th>
+</tr>
+
+<tr>
+<td>HS-210</td>
+<td>`F_HS-210`</td>
 </tr>
 
 <tr>

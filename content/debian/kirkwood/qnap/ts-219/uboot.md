@@ -2,7 +2,7 @@
 title: U-Boot on QNAP TS-21x/TS-22x
 nav: U-Boot
 description: Using U-Boot on the QNAP TS-21x/TS-22x
-keywords: [Debian, QNAP, TS-210, TS-212, TS-219, TS-219P, TS-220, TS-221, serial, console, uboot, U-Boot]
+keywords: [Debian, QNAP, HS-210, TS-210, TS-212, TS-219, TS-219P, TS-220, TS-221, serial, console, uboot, U-Boot]
 ---
 
 <% content_for :right do %>

@@ -2,7 +2,7 @@
 title: Serial console for QNAP TS-11x/TS-12x
 nav: Serial Console
 description: Connecting a serial console to the QNAP TS-11x/TS-12x
-keywords: [Debian, QNAP, TS-110, TS-112, TS-119, TS-120, TS-121, serial, console, RS-232, hack]
+keywords: [Debian, QNAP, TS-110, TS-112, TS-112P, TS-119, TS-120, TS-121, serial, console, RS-232, hack]
 ---
 
 <% content_for :right do %>
