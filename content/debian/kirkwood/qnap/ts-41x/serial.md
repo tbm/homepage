@@ -13,10 +13,18 @@ keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420, TS-4
 
 <h1>Connecting a serial console to the QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+. TS-419P II, TS-419U, TS-420 and TS-421</h1>
 
-If you want to connect a serial console to the QNAP TS-41x/TS-42x, you'll need a
-3.3V TTL to RS-232 level shifter.  The serial connector is marked as CN1
-and is of type JST PHR-4.  The pin layout is as follows (from the top to
-the bottom):
+If you want to connect a serial console to the QNAP TS-41x/TS-42x, you'll
+need a TTL to RS-232 level shifter.  Unfortunately, there are several
+revisions of the TS-41x/TS-42x mainboard that behave differently in terms
+of the serial console.  The description below works on my TS-419P+ but
+unfortunately I don't know the revision of the mainboard since I don't
+have this device anymore.  I've been told that the QV20 V1.2 mainboard
+uses 5V rather than 3.3V and that the QV20 V2.1 mainboard has no jumper
+to change between LCD and serial.
+
+On my TS-419P+, the serial connector is marked as CN1 and is of type JST
+PHR-4.  You need a 3.3V TTL to RS-232 level shifter.  The pin layout is as
+follows (from the top to the bottom):
 
 <ul>
 <li>TX</li>
