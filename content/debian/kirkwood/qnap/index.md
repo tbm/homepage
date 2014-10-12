@@ -13,8 +13,8 @@ keywords: [Debian, QNAP, QNAP Turbo NAS, Kirkwood, TS-110, TS-119, TS-119P+, TS-
 
 <h1>Debian on QNAP Turbo NAS</h1>
 
-Debian supports QNAP's Turbo NAS devices.  This includes the following
-devices:
+Debian supports devices from QNAP's Turbo NAS devices that are based on the
+Marvell Kirkwood platform.   This includes the following devices:
 
 <ul>
 <li><a href = "ts-119/">QNAP TS-110, TS-112, TS-112P, TS-119, TS-119P+, TS-119P II, TS-120 and TS-121</a></li>
@@ -22,7 +22,10 @@ devices:
 <li><a href = "ts-41x/">QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419P II, TS-419U, TS-419U+, TS-420 and TS-421</a></li>
 </ul>
 
-Here is a table showing the differences between these devices:
+Please note that the TS-x31 series is not supported since these devices
+don't use Marvell Kirkwood chips.
+
+Here is a table showing the differences between the supported devices:
 
 <table>
 
