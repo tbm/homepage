@@ -32,10 +32,7 @@ after unpacking the tar ball.  The root partition <em>has</em> to be the
 2nd primary partition (i.e. `/dev/sdb2` in this example) since the root
 device is hard-coded in the ramdisk.
 
-I used the following layout.  There's no particular reason for using this
-partitioning layout.  I simply used something similar to what
-debian-installer would create but you're welcome to use a different layout
-(in which case you need to update `/etc/fstab` though).
+I used the following layout:
 
 <div class="code">
 <pre>
