@@ -87,6 +87,12 @@ how to add a serial console.  See <a href =
 
 <h2>Models that may or may not be supported in the future</h2>
 
+<p>Please note that I don't have time to add support for new devices, but
+you're welcome to add support for devices you're interested in.  Please
+contact the <a href = "http://lists.debian.org/debian-arm/">debian-arm
+mailing list</a> if you're working on adding support for a new device and
+need feedback or help.</p>
+
 <ul>
 
 <li>GuruPlug Display: this device looks interesting but is based on a
