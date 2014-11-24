@@ -100,7 +100,7 @@ Ionics for hardware and didn't get a reply so I'm not planning to support
 these devices.  However, adding support is possible if someone wants to
 work on it.  If you intend to purchase such a device, be aware that the
 Nimbus and Cumulus need an external JTAG/serial module.  The Stratus and
-Cirrus have an internal JTAG/serial module but <em>only</em> only the
+Cirrus have an internal JTAG/serial module but <em>only</em> the
 Development Kit version.</li>
 
 <li>D2Plug: it would be possible to support this device in Debian but it
