@@ -92,8 +92,8 @@ how to add a serial console.  See <a href =
 <li>GuruPlug Display: this device looks interesting but is based on a
 different chip than all other plugs.  While most plugs use a Marvell
 Kirkwood chip, the GuruPlug Display is based on a Marvell PXA chip which we
-currently don't support in Debian.  At the moment, I'm not planning to
-support this model.</li>
+currently don't support in Debian.  It's unlikely this model will be
+supported.</li>
 
 <li>Ionics Nimbus 200, Nimbus 300, Cumulus, Stratus and Cirrus: I asked
 Ionics for hardware and didn't get a reply so I'm not planning to support
