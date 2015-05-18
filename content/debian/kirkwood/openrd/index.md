@@ -31,24 +31,12 @@ OpenRD.</li>
 
 </ul>
 
-<h2>External Resources</h2>
-
-<ul>
-
-<li><a href = "http://groups.google.com/group/openrd">OpenRD group</a> on
-Google Groups.</li>
-
-</ul>
-
 <h2>Help</h2>
 
 If you have problems with Debian on the OpenRD and cannot solve them
 with Google, you can consult the following resources:
 
 <ul>
-
-<li>The <a href = "http://groups.google.com/group/openrd">OpenRD group</a>
-for questions about the OpenRD platform.</li>
 
 <li>The <a href = "http://lists.debian.org/debian-arm/">debian-arm list</a>
 for questions specifically related to the ARM port of Debian or about
