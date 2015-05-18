@@ -151,7 +151,7 @@ Second, you have to flash the new U-Boot:
 <div class="code">
 <pre>
 nand erase 0x0 0x60000
-nand write 0x0800000 0x0 0x60000
+nand write 0x0800000 0x0 ${filesize}
 </pre>
 </div>
 
@@ -163,7 +163,7 @@ nand write 0x0800000 0x0 0x60000
 <pre>
 sf probe 0
 sf erase 0x0 0x60000
-sf write 0x0800000 0x0 0x60000
+sf write 0x0800000 0x0 ${filesize}
 </pre>
 </div>
 
