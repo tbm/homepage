@@ -50,7 +50,7 @@ On the other hand, the version string of the DENX variant looks like this:
 
 <div class="code">
 <pre>
-U-Boot 2011.12 (Mar 11 2012 - 18:59:46)
+U-Boot 2014.10+dfsg1-5 (Apr 07 2015 - 21:57:04)
 </pre>
 </div>
 
@@ -60,7 +60,7 @@ version.
 If your plug computer is using the Marvell variant of U-Boot, you have to
 upgrade since the installation guide assumes that you're using the DENX
 variant.  If you're already using the DENX variant, you can upgrade in case
-your U-Boot is older than the one above (i.e. older than 2011.12).
+your U-Boot is older than the one above (i.e. older than 2014.10).
 
 If you're upgrading from the Marvell to the DENX variant, issue the
 following command and write down your MAC address.  This step is important
@@ -82,18 +82,18 @@ binary listed here!
 <ul>
 
 <li><a href =
-"http://people.debian.org/~tbm/u-boot/2011.12-3/sheevaplug/u-boot.kwb">SheevaPlug
+"http://people.debian.org/~tbm/u-boot/2014.10+dfsg1-5/sheevaplug/u-boot.kwb">SheevaPlug
 (the original SheevaPlug, the eSATA SheevaPlug and the Ionics Nimbus 100)</a></li>
 
 <li><a href =
-"http://people.debian.org/~tbm/u-boot/2011.12-3/dreamplug/u-boot.kwb">DreamPlug</a></li>
+"http://people.debian.org/~tbm/u-boot/2014.10+dfsg1-5/dreamplug/u-boot.kwb">DreamPlug</a></li>
 
 <li><a href =
-"http://people.debian.org/~tbm/u-boot/2011.12-3/guruplug/u-boot.kwb">GuruPlug
+"http://people.debian.org/~tbm/u-boot/2014.10+dfsg1-5/guruplug/u-boot.kwb">GuruPlug
 (GuruPlug Server Standard and GuruPlug Server Plus)</a></li>
 
 <li><a href =
-"http://people.debian.org/~tbm/u-boot/2011.12-3/dockstar/u-boot.kwb">Seagate
+"http://people.debian.org/~tbm/u-boot/2014.10+dfsg1-5/dockstar/u-boot.kwb">Seagate
 FreeAgent DockStar</a></li>
 
 </ul>
@@ -150,7 +150,7 @@ Second, you have to flash the new U-Boot:
 
 <div class="code">
 <pre>
-nand erase 0x0 0x60000
+nand erase 0x0 0x70000
 nand write 0x0800000 0x0 ${filesize}
 </pre>
 </div>
@@ -162,7 +162,7 @@ nand write 0x0800000 0x0 ${filesize}
 <div class="code">
 <pre>
 sf probe 0
-sf erase 0x0 0x60000
+sf erase 0x0 0x70000
 sf write 0x0800000 0x0 ${filesize}
 </pre>
 </div>
