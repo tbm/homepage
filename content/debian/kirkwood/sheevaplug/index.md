@@ -24,10 +24,8 @@ install</a> Debian.
 
 <h2>News</h2>
 
-[2013-05-04] Debian 7.0 (wheezy) <a
-href="http://www.debian.org/News/2013/20130504">is available</a>.  Make
-sure you have <a href="/journal/debian/wheezy-upgrade">u-boot 2011.12-3 (or
-higher) before you upgrade</a>!
+[2015-04-25] Debian 8 (jessie) <a
+href="https://www.debian.org/News/2015/20150426">is available</a>.
 
 <h2>Information</h2>
 

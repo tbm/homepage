@@ -90,9 +90,8 @@ moment, so it's not quite useful on the TS-21x</td>
 </tr>
 
 <tr>
-<td style="color: white; background-color: #AA0000">Wake-on-LAN (WOL)</td>
-<td>Not supported.  Support has recently been added upstream so this will
-appear in Debian in the future</td>
+<td style="color: white; background-color: #00AA00">Wake-on-LAN (WOL)</td>
+<td>Supported in qcontrol.</td>
 </tr>
 
 <tr>

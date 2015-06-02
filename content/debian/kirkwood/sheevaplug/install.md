@@ -13,7 +13,7 @@ keywords: [SheevaPlug, Marvell, Kirkwood, Debian, installer, ARM, GuruPlug]
 
 <h1>Installing Debian on Plug Computers</h1>
 
-This page describes how to install Debian 7 (wheezy) on plug computers,
+This page describes how to install Debian 8 (jessie) on plug computers,
 such as the SheevaPlug and GuruPlug.
 
 The following devices are currently supported:
@@ -70,10 +70,14 @@ and <a href =
 "http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/guruplug/uImage">uImage</a>
 and <a href =
 "http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/guruplug/uInitrd">uInitrd</a>
-* SheevaPlug and SheevaPlug variants: <a href =
+* SheevaPlug without eSATA: <a href =
 "http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/sheevaplug/uImage">uImage</a>
 and <a href =
 "http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/sheevaplug/uInitrd">uInitrd</a>
+* SheevaPlug with eSATA: <a href =
+"http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/sheevaplug-esata/uImage">uImage</a>
+and <a href =
+"http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/sheevaplug-esata/uInitrd">uInitrd</a>
 
 Now connect the install medium (USB stick, SD card or eSATA disk) to your
 plug computer and connect a mini-USB connector in order to access the

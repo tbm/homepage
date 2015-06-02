@@ -17,9 +17,8 @@ keywords: [Debian, QNAP, TS-210, TS-212, TS-219, TS-219P, TS-219P+, TS-220, TS-2
 
 Debian includes support for the QNAP HS-210, TS-210, TS-212, TS-212-E, TS-219, TS-219P,
 TS-219P+, TS-219P II, TS-220 and TS-221.  However, some functionality from
-the original firmware may not be available.  For example, Wake-on-LAN (WOL)
-is not supported.  Please see the <a href = "../status/">status page</a> to
-see what is supported.
+the original firmware may not be available.  Please see the <a href = "../status/">status
+page</a> to see what is supported.
 
 <h3>Which QNAP devices are supported?</h3>
 

@@ -17,9 +17,8 @@ keywords: [Debian, QNAP, TS-110, TS-112, TS-112P, TS-119, TS-119P+, TS-120, TS-1
 
 Debian includes support for the QNAP TS-110, TS-112, TS-112P, TS-119, TS-119P+,
 TS-119P II, TS-120 and TS-121.  However, some functionality from the
-original firmware may not be available.  For example, Wake-on-LAN (WOL) is
-not supported.  Please see the <a href = "../status/">status page</a> to
-see what is supported.
+original firmware may not be available.  Please see the
+<a href = "../status/">status page</a> to see what is supported.
 
 <h3>Which QNAP devices are supported?</h3>
 

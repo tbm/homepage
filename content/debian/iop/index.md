@@ -19,7 +19,7 @@ devices based on IOP chips that can run Debian.  This page provides
 instructions about running Debian on these devices.  Please note, however,
 that the IOP series has reached its end of life.
 
-At the moment, Debian supports the following devices:
+Debian used to support the following devices:
 
 <ul>
 
@@ -38,11 +38,11 @@ slots, 256 MB RAM (expandable), 2 USB ports and 1 GBit Ethernet.
 Apparently this machine is also known as the Intel Baxter Creek SS4000-E.
 This system appears to be based on a design by Lanner, a company that sells
 the NAS appliances NS04-4100 and NS04-4110.  Wouter Verhelst
-ported Debian to this device.  There are some <a href =
-"http://www.debian.org/releases/stable/armel/ch05s01.html.en#boot-firmware-ss4000e">installation
-instructions</a>.</li>
+ported Debian to this device.</li>
 
 </ul>
+
+Support for IOP32x was dropped in Debian 8 (jessie).
 
 <h2>Help</h2>
 

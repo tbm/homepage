@@ -13,6 +13,9 @@ keywords: [Debian, Thecus, N2100, installation, guide, IOP, NAS, server, hack]
 
 <h1>Installing Debian on the Thecus N2100</h1>
 
+While the Thecus N2100 is supported in Debian 7 (wheezy), it is no longer
+supported in Debian 8 (jessie).
+
 <h2>Requirements</h2>
 
 In order to install Debian on an N2100, you need the following:
@@ -101,7 +104,7 @@ address via DHCP.
 
 Once you have configured the network, you can go to `System`, followed by
 `Firmware Upgrade`.  First, you have to download the <a href =
-"http://ftp.uk.debian.org/debian/dists/stable/main/installer-armel/current/images/iop32x/network-console/n2100.bin">firmware
+"http://ftp.uk.debian.org/debian/dists/stable/main/installer-armel/wheezy/images/iop32x/network-console/n2100.bin">firmware
 image</a> provided by Debian for the installation.  Afterwards you can
 upload this image to the Thecus firmware.  It will ask you to confirm that
 you want to upgrade to this new version.

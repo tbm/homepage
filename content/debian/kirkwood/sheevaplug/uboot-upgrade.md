@@ -192,22 +192,6 @@ reset
 </pre>
 </div>
 
-Finally, if you have an eSATA SheevaPlug, you have to change some settings
-in u-boot so the device will boot the correct kernel for your device.  This
-step is only required on the eSATA SheevaPlug and not on other plug
-computers.  If you have an eSATA SheevaPlug, type:
-
-<div class="code">
-<pre>
-setenv machid a76
-saveenv
-reset
-</pre>
-</div>
-
-These commands will put in the correct settings and then restart the device
-so the changes will take effect.
-
 Go back to my <a href = "..">Debian on Plug Computer</a> page.
 
 <%= render "paypal", :desc => "Debian on Plug Computer donation" %>

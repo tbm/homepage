@@ -15,10 +15,10 @@ keywords: [Debian, QNAP, TS-409, FAQ, frequently asked questions, help, troubles
 
 <h3>Is Debian on the QNAP TS-409 fully supported?</h3>
 
-Debian includes support for the QNAP TS-409 but as of Debian 7 (wheezy)
-the installer no longer supports the TS-409.  The recommended way to
-install Debian is to <a href="../install/">install Debian 6.0 (squeeze)</a>
-and then perform an upgrade to Debian 7 (wheezy).
+Debian includes support for the QNAP TS-409 but the device is no longer
+supported by Debian installer.  The recommended way to install Debian is to
+<a href="../install/">install Debian 6.0 (squeeze)</a> and then perform an
+upgrade to Debian 7 (wheezy) and then to Debian 8 (jessie).
 
 <h3>Is Debian on the TS-409 suited for people new to Linux?</h3>
 

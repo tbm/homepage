@@ -13,6 +13,10 @@ keywords: [Debian, installation, Cobalt, MIPS, Qube, RaQ, Qube2, RaQ2]
 
 <h1>Debian on MIPS based Cobalt machines</h1>
 
+This page describes how to install Debian 7 (wheezy) on a Cobalt machine.
+Please note that Cobalt machines are no longer supported in Debian 8
+(jessie).
+
 <h2>Requirements</h2>
 
 In order to install Debian 7 (wheezy) on a Cobalt machine, you need the
@@ -125,7 +129,7 @@ Now, download and install the actual files needed for the installation:
 <div class="code">
 <pre>
 cd $HOME
-wget http://ftp.nl.debian.org/debian/dists/stable/main/installer-mipsel/current/images/cobalt/nfsroot.tar.gz
+wget http://ftp.nl.debian.org/debian/dists/wheezy/main/installer-mipsel/current/images/cobalt/nfsroot.tar.gz
 cd /
 tar -xzvf ~/nfsroot.tar.gz
 </pre>
@@ -180,7 +184,7 @@ or screen) with the settings 115200 8N1 (for example, `screen /dev/ttyS0
 </ul>
 
 The installation itself should be pretty standard and you can follow the <a
-href = "http://www.debian.org/releases/stable/mipsel/">installation
+href = "http://www.debian.org/releases/wheezy/mipsel/">installation
 guide</a>.  The only thing you have to keep in mind is that the Cobalt
 requires a boot partition of type ext2 (revision 0).  This partition has to
 be the first primary partition.  In debian-installer, you can make such a

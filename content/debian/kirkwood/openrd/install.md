@@ -11,8 +11,8 @@ keywords: [OpenRD, OpenRD-Base, OpenRD-Client, OpenRD-Ultimate, Marvell, Kirkwoo
 
 <h1>Installing Debian on OpenRD (Base and Client)</h1>
 
-This page explains how to use the Debian installer to install Debian 7
-(wheezy) on the OpenRD platform (OpenRD-Base, OpenRD-Client and
+This page explains how to use the Debian installer to install Debian 8
+(jessie) on the OpenRD platform (OpenRD-Base, OpenRD-Client and
 OpenRD-Ultimate).
 
 The OpenRD has 512 MB flash memory and SATA, USB and MMC/SD card

@@ -28,10 +28,11 @@ Debian does not install a web interface to configure your machine, although
 it's possible to install such software.  If this is not what you want,
 please don't proceed with the installation.
 
-Note that the installer of Debian 7 (wheezy), our latest stable release,
-does not support the TS-109.  However, you can install Debian 6.0 (squeeze)
-according to the instructions on this page and then perform an upgrade to
-Debian 7 (wheezy).
+Note that Debian 6.0 (squeeze) was the last release of Debian that provided
+an installer for QNAP TS-109 devices.  You can not directly install later
+releases.  However, you can install Debian 6.0 (squeeze) according to the
+instructions on this page and then perform an upgrade to Debian 7 (wheezy)
+and Debian 8 (jessie).
 
 <h2>Requirements and Preparation</h2>
 
@@ -330,12 +331,13 @@ In case you run into any bugs or problems, you may want to check the list
 of <a href = "../known-issues/">known issues and bugs</a> with Debian on the
 QNAP TS-109.
 
-<h2>Upgrade to Debian 7 (wheezy)</h2>
+<h2>Upgrade to latest Debian</h2>
 
-You should upgrade to Debian 7, our latest stable release.  Please read
-the section on <a
-href="http://www.debian.org/releases/wheezy/armel/release-notes/ch-upgrading.en.html">upgrades
-from Debian 6.0</a> of the Debian 7 release notes.
+You should first upgrade to <a
+href="http://www.debian.org/releases/wheezy/armel/release-notes/ch-upgrading.en.html">Debian
+7 (wheezy)</a> and then immediately perform an upgrade to <a
+href="https://www.debian.org/releases/jessie/armel/release-notes/ch-upgrading.en.html">Debian
+8 (jessie)</a>
 
 Go back to my <a href = "..">Debian on QNAP TS-109</a> page.
 

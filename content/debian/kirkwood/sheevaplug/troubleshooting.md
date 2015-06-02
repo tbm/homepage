@@ -175,20 +175,9 @@ happens, just be patient.  The installer is in fact formatting your disk.
 <h3><a id = "esata-sheevaplug">eSATA disk not found on eSATA SheevaPlug</a></h3>
 
 If your eSATA disk is not recognized on your eSATA SheevaPlug when booting
-Debian or the Debian installer, it's probably due to a missing u-boot
-configuration.  On eSATA SheevaPlug devices (but not other devices), you
-have to configure u-boot like this:
-
-<div class="code">
-<pre>
-setenv machid a76
-saveenv
-reset
-</pre>
-</div>
-
-These commands will put in the correct settings and then restart the device
-so the changes will take effect.
+Debian or the Debian installer, it's probably because you didn't use the
+correct kernel image.  Make sure to use the kernel image for SheevaPlug
+with eSATA for the installation.
 
 <%= render "paypal", :desc => "Debian on Plug Computer donation" %>
 

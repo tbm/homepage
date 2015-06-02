@@ -22,7 +22,7 @@ login via SSH to perform the installation.  Debian will be installed to
 disk and a Debian kernel will be put in flash that will start Debian from
 disk.
 
-If you follow this procedure, Debian 7 (wheezy) will be installed to
+If you follow this procedure, Debian 8 (jessie) will be installed to
 your SATA disk and the QNAP firmware on disk and in flash will be replaced
 with Debian.  Debian does not install a web interface to configure your
 machine, although it's possible to install such software.  If this is not
