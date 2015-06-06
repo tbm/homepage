@@ -26,7 +26,7 @@ All QNAP devices based on the Marvell Kirkwood platform are supported.
 This includes the QNAP TS-110, TS-112, TS-112P, TS-119, TS-119P+, TS-119P II, TS-120 and TS-121, <a
 href = "../../ts-219/">QNAP HS-210, TS-210, TS-212, TS-212-E, TS-212P, TS-219, TS-219P, TS-219P+, TS-220 and TS-221</a>
 as well as the <a href = "../../ts-41x/">QNAP TS-410, TS-410U, TS-419P,
-TS-419P+, TS-419U, TS-419U+, TS-420 and TS-421</a>.  Older QNAP devices based on the
+TS-419P+, TS-419U, TS-419U+, TS-420, TS-420U, TS-421 and TS-421U</a>.  Older QNAP devices based on the
 Marvell Orion platform are <a href = "/debian/orion/qnap/">also
 supported</a>.  I don't support any other QNAP devices, but you may find
 information and help <a href =

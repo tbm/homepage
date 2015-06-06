@@ -19,7 +19,7 @@ Marvell Kirkwood platform.   This includes the following devices:
 <ul>
 <li><a href = "ts-119/">QNAP TS-110, TS-112, TS-112P, TS-119, TS-119P+, TS-119P II, TS-120 and TS-121</a></li>
 <li><a href = "ts-219/">QNAP HS-210, TS-210, TS-212, TS-212-E, TS-212P, TS-219, TS-219P, TS-219P+, TS-219P II, TS-220 and TS-221</a></li>
-<li><a href = "ts-41x/">QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419P II, TS-419U, TS-419U+, TS-420 and TS-421</a></li>
+<li><a href = "ts-41x/">QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419P II, TS-419U, TS-419U+, TS-420, TS-420U, TS-421 and TS-421U</a></li>
 </ul>
 
 Please note that the TS-x31 series is not supported since these devices
@@ -453,7 +453,9 @@ Here is a table showing the differences between the supported devices:
 <th>TS-419U</th>
 <th>TS-419U+</th>
 <th>TS-420</th>
+<th>TS-420U</th>
 <th>TS-421</th>
+<th>TS-421U</th>
 </tr>
 
 <tr>
@@ -461,6 +463,8 @@ Here is a table showing the differences between the supported devices:
 <td>1.2 GHz</td>
 <td>1.6 GHz</td>
 <td>1.6 GHz</td>
+<td>1.6 GHz</td>
+<td>2.0 GHz</td>
 <td>2.0 GHz</td>
 </tr>
 
@@ -470,10 +474,14 @@ Here is a table showing the differences between the supported devices:
 <td>512 MB</td>
 <td>512 MB</td>
 <td>1 GB</td>
+<td>1 GB</td>
+<td>1 GB</td>
 </tr>
 
 <tr>
 <td style="background-color: #E0E0FF">Flash</td>
+<td>16 MB</td>
+<td>16 MB</td>
 <td>16 MB</td>
 <td>16 MB</td>
 <td>16 MB</td>
@@ -486,10 +494,14 @@ Here is a table showing the differences between the supported devices:
 <td>4</td>
 <td>4</td>
 <td>4</td>
+<td>4</td>
+<td>4</td>
 </tr>
 
 <tr>
 <td style="background-color: #E0E0FF">eSATA</td>
+<td>2</td>
+<td>2</td>
 <td>2</td>
 <td>2</td>
 <td>2</td>
@@ -502,10 +514,14 @@ Here is a table showing the differences between the supported devices:
 <td>1</td>
 <td>1</td>
 <td>1</td>
+<td>1</td>
+<td>1</td>
 </tr>
 
 <tr>
 <td style="background-color: #E0E0FF">USB back</td>
+<td>3</td>
+<td>3</td>
 <td>3</td>
 <td>3</td>
 <td>3</td>
@@ -518,10 +534,14 @@ Here is a table showing the differences between the supported devices:
 <td>none</td>
 <td>2</td>
 <td>2</td>
+<td>2</td>
+<td>2</td>
 </tr>
 
 <tr>
 <td style="background-color: #E0E0FF">Ethernet</td>
+<td>2</td>
+<td>2</td>
 <td>2</td>
 <td>2</td>
 <td>2</td>
@@ -533,7 +553,9 @@ Here is a table showing the differences between the supported devices:
 <td>3</td>
 <td>2</td>
 <td>1</td>
+<td>2</td>
 <td>1</td>
+<td>2</td>
 </tr>
 
 </table>
