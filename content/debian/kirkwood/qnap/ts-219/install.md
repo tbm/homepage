@@ -2,7 +2,7 @@
 title: Installing Debian on QNAP TS-21x/TS-22x
 nav: Installing Debian
 description: Installation instructions for Debian on QNAP TS-21x/TS-22x
-keywords: [Debian, QNAP, HS-210, TS-210, TS-212, TS-212-E, TS-219, TS-219P, TS-219P+, TS-220, TS-221, ARM, armel, installation]
+keywords: [Debian, QNAP, HS-210, TS-210, TS-212, TS-212-E, TS-212P, TS-219, TS-219P, TS-219P+, TS-220, TS-221, ARM, armel, installation]
 ---
 
 <% content_for :right do %>
@@ -34,7 +34,7 @@ In order to install Debian on a QNAP TS-21x/TS-22x device, you need the followin
 
 <ul>
 
-<li>A QNAP HS-210, TS-210, TS-212, TS-212-E, TS-219, TS-219P, TS-219P+, TS-219P II, TS-220 or TS-221.</li>
+<li>A QNAP HS-210, TS-210, TS-212, TS-212-E, TS-212P, TS-219, TS-219P, TS-219P+, TS-219P II, TS-220 or TS-221.</li>
 
 <li>An internal SATA disk.</li>
 

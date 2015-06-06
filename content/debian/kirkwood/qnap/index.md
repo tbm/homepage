@@ -18,7 +18,7 @@ Marvell Kirkwood platform.   This includes the following devices:
 
 <ul>
 <li><a href = "ts-119/">QNAP TS-110, TS-112, TS-112P, TS-119, TS-119P+, TS-119P II, TS-120 and TS-121</a></li>
-<li><a href = "ts-219/">QNAP HS-210, TS-210, TS-212, TS-212-E, TS-219, TS-219P, TS-219P+, TS-219P II, TS-220 and TS-221</a></li>
+<li><a href = "ts-219/">QNAP HS-210, TS-210, TS-212, TS-212-E, TS-212P, TS-219, TS-219P, TS-219P+, TS-219P II, TS-220 and TS-221</a></li>
 <li><a href = "ts-41x/">QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419P II, TS-419U, TS-419U+, TS-420 and TS-421</a></li>
 </ul>
 
@@ -159,6 +159,7 @@ Here is a table showing the differences between the supported devices:
 <th>TS-210</th>
 <th>TS-212</th>
 <th>TS-212-E</th>
+<th>TS-212P</th>
 <th>TS-219</th>
 <th>TS-219P</th>
 <th>TS-219P+</th>
@@ -172,6 +173,7 @@ Here is a table showing the differences between the supported devices:
 <td>1.6 GHz</td>
 <td>800 MHz</td>
 <td>1.2 GHz</td>
+<td>1.6 GHz</td>
 <td>1.6 GHz</td>
 <td>1.2 GHz</td>
 <td>1.2 GHz</td>
@@ -192,11 +194,13 @@ Here is a table showing the differences between the supported devices:
 <td>512 MB</td>
 <td>512 MB</td>
 <td>512 MB</td>
+<td>512 MB</td>
 <td>1 GB</td>
 </tr>
 
 <tr>
 <td style="background-color: #E0E0FF">Flash</td>
+<td>16 MB</td>
 <td>16 MB</td>
 <td>16 MB</td>
 <td>16 MB</td>
@@ -221,10 +225,12 @@ Here is a table showing the differences between the supported devices:
 <td>2</td>
 <td>2</td>
 <td>2</td>
+<td>2</td>
 </tr>
 
 <tr>
 <td style="background-color: #E0E0FF">eSATA</td>
+<td>no</td>
 <td>no</td>
 <td>no</td>
 <td>no</td>
@@ -249,11 +255,13 @@ Here is a table showing the differences between the supported devices:
 <td>1</td>
 <td>1</td>
 <td>1</td>
+<td>1</td>
 </tr>
 
 <tr>
 <td style="background-color: #E0E0FF">USB back</td>
 <td>4</td>
+<td>2</td>
 <td>2</td>
 <td>2</td>
 <td>2</td>
@@ -277,11 +285,13 @@ Here is a table showing the differences between the supported devices:
 <td>1</td>
 <td>1</td>
 <td>1</td>
+<td>1</td>
 </tr>
 
 <tr>
 <td style="background-color: #E0E0FF">Fan</td>
 <td>none</td>
+<td>1</td>
 <td>1</td>
 <td>1</td>
 <td>1</td>

@@ -2,7 +2,7 @@
 title: Debian on QNAP TS-21x/TS-22x
 nav: TS-21x/TS-22x
 description: Instructions for running Debian on the QNAP TS-21x/TS-22x
-keywords: [Debian, NAS, QNAP, QNAP Turbo NAS, Kirkwood, HS-210 TS-210, TS-212, TS-212-E, TS-219, TS-219P, TS-219P+, TS-219P II, TS-220, TS-221]
+keywords: [Debian, NAS, QNAP, QNAP Turbo NAS, Kirkwood, HS-210 TS-210, TS-212, TS-212-E, TS-212P, TS-219, TS-219P, TS-219P+, TS-219P II, TS-220, TS-221]
 ---
 
 <% content_for :right do %>
@@ -13,7 +13,7 @@ keywords: [Debian, NAS, QNAP, QNAP Turbo NAS, Kirkwood, HS-210 TS-210, TS-212, T
 
 <h1>Debian on QNAP HS-210, TS-21x and TS-22x devices</h1>
 
-The QNAP HS-210, TS-210, TS-212, TS-212-E, TS-219, TS-219P, TS-219P+, TS-219P II, TS-220 and TS-221 are
+The QNAP HS-210, TS-210, TS-212, TS-212-E, TS-212P, TS-219, TS-219P, TS-219P+, TS-219P II, TS-220 and TS-221 are
 powerful NAS devices that can be used for a variety of tasks.  You can use
 the user-friendly <a href = "install/">Debian installer to install</a>
 Debian.

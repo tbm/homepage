@@ -13,9 +13,9 @@ keywords: [Debian, QNAP, TS-210, TS-212, TS-219, TS-219P, TS-219P+, TS-220, TS-2
 
 <h1>Frequently Asked Questions (FAQ)</h1>
 
-<h3>Is Debian on the QNAP HS-210, TS-210, TS-212, TS-212-E, TS-219, TS-219P, TS-219P+, TS-219P II, TS-220 and TS-221 fully supported?</h3>
+<h3>Is Debian on the QNAP HS-210, TS-210, TS-212, TS-212-E, TS-212P, TS-219, TS-219P, TS-219P+, TS-219P II, TS-220 and TS-221 fully supported?</h3>
 
-Debian includes support for the QNAP HS-210, TS-210, TS-212, TS-212-E, TS-219, TS-219P,
+Debian includes support for the QNAP HS-210, TS-210, TS-212, TS-212-E, TS-212P, TS-219, TS-219P,
 TS-219P+, TS-219P II, TS-220 and TS-221.  However, some functionality from
 the original firmware may not be available.  Please see the <a href = "../status/">status
 page</a> to see what is supported.
@@ -24,7 +24,7 @@ page</a> to see what is supported.
 
 All QNAP devices based on the Marvell Kirkwood platform are supported.
 This includes the <a href = "../../ts-119/">QNAP TS-110, TS-112, TS-112P, TS-119,
-TS-119P+, TS-120 and TS-121, </a>, QNAP TS-210, TS-219, TS-219P, TS-219P+,
+TS-119P+, TS-120 and TS-121, </a>, QNAP TS-210, TS-212P, TS-219, TS-219P, TS-219P+,
 TS-219P II, TS-220 and TS-221 as well
 as the <a href = "../../ts-41x/">QNAP TS-410, TS-410U, TS-419P, TS-419P+,
 TS-419U, TS-419U+, TS-420 and TS-421</a>.  Older QNAP devices based on the Marvell Orion
