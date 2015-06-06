@@ -126,6 +126,18 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
+<td style="background-color: #E0E0FF">USB 3.0</td>
+<td>none</td>
+<td>none</td>
+<td>2</td>
+<td>none</td>
+<td>none</td>
+<td>none</td>
+<td>2</td>
+<td>2</td>
+</tr>
+
+<tr>
 <td style="background-color: #E0E0FF">Ethernet</td>
 <td>1</td>
 <td>1</td>
@@ -274,6 +286,21 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
+<td style="background-color: #E0E0FF">USB 3.0</td>
+<td>2</td>
+<td>none</td>
+<td>none</td>
+<td>2</td>
+<td>2</td>
+<td>none</td>
+<td>none</td>
+<td>none</td>
+<td>none</td>
+<td>2</td>
+<td>2</td>
+</tr>
+
+<tr>
 <td style="background-color: #E0E0FF">Ethernet</td>
 <td>1</td>
 <td>1</td>
@@ -388,6 +415,16 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
+<td style="background-color: #E0E0FF">USB 3.0</td>
+<td>none</td>
+<td>none</td>
+<td>none</td>
+<td>none</td>
+<td>none</td>
+<td>depends</td>
+</tr>
+
+<tr>
 <td style="background-color: #E0E0FF">Ethernet</td>
 <td>2</td>
 <td>2</td>
@@ -473,6 +510,14 @@ Here is a table showing the differences between the supported devices:
 <td>3</td>
 <td>3</td>
 <td>3</td>
+</tr>
+
+<tr>
+<td style="background-color: #E0E0FF">USB 3.0</td>
+<td>none</td>
+<td>none</td>
+<td>2</td>
+<td>2</td>
 </tr>
 
 <tr>
