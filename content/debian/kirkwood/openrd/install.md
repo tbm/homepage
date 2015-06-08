@@ -169,7 +169,7 @@ If you're using a SATA disk, use these commands:
 <pre>
 setenv bootargs_console console=ttyS0,115200
 setenv bootcmd_sata 'ide reset; ext2load ide 0:1 0x01100000 /uInitrd; ext2load ide 0:1 0x00800000 /uImage'
-setenv bootcmd 'setenv bootargs $(bootargs_console); run bootcmd_sata; bootm 0x00800000 0x01100000'
+setenv bootcmd 'setenv bootargs ${bootargs_console}; run bootcmd_sata; bootm 0x00800000 0x01100000'
 saveenv
 </pre>
 </div>
@@ -180,7 +180,7 @@ For USB, use this:
 <pre>
 setenv bootargs_console console=ttyS0,115200
 setenv bootcmd_usb 'usb start; ext2load usb 0:1 0x01100000 /uInitrd; ext2load usb 0:1 0x00800000 /uImage'
-setenv bootcmd 'setenv bootargs $(bootargs_console); run bootcmd_usb; bootm 0x00800000 0x01100000'
+setenv bootcmd 'setenv bootargs ${bootargs_console}; run bootcmd_usb; bootm 0x00800000 0x01100000'
 saveenv
 </pre>
 </div>
@@ -196,7 +196,7 @@ For MMC/SD, use this:
 <pre>
 setenv bootargs_console console=ttyS0,115200
 setenv bootcmd_mmc 'mmcinit; ext2load mmc 0:1 0x01100000 /uInitrd; ext2load mmc 0:1 0x00800000 /uImage'
-setenv bootcmd 'setenv bootargs $(bootargs_console); run bootcmd_mmc; bootm 0x00800000 0x01100000'
+setenv bootcmd 'setenv bootargs ${bootargs_console}; run bootcmd_mmc; bootm 0x00800000 0x01100000'
 saveenv
 </pre>
 </div>

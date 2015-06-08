@@ -37,7 +37,7 @@ flash:
 
 <div class="code">
 <pre>
-fw_setenv bootcmd 'nboot $(default_kernel_addr) 0 20000; setenv bootargs $(bootargs_base) $(bootargs_root) $(buffalo_ver); bootm $(default_kernel_addr)'
+fw_setenv bootcmd 'nboot ${default_kernel_addr} 0 20000; setenv bootargs ${bootargs_base} ${bootargs_root} ${buffalo_ver}; bootm ${default_kernel_addr}'
 </pre>
 </div>
 
@@ -49,7 +49,7 @@ issue the following command from the Buffalo firmware:
 
 <div class="code">
 <pre>
-nvram -c set bootcmd 'ide reset; ext2load ide 0:1 $(default_kernel_addr) /$(kernel); ext2load ide 0:1 $(default_initrd_addr) /$(initrd); setenv bootargs $(bootargs_base); bootm $(default_kernel_addr) $(default_initrd_addr)'
+nvram -c set bootcmd 'ide reset; ext2load ide 0:1 ${default_kernel_addr} /${kernel}; ext2load ide 0:1 ${default_initrd_addr} /${initrd}; setenv bootargs ${bootargs_base}; bootm ${default_kernel_addr} ${default_initrd_addr}'
 </pre>
 </div>
 

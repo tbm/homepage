@@ -37,7 +37,7 @@ please make sure you type exactly what is written here:
 <div class="code">
 <pre>
 fw_printenv thinpro
-fw_setenv thinpro 'ide reset; ext2load ide 0:1 0x800000 /boot/uImage; wol; setenv bootargs $(thinpro_bootargs); bootm 0x800000'
+fw_setenv thinpro 'ide reset; ext2load ide 0:1 0x800000 /boot/uImage; wol; setenv bootargs ${thinpro_bootargs}; bootm 0x800000'
 fw_printenv thinpro
 </pre>
 </div>

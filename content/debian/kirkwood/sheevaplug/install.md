@@ -170,7 +170,7 @@ the following commands.  For USB, use this:
 <pre>
 setenv bootargs_console console=ttyS0,115200
 setenv bootcmd_usb 'usb start; ext2load usb 0:1 0x00800000 /uImage; ext2load usb 0:1 0x01100000 /uInitrd'
-setenv bootcmd 'setenv bootargs $(bootargs_console); run bootcmd_usb; bootm 0x00800000 0x01100000'
+setenv bootcmd 'setenv bootargs ${bootargs_console}; run bootcmd_usb; bootm 0x00800000 0x01100000'
 saveenv
 </pre>
 </div>
@@ -181,7 +181,7 @@ If you're using an SD card, use these commands instead:
 <pre>
 setenv bootargs_console console=ttyS0,115200
 setenv bootcmd_mmc 'ext2load mmc 0:1 0x00800000 /uImage; ext2load mmc 0:1 0x01100000 /uInitrd'
-setenv bootcmd 'setenv bootargs $(bootargs_console); run bootcmd_mmc; bootm 0x00800000 0x01100000'
+setenv bootcmd 'setenv bootargs ${bootargs_console}; run bootcmd_mmc; bootm 0x00800000 0x01100000'
 saveenv
 </pre>
 </div>
@@ -192,7 +192,7 @@ Finally, use these commands to boot from eSATA:
 <pre>
 setenv bootargs_console console=ttyS0,115200
 setenv bootcmd_sata 'ide reset; ext2load ide 0:1 0x00800000 /uImage; ext2load ide 0:1 0x01100000 /uInitrd'
-setenv bootcmd 'setenv bootargs $(bootargs_console); run bootcmd_sata; bootm 0x00800000 0x01100000'
+setenv bootcmd 'setenv bootargs ${bootargs_console}; run bootcmd_sata; bootm 0x00800000 0x01100000'
 saveenv
 </pre>
 </div>

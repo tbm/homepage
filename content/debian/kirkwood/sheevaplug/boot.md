@@ -80,7 +80,7 @@ the u-boot variables used to boot Debian.  There are three variables
 
 <tr>
 <td>`bootcmd`</td>
-<td>`setenv bootargs $(bootargs_console); run bootcmd_usb; bootm 0x00800000 0x01100000`</td>
+<td>`setenv bootargs ${bootargs_console}; run bootcmd_usb; bootm 0x00800000 0x01100000`</td>
 </tr>
 
 </table>
@@ -90,7 +90,7 @@ executed.  There are three commands:
 
 <ol>
 
-<li><p>The first command (`setenv bootargs $(bootargs_console)`) sets the
+<li><p>The first command (`setenv bootargs ${bootargs_console}`) sets the
 `bootargs` variable to the value of the `bootargs_console` variable.  In
 the example, `bootargs_console` is set to `console=ttyS0,115200` so
 `bootargs` will receive this setting.  When the Linux kernel is booted,
