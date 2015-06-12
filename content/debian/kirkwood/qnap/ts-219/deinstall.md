@@ -1,7 +1,7 @@
 ---
 title: De-installing Debian on QNAP TS-21x/TS-22x
 nav: De-installing Debian
-description: Restoring the original QNAP Firmware on QNAP TS-21x/TS-22x
+description: Restoring the original QNAP firmware or re-installing Debian on QNAP TS-21x/TS-22x
 keywords: [Debian, QNAP, HS-210, TS-210, TS-212, TS-219, TS-219P, TS-220, TS-221, original firmware]
 ---
 
@@ -9,13 +9,16 @@ keywords: [Debian, QNAP, HS-210, TS-210, TS-212, TS-219, TS-219P, TS-220, TS-221
 <%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
-<h1>Restoring the original QNAP firmware</h1>
+<h1>Restoring the original QNAP firmware or re-installing Debian</h1>
 
-If you want to restore the original QNAP firmware on your HS-210, TS-21x or TS-22x device for
+If you want to restore the original QNAP firmware or re-install Debian on your HS-210, TS-21x or TS-22x device for
 some reason, you can follow the instructions below.  Please note that this
 will only work if your Debian system is still working.  If your Debian
 system is broken but the machine itself works, you can use the <a href =
-"../recovery/">recovery mode</a> to restore the QNAP firmware.
+"../recovery/">recovery mode</a> to restore the QNAP firmware or
+re-install Debian.
+
+<h2>Restoring the original QNAP firmware</h2>
 
 There are two steps to restore the original QNAP firmware.  First, you have
 to put the backup of the flash partitions from the QNAP firmware you made
@@ -34,6 +37,30 @@ format your disk and install the full QNAP firmware.
 After you put the QNAP firmware back in flash and installed the complete
 the QNAP software, your device will run the original software from QNAP
 again.
+
+<h2><a id="reinstall">Re-installing Debian</a></h2>
+
+If you want to re-install Debian using Debian installer, you have to obtain
+the <a
+href="http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-219/kernel">kernel</a>
+and <a
+href="http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-219/initrd.gz">initrd.gz</a>
+files of the installer (make sure the initrd.gz does not get uncompressed
+when you download it).
+
+You can then write the installer files to flash:
+
+<div class="code">
+<pre>
+cat kernel &gt; /dev/mtdblock1
+cat initrd.gz &gt; /dev/mtdblock2
+</pre>
+</div>
+
+Reboot your QNAP device and Debian installer will start and you can connect
+via SSH, as <a href="../install/#install">documented on the install
+page</a>.  Please be aware that the SSH key of the machine will have
+changed.
 
 <div class="bbf">
 <%= render "adsense-banner-before-footer" %>

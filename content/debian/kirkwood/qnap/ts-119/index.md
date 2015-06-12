@@ -41,7 +41,7 @@ TS-110.</li>
 <li>Information about the <a href = "recovery/">recovery mode</a>.</li>
 
 <li>Instructions for <a href = "deinstall/">restoring the original QNAP
-firmware</a>.</li>
+firmware or re-installing Debian</a>.</li>
 
 <li>Connecting a <a href = "serial/">serial console</a>.</li>
 
