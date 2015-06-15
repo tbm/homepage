@@ -57,16 +57,16 @@ telinit q
 </pre>
 </div>
 
-<h3><a id = "upgrade">Upgrading from Debian 6.0 (squeeze) to 7 (wheezy)</a></h3>
+<h3><a id = "upgrade">Upgrading Debian</a></h3>
 
-Here are some notes regarding upgrades from Debian 6.0 to 7:
+Here are some notes regarding upgrades of Debian:
 
 <ul>
 
-<li>Make sure to read the release notes for Debian 7.  In particular,
+<li>Make sure to read the release notes.  In particular,
 follow the <a href =
 "http://www.debian.org/releases/stable/armel/release-notes/ch-upgrading.en.html">chapter
-on upgrades from Debian 6.0</a> which explains the upgrade process in great
+on upgrades from Debian 7</a> which explains the upgrade process in great
 detail.</li>
 
 <li>Make sure to remove the package `apt-xapian-index` from your system

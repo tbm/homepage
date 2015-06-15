@@ -106,6 +106,10 @@ wget http://people.debian.org/~tbm/nslu2/wheezy/base.tar.bz2.asc
 
 </ul>
 
+Please be aware that these tar balls are not up-to-date and therefore lack
+important security updates.  Please upgrade to the latest Debian release
+(jessie, version 8) immediately after the installation.
+
 Verify that the GPG signature matches:
 
 <div class="code">
