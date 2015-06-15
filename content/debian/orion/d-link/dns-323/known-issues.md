@@ -21,6 +21,10 @@ and Conceptronic CH3SNAS:
 
 </ul>
 
+Please be aware that Debian 8 (jessie) is the last release to support the
+D-Link DNS-323 and Conceptronic CH3SNAS.  These devices are not supported
+in the upcoming Debian 9 (stretch).
+
 <div class="bbf">
 <%= render "adsense-banner-before-footer" %>
 </div>
