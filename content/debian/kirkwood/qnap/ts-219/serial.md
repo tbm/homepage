@@ -30,7 +30,7 @@ On the TS-219, the serial port can be accesses fairly easily through the
 hard drive slot at the front.  On the TS-219P, the serial connector is
 labelled CN3 and is very hard to reach via the SATA slot.  On newer
 TS-219P+ devices (revision 1.3 of the board), the connector is labelled
-CN1.
+CN1.  On the HS-210, the connector is labelled CN5.
 
 Once you have connected your serial console, you can use a terminal
 emulation program to connect to U-Boot, the boot loader used by this
