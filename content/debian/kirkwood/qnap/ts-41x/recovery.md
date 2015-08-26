@@ -101,6 +101,8 @@ that specifies `filename` and `next-server`.  The latter refers to the IP
 address of your TFTP server (likely the same as your DHCP server).  The
 `filename` of the recovery image has to start with a specific string
 depending on your machine (otherwise the machine won't load the image!).
+You also have to install a TFTP server (such as `tftpd-hpa`) to serve
+the file.
 
 You can check the following table to find out which string to use:
 
