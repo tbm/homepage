@@ -38,7 +38,7 @@ First of all, you have to download the installer.  Download the <a href =
 "http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/openrd/uImage">uImage</a>
 and <a href =
 "http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/openrd/uInitrd">uInitrd</a>
-and store them either on a USB stick or an TFTP server.
+and store them either on a USB stick or a TFTP server.
 
 Now connect a mini-USB connector to `System Debug` in order to access the
 serial console.  If you're running a modern Linux kernel (2.6.30.5 or
