@@ -177,7 +177,7 @@ starting with `00:50:43`.  You can run the recovery mode and then look for
 address.
 
 Once you have the right MAC address, you can configure your DHCP server.  I
-used the following entry in `/etc/dhcp3/dhcpd.conf`:
+used the following entry in `/etc/dhcp/dhcpd.conf`:
 
 <div class="code">
 <pre>

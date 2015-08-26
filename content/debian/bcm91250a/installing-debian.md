@@ -42,7 +42,7 @@ user `root`:
 <div class="code">
 <pre>
 apt-get install tftpd
-apt-get install dhcp3-server
+apt-get install isc-dhcp-server
 </pre>
 </div>
 
@@ -58,7 +58,7 @@ tftp dgram udp wait nobody /usr/sbin/tcpd /usr/sbin/in.tftpd /boot
 </pre>
 </div>
 
-You also have to configure your DHCP server.  Edit `/etc/dhcp3/dhcpd.conf`
+You also have to configure your DHCP server.  Edit `/etc/dhcp/dhcpd.conf`
 and add an entry similar to the following:
 
 <div class="code">
@@ -91,7 +91,7 @@ made:
 <div class="code">
 <pre>
 /etc/init.d/inetd restart
-/etc/init.d/dhcp3-server restart
+/etc/init.d/isc-dhcp-server restart
 </pre>
 </div>
 
