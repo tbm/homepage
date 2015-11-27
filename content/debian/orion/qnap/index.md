@@ -26,9 +26,8 @@ supported models:
 <li><a href = "ts-409/">QNAP TS-409 and TS-409U</a></li>
 </ul>
 
-There is currently also work progress to support QNAP's new <a href =
-"../../kirkwood/qnap/">Turbo NAS</a> devices, which are based on Marvell's
-new Kirkwood chip.
+Debian also supports QNAP's <a href = "../../kirkwood/qnap/">Turbo NAS</a>
+devices, which are based on Marvell's Kirkwood chip.
 
 <div class="bbf">
 <%= render "adsense-banner-before-footer" %>
