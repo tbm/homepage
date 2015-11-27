@@ -12,14 +12,10 @@ keywords: [Debian, Cobalt, MIPS, RaQ, Qube, RaQ2, Qube2]
 
 <h1>Debian on MIPS based Cobalt machines</h1>
 
-Linux and Debian runs very well on MIPS based Cobalt machines, such as the
-RaQ, Qube2, RaQ2, and Gateway Microserver.  The following pages describe
-how you can install the current version of Debian on MIPS based Cobalt
-Microserver.
-
-Please note that Cobalt machines are no longer supported in Debian 8
-(jessie).  This page describes how to install Debian 7 (wheezy) on a Cobalt
-machine.
+The following pages describe how to install Debian on MIPS based Cobalt
+machines, such as the RaQ, Qube2, RaQ2, and Gateway Microserver.  Please
+note that Cobalt machines are no longer supported in Debian 8 (jessie).
+This page describes how to install Debian 7 (wheezy) on a Cobalt machine.
 
 <h2>Information</h2>
 
