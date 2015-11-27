@@ -35,9 +35,7 @@ much to run a modern operating system.  The
 easy-to-use Debian installer is no longer available for the NSLU2 because
 the device does not have enough RAM.  While it's still possible to install
 Debian on the NSLU2 using the manual method described on this page, I
-suggest you upgrade to a more modern devices, such as a <a href =
-"../kirkwood/sheevaplug/">SheevaPlug</a> or a <a href =
-"../kirkwood/qnap/">NAS device from QNAP</a>.
+suggest you upgrade to a more modern devices.
 
 <h2>Information</h2>
 
