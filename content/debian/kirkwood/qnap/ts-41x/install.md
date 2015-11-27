@@ -78,6 +78,10 @@ mount | grep external
 </pre>
 </div>
 
+On systems that have never been initialized with the QNAP firmware, the
+VFAT module may not be available.  If your USB stick does not get mounted,
+put it back in your PC and format it with the `ext3` or `ext4` filesystem.
+
 Now go to this directory and make a backup of your flash partitions:
 
 <div class="code">
