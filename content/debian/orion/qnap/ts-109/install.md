@@ -354,7 +354,7 @@ You should first upgrade to <a
 href="http://www.debian.org/releases/wheezy/armel/release-notes/ch-upgrading.en.html">Debian
 7 (wheezy)</a> and then immediately perform an upgrade to <a
 href="https://www.debian.org/releases/jessie/armel/release-notes/ch-upgrading.en.html">Debian
-8 (jessie)</a>
+8 (jessie)</a>.
 
 Go back to my <a href = "..">Debian on QNAP TS-109</a> page.
 
