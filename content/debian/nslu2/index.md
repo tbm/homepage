@@ -12,14 +12,6 @@ keywords: [Debian, NAS, NSLU2, Linksys NSLU2, DebianSlug, IXP4xx, SlugDebian]
 
 <h1>Debian on the Linksys NSLU2</h1>
 
-The NSLU2 from Linksys is a small, sub $100 device that can be used for a
-variety of tasks.  NSLU2 stands for Network Storage Link for USB 2.0 Disk
-Drives, a description which pretty much summarizes the original purpose of
-this device.  However, the NSLU2 (or Slug, as it's often referred to) can
-be used for other tasks if you use a more powerful firmware for it.  Since
-the device offers two USB ports, it's possible to connect a USB disk and
-run a full Debian system on it.
-
 In the following, I will describe what is needed to get Debian running on
 your NSLU2.  Please note that this page only provides information on
 running a full-blown Debian system on the NSLU2 on an external USB drive.
