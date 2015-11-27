@@ -68,13 +68,13 @@ username is `admin` and the password is `admin` too.
 
 Once you are logged in, you can save the content of your flash partitions
 to a USB stick.  Connect a USB stick to your QNAP and wait for the system
-to mount it.  In my case, it was mounted at `/share/external/sdi` but you
+to mount it.  In my case, it was mounted at `/share/external/sdi1` but you
 can find the location with the following command:
 
 <div class="code">
 <pre>
 mount | grep external
-/dev/sdi1 on /share/external/<span class="input">sdi</span> type vfat [...]
+/dev/sdi1 on /share/external/<span class="input">sdi1</span> type vfat [...]
 </pre>
 </div>
 
@@ -86,7 +86,7 @@ Now go to this directory and make a backup of your flash partitions:
 
 <div class="code">
 <pre>
-cd /share/external/sdi
+cd /share/external/sdi1
 cat /dev/mtdblock0 &gt; mtd0
 cat /dev/mtdblock1 &gt; mtd1
 cat /dev/mtdblock2 &gt; mtd2
@@ -94,7 +94,7 @@ cat /dev/mtdblock3 &gt; mtd3
 cat /dev/mtdblock4 &gt; mtd4
 cat /dev/mtdblock5 &gt; mtd5
 cd
-umount /share/external/sdi
+umount /share/external/sdi1
 </pre>
 </div>
 
