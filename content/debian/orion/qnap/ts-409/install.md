@@ -221,10 +221,10 @@ following commands:
 <div class="code">
 <pre>
 cd /tmp
-busybox wget http://ftp.nl.debian.org/debian/dists/squeeze/main/installer-armel/current/images/orion5x/network-console/qnap/ts-409/flash-debian
-busybox wget http://ftp.nl.debian.org/debian/dists/squeeze/main/installer-armel/current/images/orion5x/network-console/qnap/ts-409/model
-busybox wget http://ftp.nl.debian.org/debian/dists/squeeze/main/installer-armel/current/images/orion5x/network-console/qnap/ts-409/initrd.gz
-busybox wget http://ftp.nl.debian.org/debian/dists/squeeze/main/installer-armel/current/images/orion5x/network-console/qnap/ts-409/kernel
+busybox wget http://archive.debian.org/debian/dists/squeeze/main/installer-armel/current/images/orion5x/network-console/qnap/ts-409/flash-debian
+busybox wget http://archive.debian.org/debian/dists/squeeze/main/installer-armel/current/images/orion5x/network-console/qnap/ts-409/model
+busybox wget http://archive.debian.org/debian/dists/squeeze/main/installer-armel/current/images/orion5x/network-console/qnap/ts-409/initrd.gz
+busybox wget http://archive.debian.org/debian/dists/squeeze/main/installer-armel/current/images/orion5x/network-console/qnap/ts-409/kernel
 </pre>
 </div>
 
@@ -302,6 +302,24 @@ ssh installer@<span class="input">192.168.1.100</span>
 </pre>
 </div>
 
+When the installer starts, it will ask you to choose a mirror of the Debian
+archive.  Since Debian 6.0 (squeeze) is no longer distributed on Debian
+mirrors, you have to tell the installer to install from
+`archive.debian.org`.  First of all, scroll up in the list of countries
+until you find the first option, which allows you to `enter information
+manually`:
+
+<img src = "../../images/di-mirror2.png" class="border" alt = "Debian installer: enter mirror manually" width="842" height="462" />
+
+Enter `archive.debian.org` as the mirror hostname:
+
+<img src = "../../images/di-mirror3.png" class="border" alt = "Debian installer: enter mirror hostname" width="842" height="462" />
+
+And accept `/debian/` as the mirror directory:
+
+<img src = "../../images/di-mirror4.png" class="border" alt = "Debian installer: enter mirror directory" width="842" height="462" />
+
+Apart from this, the installation itself should be pretty standard and you can follow the <a
 The installation itself should be pretty standard and you can follow the <a
 href = "http://www.debian.org/releases/squeeze/armel/">installation
 guide</a>.  The installer knows about the TS-409 and at the end of the
