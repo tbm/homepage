@@ -54,7 +54,7 @@ You have to make a backup of all the data stored on your QNAP before
 starting with the installation of Debian since Debian will format the whole
 disk during the installation.  Also, Debian will replace the QNAP firmware
 in flash, so it's also recommended to make a copy of the flash (mtd)
-partitions.  Debian will only modify the first two flash partitions but
+partitions.  Debian will only modify two flash partitions but
 it's a good idea to keep a copy of all partitions as you may need them to
 use the recovery mode.  More detailed instructions for making a backup of
 your flash partitions will be given later.
