@@ -16,13 +16,16 @@ keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420, TS-4
 If you want to connect a serial console to the QNAP TS-41x/TS-42x, you'll
 need a TTL to RS-232 level shifter.  Unfortunately, there are several
 revisions of the TS-41x/TS-42x mainboard that behave differently in terms
-of the serial console.  The description below works on my TS-419P+ but
-unfortunately I don't know the revision of the mainboard since I don't
-have this device anymore.  I've been told that the QV20 V1.2 mainboard
-uses 5V rather than 3.3V and that the QV20 V2.1 mainboard has no jumper
-to change between LCD and serial.
+of the serial console.
 
-On my TS-419P+, the serial connector is marked as CN1 and is of type JST
+Once you have connected your serial console, you can use a terminal
+emulation program to connect to U-Boot, the boot loader used by this
+device.  You have to connect with 115200 baud and set the parameters to 8N1
+(8 data bits, no parity, 1 stop bit).  U-Boot on a <a href =
+"../uboot/">separate page about U-Boot</a>.
+
+On my TS-419P+ (unknown revision of the board since I don't have this
+device anymore), the serial connector is marked as CN1 and is of type JST
 PHR-4.  You need a 3.3V TTL to RS-232 level shifter.  The pin layout is as
 follows (from the top to the bottom):
 
@@ -34,16 +37,18 @@ follows (from the top to the bottom):
 </ul>
 
 Note that you have to add a jumper to JP1 for the serial to work.  On the
-TS-419P and TS-419P+, the LCD cannot be used when the JP1 jumper is set
-(i.e. the jumper selects between the serial console and the LCD).  You also
-have to disconnect the LCD cable that goes to the connector right next to
-the serial connector.
+TS-419P and TS-419P+ (and probably all other devices), the LCD cannot be
+used when the JP1 jumper is set (i.e. the jumper selects between the serial
+console and the LCD).  You also have to disconnect the LCD cable that goes
+to the connector right next to the serial connector.
 
-Once you have connected your serial console, you can use a terminal
-emulation program to connect to U-Boot, the boot loader used by this
-device.  You have to connect with 115200 baud and set the parameters to 8N1
-(8 data bits, no parity, 1 stop bit).  U-Boot on a <a href =
-"../uboot/">separate page about U-Boot</a>.
+The TS-419P+ with revision V1.4 and QV20 V1.2 mainboards use 5V rather than
+3.3V.  The APU jumper needs to be set.  The pin layout is as follows:
+
+* TX
+* VCC
+* RX
+* GND
 
 <div class="bbf">
 <%= render "adsense-banner-before-footer" %>
