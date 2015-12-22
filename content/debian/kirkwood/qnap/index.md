@@ -444,6 +444,16 @@ Here is a table showing the differences between the supported devices:
 <td>1</td>
 </tr>
 
+<tr>
+<td style="background-color: #E0E0FF">LCD panel</td>
+<td>no</td>
+<td>no</td>
+<td>no</td>
+<td>yes</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+
 </table>
 
 <table>
@@ -556,6 +566,16 @@ Here is a table showing the differences between the supported devices:
 <td>2</td>
 <td>1</td>
 <td>2</td>
+</tr>
+
+<tr>
+<td style="background-color: #E0E0FF">LCD panel</td>
+<td>no</td>
+<td>no</td>
+<td>no</td>
+<td>no</td>
+<td>yes</td>
+<td>no</td>
 </tr>
 
 </table>
