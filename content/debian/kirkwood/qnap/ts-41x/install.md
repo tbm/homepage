@@ -168,9 +168,9 @@ TS-419P, this is the lower (and not the upper) connector!
 <a id = "net-config"></a>
 
 Since most TS-41x/TS-42x devices do not have an LCD, the installer cannot tell you which
-IP address to connect to or which password to use.  (On the TS-41x, the LCD
-is currently not supported but will be supported in the future.)  With
-regards to the IP address, the following strategy is used:
+IP address to connect to or which password to use.  (On the devices that
+have an LCD, the installer currently won't display the IP address either, sorry.)
+With regards to the IP address, the following strategy is used:
 
 <ul>
 
