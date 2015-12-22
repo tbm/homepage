@@ -50,6 +50,10 @@ The TS-419P+ with revision V1.4 and QV20 V1.2 mainboards use 5V rather than
 * RX
 * GND
 
+If your serial console doesn't work or you can see text but your typing is
+ignored, it might be because you have to connect RX from your connector
+cable to TX on the QNAP and TX with RX.
+
 <div class="bbf">
 <%= render "adsense-banner-before-footer" %>
 </div>
