@@ -102,7 +102,9 @@ TS-109 with telnet.  Use the QNAP web interface and follow these steps
 <li>Click on <em>Administration</em> and enter the password (by default the
 user is `admin` and the password is also `admin`).</li>
 
-<li>Click on <em>Remote login</em> under <em>System Tools</em>.</li>
+<li>Click on <em>Remote login</em> under <em>System Tools</em> or under
+<em>Network Services</em> (depending on the version of the QNAP
+firmware).</li>
 
 <li>Enable <em>telnet</em>, leave the port they use (13131) and press
 <em>apply</em>.</li>

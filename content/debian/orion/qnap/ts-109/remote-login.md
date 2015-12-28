@@ -16,7 +16,9 @@ keywords: [Debian, QNAP, TS-109, installation, firmware, remote, login, telnet, 
 You can activate remote login (telnet and SSH) in the QNAP firmware by
 following these steps.  First, click on <em>Administration</em> and enter
 the password (by default the user is `admin` and the password is also
-`admin`).  Then click on <em>Remote login</em> under <em>System Tools</em>.
+`admin`).  Then look for <em>Remote login</em>.  This can be found under
+<em>System Tools</em> on older versions of the QNAP firmware and under
+<em>Network Services</em> on newer versions.
 
 <img src = "../../images/qnap-system-tools.png" class="border" alt = "QNAP firmware: overview" width="640" height="480" />
 

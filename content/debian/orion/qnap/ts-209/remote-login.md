@@ -23,7 +23,9 @@ the password (by default the user is `admin` and the password is also
  width="640" height="480" />
 </a>
 
-Then click on <em>Remote login</em> under <em>System Tools</em>.
+Then look for <em>Remote login</em>.  This can be found under <em>System
+Tools</em> on older versions of the QNAP firmware and under <em>Network
+Services</em> on newer versions.
 
 <img src = "../../images/qnap-system-tools.png" class="border" alt = "QNAP firmware: overview" width="640" height="480" />
 
