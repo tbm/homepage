@@ -31,7 +31,7 @@ these components.
 
 <tr>
 <td>RAM</td>
-<td>256 MB DDR II (or 512 MB on TS-409 II and TS-409U)</td>
+<td>256 MB DDR II (or 512 MB on TS-409U)</td>
 </tr>
 
 <tr>
