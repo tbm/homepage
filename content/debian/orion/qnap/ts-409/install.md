@@ -40,7 +40,7 @@ In order to install Debian on a QNAP TS-409, you need the following:
 
 <ul>
 
-<li>A QNAP TS-409 or TS-409U.</li>
+<li>A QNAP TS-409, TS-409 Pro or TS-409U.</li>
 
 <li>An internal SATA disk in the TS-409.</li>
 
