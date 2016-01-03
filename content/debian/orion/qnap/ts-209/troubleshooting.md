@@ -175,6 +175,45 @@ If none of this helps, I'm afraid you probably have to connect <a href =
 "../recovery/">recovery mode</a> to flash the Debian installer and to
 perform a new installation.
 
+<h3><a id = "ramdisk">The ramdisk doesn't fit in flash</a></h3>
+
+The flash partition on the QNAP TS-209 is rather small and there is only
+limited space for the ramdisk (initrd).  This may lead to errors after
+kernel upgrades because the new ramdisk no longer fits in flash,
+especially if you use RAID or LVM.  The error messages say "The initial
+ramdisk is too large" and "Not enough space for initrd in MTD 'RootFS1'".
+To avoid this problem, you can configure your system to use `xz`
+compression of the ramdisk, which will result in a much smaller ramdisk
+compared to the default compression with `gzip`.
+
+Please follow these steps to enable `xz` compression of the ramdisk.
+First, configure `initramfs-tools`:
+
+<div class="code">
+<pre>
+echo "COMPRESS=xz" &gt; /etc/initramfs-tools/conf.d/compress
+</pre>
+</div>
+
+Second, ensure that the `xz-utils` package is installed:
+
+<div class="code">
+<pre>
+apt-get install xz-utils
+</pre>
+</div>
+
+Finally, update the ramdisk:
+
+<div class="code">
+<pre>
+update-initramfs -u
+</pre>
+</div>
+
+If you use a custom kernel rather than a kernel provided by Debian, please
+ensure that the `CONFIG_RD_XZ` setting is enabled.
+
 <%= render "paypal", :desc => "Debian/QNAP TS-209 donation" %>
 
 <div class="bbf">
