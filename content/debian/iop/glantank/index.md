@@ -32,6 +32,11 @@ HDL-GWxxx, and HDL-GZxxx series, are very similar.  The GLAN Tank
 
 </ul>
 
+<h2>Support status</h2>
+
+While the GLAN Tank was supported up to Debian 7 (wheezy), it is no longer
+supported in Debian 8 (jessie) or later releases.
+
 <h2>Information</h2>
 
 <ul>
