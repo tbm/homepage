@@ -146,7 +146,7 @@ ssh installer@<span class="input">192.168.1.100</span>
 <h2>Installing Debian</h2>
 
 The installation itself should be pretty standard and you can follow the <a
-href = "http://www.debian.org/releases/stable/armel/">installation guide</a>.
+href = "http://www.debian.org/releases/wheezy/armel/">installation guide</a>.
 It knows about the N2100 and at the end of the installation it will flash a
 kernel and ramdisk that will automatically boot into Debian.
 

@@ -106,8 +106,8 @@ them to the hard drive:
 <div class="code">
 <pre>
 cd $HOME
-wget http://ftp.uk.debian.org/debian/dists/stable/main/installer-armel/current/images/iop32x/network-console/glantank/initrd.gz
-wget http://ftp.uk.debian.org/debian/dists/stable/main/installer-armel/current/images/iop32x/network-console/glantank/zImage
+wget http://ftp.uk.debian.org/debian/dists/wheezy/main/installer-armel/current/images/iop32x/network-console/glantank/initrd.gz
+wget http://ftp.uk.debian.org/debian/dists/wheezy/main/installer-armel/current/images/iop32x/network-console/glantank/zImage
 sudo cp initrd /mnt
 sudo cp zImage /mnt
 </pre>
@@ -144,7 +144,7 @@ ssh installer@<span class="input">192.168.1.77</span>
 <h2>Installing Debian</h2>
 
 The installation itself should be pretty standard and you can follow the <a
-href = "http://www.debian.org/releases/stable/armel/">installation
+href = "http://www.debian.org/releases/wheezy/armel/">installation
 guide</a>.  The only thing you have to keep in mind is that the GLAN Tank
 requires a `/boot` partition as `hda1` and assumes that the root partition
 is on `hda2`.  If you following the guided partitioning, which I recommend,
