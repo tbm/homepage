@@ -38,8 +38,8 @@ of the N2100 is that it features a normal, expandable DDR400 RAM slot.  In
 theory, up to 1 GB are supported using 64-bit DDR RAM, but RedBoot needs
 major modifications to support more than 512&nbsp;MB.
 
-While this device is produced by Thecus and sold as the Thecus YES Box
-N2100, it is also available from a number of other companies.  The only
+While this device was produced by Thecus and sold as the Thecus YES Box
+N2100, it was also available from a number of other companies.  The only
 difference is that some of those vendors include 256&nbsp;MB rather than
 128&nbsp;MB RAM.  So far, the following devices based on the Thecus N2100
 are known:
