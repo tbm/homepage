@@ -23,6 +23,11 @@ the IOP32x chip.</li>
 
 </ul>
 
+<h2>Debian 8 (jessie)</h2>
+
+* The IOP32x platform is no longer supported.  This means that support
+for the Thecus N2100 was dropped.
+
 <div class="bbf">
 <%= render "adsense-banner-before-footer" %>
 </div>

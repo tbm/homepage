@@ -54,6 +54,11 @@ are known:
 
 </ul>
 
+<h2>Support status</h2>
+
+While the Thecus N2100 was supported up to Debian 7 (wheezy), it is no
+longer supported in Debian 8 (jessie) or later releases.
+
 <h2>Information</h2>
 
 <ul>
