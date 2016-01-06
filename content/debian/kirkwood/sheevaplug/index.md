@@ -22,11 +22,6 @@ are supported</a> by Debian.
 You can use the user-friendly <a href = "install/">Debian installer to
 install</a> Debian.
 
-<h2>News</h2>
-
-[2015-04-25] Debian 8 (jessie) <a
-href="https://www.debian.org/News/2015/20150426">is available</a>.
-
 <h2>Information</h2>
 
 <ul>
