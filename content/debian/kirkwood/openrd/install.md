@@ -37,19 +37,7 @@ and <a href =
 and store them either on a USB stick or a TFTP server.
 
 Now connect a mini-USB connector to `System Debug` in order to access the
-serial console.  If you're running a modern Linux kernel (2.6.30.5 or
-higher), the serial device will be recognized automatically.  If you're
-using an older kernel, you have to pass some parameters when loading the
-`ftdi_sio` module:
-
-<div class="code">
-<pre>
-rmmod ftdi_sio
-modprobe ftdi_sio vendor=0x0403 product=0x9e90
-</pre>
-</div>
-
-Start your OpenRD and a few seconds later you should be able to connect to
+serial console.  Start your OpenRD and a few seconds later you should be able to connect to
 `/dev/ttyUSB1` with 115200 baud.  If you need help accessing the serial
 console, see the guides for <a href =
 "http://www.plugcomputer.org/Documentation/howtos/serial-terminallinuxprograms/">Linux</a>
