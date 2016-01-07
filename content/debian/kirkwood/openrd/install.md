@@ -30,11 +30,22 @@ Internet for the installation.
 
 <h2><a id = "starting">Starting the Installer</a></h2>
 
-First of all, you have to download the installer.  Download the <a href =
-"http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/openrd/uImage">uImage</a>
-and <a href =
-"http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/openrd/uInitrd">uInitrd</a>
-and store them either on a USB stick or a TFTP server.
+First of all, you have to download the installer and store them either on a
+USB stick or a TFTP server.  Please download the installer images for your
+device:
+
+* OpenRD-Base:
+[uImage](http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/openrd-base/uImage)
+and
+[uInitrd](http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/openrd-base/uInitrd)
+* OpenRD-Client:
+[uImage](http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/openrd-client/uImage)
+and
+[uInitrd](http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/openrd-client/uInitrd)
+* OpenRD-Ultimate:
+[uImage](http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/openrd-ultimate/uImage)
+and
+[uInitrd](http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/openrd-ultimate/uInitrd)
 
 Now connect a mini-USB connector to `System Debug` in order to access the
 serial console.  Start your OpenRD and a few seconds later you should be able to connect to
