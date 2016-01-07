@@ -76,6 +76,10 @@ and <a href =
 "http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/sheevaplug-esata/uImage">uImage</a>
 and <a href =
 "http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/sheevaplug-esata/uInitrd">uInitrd</a>
+* Seagate FreeAgent DockStar: <a href =
+"http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/seagate/dockstar/uImage">uImage</a>
+and <a href =
+"http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/sheevaplug-esata/uInitrd">uInitrd</a>
 
 Now connect the install medium (USB stick, SD card or eSATA disk) to your
 plug computer and connect a mini-USB connector in order to access the
