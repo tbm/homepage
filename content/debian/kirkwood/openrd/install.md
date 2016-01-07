@@ -16,8 +16,8 @@ interfaces.  The Debian installer doesn't currently support installations
 to MTD flash, but you can use it to install to a SATA disk, USB stick or
 MMC/SD card.  In order to proceed, you will therefore need either a SATA
 disk (connected internally or via eSATA) or a USB stick (or disk).  While
-USB sticks work fine, the current version of u-boot (the boot loader on the
-OpenRD) seems to have some trouble with USB hard disks... they will work
+USB sticks work fine, the version of u-boot (the boot loader on the
+OpenRD) shipped with this device seems to have some trouble with USB hard disks... they will work
 but you may have to restart the device several times so u-boot will find
 the disk.  There are also problems booting from USB when more than one USB
 device is connected.
