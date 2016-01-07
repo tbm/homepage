@@ -320,7 +320,6 @@ And accept `/debian/` as the mirror directory:
 <img src = "../../images/di-mirror4.png" class="border" alt = "Debian installer: enter mirror directory" width="842" height="462" />
 
 Apart from this, the installation itself should be pretty standard and you can follow the <a
-The installation itself should be pretty standard and you can follow the <a
 href = "http://www.debian.org/releases/squeeze/armel/">installation
 guide</a>.  The installer knows about the TS-409 and at the end of the
 installation it will flash a kernel and ramdisk that will automatically
