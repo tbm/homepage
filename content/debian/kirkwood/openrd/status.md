@@ -5,10 +5,6 @@ description: Status of OpenRD support in Debian
 keywords: [Debian, OpenRD, support, status]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Status of OpenRD support</h1>
 
 The table below shows how well different components of the OpenRD are
@@ -57,8 +53,4 @@ supported by Debian:
 </tr>
 
 </table>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

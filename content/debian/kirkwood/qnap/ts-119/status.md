@@ -7,8 +7,6 @@ keywords: [Debian, QNAP, TS-110, TS-112, TS-112P, TS-119, TS-120, TS-121, suppor
 
 <% content_for :right do %>
 <img src = "../images/r_qnap_ts110.jpg" class="border" alt="QNAP TS-110 from the front" width="148" height="206" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Status of QNAP TS-11x/TS-12x support</h1>
@@ -100,8 +98,4 @@ moment, so it's not quite useful on the TS-11x</td>
 </tr>
 
 </table>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

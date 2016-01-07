@@ -7,8 +7,6 @@ keywords: [Debian, Buffalo, Revogear, Kurobox Pro, Orion, ARM]
 
 <% content_for :right do %>
 <img src = "images/r_kuroboxpro_front.jpg" class="border" alt="Kurobox Pro from the front" width="148" height="231" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian on Kurobox Pro</h1>
@@ -72,8 +70,4 @@ done a fabulous job integrating Orion support into the mainline kernel and
 donated a number of Kurobox Pro devices to Debian developers.  Per
 Andersson has done the main work porting Debian to the Kurobox Pro as part
 of his Google Summer of Code project.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

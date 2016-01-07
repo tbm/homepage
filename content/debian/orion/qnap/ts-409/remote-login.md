@@ -7,8 +7,6 @@ keywords: [Debian, QNAP, TS-409, installation, firmware, remote, login, telnet, 
 
 <% content_for :right do %>
 <img src = "../images/r_ts409_front.jpg" class="border" alt="QNAP TS-409 from the front" width="148" height="147" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>QNAP firmware: activating remote login</h1>
@@ -29,8 +27,4 @@ Finally, enable <em>telnet</em>, leave the port they use (13131) and press
 
 Go back to the <a href = "../install/">installing Debian on QNAP TS-409</a>
 page.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

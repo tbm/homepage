@@ -7,8 +7,6 @@ keywords: [Buffalo, Revogear, Kurobox Pro, support, status]
 
 <% content_for :right do %>
 <img src = "../images/r_kuroboxpro_front.jpg" class="border" alt="Kurobox Pro from the front" width="148" height="231" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Status of Kurobox Pro support</h1>
@@ -96,8 +94,4 @@ moment, so it's not quite useful on the Kurobox Pro.</td>
 </table>
 
 Go back to my <a href = "..">Debian on Kurobox Pro</a> page.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

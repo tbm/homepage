@@ -4,10 +4,6 @@ description: The abstract of a paper on having a successful free software projec
 keywords: [success, free software, open source, FLOSS, bazaar]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>How to Have a Successful Free Software Project</h1>
 
 <ul class = "author">

@@ -7,8 +7,6 @@ keywords: [Debian, QNAP, TS-110, TS-112, TS-112P, TS-119, TS-119P+, TS-120, TS-1
 
 <% content_for :right do %>
 <img src = "../images/r_qnap_ts110.jpg" class="border" alt="QNAP TS-110 from the front" width="148" height="206" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Installing Debian on QNAP TS-11x and TS-12x devices</h1>
@@ -238,8 +236,4 @@ about running Debian on the QNAP TS-11x/TS-12x.
 Go back to my <a href = "..">Debian on QNAP TS-11x/TS-12x</a> page.
 
 <%= render "paypal", :desc => "Debian/QNAP TS-11x/TS-12x donation" %>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

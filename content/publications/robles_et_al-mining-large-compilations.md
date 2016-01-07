@@ -4,10 +4,6 @@ description: The abstract of a paper on mining large software compilations
 keywords: [Linux, distributions, software evolution, free software, open source, FLOSS]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Mining Large Software Compilations over Time: Another Perspective of
 Software Evolution</h1>
 

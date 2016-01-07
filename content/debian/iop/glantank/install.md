@@ -5,10 +5,6 @@ description: Installation instructions for Debian on GLAN Tank
 keywords: [IOP, GLAN Tank, Supertank, SOTO-HDLGW, IO-Data, ARM, Debian, installation]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Installing Debian on GLAN Tank</h1>
 
 While the GLAN Tank is supported in Debian 7 (wheezy), it is no longer
@@ -177,8 +173,4 @@ Note that kernel support is still very basic.  It lacks support for:
 </ul>
 
 Go back to my <a href = "..">Debian on GLAN Tank</a> page.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

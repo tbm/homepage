@@ -7,8 +7,6 @@ keywords: [Debian, SheevaPlug, Marvell, FAQ, frequently asked questions, help, t
 
 <% content_for :right do %>
 <img src = "../images/r_sheevaplug_hand.jpg" class="border" alt="SheevaPlug in my hand" width="148" height="129" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Frequently Asked Questions (FAQ)</h1>
@@ -38,8 +36,4 @@ connect a so called "figure 8" cable.  However, NewIT in the UK offers the
 SheevaPlug with EU 2 pin and UK 3 pin power adapters.
 
 Go back to my <a href = "..">Debian on Marvell SheevaPlug</a> page.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

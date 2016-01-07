@@ -4,10 +4,6 @@ description: The abstract of a summary of my PhD research on quality improvement
 keywords: [release management, open source, FLOSS, quality improvement]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Quality Improvement in Volunteer Free Software Projects: Exploring the
 Impact of Release Management</h1>
 

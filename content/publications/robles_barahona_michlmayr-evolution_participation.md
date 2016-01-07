@@ -4,10 +4,6 @@ description: The abstract of a paper on the evolution of volunteers in Debian
 keywords: [Debian, FLOSS, open source, volunteer management]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Evolution of Volunteer Participation in Libre Software Projects:
 Evidence from Debian</h1>
 

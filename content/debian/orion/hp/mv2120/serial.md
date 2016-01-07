@@ -5,10 +5,6 @@ description: Connecting a serial console to the HP mv2120
 keywords: [Debian, HP, mv2120, mv5100, serial, console, RS-232]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Connecting a serial console to the HP mv2120</h1>
 
 The serial port is a 2x5 pin connector (labelled CN4) that is located
@@ -24,8 +20,4 @@ serial console, you can use a terminal emulation program to connect to
 U-Boot, the boot loader used by this device.  You have to connect with
 115200 baud and set the parameters to 8N1 (8 data bits, no parity, 1 stop
 bit).
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

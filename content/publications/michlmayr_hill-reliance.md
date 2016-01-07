@@ -4,10 +4,6 @@ description: The abstract of a paper on the problem of reliance on volunteer dev
 keywords: [volunteer management, Debian, project management]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Quality and the Reliance on Individuals in Free Software Projects</h1>
 
 <ul class = "author">

@@ -7,8 +7,6 @@ keywords: [Debian, NAS, QNAP, QNAP Turbo Station, Orion, TS-409, TS-409U]
 
 <% content_for :right do %>
 <img src = "images/r_ts409_front.jpg" class="border" alt="QNAP TS-409 from the front" width="148" height="147" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian on QNAP TS-409</h1>
@@ -93,8 +91,4 @@ some hardware and technical expertise.  Marvell has done a fabulous job
 integrating Orion support into the mainline kernel.  Sylver Bruneau added
 kernel support for the TS-409.  Frans Pop packaged qcontrol for Debian and
 helped with the development and testing of the Debian installer.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

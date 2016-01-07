@@ -7,8 +7,6 @@ keywords: [Debian, NAS, QNAP, QNAP Turbo Station, Orion, TS-209, TS-209 II, TS-2
 
 <% content_for :right do %>
 <img src = "images/r_ts209_front.jpg" class="border" alt="QNAP TS-209 from the front" width="148" height="97" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian on QNAP TS-209</h1>
@@ -94,8 +92,4 @@ integrating Orion support into the mainline kernel.  Byron Bradley added
 kernel support for the TS-209 and wrote qcontrol to control the LEDs, fan
 and buzzer.  Frans Pop packaged qcontrol for Debian and helped with the
 development and testing of the Debian installer.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

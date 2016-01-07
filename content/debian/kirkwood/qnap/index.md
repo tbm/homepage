@@ -7,8 +7,6 @@ keywords: [Debian, QNAP, QNAP Turbo NAS, Kirkwood, TS-110, TS-119, TS-119P+, TS-
 
 <% content_for :right do %>
 <img src = "ts-219/images/r_ts219_open.jpg" class="border" alt="Open QNAP TS-219" width="148" height="119" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian on QNAP Turbo NAS</h1>
@@ -579,8 +577,4 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 </table>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

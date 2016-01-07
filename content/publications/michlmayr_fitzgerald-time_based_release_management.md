@@ -4,10 +4,6 @@ description: The abstract of a paper on time-based release management in open so
 keywords: [release management, time-based, open source, FLOSS]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Time-Based Release Management in Free and Open Source (FOSS) Projects</h1>
 
 <ul class = "author">

@@ -7,8 +7,6 @@ keywords: [Buffalo, Revogear, Kurobox Pro, recovery, emergency, rescue]
 
 <% content_for :right do %>
 <img src = "../images/r_kuroboxpro_front.jpg" class="border" alt="Kurobox Pro from the front" width="148" height="231" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Recovery mode of the Kurobox Pro</h1>
@@ -79,8 +77,4 @@ Now you can use new `initrd.buffalo` file and the `uImage.buffalo` file you
 downloaded in order to start the Debian installer.
 
 Go back to my <a href = "..">Debian on Kurobox Pro</a> page.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

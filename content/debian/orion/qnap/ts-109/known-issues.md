@@ -6,8 +6,6 @@ keywords: [Debian, QNAP, TS-109, bugs, issues, defects]
 
 <% content_for :right do %>
 <img src = "../images/r_ts109_front.jpg" class="border" alt="QNAP TS-109 from the front" width="148" height="217" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Known issues and bugs</h1>
@@ -26,8 +24,4 @@ the disks for a long them on the next reboot.  Please do not use the power
 button!</li>
 
 </ul>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

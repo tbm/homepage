@@ -7,8 +7,6 @@ keywords: [Debian, NAS, QNAP, QNAP Turbo NAS, Kirkwood, TS-110, TS-112, TS-112P,
 
 <% content_for :right do %>
 <img src = "images/r_qnap_ts110.jpg" class="border" alt="QNAP TS-110 from the front" width="148" height="206" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian on QNAP TS-11x/TS-12x devices</h1>
@@ -85,8 +83,4 @@ A lot of people helped to make Debian on QNAP Turbo NAS possible.  The
 folks at QNAP have been very supportive of this effort and have supplied
 some hardware and technical expertise.  Marvell has done a fabulous job
 integrating Kirkwood support into the mainline kernel.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

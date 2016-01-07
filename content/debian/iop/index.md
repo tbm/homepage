@@ -7,8 +7,6 @@ keywords: [Debian, Intel, IOP, I/O processor, NAS, SAN, installation, guide]
 
 <% content_for :right do %>
 <img src = "images/r_intel.gif" class="border" alt="Intel logo" width="148" height="107" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian on Intel's IOP lines of CPUs</h1>
@@ -50,8 +48,4 @@ If you need any help getting Debian running on your IOP based machine after
 reading this installation guide and using Google, you
 can contact the <a href = "http://lists.debian.org/debian-arm/">Debian
 ARM</a> mailing list.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

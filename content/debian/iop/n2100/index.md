@@ -7,8 +7,6 @@ keywords: [Debian, Thecus, N2100, installation, guide, IOP, NAS, server]
 
 <% content_for :right do %>
 <img src = "images/r_n2100.jpg" class="border" alt="Thecus N2100" width="141" height="148" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian on the Thecus N2100</h1>
@@ -106,7 +104,4 @@ mainline kernel and significantly improved generic IOP support.
 David Karlström and Riku Voipio reverse-engineered various aspects
 of this machine, and Riku also wrote a driver for the fan and LEDs.
 
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

@@ -7,8 +7,6 @@ keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420, TS-4
 
 <% content_for :right do %>
 <img src = "../images/r_qnap_ts419p.jpg" class="border" alt="QNAP TS-419P from the front" width="148" height="148" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Installing Debian on the QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419P II, TS-419U, TS-419U+, TS-420, TS-420U, TS-421 and TS-421U</h1>
@@ -243,8 +241,4 @@ about running Debian on the QNAP TS-41x/TS-42x.
 Go back to my <a href = "..">Debian on QNAP TS-41x/TS-42x</a> page.
 
 <%= render "paypal", :desc => "Debian/QNAP TS-41x/TS-42x donation" %>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

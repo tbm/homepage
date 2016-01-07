@@ -7,8 +7,6 @@ keywords: [Debian, QNAP, NAS, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420,
 
 <% content_for :right do %>
 <img src = "../images/r_qnap_ts419p.jpg" class="border" alt="QNAP TS-419P from the front" width="148" height="148" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Troubleshooting</h1>
@@ -105,8 +103,4 @@ If none of this helps, I'm afraid you probably have to connect <a href =
 perform a new installation.
 
 <%= render "paypal", :desc => "Debian/QNAP TS-41x/TS-42x donation" %>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

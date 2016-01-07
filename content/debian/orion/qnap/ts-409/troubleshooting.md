@@ -7,8 +7,6 @@ keywords: [Debian, QNAP, NAS, TS-409, troubleshooting, problems]
 
 <% content_for :right do %>
 <img src = "../images/r_ts409_front.jpg" class="border" alt="QNAP TS-409 from the front" width="148" height="147" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Troubleshooting</h1>
@@ -215,8 +213,4 @@ If you use a custom kernel rather than a kernel provided by Debian, please
 ensure that the `CONFIG_RD_XZ` setting is enabled.
 
 <%= render "paypal", :desc => "Debian/QNAP TS-409 donation" %>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

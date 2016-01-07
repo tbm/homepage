@@ -7,8 +7,6 @@ keywords: [Debian, QNAP, TS-109, installation]
 
 <% content_for :right do %>
 <img src = "../images/r_ts109_front.jpg" class="border" alt="QNAP TS-109 from the front" width="148" height="217" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Installing Debian on the QNAP TS-109</h1>
@@ -359,8 +357,4 @@ href="https://www.debian.org/releases/jessie/armel/release-notes/ch-upgrading.en
 8 (jessie)</a>.
 
 Go back to my <a href = "..">Debian on QNAP TS-109</a> page.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

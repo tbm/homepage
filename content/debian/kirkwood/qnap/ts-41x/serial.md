@@ -7,8 +7,6 @@ keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420, TS-4
 
 <% content_for :right do %>
 <img src = "../images/r_qnap_ts419p.jpg" class="border" alt="QNAP TS-419P from the front" width="148" height="148" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Connecting a serial console to the QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+. TS-419P II, TS-419U, TS-420 and TS-421</h1>
@@ -53,8 +51,4 @@ The TS-419P+ with revision V1.4 and QV20 V1.2 mainboards use 5V rather than
 If your serial console doesn't work or you can see text but your typing is
 ignored, it might be because you have to connect RX from your connector
 cable to TX on the QNAP and TX with RX.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

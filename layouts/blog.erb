@@ -21,18 +21,12 @@ Expert.  The opinions expressed here are mine.
 <a href = "/blog/feed/">Subscribe</a> to the RSS feed of this blog.
 
 </p>
-
-<%= render "adsense-wideskyscaper-right" %>
       </div>
 
       <%= render 'nav-bar' %>
 
       <div class="content">
       <%= yield %>
-
-        <div class="bbf">
-        <%= render "adsense-banner-before-footer" %>
-        </div>
 
         <% unless @item[:hide_time] then %>
         <div class="footer">

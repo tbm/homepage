@@ -7,8 +7,6 @@ keywords: [Debian, D-Link, DNS-323, Conceptronic, CH3SNAS, Orion]
 
 <% content_for :right do %>
 <img src = "images/r_ch3snas_front.jpg" class="border" alt="Conceptronic CH3SNAS from the front" width="148" height="146" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian on D-Link DNS-323 and Conceptronic CH3SNAS</h1>
@@ -64,8 +62,4 @@ Matt Palmer added kernel support for the DNS-323 revision B1 and ported the
 Debian installer to the DNS-323.  Conceptronic kindly provided two CH3SNAS
 devices to Debian and Alan Fletcher made a cable for me so I could access the
 serial console.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

@@ -7,8 +7,6 @@ keywords: [Debian, QNAP, TS-210, TS-219, TS-210P, specs, specification]
 
 <% content_for :right do %>
 <img src = "../images/r_ts219p.jpg" class="border" alt="Open QNAP TS-219" width="148" height="188" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Specs of the QNAP TS-210, TS-219 and TS-219P</h1>
@@ -137,8 +135,4 @@ TS-219P.  There is another page which shows the <a href =
 </tr>
 
 </table>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

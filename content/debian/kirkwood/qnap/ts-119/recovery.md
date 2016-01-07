@@ -7,8 +7,6 @@ keywords: [Debian, QNAP, TS-110, TS-112, TS-112P, TS-119, TS-119P+, TS-120, TS-1
 
 <% content_for :right do %>
 <img src = "../images/r_qnap_ts110.jpg" class="border" alt="QNAP TS-110 from the front" width="148" height="206" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Recovery mode of QNAP TS-11x/TS-12x devices</h1>
@@ -198,8 +196,4 @@ written it to flash (which takes about 3.5 minutes), your QNAP will make
 two short beeps again and restart.
 
 <%= render "paypal", :desc => "Debian/QNAP TS-11x/TS-12x donation" %>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

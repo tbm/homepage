@@ -7,8 +7,6 @@ keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420, TS-4
 
 <% content_for :right do %>
 <img src = "../images/r_qnap_ts419p.jpg" class="border" alt="QNAP TS-419P from the front" width="148" height="148" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Restoring the original QNAP firmware or re-installing Debian</h1>
@@ -64,8 +62,4 @@ connect
 via SSH, as <a href="../install/#install">documented on the install
 page</a>.  Please be aware that the SSH key of the machine will have
 changed.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

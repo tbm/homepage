@@ -6,8 +6,6 @@ keywords: [Debian, NAS, NSLU2, Linksys NSLU2, DebianSlug, IXP4xx, SlugDebian]
 
 <% content_for :right do %>
 <img src = "images/r_nslu2_front.jpg" class="border" alt="A NSLU2 from the front" width="148" height="218" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian on the Linksys NSLU2</h1>
@@ -104,8 +102,4 @@ NSLU2.  Joey Hess maintains the `nslu2-utils` package in Debian.  Finally,
 I'd like to thank the <a href = "http://www.nslu2-linux.org/">NSLU2-Linux
 project</a> again for donating a NSLU2 to me to help with Debian porting
 efforts.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

@@ -9,8 +9,6 @@ keywords: [Debian, lenny, installation, HP, Compaq 2510p, laptop]
 <img src = "images/r_2510p_front.jpg" class="border" alt="HP 2510p" width="148" height="128" />
 
 More <a href = "gallery/">pictures are available</a>.
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian GNU/Linux on the HP Compaq 2510p</h1>
@@ -40,8 +38,4 @@ the HP 2510p.</li>
 <li><a href = "http://www.mobilnews.cz/blog/?p=40">Running Linux on HP Compaq 2510p notebook</a></li>
 
 </ul>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

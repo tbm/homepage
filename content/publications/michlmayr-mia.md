@@ -4,10 +4,6 @@ description: The abstract for a paper on managing volunteers and problems associ
 keywords: [human resources, volunteers, Debian, MIA]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Managing Volunteer Activity in Free Software Projects</h1>
 
 <ul class = "author">

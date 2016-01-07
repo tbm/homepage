@@ -5,10 +5,6 @@ description: Installation guide of Debian for Cobalt machines with little memory
 keywords: [Debian, installation, Cobalt]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Installing Debian on Cobalt machines with little memory</h1>
 
 Debian's installer requires 64 MB of memory in normal operation on MIPS

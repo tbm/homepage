@@ -7,8 +7,6 @@ keywords: [Debian, QNAP, TS-110, TS-112, TS-112P, TS-119, TS-120, TS-121, tips, 
 
 <% content_for :right do %>
 <img src = "../images/r_qnap_ts110.jpg" class="border" alt="QNAP TS-110 from the front" width="148" height="206" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Tips and tricks for Debian on QNAP TS-11x/TS-12x</h1>
@@ -57,9 +55,5 @@ In order to enable this feature, run the following command:
 <pre>
 qcontrol --direct autopower on
 </pre>
-</div>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
 </div>
 

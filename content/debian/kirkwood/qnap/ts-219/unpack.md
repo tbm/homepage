@@ -7,8 +7,6 @@ keywords: [Debian, lenny, QNAP, TS-119, TS-219, TS-219P, ARM, armel]
 
 <% content_for :right do %>
 <img src = "../images/r_ts219p.jpg" class="border" alt="Open QNAP TS-219" width="148" height="188" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <p><b>This page is deprecated.  Please use <a href = "../install/">the
@@ -257,8 +255,4 @@ the latest updates.</li>
 Go back to my <a href = "..">Debian on QNAP TS-21x</a> page.
 
 <%= render "paypal", :desc => "Debian/QNAP TS-21x donation" %>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

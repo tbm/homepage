@@ -7,8 +7,6 @@ keywords: [Debian, QNAP, TS-109, recovery, emergency, rescue]
 
 <% content_for :right do %>
 <img src = "../images/r_ts109_front.jpg" class="border" alt="QNAP TS-109 from the front" width="148" height="217" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Recovery mode of the QNAP TS-109</h1>
@@ -274,8 +272,4 @@ More information about the recovery mode can be found on <a href =
 Mode</a> page.
 
 <%= render "paypal", :desc => "Debian/QNAP TS-109 donation" %>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

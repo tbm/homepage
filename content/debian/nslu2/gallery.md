@@ -5,10 +5,6 @@ description: An image gallery of the Linksys NSLU2
 keywords: [NSLU2, pictures, images, photo gallery]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <p>
 <a href = "../images/img_1589.jpg">
 <img src = "../images/img_1589s.jpg" class="border" alt = "A NSLU2 and a USB disk from the front" width="640" height="480" />
@@ -40,8 +36,4 @@ purposes.<br />
 </a>
 
 Go back to my <a href = "..">Debian on NSLU2</a> page.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

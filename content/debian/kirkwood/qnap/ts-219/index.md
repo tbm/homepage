@@ -7,8 +7,6 @@ keywords: [Debian, NAS, QNAP, QNAP Turbo NAS, Kirkwood, HS-210 TS-210, TS-212, T
 
 <% content_for :right do %>
 <img src = "images/r_ts219p.jpg" class="border" alt="Open QNAP TS-219" width="148" height="188" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian on QNAP HS-210, TS-21x and TS-22x devices</h1>
@@ -86,8 +84,4 @@ A lot of people helped to make Debian on QNAP Turbo NAS possible.  The
 folks at QNAP have been very supportive of this effort and have supplied
 some hardware and technical expertise.  Marvell has done a fabulous job
 integrating Kirkwood support into the mainline kernel.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

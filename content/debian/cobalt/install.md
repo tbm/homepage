@@ -7,8 +7,6 @@ keywords: [Debian, installation, Cobalt, MIPS, Qube, RaQ, Qube2, RaQ2]
 
 <% content_for :right do %>
 <img src = "../images/r_cobalt_front.jpg" class="border" alt="Cobalt Qube and two RaQs" width="148" height="109" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian on MIPS based Cobalt machines</h1>
@@ -230,6 +228,3 @@ depending on how you did the installation.
 
 Go back to my <a href = "../">Debian on Cobalt</a> page.
 
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>

@@ -7,8 +7,6 @@ keywords: [Debian, QNAP, TS-409, installation]
 
 <% content_for :right do %>
 <img src = "../images/r_ts409_front.jpg" class="border" alt="QNAP TS-409 from the front" width="148" height="147" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Installing Debian on the QNAP TS-409</h1>
@@ -363,8 +361,4 @@ href="https://www.debian.org/releases/jessie/armel/release-notes/ch-upgrading.en
 Go back to my <a href = "..">Debian on QNAP TS-409</a> page.
 
 <%= render "paypal", :desc => "Debian/QNAP TS-409 donation" %>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

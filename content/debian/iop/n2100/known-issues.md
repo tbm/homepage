@@ -6,8 +6,6 @@ keywords: [Debian, Thecus, N2100, bugs, issues, defects]
 
 <% content_for :right do %>
 <img src = "../images/r_n2100_debian.jpg" class="border" alt="Thecus N2100" width="133" height="148" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Known issues and bugs</h1>
@@ -28,7 +26,4 @@ the IOP32x chip.</li>
 * The IOP32x platform is no longer supported.  This means that support
 for the Thecus N2100 was dropped.
 
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

@@ -7,8 +7,6 @@ keywords: [Debian, QNAP, QNAP Turbo Station, Orion, TS-109, TS-209, TS-409]
 
 <% content_for :right do %>
 <img src = "images/r_ts109_ts209_front.jpg" class="border" alt="QNAP TS-109 and TS-209 from the front" width="148" height="120" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian on QNAP Turbo Station</h1>
@@ -136,8 +134,4 @@ differ in the software included in the original QNAP firmware.
 
 Debian also supports QNAP's <a href = "../../kirkwood/qnap/">Turbo NAS</a>
 devices, which are based on Marvell's Kirkwood chip.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

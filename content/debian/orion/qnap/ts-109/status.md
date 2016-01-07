@@ -7,8 +7,6 @@ keywords: [Debian, QNAP, TS-109, support, status]
 
 <% content_for :right do %>
 <img src = "../images/r_ts109_front.jpg" class="border" alt="QNAP TS-109 from the front" width="148" height="217" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Status of QNAP TS-109 support</h1>
@@ -89,8 +87,4 @@ moment, so it's not quite useful on the TS-109</td>
 </tr>
 
 </table>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

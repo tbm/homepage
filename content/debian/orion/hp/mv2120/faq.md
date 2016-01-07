@@ -7,8 +7,6 @@ keywords: [Debian, HP, mv2120, FAQ, frequently asked questions, help, troublesho
 
 <% content_for :right do %>
 <img src = "../images/r_mv2120_front.jpg" class="border" alt="HP mv2120 from the front" width="148" height="212" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Frequently Asked Questions (FAQ)</h1>
@@ -85,8 +83,4 @@ No, the installation and operation of Debian on your HP doesn't require a
 serial console.
 
 Go back to my <a href = "..">Debian on HP mv2120</a> page.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

@@ -5,10 +5,6 @@ description: Instructions for running Debian on the HP t5325 Thin Client
 keywords: [Debian, NAS, HP, t5325, thin client]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Debian on HP t5325</h1>
 
 Debian has partial support for the HP t5325 thin client.  However, there
@@ -28,8 +24,4 @@ devices.
 </ul>
 
 Here are <a href = "install/">initial install pages</a>.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

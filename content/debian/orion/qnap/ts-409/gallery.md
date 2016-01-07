@@ -5,10 +5,6 @@ description: An image gallery of the QNAP TS-409U and TS-409
 keywords: [ QNAP, TS-409, TS-409U, gallery, pictures, images, photos]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 Here are some pictures of the QNAP TS-409U.  Some pictures of the TS-409
 can be found below.
 
@@ -80,8 +76,4 @@ TS-109 machines) courtesy of Marco van Zwetselaar:
 Go back to my <a href = "..">Debian on QNAP TS-409</a> page or check out
 the <a href = "../../ts-109/gallery/">TS-109</a> and <a href =
 "../../ts-209/gallery/">TS-209</a> galleries.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

@@ -5,10 +5,6 @@ description: Installation instructions for Debian on the HP t5325 Thin Client
 keywords: [Debian, NAS, HP, t5325, thin client]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Installing Debian on HP t5325</h1>
 
 <em>Note: first of all, if you follow these instructions you'll end up with
@@ -82,9 +78,5 @@ more space:
 <pre>
 apt-get clean
 </pre>
-</div>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
 </div>
 

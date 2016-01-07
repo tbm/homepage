@@ -4,10 +4,6 @@ description: "The abstract of a paper analyzing defects in Debian's base system"
 keywords: [Debian, defects, bug tracking, quality, quality improvement, open source, FLOSS]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>A Statistical Analysis of Defects in Debian and Strategies for
 Improving Quality in Free Software Projects</h1>
 

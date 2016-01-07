@@ -7,8 +7,6 @@ keywords: [NSLU2, Linksys NSLU2, Debian, tips, tricks]
 
 <% content_for :right do %>
 <img src = "../images/r_nslu2_front.jpg" class="border" alt="A NSLU2 from the front" width="148" height="218" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Tips and tricks for Debian on the Linksys NSLU2</h1>
@@ -124,8 +122,4 @@ drive.
 By the way, when upgrading from Debian 5.0 to 6.0, the upgrade process will
 automatically convert your `/etc/fstab` to UUIDs.  However, the tar ball of
 Debian provided here still use `/dev/sda1`-style names.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

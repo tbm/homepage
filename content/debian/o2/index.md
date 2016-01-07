@@ -6,8 +6,6 @@ keywords: [Debian, SGI, O2, sarge, installation]
 
 <% content_for :right do %>
 <img src = "images/r_sgi_o2.jpg" class="border" alt="SGI O2" width="148" height="188" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 In the following, I will describe how to install Debian 7 (wheezy) on SGI
@@ -45,8 +43,4 @@ Jö Fahlke for making an O2 available to me.
 If you need any help getting Debian running on your O2 after reading
 this installation guide and using Google, you can contact the <a href =
 "http://lists.debian.org/debian-mips/">Debian MIPS</a> mailing list.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

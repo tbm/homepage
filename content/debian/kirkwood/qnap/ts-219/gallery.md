@@ -5,10 +5,6 @@ description: An image gallery of the QNAP TS-219 and TS-219P
 keywords: [QNAP, TS-210, TS-212, TS-219, TS-219P, gallery, pictures, images, photos]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 On the top is a QNAP TS-219, and below a QNAP TS-209.  They look the same, but the
 TS-219 is much faster.<br />
 <a href = "../images/img_0001.jpg">
@@ -63,8 +59,6 @@ The TS-219 with the serial console hanging out at the front.<br />
 <img src = "../images/img_0010s.jpg" class="border" alt = "TS-219 from the front with serial connector" width="640" height="480" />
 </a>
 
-<%= render "adsense-banner-before-footer" %>
-
 The TS-219P from the front.<br />
 <a href = "../images/img_1002.jpg">
 <img src = "../images/img_1002s.jpg" class="border" alt = "TS-219P from the front" width="640" height="480" />
@@ -91,8 +85,4 @@ All the components of the TS-219P.<br />
 </a>
 
 Go back to my <a href = "..">Debian on QNAP TS-21x/TS-22x</a> page.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

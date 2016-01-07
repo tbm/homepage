@@ -5,10 +5,6 @@ description: An image gallery of Lemote's Fulong mini-PC
 keywords: [Lemote, Fulong, Fulong mini-PC, pictures, images, photo gallery]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Fulong's mini-PC</h1>
 
 The Fulong Miniature Computer (mini-PC) is an inexpensive computer based on
@@ -55,8 +51,4 @@ the Loongson chip.
 <img src = "../images/img_0024s.jpg" class="border" alt = "Fulong mini-PC and VGA monitor" width="640" height="480" />
 </a>
 </p>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

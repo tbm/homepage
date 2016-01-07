@@ -7,8 +7,6 @@ keywords: [Debian, NAS, QNAP, QNAP Turbo NAS, Kirkwood, TS-410, TS-410U, TS-412,
 
 <% content_for :right do %>
 <img src = "images/r_qnap_ts419p.jpg" class="border" alt="QNAP TS-419P from the front" width="148" height="148" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian on QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419P II, TS-419U, TS-419U+, TS-420, TS-420U, TS-421 and TS-421U</h1>
@@ -87,8 +85,4 @@ A lot of people helped to make Debian on QNAP Turbo NAS possible.  The
 folks at QNAP have been very supportive of this effort and have supplied
 some hardware and technical expertise.  Marvell has done a fabulous job
 integrating Kirkwood support into the mainline kernel.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

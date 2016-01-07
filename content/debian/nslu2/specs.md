@@ -7,8 +7,6 @@ keywords: [NSLU2, Linksys NSLU2, specs, specification]
 
 <% content_for :right do %>
 <img src = "../images/r_nslu2_front.jpg" class="border" alt="A NSLU2 from the front" width="148" height="218" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Specs of the Linksys NSLU2</h1>
@@ -63,8 +61,4 @@ keywords: [NSLU2, Linksys NSLU2, specs, specification]
 </tr>
 
 </table>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

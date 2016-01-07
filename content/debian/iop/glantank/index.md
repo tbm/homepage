@@ -7,8 +7,6 @@ keywords: [Debian, GLAN Tank, installation, guide, IOP, NAS, server]
 
 <% content_for :right do %>
 <img src = "images/r_glantank.jpg" class="border" alt="Thecus N2100" width="148" height="100" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian on the GLAN Tank</h1>
@@ -56,8 +54,4 @@ the internals of the GLAN Tank.</li>
 Kinneko-san of IO-Data for providing a GLAN Tank to Lennert Buytenhek and
 me each.  Hiroyuki Araki for maintaining a series of kernel patches for the
 GLAN Tank.  Gordon Farquharson for doing lots of testing.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

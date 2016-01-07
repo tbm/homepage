@@ -5,10 +5,6 @@ description: Using U-Boot on the QNAP TS-11x/TS-12x
 keywords: [Debian, QNAP, TS-110, TS-112, TS-112P, TS-119, TS-120, TS-121, serial, console, uboot, U-Boot]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Using U-Boot on QNAP TS-11x/TS-12x</h1>
 
 If you have a <a href = "../serial/">serial console</a> for your QNAP
@@ -82,8 +78,4 @@ dd if=/boot/initrd.img-2.6.32-5-kirkwood of=initrd.img-2.6.32-5-kirkwood.padded 
 Now copy `vmlinuz-2.6.32-5-kirkwood.uboot` and
 `initrd.img-2.6.32-5-kirkwood.padded` to your TFTP server and load them in
 memory as described above.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

@@ -7,8 +7,6 @@ keywords: [Debian, lenny, QNAP, TS-410, TS-410U, TS-419, TS-419P, TS-419U, ARM, 
 
 <% content_for :right do %>
 <img src = "../images/r_qnap_ts419p.jpg" class="border" alt="QNAP TS-419P from the front" width="148" height="148" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <p><b>This page is deprecated.  Please use <a href = "../install/">the
@@ -333,8 +331,4 @@ be able to let you know of important updates.</li>
 Go back to my <a href = "..">Debian on QNAP TS-41x</a> page.
 
 <%= render "paypal", :desc => "Debian/QNAP TS-41x donation" %>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

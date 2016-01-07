@@ -5,10 +5,6 @@ description: An image gallery of the Kurobox Pro
 keywords: [Buffalo, Revogear, Kurobox Pro, pictures, images, photos]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <p>
 <a href = "../images/img_0044.jpg">
 <img src = "../images/img_0044s.jpg" class="border" alt = "Kurobox Pro from the front" width="640" height="480" />
@@ -40,8 +36,4 @@ keywords: [Buffalo, Revogear, Kurobox Pro, pictures, images, photos]
 </p>
 
 Go back to my <a href = "..">Debian on Kurobox Pro</a> page.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

@@ -5,10 +5,6 @@ description: Using U-Boot on the QNAP TS-21x/TS-22x
 keywords: [Debian, QNAP, HS-210, TS-210, TS-212, TS-219, TS-219P, TS-220, TS-221, serial, console, uboot, U-Boot]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Using U-Boot on TS-21x/TS-22x</h1>
 
 If you have a <a href = "../serial/">serial console</a> for your QNAP
@@ -82,8 +78,4 @@ dd if=/boot/initrd.img-2.6.32-5-kirkwood of=initrd.img-2.6.32-5-kirkwood.padded 
 Now copy `vmlinuz-2.6.32-5-kirkwood.uboot` and
 `initrd.img-2.6.32-5-kirkwood.padded` to your TFTP server and load them in
 memory as described above.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

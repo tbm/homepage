@@ -4,10 +4,6 @@ description: The abstract of a paper on quality practices and problems in free s
 keywords: [quality problems, open source, FLOSS, quality improvement]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Quality Practices and Problems in Free Software Projects</h1>
 
 <ul class = "author">

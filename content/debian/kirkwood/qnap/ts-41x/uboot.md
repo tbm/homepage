@@ -7,8 +7,6 @@ keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420, TS-4
 
 <% content_for :right do %>
 <img src = "../images/r_qnap_ts419p.jpg" class="border" alt="QNAP TS-419P from the front" width="148" height="148" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Using U-Boot on the QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419P II, TS-419U, TS-420 and TS-421</h1>
@@ -84,8 +82,4 @@ dd if=/boot/initrd.img-2.6.32-5-kirkwood of=initrd.img-2.6.32-5-kirkwood.padded 
 Now copy `vmlinuz-2.6.32-5-kirkwood.uboot` and
 `initrd.img-2.6.32-5-kirkwood.padded` to your TFTP server and load them in
 memory as described above.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

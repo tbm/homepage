@@ -7,8 +7,6 @@ keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419P II, TS-419U, 
 
 <% content_for :right do %>
 <img src = "../images/r_qnap_ts419p.jpg" class="border" alt="QNAP TS-419P from the front" width="148" height="148" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Frequently Asked Questions (FAQ)</h1>
@@ -72,8 +70,4 @@ No, the installation and operation of Debian on your QNAP doesn't require a
 serial console.
 
 Go back to my <a href = "..">Debian on QNAP TS-41x/TS-42x</a> page.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

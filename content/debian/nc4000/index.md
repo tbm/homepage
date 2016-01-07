@@ -9,8 +9,6 @@ keywords: [Debian, lenny, installation, HP, Compaq nc4000, Compaq nc4010, laptop
 <img src = "images/r_nc4000.jpg" class="border" alt="HP nc4000" width="148" height="122" />
 
 More <a href = "gallery/">pictures are available</a>.
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian GNU/Linux on the HP Compaq nc4000</h1>
@@ -217,8 +215,4 @@ Bdale Garbee for miscellaneous help.  Aleksandr Koltsoff for information on
 booting from an USB memory stick.  Bob Proulx for various stuff.  Michael
 Rasmussen for information about swsusp, X.org and the wireless LED.  Fabian
 Kneißl for information about Radeon's PowerPlay feature.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

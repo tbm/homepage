@@ -7,8 +7,6 @@ keywords: [Debian, QNAP, TS-210, TS-212, TS-219, TS-219P, TS-220, TS-221, suppor
 
 <% content_for :right do %>
 <img src = "../images/r_ts219p.jpg" class="border" alt="Open QNAP TS-219" width="148" height="188" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Status of QNAP TS-21x/TS-22x support</h1>
@@ -100,8 +98,4 @@ moment, so it's not quite useful on the TS-21x</td>
 </tr>
 
 </table>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

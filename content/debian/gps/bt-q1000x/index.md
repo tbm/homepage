@@ -6,8 +6,6 @@ keywords: [Qstarz, BT-Q1000X, GPS, MTK II, Debian, Linux, mtkbabel]
 
 <% content_for :right do %>
 <img src = "images/r_bt-q1000x_hand.jpg" class="border" alt="Qstarz BT-Q1000X in my hand" width="148" height="136" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Qstarz BT-Q1000X and Debian</h1>
@@ -85,9 +83,5 @@ And then erase the data from the device:
 <pre>
 mtkbabel -p /dev/ttyACM0 -E
 </pre>
-</div>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
 </div>
 

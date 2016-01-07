@@ -5,10 +5,6 @@ description: An image gallery of the HP mv2120
 keywords: [HP, mv2120, gallery, pictures, images, photos]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <p>
 <a href = "../images/img_0001.jpg">
 <img src = "../images/img_0001s.jpg" class="border" alt = "The HP mv2120 from the front" width="640" height="480" />
@@ -40,8 +36,4 @@ keywords: [HP, mv2120, gallery, pictures, images, photos]
 </p>
 
 Go back to my <a href = "..">Debian on HP mv2120</a> page.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

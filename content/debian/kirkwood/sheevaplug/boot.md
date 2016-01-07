@@ -7,8 +7,6 @@ keywords: [SheevaPlug, GuruPlug, Marvell, Kirkwood, Debian, boot process, boot]
 
 <% content_for :right do %>
 <img src = "../images/r_sheevaplug_hand.jpg" class="border" alt="SheevaPlug in my hand" width="148" height="129" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>The Boot Process of Plug Computers (such as SheevaPlug) running Debian</h1>
@@ -155,8 +153,4 @@ directly and requires special images made with `mkimage`.</li>
 Go back to my <a href = "..">Debian on Plug Computers</a> page.
 
 <%= render "paypal", :desc => "Debian on Plug Computer donation" %>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

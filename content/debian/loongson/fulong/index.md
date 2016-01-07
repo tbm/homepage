@@ -5,10 +5,6 @@ description: "Information about running Debian on Lemote's Fulong mini-PC"
 keywords: [Debian, Lemote, Fulong, Fulong mini-PC, Loongson, Godson, MIPS, CPU]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Debian on the Fulong mini-PC</h1>
 
 The Fulong Miniature Computer (mini-PC) is an inexpensive computer based on
@@ -41,8 +37,4 @@ taken a <a href = "gallery/">few images</a> of the Fulong mini-PC.
 
 Please note that I no longer have my Fulong mini-PC, so I cannot answer any
 questions about it.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

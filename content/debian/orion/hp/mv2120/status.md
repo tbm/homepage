@@ -7,8 +7,6 @@ keywords: [Debian, HP, mv2120, support, status]
 
 <% content_for :right do %>
 <img src = "../images/r_mv2120_front.jpg" class="border" alt="HP mv2120 from the front" width="148" height="212" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Status of HP mv2120 support</h1>
@@ -92,8 +90,4 @@ moment, so it's not quite useful on the mv2120</td>
 </tr>
 
 </table>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

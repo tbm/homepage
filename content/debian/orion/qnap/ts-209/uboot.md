@@ -5,10 +5,6 @@ description: Using U-Boot on the QNAP TS-209
 keywords: [Debian, QNAP, TS-209, serial, console, uboot, U-Boot]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Using U-Boot on the QNAP TS-209</h1>
 
 If you have a <a href = "../serial/">serial console</a> for your QNAP
@@ -82,8 +78,4 @@ dd if=initrd.img-2.6.32-5-orion5x of=initrd.img-2.6.32-5-orion5x.padded ibs=4194
 Now copy `vmlinuz-2.6.32-5-orion5x.uboot` and
 `initrd.img-2.6.32-5-orion5x.padded` to your TFTP server and load them in
 memory or write them to flash as described above.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

@@ -7,8 +7,6 @@ keywords: [Debian, HP, mv2120, specs, specification]
 
 <% content_for :right do %>
 <img src = "../images/r_mv2120_front.jpg" class="border" alt="HP mv2120 from the front" width="148" height="212" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Specs of the HP mv2120</h1>
@@ -76,8 +74,4 @@ identical to the hardware of the HP Media Vault mv2120.  They only differ
 in their disk configuration.  The mv2120 (GX662AA) and mv5100 (GX666AA)
 have a single 500 GB drive, the mv5140 (GX667AA) has two 500 GB drives and
 the mv5150 (GX668AA) has a pair of 750 GB drives.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

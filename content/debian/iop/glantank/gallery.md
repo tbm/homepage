@@ -5,10 +5,6 @@ description: An image gallery of the GLAN Tank
 keywords: [IOP, GLAN Tank, Supertank, SOTO-HDLGW, IO-Data, ARM, pictures, images, photo gallery]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h2>GLAN Tank</h2>
 
 <p>
@@ -84,8 +80,4 @@ Voila
 </p>
 
 Go back to my <a href = "..">Debian on GLAN Tank</a> page.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

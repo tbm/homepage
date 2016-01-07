@@ -5,10 +5,6 @@ description: An image gallery of MIPS based Cobalt machines
 keywords: [Cobalt, MIPS, pictures, images, photo gallery]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h2>Cobalt Qube2 and two Cobalt RaQ2+</h2>
 
 <p>
@@ -96,8 +92,4 @@ The Qube can be used as a jukebox when you equip it with a sound card.
 </p>
 
 Go back to my <a href = "..">Debian on Cobalt</a> page.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

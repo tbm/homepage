@@ -7,8 +7,6 @@ keywords: [Debian, QNAP, HS-210, TS-210, TS-212, TS-212-E, TS-212P, TS-219, TS-2
 
 <% content_for :right do %>
 <img src = "../images/r_ts219p.jpg" class="border" alt="Open QNAP TS-219" width="148" height="188" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Installing Debian on QNAP HS-210, TS-21x and TS-22x devices</h1>
@@ -237,8 +235,4 @@ about running Debian on the QNAP TS-21x/TS-22x.
 Go back to my <a href = "..">Debian on QNAP TS-21x/TS-22x</a> page.
 
 <%= render "paypal", :desc => "Debian/QNAP TS-21x/TS-22x donation" %>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

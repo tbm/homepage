@@ -7,8 +7,6 @@ keywords: [Debian, D-Link, DNS-323, Conceptronic, CH3SNAS, specs, specification]
 
 <% content_for :right do %>
 <img src = "../images/r_ch3snas_front.jpg" class="border" alt="Conceptronic CH3SNAS from the front" width="148" height="146" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Specs of the D-Link DNS-323</h1>
@@ -82,8 +80,4 @@ by Conceptronic as the CH3SNAS.
 </tr>
 
 </table>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

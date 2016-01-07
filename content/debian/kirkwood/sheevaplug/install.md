@@ -7,8 +7,6 @@ keywords: [SheevaPlug, Marvell, Kirkwood, Debian, installer, ARM, GuruPlug]
 
 <% content_for :right do %>
 <img src = "../images/r_sheevaplug_hand.jpg" class="border" alt="SheevaPlug in my hand" width="148" height="129" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Installing Debian on Plug Computers</h1>
@@ -217,8 +215,4 @@ run bootcmd
 Go back to my <a href = "..">Debian on Plug Computer</a> page.
 
 <%= render "paypal", :desc => "Debian on Plug Computer donation" %>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

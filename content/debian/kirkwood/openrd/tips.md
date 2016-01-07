@@ -5,10 +5,6 @@ description: Tips and tricks for Debian on OpenRD
 keywords: [Debian, OpenRD, VGA, xgi, tips, tricks]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Tips and tricks for Debian on OpenRD</h1>
 
 Here are some tips and tricks about running Debian on the OpenRD.
@@ -77,8 +73,4 @@ and choose `Graphical desktop environment`.
 Go back to my <a href = "..">Debian on OpenRD</a> page.
 
 <%= render "paypal", :desc => "Debian/OpenRD donation" %>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

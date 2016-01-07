@@ -5,10 +5,6 @@ description: Restoring the original QNAP firmware or re-installing Debian on QNA
 keywords: [Debian, QNAP, HS-210, TS-210, TS-212, TS-219, TS-219P, TS-220, TS-221, original firmware]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Restoring the original QNAP firmware or re-installing Debian</h1>
 
 If you want to restore the original QNAP firmware or re-install Debian on your HS-210, TS-21x or TS-22x device for
@@ -61,8 +57,4 @@ Reboot your QNAP device and Debian installer will start and you can connect
 via SSH, as <a href="../install/#install">documented on the install
 page</a>.  Please be aware that the SSH key of the machine will have
 changed.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

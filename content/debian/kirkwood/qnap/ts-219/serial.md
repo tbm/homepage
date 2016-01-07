@@ -5,10 +5,6 @@ description: Connecting a serial console to QNAP TS-21x/TS-22x
 keywords: [Debian, QNAP, TS-210, TS-212, TS-219, TS-219P, TS-220, TS-221, serial, console, RS-232, hack]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Connecting a serial console to QNAP TS-21x/TS-22x devices</h1>
 
 If you want to connect a serial console to a QNAP TS-21x/TS-22x device, you'll
@@ -42,8 +38,4 @@ device.  You have to connect with 115200 baud and set the parameters to 8N1
 If your serial console doesn't work or you can see text but your typing is
 ignored, it might be because you have to connect RX from your connector
 cable to TX on the QNAP and TX with RX.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

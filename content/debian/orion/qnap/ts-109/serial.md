@@ -5,10 +5,6 @@ description: Connecting a serial console to the QNAP TS-109
 keywords: [Debian, QNAP, TS-109, serial, console, RS-232, hack]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Connecting a serial console to the QNAP TS-109</h1>
 
 The serial port is a 2x3 pin connector (labelled JP1) that is located close
@@ -35,8 +31,4 @@ device.  You have to connect with 115200 baud and set the parameters to 8N1
 If your serial console doesn't work or you can see text but your typing is
 ignored, it might be because you have to connect RX from your connector
 cable to TX on the QNAP and TX with RX.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

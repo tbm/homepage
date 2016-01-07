@@ -5,10 +5,6 @@ description: Instructions for running Debian on the OpenRD
 keywords: [Debian, OpenRD, OpenRD-Base, OpenRD-Client, OpenRD-Ultimate, development, ARM, Marvell, Kirkwood]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Debian on the OpenRD platform</h1>
 
 OpenRD is a reference design for Marvell's Kirkwood platform (Marvell's
@@ -43,8 +39,4 @@ for questions specifically related to the ARM port of Debian or about
 running Debian on the OpenRD.</li>
 
 </ul>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

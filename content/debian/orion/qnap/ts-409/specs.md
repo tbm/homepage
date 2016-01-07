@@ -7,8 +7,6 @@ keywords: [Debian, QNAP, TS-409, specs, specification]
 
 <% content_for :right do %>
 <img src = "../images/r_ts409_front.jpg" class="border" alt="QNAP TS-409 from the front" width="148" height="147" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Specs of the QNAP TS-409</h1>
@@ -70,8 +68,4 @@ these components.
 </tr>
 
 </table>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

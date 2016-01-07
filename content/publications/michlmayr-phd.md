@@ -4,10 +4,6 @@ description: The abstract of my PhD dissertation on quality improvement and rele
 keywords: [release management, open source, FOSS, quality improvement, thesis, dissertation]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Quality Improvement in Volunteer Free and Open Source Software
 Projects: Exploring the Impact of Release Management</h1>
 

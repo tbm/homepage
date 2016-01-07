@@ -7,8 +7,6 @@ keywords: [Debian, Thecus, N2100, specs, specification]
 
 <% content_for :right do %>
 <img src = "../images/r_n2100_debian.jpg" class="border" alt="Thecus N2100" width="133" height="148" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Specs of the Thecus N2100</h1>
@@ -80,8 +78,4 @@ these components.
 </tr>
 
 </table>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

@@ -7,8 +7,6 @@ keywords: [Debian, SheevaPlug, plug, plugs, plug computer]
 
 <% content_for :right do %>
 <img src = "../images/r_sheevaplug_hand.jpg" class="border" alt="SheevaPlug in my hand" width="148" height="129" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Plug Computer models and how well they are supported in Debian</h1>
@@ -132,8 +130,4 @@ They will not be supported:
 Go back to my <a href = "..">Debian on Plug Computer</a> page.
 
 <%= render "paypal", :desc => "Debian on Plug Computer donation" %>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

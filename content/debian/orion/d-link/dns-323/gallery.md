@@ -5,10 +5,6 @@ description: An image gallery of the D-Link DNS-323
 keywords: [Debian, D-Link, DNS-323, Conceptronic, CH3SNAS, gallery, pictures, images, photos]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <p>
 <a href = "../images/img_0001.jpg">
 <img src = "../images/img_0001s.jpg" class="border" alt = "Conceptronic CH3SNAS from the front" width="640" height="480" />
@@ -34,8 +30,4 @@ keywords: [Debian, D-Link, DNS-323, Conceptronic, CH3SNAS, gallery, pictures, im
 </p>
 
 Go back to my <a href = "..">Debian on D-Link DNS-323</a> page.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

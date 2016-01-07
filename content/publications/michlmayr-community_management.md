@@ -4,10 +4,6 @@ description: The abstract of a paper about community management in open source p
 keywords: [community, management, open source]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Community Management in Open Source Projects</h1>
 
 <ul class = "author">

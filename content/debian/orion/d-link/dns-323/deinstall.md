@@ -7,8 +7,6 @@ keywords: [Debian, D-Link, DNS-323, Conceptronic, CH3SNAS, original firmware]
 
 <% content_for :right do %>
 <img src = "../images/r_ch3snas_front.jpg" class="border" alt="Conceptronic CH3SNAS from the front" width="148" height="146" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Restoring the original firmware</h1>
@@ -45,8 +43,4 @@ original firmware will offer you to format your disk.
 
 Please note that simply starting the original firmware will destroy your
 Debian installation on disk (even if you don't choose to format the disk)!
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

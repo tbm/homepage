@@ -5,10 +5,6 @@ description: An image gallery of the QNAP TS-110
 keywords: [QNAP, TS-110, TS-112, TS-119, gallery, pictures, images, photos]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 The QNAP TS-119 from the front.<br />
 <img src = "../images/qnap_ts119.png" alt = "TS-119 from the front" width="244" height="512" />
 
@@ -23,8 +19,4 @@ A serial console connected to the QNAP TS-110.<br />
 </a>
 
 Go back to my <a href = "..">Debian on QNAP TS-11x/TS-12x</a> page.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

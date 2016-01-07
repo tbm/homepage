@@ -4,10 +4,6 @@ description: The abstract of a paper on process maturity and the success of free
 keywords: [process maturity, success, open source, FLOSS]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Software Process Maturity and the Success of Free Software Projects</h1>
 
 <ul class = "author">

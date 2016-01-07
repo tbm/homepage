@@ -7,8 +7,6 @@ keywords: [Debian, HP, Media Vault, mv2120, mv5020, mv5100]
 
 <% content_for :right do %>
 <img src = "images/r_mv2120_front.jpg" class="border" alt="HP mv2120 from the front" width="148" height="212" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Debian on HP mv2120, mv5020 and the mv5100 series</h1>
@@ -83,8 +81,4 @@ investigation and has written uphpmvault.
 
 Even though I currently work for HP, all of this work was done in my spare
 time.  Debian on the HP mv2120 is not supported by HP in any way.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

@@ -7,8 +7,6 @@ keywords: [Debian, Thecus, N2100, support, status]
 
 <% content_for :right do %>
 <img src = "../images/r_n2100_debian.jpg" class="border" alt="Thecus N2100" width="133" height="148" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Status of Thecus N2100 support</h1>
@@ -73,8 +71,4 @@ of the fan based on the current temperature.</td>
 </tr>
 
 </table>
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

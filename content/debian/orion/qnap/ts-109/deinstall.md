@@ -5,10 +5,6 @@ description: Restoring the original QNAP Firmware on the QNAP TS-109
 keywords: [Debian, QNAP, TS-109, original firmware]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Restoring the original QNAP firmware</h1>
 
 If you want to restore the original QNAP firmware for some reason, you can
@@ -36,8 +32,4 @@ the QNAP software when it formatted the disk.
 After you put the QNAP firmware back in flash and installed the complete
 the QNAP software with QNAP Finder, your device will run the original
 software from QNAP again.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

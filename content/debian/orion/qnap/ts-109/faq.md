@@ -7,8 +7,6 @@ keywords: [Debian, QNAP, TS-109, FAQ, frequently asked questions, help, troubles
 
 <% content_for :right do %>
 <img src = "../images/r_ts109_front.jpg" class="border" alt="QNAP TS-109 from the front" width="148" height="217" />
-
-<%= render "adsense-wideskyscaper-right" %>
 <% end %>
 
 <h1>Frequently Asked Questions (FAQ)</h1>
@@ -84,8 +82,4 @@ No, the installation and operation of Debian on your QNAP doesn't require a
 serial console.
 
 Go back to my <a href = "..">Debian on QNAP TS-109</a> page.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

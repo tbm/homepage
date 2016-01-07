@@ -5,10 +5,6 @@ description: Restoring the original QNAP firmware or re-installing Debian on QNA
 keywords: [Debian, QNAP, TS-110, TS-112, TS-112P, TS-119, TS-120, TS-121, original firmware]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Restoring the original QNAP firmware or re-installing Debian</h1>
 
 If you want to restore the original QNAP firmware or re-install Debian on your TS-11x/TS-12x device for
@@ -61,8 +57,4 @@ Reboot your QNAP device and Debian installer will start and you can connect
 via SSH, as <a href="../install/#install">documented on the install
 page</a>.  Please be aware that the SSH key of the machine will have
 changed.
-
-<div class="bbf">
-<%= render "adsense-banner-before-footer" %>
-</div>
 

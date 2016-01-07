@@ -4,10 +4,6 @@ description: The abstract of a paper doing a quantitative analysis of volunteers
 keywords: [volunteer, large projects, libre software, FLOSS, Debian]
 ---
 
-<% content_for :right do %>
-<%= render "adsense-wideskyscaper-right" %>
-<% end %>
-
 <h1>Volunteers in Large Libre Software Projects: A Quantitative Analysis
 Over Time</h1>
 
