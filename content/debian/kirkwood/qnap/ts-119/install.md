@@ -190,11 +190,15 @@ Please make sure that the QNAP is on a local network to which only you
 have access since the installer uses a very generic password, namely
 `install`. The user is `installer`.  Before you can connect to the
 installer via SSH, you have to remove the SSH key from the QNAP firmware
-from your known_hosts file.  The QNAP firmware uses a different SSH key
-than the Debian installer, so when you try to connect to Debian you will
-get an error saying that the remote host identification has changed.  Edit
-~/.ssh/known_hosts and remove the entry for the IP address of your QNAP
-device.  Now connect to the installer (again, replacing the address in the
+from your `known_hosts` file:
+
+<div class="code">
+<pre>
+ssh-keygen -f ~/.ssh/known_hosts -R <span class="input">192.168.1.100</span>
+</pre>
+</div>
+
+Now connect to the installer (again, replacing the address in the
 example with the actual IP address of your QNAP) and login as user
 `installer` with the password `install`:
 
