@@ -67,12 +67,6 @@ following table to see whether your device has the recovery mode already:
 <td>Nov 14 2008 - 17:06:53</td>
 </tr>
 
-<tr>
-<td>1080948424</td>
-<td>yes</td>
-<td>May  5 2009 - 18:59:48</td>
-</tr>
-
 </table>
 
 If your device does not have the recovery mode, please read on to see how
