@@ -20,17 +20,11 @@ login via SSH to perform the installation.  Debian will be installed to
 disk and a Debian kernel will be put in flash that will start Debian from
 disk.
 
-If you follow this procedure, Debian will be installed to your SATA disk
+If you follow this procedure, Debian 8 (jessie) will be installed to your SATA disk
 and the QNAP firmware on disk and in flash will be replaced with Debian.
 Debian does not install a web interface to configure your machine, although
 it's possible to install such software.  If this is not what you want,
 please don't proceed with the installation.
-
-Note that Debian 6.0 (squeeze) was the last release of Debian that provided
-an installer for QNAP TS-109 devices.  You can not directly install later
-releases.  However, you can install Debian 6.0 (squeeze) according to the
-instructions on this page and then perform an upgrade to Debian 7 (wheezy)
-and Debian 8 (jessie).
 
 <h2>Requirements and Preparation</h2>
 
@@ -221,10 +215,10 @@ following commands:
 <div class="code">
 <pre>
 cd /tmp
-busybox wget http://archive.debian.org/debian/dists/squeeze/main/installer-armel/current/images/orion5x/network-console/qnap/ts-209/flash-debian
-busybox wget http://archive.debian.org/debian/dists/squeeze/main/installer-armel/current/images/orion5x/network-console/qnap/ts-209/model
-busybox wget http://archive.debian.org/debian/dists/squeeze/main/installer-armel/current/images/orion5x/network-console/qnap/ts-209/initrd.gz
-busybox wget http://archive.debian.org/debian/dists/squeeze/main/installer-armel/current/images/orion5x/network-console/qnap/ts-209/kernel
+busybox wget http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/orion5x/network-console/qnap/ts-209/flash-debian
+busybox wget http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/orion5x/network-console/qnap/ts-209/model
+busybox wget http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/orion5x/network-console/qnap/ts-209/initrd
+busybox wget http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/orion5x/network-console/qnap/ts-209/kernel
 </pre>
 </div>
 
@@ -302,25 +296,8 @@ ssh installer@<span class="input">192.168.1.100</span>
 </pre>
 </div>
 
-When the installer starts, it will ask you to choose a mirror of the Debian
-archive.  Since Debian 6.0 (squeeze) is no longer distributed on Debian
-mirrors, you have to tell the installer to install from
-`archive.debian.org`.  First of all, scroll up in the list of countries
-until you find the first option, which allows you to `enter information
-manually`:
-
-<img src = "../../images/di-mirror2.png" class="border" alt = "Debian installer: enter mirror manually" width="842" height="462" />
-
-Enter `archive.debian.org` as the mirror hostname:
-
-<img src = "../../images/di-mirror3.png" class="border" alt = "Debian installer: enter mirror hostname" width="842" height="462" />
-
-And accept `/debian/` as the mirror directory:
-
-<img src = "../../images/di-mirror4.png" class="border" alt = "Debian installer: enter mirror directory" width="842" height="462" />
-
-Apart from this, the installation itself should be pretty standard and you can follow the <a
-href = "http://www.debian.org/releases/squeeze/armel/">installation
+The installation itself should be pretty standard and you can follow the <a
+href = "http://www.debian.org/releases/stable/armel/">installation
 guide</a>.  The installer knows about the TS-209 and at the end of the
 installation it will flash a kernel and ramdisk that will automatically
 boot into Debian.  It will also install the `qcontrol` package that can be
@@ -348,14 +325,6 @@ In case you run into any bugs or problems, you may want to check the list
 of <a href = "../known-issues/">known issues and bugs</a> with Debian on the
 QNAP TS-209.  Finally, make sure to read the <a href = "../tips/">tips and
 tricks</a> about running Debian on the QNAP TS-209.
-
-<h2>Upgrade to latest Debian</h2>
-
-You should first upgrade to <a
-href="http://www.debian.org/releases/wheezy/armel/release-notes/ch-upgrading.en.html">Debian
-7 (wheezy)</a> and then immediately perform an upgrade to <a
-href="https://www.debian.org/releases/jessie/armel/release-notes/ch-upgrading.en.html">Debian
-8 (jessie)</a>.
 
 Go back to my <a href = "..">Debian on QNAP TS-209</a> page.
 

@@ -30,8 +30,8 @@ supported by Debian:
 </tr>
 
 <tr>
-<td style="color: black; background-color: #FFFF00">Debian</td>
-<td>Debian installer support dropped after Debian 6.0</td>
+<td style="color: white; background-color: #00AA00">Debian</td>
+<td>Debian installer works well</td>
 </tr>
 
 <tr>
