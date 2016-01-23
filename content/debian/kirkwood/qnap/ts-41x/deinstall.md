@@ -44,8 +44,8 @@ If you want to re-install Debian using Debian installer, you have to obtain
 the <a
 href="http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/kernel">kernel</a>
 and <a
-href="http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/initrd.gz">initrd.gz</a>
-files of the installer (make sure the initrd.gz does not get uncompressed
+href="http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/initrd">initrd</a>
+files of the installer (make sure the initrd does not get uncompressed
 when you download it).
 
 You can then write the installer files to flash:
@@ -53,7 +53,7 @@ You can then write the installer files to flash:
 <div class="code">
 <pre>
 cat kernel &gt; /dev/mtdblock1
-cat initrd.gz &gt; /dev/mtdblock2
+cat initrd &gt; /dev/mtdblock2
 </pre>
 </div>
 

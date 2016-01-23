@@ -62,7 +62,7 @@ have a recovery image in case something goes wrong.
 
 If you want to make a QNAP recovery image containing the Debian installer,
 you can follow these steps.  First of all, download the <a href =
-"http://ftp.uk.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-119/initrd.gz">initrd</a>
+"http://ftp.uk.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-119/initrd">initrd</a>
 and <a href =
 "http://ftp.uk.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-119/kernel">kernel</a>
 for the installer.  You now have to pad the kernel so it is the right size:
@@ -77,7 +77,7 @@ Finally, you can create a recovery image:
 
 <div class="code">
 <pre>
-cat mtd0 mtd4 mtd5 kernel.pad initrd.gz mtd3 &gt; F_TS-119_di
+cat mtd0 mtd4 mtd5 kernel.pad initrd mtd3 &gt; F_TS-119_di
 </pre>
 </div>
 
