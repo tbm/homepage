@@ -254,7 +254,8 @@ bring up the network, start the OpenSSH server and you can then connect to
 the device using SSH.  You have to wait a few minutes after starting the
 system before you can connect.  When the installer is ready, the status LED
 will change to solid green and your device will beep briefly to indicate
-that you can now login via SSH.
+that you can now login via SSH. (Note: there's currently no beep due to a
+bug; just wait about 1-2 minutes and connect with SSH.)
 
 <a id = "net-config"></a>
 
