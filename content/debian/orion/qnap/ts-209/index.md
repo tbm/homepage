@@ -15,6 +15,12 @@ The QNAP TS-209 is a NAS device that can be used for a variety of tasks.
 In the following, I will describe what is needed needed to get Debian
 running on your TS-209, TS-209 II, TS-209 Pro or TS-209 Pro II.
 
+<h2>News</h2>
+
+[2016-01-23] Debian 8.3 <a
+href="https://www.debian.org/News/2016/20160123">is available</a> and
+brings back installer support for TS-209.
+
 <h2>Information</h2>
 
 <ul>
