@@ -83,7 +83,7 @@ QNAP system</a>.
 <h3><a id = "install-initialized">Fully Initialized QNAP System</a></h3>
 
 QNAP provides a <a href =
-"http://wiki.qnap.com/wiki/Emergency_Recovery_Mode">page about the recovery
+"http://wiki.qnap.com/wiki/System_Recovery_Mode">page about the recovery
 mode</a> which tells you exactly how to install the recovery mode.  In
 short, you have to install a QPKG provided by QNAP that will automatically
 install the recovery mode.
@@ -92,7 +92,7 @@ install the recovery mode.
 
 You need a USB stick on which you can store some files.  Please put the USB
 stick in your PC, download the zip file for your QNAP device from QNAP's <a
-href = "http://wiki.qnap.com/wiki/Emergency_Recovery_Mode">recovery mode
+href = "http://wiki.qnap.com/wiki/System_Recovery_Mode">recovery mode
 page</a> (but ignore the installation instructions from that page).  Unzip
 the file and copy the `.qpkg` file to the USB stick.  Now start your QNAP
 device and connect the USB stick to it.  Login to your QNAP via telnet as
@@ -268,7 +268,7 @@ recovery image via TFTP.  When it has obtained the recovery image and
 written it to flash, your QNAP will make one long beep and restart.
 
 More information about the recovery mode can be found on <a href =
-"http://wiki.qnap.com/wiki/Emergency_Recovery_Mode">QNAP's System Recovery
+"http://wiki.qnap.com/wiki/System_Recovery_Mode">QNAP's System Recovery
 Mode</a> page.
 
 <%= render "paypal", :desc => "Debian/QNAP TS-409 donation" %>
