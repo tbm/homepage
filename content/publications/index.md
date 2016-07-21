@@ -13,7 +13,7 @@ Source Projects Adopt Time-Based Releases?&ensp;<i>IEEE Software</i>,
 <a href = "michlmayr_fitzgerald_stol-why_and_how_time_based_releases.bib">[bibtex]</a>
 
 Michlmayr, M., Fitzgerald, B. (2012).&ensp;Time-Based Release Management in
-Free and Open Source (FOSS) Projects.&ensp;<i> International Journal of
+Free and Open Source (FOSS) Projects.&ensp;<i>International Journal of
 Open Source Software and Processes</i>, 4(1).&ensp;1&ndash;19.
 <a href = "michlmayr_fitzgerald-time_based_release_management/">[abstract]</a>
 [available on request]
@@ -74,7 +74,7 @@ Economics of Open Source Software Development.</i>&ensp;131&ndash;148.
 <a href = "michlmayr_senyard-debian_base_defects.bib">[bibtex]</a>
 
 Robles, G., Gonzalez-Barahona, J. M., Michlmayr, M., Amor, J. J.
-(2006).&ensp;<i> Mining Large Software Compilations over Time: Another
+(2006).&ensp;<i>Mining Large Software Compilations over Time: Another
 Perspective of Software Evolution</i>.&ensp; In: <i>Proceedings of the
 International Workshop on Mining Software Repositories (MSR
 2006).</i>&ensp;3&ndash;9.

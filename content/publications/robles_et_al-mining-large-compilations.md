@@ -56,7 +56,7 @@ paper</a></li>
 <h2>Reference</h2>
 
 Robles, G., Gonzalez-Barahona, J. M., Michlmayr, M., Amor, J. J.
-(2006).&ensp;<i> Mining Large Software Compilations over Time: Another
+(2006).&ensp;<i>Mining Large Software Compilations over Time: Another
 Perspective of Software Evolution</i>.&ensp; In: <i>Proceedings of the
 International Workshop on Mining Software Repositories (MSR
 2006)</i>.&ensp;3&ndash;9.
