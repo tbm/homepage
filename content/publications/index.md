@@ -5,6 +5,13 @@ description: The publications of Martin Michlmayr
 keywords: [Publications, quality, project management, release management, FLOSS]
 ---
 
+Michlmayr, M., Fitzgerald, B., Stol, K. (2015).&ensp;Why and How Should Open
+Source Projects Adopt Time-Based Releases?&ensp;<i>IEEE Software</i>,
+32(2).&ensp;55&ndash;63.
+<a href = "michlmayr_fitzgerald_stol-why_and_how_time_based_releases/">[abstract]</a>
+[available on request]
+<a href = "michlmayr_fitzgerald_stol-why_and_how_time_based_releases.bib">[bibtex]</a>
+
 Michlmayr, M., Fitzgerald, B. (2012).&ensp;Time-Based Release Management in
 Free and Open Source (FOSS) Projects.&ensp;<i> International Journal of
 Open Source Software and Processes</i>, 4(1).&ensp;1&ndash;19.
