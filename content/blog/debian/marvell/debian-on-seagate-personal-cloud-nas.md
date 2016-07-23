@@ -4,7 +4,7 @@ created_at: 2016-07-21 19:50:27 -0700
 kind: article
 ---
 
-The majority of NAS devices supported in Debian are based on Debian's
+The majority of NAS devices supported in Debian are based on Marvell's
 Kirkwood platform.  This platform is quite dated now and can only run
 Debian's `armel` port.
 
