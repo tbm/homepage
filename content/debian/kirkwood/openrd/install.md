@@ -28,6 +28,13 @@ Make sure to connect an Ethernet cable to the `GbE 0` port of your OpenRD
 (if you haven't already) because the installer will download files from the
 Internet for the installation.
 
+<h2><a id = "uboot">Upgrading U-Boot</a></h2>
+
+You have the option to install a new version of the u-boot boot loader but
+this step is optional.  Please visit the page describing the <a href =
+"../uboot-upgrade/">u-boot upgrade process</a> if you want to use a modern
+u-boot provided by Debian.
+
 <h2><a id = "starting">Starting the Installer</a></h2>
 
 First of all, you have to download the installer and store them either on a
@@ -58,41 +65,31 @@ or
 and MacOS X</a>.
 
 When you get serial output, press a key to interrupt the boot process.
-First of all, you have to change a setting so the device will boot the
-kernel which is used by Debian.
 
-If you have an OpenRD-Base, please issue the following commands:
+If you use the original Marvell u-boot (but not if you use [modern DENX
+u-boot](../uboot-upgrade/)), you have to configure u-boot so the device
+will boot the kernel which is used by Debian:
 
-<div class="code">
-<pre>
-setenv mainlineLinux yes
-setenv arcNumber 2325
-saveenv
-reset
-</pre>
-</div>
+* If you have an OpenRD-Base, please issue the following commands:
 
-If you have an OpenRD-Client, please issue the following commands:
+        setenv mainlineLinux yes
+        setenv arcNumber 2325
+        saveenv
+        reset
 
-<div class="code">
-<pre>
-setenv mainlineLinux yes
-setenv arcNumber 2361
-saveenv
-reset
-</pre>
-</div>
+* If you have an OpenRD-Client, please issue the following commands:
 
-If you have an OpenRD-Ultimate, please issue the following commands:
+        setenv mainlineLinux yes
+        setenv arcNumber 2361
+        saveenv
+        reset
 
-<div class="code">
-<pre>
-setenv mainlineLinux yes
-setenv arcNumber 2884
-saveenv
-reset
-</pre>
-</div>
+* If you have an OpenRD-Ultimate, please issue the following commands:
+
+        setenv mainlineLinux yes
+        setenv arcNumber 2884
+        saveenv
+        reset
 
 These commands will put in the correct settings and then restart the device
 so the changes will take effect.
@@ -190,8 +187,17 @@ For MMC/SD, use this:
 <div class="code">
 <pre>
 setenv bootargs_console console=ttyS0,115200
-setenv bootcmd_mmc 'mmcinit; ext2load mmc 0:1 0x01100000 /uInitrd; ext2load mmc 0:1 0x00800000 /uImage'
+setenv bootcmd_mmc 'ext2load mmc 0:1 0x01100000 /uInitrd; ext2load mmc 0:1 0x00800000 /uImage'
 setenv bootcmd 'setenv bootargs ${bootargs_console}; run bootcmd_mmc; bootm 0x00800000 0x01100000'
+saveenv
+</pre>
+</div>
+
+If you use the original Marvell u-boot, you have to add `mmcinit` to `bootcmd_mmc`:
+
+<div class="code">
+<pre>
+setenv bootcmd_mmc 'mmcinit; ext2load mmc 0:1 0x01100000 /uInitrd; ext2load mmc 0:1 0x00800000 /uImage'
 saveenv
 </pre>
 </div>

@@ -877,3 +877,9 @@ NVIDIA's
 Tegra
 K1
 Wookey
+eth1addr
+mmc
+mmcinit
+mainlineLinux
+arcNumber
+saveenv

@@ -278,6 +278,13 @@ text-align: right;
  */
 
 /* put code examples in a nicely coloured box and add a scrollbar if needed */
+pre {
+  background: #E0E0E0; /* some light blue/gray */
+  color: #000000; /* black */
+  padding-left: 5px;
+  overflow: auto;
+}
+
 .code {
   background: #E0E0E0; /* some light blue/gray */
   color: #000000; /* black */
