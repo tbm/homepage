@@ -20,7 +20,7 @@ using a <a href = "../recovery/">serial console</a>.
 You first have to download the firmware image from D-Link or Conceptronic
 and then unpack it.  You can unpack it with <a href =
 "http://theshed.hezmatt.org/dns323-firmware-tools/">dns323-firmware-tools</a>
-(version 0.3 or higher):
+(version 0.7.3 or higher):
 
 <div class="code">
 <pre>
