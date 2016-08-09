@@ -15,6 +15,12 @@ The HP Media Vault mv2120 and the HP Media Vault Pro mv5020 are NAS devices
 that can be used for a variety of tasks.  In the following, I will describe
 what is needed to get Debian running on your HP mv2120.
 
+<h2>Important note</h2>
+
+Please be aware that a [change in the u-boot configuration is
+required](uboot-config) before you can upgrade from Debian 8 (jessie) to
+Debian 9 (stretch).  Make sure you make this change before you upgrade!
+
 <h2>Information</h2>
 
 <ul>

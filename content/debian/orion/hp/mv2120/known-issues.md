@@ -18,5 +18,8 @@ Here is a list of known issues and bugs with Debian on the HP mv2120:
 userland tool that will listen to the button events and actually do
 something with them (i.e. reset or power down the machine).</li>
 
+<li>Upgrades from Debian 8 (jessie) to Debian 9 (stretch) require a <a
+href="../uboot-config">change in the u-boot configuration</a>.</li>
+
 </ul>
 

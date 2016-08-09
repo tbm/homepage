@@ -883,3 +883,6 @@ mmcinit
 mainlineLinux
 arcNumber
 saveenv
+loadAddr
+0x0600000
+'bootext2
