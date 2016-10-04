@@ -12,9 +12,8 @@ keywords: [Debian, QNAP, TS-209, bugs, issues, defects]
 
 Here is a list of known issues and bugs with Debian on the QNAP TS-209:
 
-<ul>
-
-<li>qcontrol (the tool to control LEDs and beeper) doesn't work.</li>
-
-</ul>
+* The installer fails to make the system bootable, especially on
+configurations with LVM and RAID.  You can [apply a
+workaround](../troubleshooting/#bootable).
+* qcontrol (the tool to control LEDs and beeper) doesn't work.
 

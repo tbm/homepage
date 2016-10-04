@@ -12,15 +12,13 @@ keywords: [Debian, QNAP, TS-409, bugs, issues, defects]
 
 Here is a list of known issues and bugs with Debian on the QNAP TS-409:
 
-<ul>
-
-<li>There's a timing issue that will result in <a
+* The installer fails to make the system bootable, especially on
+configurations with LVM and RAID.  You can [apply a
+workaround](../troubleshooting/#bootable).
+* There's a timing issue that will result in <a
 href="http://comments.gmane.org/gmane.linux.ide/47799">not all disks being
 recognized</a> in time on boot.  If you're experience, you can <a
 href="http://forum.qnap.com/viewtopic.php?p=284721#p284592">use a
-workaround</a>.</li>
-
-<li>qcontrol (the tool to control LEDs and beeper) doesn't work.</li>
-
-</ul>
+workaround</a>.
+* qcontrol (the tool to control LEDs and beeper) doesn't work.
 

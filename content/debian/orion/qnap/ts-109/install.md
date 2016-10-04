@@ -315,6 +315,10 @@ session terminates, wait a few minutes before you can connect to your newly
 installed system via SSH.  The TS-109 will beep when you can connect via
 SSH.  You will be able to log in as `root` or your newly created user.
 
+It's possible that you'll get an error during the "make the system
+bootable" step.  If you run into this issue, you can [apply a
+workaround](../troubleshooting/#bootable).
+
 <h2>Success</h2>
 
 You should now have a complete Debian system running on your QNAP.  You can

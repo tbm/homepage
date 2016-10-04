@@ -107,6 +107,28 @@ disk.  Unfortunately, the progress bar is not updated while the disk is
 being formatted so you may think that it is stuck (at 33%).  If this
 happens, just be patient.  The installer is in fact formatting your disk.
 
+<h3><a id = "bootable">Make the system bootable step fails</a></h3>
+
+There can be a number of reasons why the "Make the system bootable" step
+fails.  If this happens, open a shell in the installer and look at
+`/var/log/syslog`.  Look towards the end for messages involving
+"flash-kernel".
+
+The QNAP TS-109 only has 2 MB for the ramdisk so the most likely cause is
+that the ramdisk doesn't fit in flash.  You can find a message like this in
+`/var/log/syslog:
+
+    Not enough space for initrd in MTD 'RootFS1' (need 4647643 but is actually 4194304).
+
+If this is the case, you can apply the following workaround:
+
+    echo "COMPRESS=xz" > /target/etc/initramfs-tools/conf.d/compress
+
+This configures initramfs-tools to use XZ compression, which will allow the
+ramdisk to fit in flash.
+
+Exit the shell and repeat the "make the system bootable" step.
+
 <h2><a id = "debian">Debian</a></h2>
 
 <h3><a id = "no-boot">My QNAP no longer boots</a></h3>
