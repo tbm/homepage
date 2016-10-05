@@ -116,7 +116,7 @@ fails.  If this happens, open a shell in the installer and look at
 
 The QNAP TS-209 only has 2 MB for the ramdisk so the most likely cause is
 that the ramdisk doesn't fit in flash.  You can find a message like this in
-`/var/log/syslog:
+`/var/log/syslog`:
 
     Not enough space for initrd in MTD 'RootFS1' (need 4647643 but is actually 4194304).
 
