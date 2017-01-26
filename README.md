@@ -11,6 +11,11 @@ Ruby dependencies are managed using bundler:
 
     bundle install
 
+On Debian 8 (jessie), you can install the dependencies like this:
+
+    apt-get install nanoc
+    gem install pandoc-ruby w3c_validators
+
 The site also requires various Debian packages:
 
     apt-get install make hunspell myspell-en-gb myspell-en-us
