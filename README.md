@@ -13,7 +13,7 @@ Ruby dependencies are managed using bundler:
 
 The site also requires various Debian packages:
 
-    apt-get install hunspell myspell-en-gb
+    apt-get install make hunspell myspell-en-gb myspell-en-us
 
 ## Style guidelines
 
