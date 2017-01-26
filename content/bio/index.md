@@ -9,9 +9,8 @@ keywords: [Martin Michlmayr, biography, background, interests]
 <img src = "../images/r_debconf4_tbm1.jpg" class="border" alt="Martin Michlmayr" width="148" height="182" />
 <% end %>
 
-I'm a contributor to various free and open source software projects and I
-work for HP's Open Source Program Office as an Open Source Community
-Expert.  I have Master degrees in Psychology, Philosophy, and Software
+I'm a contributor to various free and open source software projects.
+I have Master degrees in Psychology, Philosophy, and Software
 Engineering and a PhD in Technology Management.
 
 My big passion is free software and open source.  Unlike traditional
@@ -26,9 +25,9 @@ used to be the volunteer coordinator for the GNUstep project and acted as
 publicity director for Linux International.  In 2000, I joined the Debian
 project an association of roughly 1000 volunteers working on an operating
 system completely based on free software; I acted as the leader of Debian
-for two years.  I serve on the Board of Directors of the Open Source
-Initiative (OSI).  I also completed a PhD on the question of how to
-[perform high quality releases](../research/) in free software projects.
+for two years.  I served on the Board of Directors of the Open Source
+Initiative (OSI).  I currently serve on the boards of Software Freedom
+Conservancy and Software in the Public Interest.
 
 Apart from spending time at the computer, I like to read, listen to music
 and I also travel a lot.  I have a curious fascination with the ocean and
