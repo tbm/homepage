@@ -29,7 +29,7 @@ TS-419P II, TS-419U, TS-419U+, TS-420, TS-420U, TS-421 and TS-421U</a>.  Older Q
 platform are <a href = "/debian/orion/qnap/">also supported</a>.  I don't
 support any other QNAP devices, but you may find information and help <a
 href = "http://forum.qnap.com/viewforum.php?f=147">on the QNAP forum</a>.
-Please note that the TS-x31 series is not supported.
+Please note that the TS-x31 and TS-x31+ series are not supported.
 
 <h3>Is Debian on QNAP suited for people new to Linux?</h3>
 
