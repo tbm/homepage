@@ -26,10 +26,27 @@ TS-119P+, TS-119P II, TS-120 and TS-121</a>, <a href = "../../ts-219/">QNAP HS-2
 TS-219P, TS-219P+, TS-219P II, TS-220 and TS-221</a> as well as the QNAP TS-410, TS-410U,
 TS-412, TS-419P, TS-419P+, TS-419P II, TS-419U, TS-419U+, TS-420, TS-420U, TS-421 and TS-421U.  Older QNAP devices based
 on the Marvell Orion platform are <a href = "/debian/orion/qnap/">also
-supported</a>.  I don't support any other QNAP devices, but you may find
-information and help <a href =
-"http://forum.qnap.com/viewforum.php?f=147">on the QNAP forum</a>.  Please
-note that the TS-x31 and TS-x31+ series are not supported.
+supported</a>.
+
+Unfortunately, none of the current ARM-based devices from QNAP are
+supported.  We use the mainline Linux kernel from kernel.org in Debian
+and none of the CPU platforms used in current QNAP devices are supported
+adequately there:
+
+* TS-x28 series (TS-128 and TS-228) and TAS-168 use a Realtek RTD1195
+chip which is not supported at all.
+* TS-x31 series (TS-131, TS-231 and TS-431) use a Freescale chip which
+is not supported at all.
+* TS-x31+ series (TS-231+ and TS-431+) and TS-x31P series (TS-131P,
+TS-231P and TS-431P) use an Annapurna Labs Alpine AL-212 chip.  There
+has been some work by consulting company Free Electrons on Alpine but
+currently support is too basic.
+
+While none of the current ARM-based devices from QNAP work with Debian,
+the devices based on Intel processors (such as the TS-x51 series) should
+work out of the box.  Please see the <a href =
+"http://forum.qnap.com/viewforum.php?f=147">Debian on the QNAP
+forum</a> for more details.
 
 <h3>Is Debian on QNAP suited for people new to Linux?</h3>
 
