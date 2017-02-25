@@ -242,7 +242,7 @@ Finally, you can create a recovery image:
 
 <div class="code">
 <pre>
-cat kernel.pad initrd.gz mtd3 &gt; qnapimg.bin
+cat kernel.pad initrd mtd3 &gt; qnapimg.bin
 </pre>
 </div>
 

@@ -37,7 +37,7 @@ Finally, load the image via the network with TFTP and start it:
 
 <div class="code">
 <pre>
-tftpboot 0x0800000 initrd.gz
+tftpboot 0x0800000 initrd
 tftpboot 0x400000 kernel
 bootm 0x400000
 </pre>
