@@ -34,7 +34,7 @@ configuration from the original QNAP firmware and use that but in some
 cases different network settings have to be used (for example, because the
 settings in the original firmware were incomplete).
 
-If you cannot connect to your QNAP, here are three things you can try:
+If you cannot connect to your QNAP, here are some things you can try:
 
 <ul>
 
@@ -45,6 +45,10 @@ If you cannot connect to your QNAP, here are three things you can try:
 requested an IP address.  Alternatively, you can also install the `nast`
 package on your PC and run `nast -m` to find all machines on your network.
 The MAC address of your QNAP probably starts with `00:08:9B`.</li>
+
+<li>Remove all hard drives from the QNAP.  In this case, Debian installer
+won't find your existing network configuration on disk and will use
+DHCP.</li>
 
 <li>If everything else fails, disconnect the Ethernet cable from your QNAP
 and start your device again.  In this case, it is possible that the IP
