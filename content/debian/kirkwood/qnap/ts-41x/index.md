@@ -53,10 +53,6 @@ serial console).  U-Boot is the boot loader used by QNAP.</li>
 <li>Information about <a href = "http://qnap.nas-central.org/">QNAP devices
 at NAS-Central</a>.</li>
 
-<li>Information about <a href =
-"http://www.abcsolutions.lv/openwrt/tx-419Pplus/">the QNAP TS-419P+</a>
-(generic information and information on running OpenWrt).</li>
-
 </ul>
 
 <h2>Help</h2>
