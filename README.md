@@ -13,7 +13,7 @@ Ruby dependencies are managed using bundler:
 
 On Debian 8 (jessie), you can install the dependencies like this:
 
-    apt-get install nanoc
+    apt-get install nanoc pandoc
     gem install pandoc-ruby w3c_validators
 
 The site also requires various Debian packages:
