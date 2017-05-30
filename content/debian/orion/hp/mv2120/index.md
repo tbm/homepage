@@ -85,6 +85,6 @@ investigation and has written uphpmvault.
 
 <h2>Disclaimer</h2>
 
-Even though I currently work for HP, all of this work was done in my spare
+Even though I used to work for HP, all of this work was done in my spare
 time.  Debian on the HP mv2120 is not supported by HP in any way.
 
