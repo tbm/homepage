@@ -84,7 +84,7 @@ To find out what the problem is, go to the menu in the Debian installer
 
 <div class="code">
 <pre>
-wget http://141.76.2.5/
+wget http://130.89.148.14/
 wget http://www.debian.org/
 </pre>
 </div>
