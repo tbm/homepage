@@ -61,15 +61,34 @@ have a recovery image in case something goes wrong.
 <h3><a id = "image-di">Making a recovery image containing the Debian installer</a></h3>
 
 If you want to make a QNAP recovery image containing the Debian installer,
-you can follow these steps.  First of all, download the <a href =
-"http://ftp.uk.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-119/initrd">initrd</a>
-and <a href =
-"http://ftp.uk.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-119/kernel">kernel</a>
-for the installer.  You now have to pad the kernel so it is the right size:
+you can follow these steps.
+
+Since there are two different kernel variants for QNAP devices, you first
+have to determine which variant you need.  You can do this by calling this
+script:
 
 <div class="code">
 <pre>
-dd if=kernel of=kernel.pad ibs=2097152 conv=sync
+/usr/share/flash-kernel/dtb-probe/kirkwood-qnap
+</pre>
+</div>
+
+If the output is `kirkwood-ts219-6281.dtb`, you need the <a
+href="http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-11x/kernel-6281">kernel-6281</a>
+file.  If the output is `kirkwood-ts219-6282.dtb`, you need the <a
+href="http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-11x/kernel-6282">kernel-6282</a>
+file.
+
+You also have to download the <a
+href="http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-11x/initrd">initrd</a>
+of the installer (make sure the initrd does not get uncompressed when
+you download it).
+
+You now have to pad the kernel so it is the right size:
+
+<div class="code">
+<pre>
+dd if=kernel-628<span class="input">x</span> of=kernel.pad ibs=2097152 conv=sync
 </pre>
 </div>
 

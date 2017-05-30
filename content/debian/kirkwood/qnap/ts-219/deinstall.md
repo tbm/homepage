@@ -36,19 +36,35 @@ again.
 
 <h2><a id="reinstall">Re-installing Debian</a></h2>
 
-If you want to re-install Debian using Debian installer, you have to obtain
-the <a
-href="http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-219/kernel">kernel</a>
-and <a
-href="http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-219/initrd">initrd</a>
-files of the installer (make sure the initrd does not get uncompressed
-when you download it).
+If you want to re-install Debian using Debian installer, you can put the
+installer in flash and restart your device.
 
-You can then write the installer files to flash:
+Since there are two different kernel variants for QNAP devices, you first
+have to determine which variant you need.  You can do this by calling this
+script:
 
 <div class="code">
 <pre>
-cat kernel &gt; /dev/mtdblock1
+/usr/share/flash-kernel/dtb-probe/kirkwood-qnap
+</pre>
+</div>
+
+If the output is `kirkwood-ts219-6281.dtb`, you need the <a
+href="http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-21x/kernel-6281">kernel-6281</a>
+file.  If the output is `kirkwood-ts219-6282.dtb`, you need the <a
+href="http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-21x/kernel-6282">kernel-6282</a>
+file.
+
+You also have to download the <a
+href="http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-21x/initrd">initrd</a>
+files of the installer (make sure the initrd does not get uncompressed when
+you download it).
+
+You can now write the installer files to flash:
+
+<div class="code">
+<pre>
+cat kernel-628<span class="input">x</span> &gt; /dev/mtdblock1
 cat initrd &gt; /dev/mtdblock2
 </pre>
 </div>
