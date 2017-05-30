@@ -40,13 +40,13 @@ running a Debian kernel and the description of the boot process on this
 page will not apply to your device.
 
 The correct result for the official Debian kernel is in the form
-`3.XX.YY-Z-kirkwood`: `3.XX.YY` indicates the upstream version of the Linux
-kernel, `Z` indicates the kernel ABI in Debian and `kirkwood` is the name
-of the CPU platform on which all supported plug computers are based.  The
+`4.XX.YY-Z-marvell` (or `3.XX.YY-Z-kirkwood` for older versions): `4.XX.YY`
+indicates the upstream version of the Linux kernel, `Z` indicates the
+kernel ABI in Debian and `marvell` is the name of the kernel flavour.  The
 kernel ABI is changed whenever we make an incompatible change to the
 kernel.  In addition to the kernel ABI, the Debian kernel also has a
 version.  The specific version of the kernel you're running can be found in
-`/proc/version`.  This file contains the string `Debian 3.XX.YY-ZZ` in
+`/proc/version`.  This file contains the string `Debian 4.XX.YY-ZZ` in
 brackets where `ZZ` is the revision of the Debian kernel.
 
 <h2>Booting Debian</h2>
