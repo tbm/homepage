@@ -37,6 +37,13 @@ to replace the original firmware in flash or retain the capability of
 booting without a disk, you can install a <a href =
 "http://dns323.kood.org/howto:install_debian">Debian chroot</a> instead.
 
+<h2>Status</h2>
+
+Please note that the D-Link DNS-323 is no longer supported as of Debian 9
+(stretch).  You can still install Debian 8 (jessie) for some time after the
+release of Debian 9 but at some point in the future installer support will
+go away.
+
 <h2>Requirements and Preparation</h2>
 
 In order to install Debian, you need the following:
@@ -80,9 +87,9 @@ download the right image for your device:
 
 <ul>
 
-<li><a href = "http://ftp.nl.debian.org/debian/dists/stable/main/installer-armel/current/images/orion5x/network-console/d-link/dns-323/netboot.img">D-Link DNS-323</a></li>
+<li><a href = "http://ftp.nl.debian.org/debian/dists/jessie/main/installer-armel/current/images/orion5x/network-console/d-link/dns-323/netboot.img">D-Link DNS-323</a></li>
 
-<li><a href = "http://ftp.nl.debian.org/debian/dists/stable/main/installer-armel/current/images/orion5x/network-console/conceptronic/ch3snas/netboot.img">Conceptronic CH3SNAS</a></li>
+<li><a href = "http://ftp.nl.debian.org/debian/dists/jessie/main/installer-armel/current/images/orion5x/network-console/conceptronic/ch3snas/netboot.img">Conceptronic CH3SNAS</a></li>
 
 </ul>
 
@@ -167,7 +174,7 @@ installer will not work correctly due to <a
 href="http://bugs.debian.org/729445">a bug</a>.
 
 The installation itself should be pretty standard and you can follow the <a
-href = "http://www.debian.org/releases/stable/armel/">installation
+href = "http://www.debian.org/releases/jessie/armel/">installation
 guide</a>.  The installer knows about the DNS-323 and CH3SNAS and at the
 end of the installation it will flash a kernel and ramdisk that will
 automatically boot into Debian.

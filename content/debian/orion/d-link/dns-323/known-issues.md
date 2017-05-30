@@ -21,5 +21,5 @@ and Conceptronic CH3SNAS:
 
 Please be aware that Debian 8 (jessie) is the last release to support the
 D-Link DNS-323 and Conceptronic CH3SNAS.  These devices are not supported
-in the upcoming Debian 9 (stretch).
+in Debian 9 (stretch).
 

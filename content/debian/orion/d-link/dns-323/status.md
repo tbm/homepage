@@ -20,7 +20,8 @@ to install Debian, especially if you have specific requirements (e.g.
 related to performance).
 
 The table below shows how well different components of the D-Link DNS-323
-are supported by Debian:
+are supported by Debian 8 (jessie).  The device is no longer supported as
+of Debian 9 (stretch).
 
 <table>
 

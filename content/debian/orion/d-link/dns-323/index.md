@@ -12,7 +12,7 @@ keywords: [Debian, D-Link, DNS-323, Conceptronic, CH3SNAS, Orion]
 <h1>Debian on D-Link DNS-323 and Conceptronic CH3SNAS</h1>
 
 The D-Link DNS-323 (revision A1 and B1, but not C1) and Conceptronic
-CH3SNAS (Grab'n'GO) devices are supported by Debian thanks to work done by
+CH3SNAS (Grab'n'GO) devices were supported by Debian thanks to work done by
 Matt Palmer.  Please note that support for these devices was dropped in
 Debian 9 (stretch).
 

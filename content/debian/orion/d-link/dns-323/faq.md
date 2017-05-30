@@ -17,9 +17,9 @@ Debian on the D-Link DNS-323 (revision A1 and B1) and Conceptronic CH3SNAS
 is supported in Debian 8 (jessie).  The D-Link DNS-323 revision C1 is not
 supported.
 
-Please be aware that Debian 8 (jessie) is the last release to support the
+Please be aware that Debian 8 (jessie) was the last release to support the
 D-Link DNS-323 and Conceptronic CH3SNAS.  These devices are not supported
-in the upcoming Debian 9 (stretch).
+in Debian 9 (stretch).
 
 <h3>Is Debian on the DNS-323 or CH3SNAS suited for people new to Linux?</h3>
 
@@ -39,10 +39,12 @@ wiki</a>.
 
 <h3>Which devices are supported?</h3>
 
-The D-Link DNS-323 revision A1 and B1 are supported in Debian 8 (jessie).  Revision C1 is
+The D-Link DNS-323 revision A1 and B1 were supported in Debian 8 (jessie).  Revision C1 is
 not supported.  You can find the revision by looking for "H/W
 Ver" at the bottom of your DNS-323.  In addition to the D-Link DNS-323, the
 Conceptronic CH3SNAS is supported.
+
+The devices are no longer supported as of Debian 9 (stretch).
 
 <h3>Are other D-Link models, such as the DNS-321 or DNS-325, supported?</h3>
 
