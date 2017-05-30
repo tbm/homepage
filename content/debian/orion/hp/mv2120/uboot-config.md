@@ -41,6 +41,5 @@ Once you made the changes, upgrades to Debian 9 should work fine and you
 can also use the [Debian installer](../install) if you want to perform a
 new installation.
 
-Please note that Debian 9 will be the last release to support the HP
-mv2120.
+Please note that Debian 9 is the last release to support the HP mv2120.
 

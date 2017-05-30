@@ -52,34 +52,24 @@ If you'd like to load a kernel image you saved from `/boot`, please see the
 
 <h2><a id = "prepare">Preparing Debian images from `/boot` to load</a></h2>
 
-If you copy your Debian kernel and ramdisk from `/boot` to another machine
-for backup, you can load them via TFTP as described above after making some
-small modifications to the kernel and ramdisk images.
+You can copy the Debian kernel and ramdisk from your system to another
+machine for backup.  This way, you can load them via TFTP as described
+above.  However, the files from `/boot` cannot be used directly but
+require some modifications before you can use them.  You don't have to
+make these modifications manually since `flash-kernel` already performs
+these steps as part of the kernel upgrade process. You can obtain a copy
+of what's actually written to flash from `/var/backups/flash-kernel`.
+You can therefore take the files from that location and use them to boot
+via TFTP.
 
-You have to make two modifications to the kernel.  First, you have to set
-the machine ID of your QNAP device by prepending a few bytes to the kernel
-image.  This can easily be done with the `devio` command in Debian.
-Second, you have to generate a U-Boot image from the kernel image.  Let's
-take the `2.6.32-5` kernel as an example:
-
-<div class="code">
-<pre>
-tmp=$(tempfile)
-devio &gt; $tmp 'wl 0xe3a01c09,4' 'wl 0xe38110c6,4' # TS-41x
-cat /boot/vmlinuz-2.6.32-5-kirkwood &gt;&gt; $tmp
-mkimage -A arm -O linux -T kernel -C none -a 0x00008000 -e 0x00008000 -d $tmp vmlinuz-2.6.32-5-kirkwood.uboot
-</pre>
-</div>
-
-Next, you have to pad the initrd image so it will be exactly 9 MB:
+`mtd1` corresponds to the kernel while `mtd2` is the initrd.  Therefore,
+the correct TFTP commands are:
 
 <div class="code">
 <pre>
-dd if=/boot/initrd.img-2.6.32-5-kirkwood of=initrd.img-2.6.32-5-kirkwood.padded ibs=9437184 conv=sync
+tftpboot 0xa00000 mtd2
+tftpboot 0x800000 mtd1
+bootm 0x800000
 </pre>
 </div>
-
-Now copy `vmlinuz-2.6.32-5-kirkwood.uboot` and
-`initrd.img-2.6.32-5-kirkwood.padded` to your TFTP server and load them in
-memory as described above.
 
