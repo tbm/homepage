@@ -23,17 +23,5 @@ A normal installation of Debian (i.e. base system plus standard components)
 will take about 400 MB, so a 1 GB USB stick or SD card is enough (even
 though more is recommended).
 
-<h3>Can I buy the SheevaPlug in Europe?</h3>
-
-Yes, the SheevaPlug is now also available from <a href =
-"http://www.newit.co.uk/">New IT</a> in the UK.
-
-<h3>Will the SheevaPlug work in Europe?</h3>
-
-Yes.  The SheevaPlug will work with 110v and 220v.  If you buy the
-SheevaPlug from the US, you can simply remove the US connector and then
-connect a so called "figure 8" cable.  However, NewIT in the UK offers the
-SheevaPlug with EU 2 pin and UK 3 pin power adapters.
-
 Go back to my <a href = "..">Debian on Marvell SheevaPlug</a> page.
 
