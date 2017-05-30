@@ -84,11 +84,9 @@ and <a href =
 Now connect the install medium (USB stick, SD card or eSATA disk) to your
 plug computer and connect a mini-USB connector in order to access the
 serial console.  Start your plug computer and a few seconds later you
-should be able to connect to `/dev/ttyUSB1` with 115200 baud.  If you need
-help accessing the serial console, check out <a href =
-"http://www.plugcomputer.org/Documentation/howtos/serial-terminal/">this
-guide</a> on the Plug Computer wiki.  When you get serial output, press a
-key to interrupt the boot process so you can load the installer.
+should be able to connect to `/dev/ttyUSB1` with 115200 baud.  When you get
+serial output, press a key to interrupt the boot process so you can load
+the installer.
 
 The instructions for loading the installer depend on where you want to load
 the installer from.  Also note that you may have to replace `fatload` with

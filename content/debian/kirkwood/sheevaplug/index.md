@@ -40,15 +40,6 @@ running Debian.</li>
 
 </ul>
 
-<h2>External Resources</h2>
-
-<ul>
-
-<li><a href = "http://www.plugcomputer.org/">PlugComputer community
-site</a> with a lot of information.</li>
-
-</ul>
-
 <h2>Help</h2>
 
 If you have problems with Debian on your plug computer and cannot solve
@@ -59,9 +50,6 @@ them with Google, you can consult the following resources:
 <li>The <a href = "http://lists.debian.org/debian-arm/">debian-arm list</a>
 for questions specifically related to the ARM port of Debian or about
 running Debian on plug computers.</li>
-
-<li>If you don't want to post to a mailing list, please use the
-<a href = "http://www.plugcomputer.org/plugforum/">Plug Computer Forum</a>.</li>
 
 </ul>
 
