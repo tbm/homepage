@@ -27,13 +27,3 @@ pages with instructions and information about all supported devices:
 <li><a href = "sheevaplug/">Plug computers (SheevaPlug, GuruPlug and DreamPlug)</a></li>
 </ul>
 
-<h2>External Resources</h2>
-
-<ul>
-
-<li>Marvell offers public <a href =
-"http://www.marvell.com/embedded-processors/kirkwood/index.jsp">documentation
-about the Kirkwood SoC</a>, including datasheets and errata.</li>
-
-</ul>
-
