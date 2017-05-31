@@ -80,18 +80,18 @@ binary listed here!
 <ul>
 
 <li><a href =
-"http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/u-boot/sheevaplug/u-boot.kwb">SheevaPlug
+"http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/u-boot/sheevaplug/u-boot.kwb">SheevaPlug
 (the original SheevaPlug, the eSATA SheevaPlug and the Ionics Nimbus 100)</a></li>
 
 <li><a href =
-"http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/u-boot/dreamplug/u-boot.kwb">DreamPlug</a></li>
+"http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/u-boot/dreamplug/u-boot.kwb">DreamPlug</a></li>
 
 <li><a href =
-"http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/u-boot/guruplug/u-boot.kwb">GuruPlug
+"http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/u-boot/guruplug/u-boot.kwb">GuruPlug
 (GuruPlug Server Standard and GuruPlug Server Plus)</a></li>
 
 <li><a href =
-"http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/u-boot/dockstar/u-boot.kwb">Seagate
+"http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/u-boot/dockstar/u-boot.kwb">Seagate
 FreeAgent DockStar</a></li>
 
 </ul>

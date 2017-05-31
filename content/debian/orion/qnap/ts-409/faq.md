@@ -13,7 +13,9 @@ keywords: [Debian, QNAP, TS-409, FAQ, frequently asked questions, help, troubles
 
 <h3>Is Debian on the QNAP TS-409 fully supported?</h3>
 
-Debian includes support for the QNAP TS-409 and TS-409U.
+Debian 9 (stretch) includes support for the QNAP TS-409 and TS-409U.
+However, please note that Debian 9 will be the last release to support
+these devices.
 
 <h3>Is Debian on the TS-409 suited for people new to Linux?</h3>
 

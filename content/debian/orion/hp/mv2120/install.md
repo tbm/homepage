@@ -67,7 +67,7 @@ install it with `apt-get`.
 
 Once you have installed uphpmvault or the Windows tool, you have to tell
 the tool to serve the recovery image.  Download the <a href =
-"http://ftp.nl.debian.org/debian/dists/stable/main/installer-armel/current/images/orion5x/network-console/hp/mv2120/netboot.img">Debian
+"http://ftp.nl.debian.org/debian/dists/stretch/main/installer-armel/current/images/orion5x/network-console/hp/mv2120/netboot.img">Debian
 installer</a> image and start the tool.  If you want to use the Windows
 tool, please follow <a href =
 "http://tech.groups.yahoo.com/group/hackingthemediavault/message/376">these
@@ -181,7 +181,7 @@ ssh installer@<span class="input">192.168.1.100</span>
 </div>
 
 The installation itself should be pretty standard and you can follow the <a
-href = "http://www.debian.org/releases/stable/armel/">installation
+href = "http://www.debian.org/releases/stretch/armel/">installation
 guide</a>.  The installer knows about the HP mv2120 and will by default
 choose an appropriate partition layout.  If you partition the disk
 manually, you have to make sure that `sda1` is a `/boot` partition with

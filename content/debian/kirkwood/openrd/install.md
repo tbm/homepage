@@ -7,8 +7,8 @@ keywords: [OpenRD, OpenRD-Base, OpenRD-Client, OpenRD-Ultimate, Marvell, Kirkwoo
 
 <h1>Installing Debian on OpenRD (Base and Client)</h1>
 
-This page explains how to use the Debian installer to install Debian 8
-(jessie) on the OpenRD platform (OpenRD-Base, OpenRD-Client and
+This page explains how to use the Debian installer to install Debian 9
+(stretch) on the OpenRD platform (OpenRD-Base, OpenRD-Client and
 OpenRD-Ultimate).
 
 The OpenRD has 512 MB flash memory and SATA, USB and MMC/SD card
@@ -42,17 +42,17 @@ USB stick or a TFTP server.  Please download the installer images for your
 device:
 
 * OpenRD-Base:
-[uImage](http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/openrd-base/uImage)
+[uImage](http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/netboot/marvell/openrd-base/uImage)
 and
-[uInitrd](http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/openrd-base/uInitrd)
+[uInitrd](http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/netboot/marvell/openrd-base/uInitrd)
 * OpenRD-Client:
-[uImage](http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/openrd-client/uImage)
+[uImage](http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/netboot/marvell/openrd-client/uImage)
 and
-[uInitrd](http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/openrd-client/uInitrd)
+[uInitrd](http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/netboot/marvell/openrd-client/uInitrd)
 * OpenRD-Ultimate:
-[uImage](http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/openrd-ultimate/uImage)
+[uImage](http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/netboot/marvell/openrd-ultimate/uImage)
 and
-[uInitrd](http://ftp.debian.org/debian/dists/stable/main/installer-armel/current/images/kirkwood/netboot/marvell/openrd-ultimate/uInitrd)
+[uInitrd](http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/netboot/marvell/openrd-ultimate/uInitrd)
 
 Now connect a mini-USB connector to `System Debug` in order to access the
 serial console.  Start your OpenRD and a few seconds later you should be able to connect to
@@ -144,7 +144,7 @@ bootm 0x00800000 0x01100000
 <h2><a id = "install">The Installation</a></h2>
 
 The installation itself should be pretty standard and you can follow the <a
-href = "http://www.debian.org/releases/stable/armel/">installation
+href = "http://www.debian.org/releases/stretch/armel/">installation
 guide</a>.  The installer knows about the OpenRD and will create a bootable
 kernel and ramdisk at the end of the installation.  The installer will also
 offer a partition layout that is known to work.  If you want to choose a

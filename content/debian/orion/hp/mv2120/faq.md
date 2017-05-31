@@ -18,6 +18,8 @@ from the original firmware may not be available.  In particular, the hard
 drive speed will be lower with Debian.  Please see the <a href =
 "../status/">status page</a> to see what is supported.
 
+Please note that Debian 9 is the last release to support the HP mv2120.
+
 <h3>Is Debian on the HP mv2120 suited for people new to Linux?</h3>
 
 No, I would not recommend you install Debian on your HP mv2120 if you don't

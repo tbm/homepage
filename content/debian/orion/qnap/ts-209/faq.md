@@ -13,7 +13,8 @@ keywords: [Debian, QNAP, TS-209, FAQ, frequently asked questions, help, troubles
 
 <h3>Is Debian on the QNAP TS-209 fully supported?</h3>
 
-Debian includes support for the QNAP TS-209.
+Debian 9 (stretch) includes support for the QNAP TS-209.  However, please
+note that Debian 9 will be the last release to support this device.
 
 <h3>Is Debian on the TS-209 suited for people new to Linux?</h3>
 
