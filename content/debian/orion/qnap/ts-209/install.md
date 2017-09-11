@@ -178,6 +178,8 @@ Password: <span class="input">admin</span> (password not displayed)
 </pre>
 </div>
 
+You have to format a USB stick with the `ext2` filesystem.  This is because
+the uninitialized QNAP system does not contain the VFAT modules.
 When you connect the USB stick, it will automatically be mounted on the
 system.  In my case, it was mounted at `/share/external/sdi` but you can
 find the location with the following command:
@@ -185,7 +187,7 @@ find the location with the following command:
 <div class="code">
 <pre>
 mount | grep external
-/dev/sdi1 on /share/external/<span class="input">sdi</span> type vfat [...]
+/dev/sdi1 on /share/external/<span class="input">sdi</span> type ext2 [...]
 </pre>
 </div>
 
