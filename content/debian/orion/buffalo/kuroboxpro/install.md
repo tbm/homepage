@@ -258,7 +258,7 @@ choose `Guided - use entire disk`.
 When you get confirmation that the installation has finished, confirm and
 wait for the installer to finish.  Once your SSH session terminates, wait a
 few minutes before you can connect to your newly installed system via SSH.
-You will be able to log in as root or your newly created user.
+You will be able to log in as your newly created user.
 
 <h2>Success</h2>
 

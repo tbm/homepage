@@ -315,7 +315,8 @@ flash.  Afterwards you will get a confirmation that the installation is
 complete.  Confirm, wait for the installer to finish and once your SSH
 session terminates, wait a few minutes before you can connect to your newly
 installed system via SSH.  The TS-409 will beep when you can connect via
-SSH.  You will be able to log in as `root` or your newly created user.
+SSH.  You will be able to log in your newly created user.  (Note that
+`root` logins as disabled by default.)
 
 It's possible that you'll get an error during the "make the system
 bootable" step.  If you run into this issue, you can [apply a

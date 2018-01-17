@@ -64,10 +64,11 @@ that the password is not accepted.  The account details depend on where you
 are in the installation process.  If you have just flashed the installer
 and want to install Debian, you have to connect with the user `installer`
 and the password `install`.  However, after you have completed the
-installation, you have to login either as `root` or (better) with your
-newly created user.  You have to use the password you chose during the
-installation.  You cannot login as `installer` as this point anymore since
-this login is only valid for the installer.
+installation, you have to login with your newly created user.  You have to
+use the password you chose during the installation.  You cannot login as
+`installer` as this point anymore since this login is only valid for the
+installer.  Note that you also cannot login as `root` user since that
+option is disabled in SSH by default.
 
 <h3><a id = "di-network">Debian installer fails to download components</a></h3>
 

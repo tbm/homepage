@@ -207,7 +207,7 @@ complete.  Confirm, wait for the installer to finish and once your SSH
 session terminates, wait a few minutes before you can connect to your newly
 installed system via SSH.  The LEDs of your HP mv2120 will be used to
 indicate when you can connect via SSH.  You will be able to log in as
-`root` or your newly created user.
+your newly created user.
 
 The health LED is used to signal the status of the boot process.  Here
 is a list of stages and the corresponding signals the boot process will
