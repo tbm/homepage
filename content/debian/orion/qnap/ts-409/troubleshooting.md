@@ -119,7 +119,7 @@ fails.  If this happens, open a shell in the installer and look at
 `/var/log/syslog`.  Look towards the end for messages involving
 "flash-kernel".
 
-The QNAP TS-409 only has 2 MB for the ramdisk so the most likely cause is
+The QNAP TS-409 only has 4 MB for the ramdisk so the most likely cause is
 that the ramdisk doesn't fit in flash.  You can find a message like this in
 `/var/log/syslog`:
 
