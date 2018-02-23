@@ -39,7 +39,7 @@ chip which is not supported at all.
 is not supported at all.
 * TS-x31+ series (TS-231+ and TS-431+) and TS-x31P series (TS-131P,
 TS-231P and TS-431P) use an Annapurna Labs Alpine AL-212 chip.  There
-has been some work by consulting company Free Electrons on Alpine but
+has been some work by consulting company Bootlin on Alpine but
 currently support is too basic.
 
 While none of the current ARM-based devices from QNAP work with Debian,
