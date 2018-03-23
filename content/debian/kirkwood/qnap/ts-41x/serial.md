@@ -48,6 +48,16 @@ The TS-419P+ with revision V1.4 and QV20 V1.2 mainboards use 5V rather than
 * RX
 * GND
 
+The TS-419U+ with QU43 V1.3 mainboard has a connector connector labelled
+"CN3 / CONSOLE" and the pin lay is:
+
+* TX
+* VCC
+* RX
+* GND
+
+The jumper is called PSU but it seems to work without setting the jumper.
+
 If your serial console doesn't work or you can see text but your typing is
 ignored, it might be because you have to connect RX from your connector
 cable to TX on the QNAP and TX with RX.
