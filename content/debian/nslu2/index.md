@@ -26,7 +26,7 @@ easy-to-use Debian installer is no longer available for the NSLU2 because
 the device does not have enough RAM.  While it's still possible to install
 Debian on the NSLU2 using the manual method described on this page, I
 suggest you upgrade to a more modern device.  Support for the Linksys NSLU2
-has been dropped in Debian 9 (stretch).
+was dropped in Debian 9 (stretch).
 
 <h2>Information</h2>
 
