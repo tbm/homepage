@@ -237,7 +237,7 @@ SSH.  You will be able to log in your newly created user.  (Note that
 <h2>Success</h2>
 
 You should now have a complete Debian system running on your QNAP.  You can
-use `apt-get` and other tools to install additional software.  The
+use `apt` and other tools to install additional software.  The
 TS-41x/TS-42x is an ARM based device and the `armel` architecture is fully
 supported by Debian.
 

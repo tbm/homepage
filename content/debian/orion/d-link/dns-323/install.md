@@ -193,7 +193,7 @@ newly created user.
 <h2>Success</h2>
 
 You should now have a complete Debian system running on your DNS-323 or
-CH3SNAS.  You can use `apt-get` and other tools to install additional
+CH3SNAS.  You can use `apt` and other tools to install additional
 software.  The D-Link DNS-323 and Conceptronic CH3SNAS are ARM based
 devices and the `armel` architecture is fully supported by Debian.
 

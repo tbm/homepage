@@ -221,7 +221,7 @@ run bootcmd
 <h2>Success</h2>
 
 You should now have a complete Debian system running on your OpenRD.  You
-can use `apt-get` and other tools to install additional software.  The
+can use `apt` and other tools to install additional software.  The
 OpenRD is an ARM based device and the `armel` architecture is fully
 supported by Debian.
 

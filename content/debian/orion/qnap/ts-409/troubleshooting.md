@@ -224,7 +224,7 @@ Second, ensure that the `xz-utils` package is installed:
 
 <div class="code">
 <pre>
-apt-get install xz-utils
+apt install xz-utils
 </pre>
 </div>
 

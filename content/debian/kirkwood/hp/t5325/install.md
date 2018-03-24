@@ -76,7 +76,7 @@ more space:
 
 <div class="code">
 <pre>
-apt-get clean
+apt clean
 </pre>
 </div>
 

@@ -47,8 +47,8 @@ user `root`:
 
 <div class="code">
 <pre>
-apt-get install nfs-kernel-server
-apt-get install isc-dhcp-server
+apt install nfs-kernel-server
+apt install isc-dhcp-server
 </pre>
 </div>
 

@@ -263,7 +263,7 @@ You will be able to log in as your newly created user.
 <h2>Success</h2>
 
 You should now have a complete Debian system running on your device.  You
-can use `apt-get` and other tools to install additional software.  The
+can use `apt` and other tools to install additional software.  The
 Kurobox Pro is an ARM based device and the `armel` architecture is fully
 supported by Debian.
 

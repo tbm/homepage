@@ -234,14 +234,14 @@ ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key -N ""
 </li>
 
 <li>edit `/etc/apt/sources.list` and use a Debian mirror close to you and
-then type: `apt-get update`</li>
+then type: `apt update`</li>
 
 <li>run `ntpdate pool.ntp.org` to make sure the clock is always up-to-date;
 otherwise attempts to install new packages might fail due to GPG
 verification errors (for the first time, you'll probably have to setup the
 clock manually using the `date` command).</li>
 
-<li>upgrade your system using `apt-get dist-upgrade` to make sure you have
+<li>upgrade your system using `apt dist-upgrade` to make sure you have
 the latest updates.</li>
 
 <li>change the timezone with `dpkg-reconfigure tzdata`</li>

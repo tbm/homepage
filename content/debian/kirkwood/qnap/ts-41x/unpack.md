@@ -152,7 +152,7 @@ Unpack the tar ball to the disk:
 <div class="code">
 <pre>
 cd /mnt
-apt-get install bzip2
+apt install bzip2
 tar -xjvf /base.tar.bz2
 </pre>
 </div>
@@ -294,14 +294,14 @@ ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key -N ""
 </li>
 
 <li>edit `/etc/apt/sources.list` and use a Debian mirror close to you and
-then type: `apt-get update`</li>
+then type: `apt update`</li>
 
 <li>run `ntpdate pool.ntp.org` to make sure the clock is always up-to-date;
 otherwise attempts to install new packages might fail due to GPG
 verification errors (for the first time, you'll probably have to setup the
 clock manually using the `date` command).</li>
 
-<li>upgrade your system using `apt-get dist-upgrade` to make sure you have
+<li>upgrade your system using `apt dist-upgrade` to make sure you have
 the latest updates.</li>
 
 <li>change the timezone with `dpkg-reconfigure tzdata`</li>
@@ -311,7 +311,7 @@ the latest updates.</li>
 <li>edit `/etc/hostname` to change the hostname.</li>
 
 <li>Download the GPG key I use to sign the kernel repository so you won't
-get any warning from `apt-get`:
+get any warning from `apt`:
 
 <div class="code">
 <pre>

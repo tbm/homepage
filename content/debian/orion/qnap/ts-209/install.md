@@ -325,7 +325,7 @@ workaround](../troubleshooting/#bootable).
 <h2>Success</h2>
 
 You should now have a complete Debian system running on your QNAP.  You can
-use `apt-get` and other tools to install additional software.  The TS-209
+use `apt` and other tools to install additional software.  The TS-209
 is an ARM based device and the `armel` architecture is fully supported by
 Debian.
 

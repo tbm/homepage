@@ -58,7 +58,7 @@ and start X:
 
 <div class="code">
 <pre>
-apt-get install xorg
+apt install xorg
 startx
 </pre>
 </div>

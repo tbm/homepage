@@ -63,7 +63,7 @@ does the same on Linux and other systems.  You can obtain the Windows tool
 by going to HP's web site.  First, search for `mv2120`, then choose
 `Software & driver downloads` and then download the `HP Media Vault
 Firmware Recovery Utility`.  uphpmvault is in Debian so you can simply
-install it with `apt-get`.
+install it with `apt`.
 
 Once you have installed uphpmvault or the Windows tool, you have to tell
 the tool to serve the recovery image.  Download the <a href =
@@ -236,7 +236,7 @@ SSH.</li>
 <h2>Success</h2>
 
 You should now have a complete Debian system running on your HP mv2120.
-You can use `apt-get` and other tools to install additional software.  The
+You can use `apt` and other tools to install additional software.  The
 mv2120 is an ARM based device and the `armel` architecture is fully
 supported by Debian.
 
