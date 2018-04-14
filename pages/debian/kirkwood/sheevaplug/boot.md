@@ -59,13 +59,16 @@ storage device you're booting from.  Let's use USB as an example to explain
 the u-boot variables used to boot Debian.  There are three variables
 (`bootargs_console`, `bootcmd_usb` and `bootcmd`) that are relevant:
 
-<table>
+<table class="table table-hover">
 
+<thead>
 <tr>
 <th>Variable</th>
 <th>Setting</th>
 </tr>
+<thead>
 
+<tbody>
 <tr>
 <td>`bootargs_console`</td>
 <td>`console=ttyS0,115200`</td>
@@ -80,6 +83,7 @@ the u-boot variables used to boot Debian.  There are three variables
 <td>`bootcmd`</td>
 <td>`setenv bootargs ${bootargs_console}; run bootcmd_usb; bootm 0x00800000 0x01100000`</td>
 </tr>
+</tbody>
 
 </table>
 

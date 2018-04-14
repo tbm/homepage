@@ -22,65 +22,69 @@ to performance).
 The table below shows how well different components of the QNAP TS-409 are
 supported by Debian:
 
-<table>
+<table class="table table-hover">
 
+<thead>
 <tr>
 <th>Component</th>
 <th>Comment</th>
 </tr>
+</thead>
 
-<tr>
-<td style="color: white; background-color: #00AA00">Debian</td>
+<tbody>
+<tr class="table-success">
+<th>Debian</th>
 <td>Debian installer works well</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">CPU</td>
+<tr class="table-success">
+<th>CPU</th>
 <td>Supported in mainline and Debian kernel since 2.6.25 but there is <a
 href = "../5281-d0-bug/">one bug</a> you may want to know about</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">TS-409 kernel</td>
+<tr class="table-success">
+<th>TS-409 kernel</th>
 <td>Supported in the Debian kernel since 2.6.25 and since 2.6.27 in
 the mainline kernel.</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">SATA</td>
+<tr class="table-success">
+<th>SATA</th>
 <td>Supported in the kernel by the `sata_mv` module</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">Ethernet</td>
+<tr class="table-success">
+<th>Ethernet</th>
 <td>Supported in the kernel by the `mv643xx` module</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">USB</td>
+<tr class="table-success">
+<th>USB</th>
 <td>Supported in the kernel since 2.6.25</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">RTC</td>
+<tr class="table-success">
+<th>RTC</th>
 <td>Supported in the kernel by the `rtc-s35390a` module since 2.6.25</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">LEDs</td>
+<tr class="table-success">
+<th>LEDs</th>
 <td>Supported in qcontrol</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">Fan</td>
+<tr class="table-success">
+<th>Fan</th>
 <td>Supported in qcontrol; you can <a href="../tips/#qcontrol-upgrade">upgrade
 qcontrol</a> to get automatic temperature regulation.</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">Beeper</td>
+<tr class="table-success">
+<th>Beeper</th>
 <td>Supported in qcontrol</td>
 </tr>
+</tbody>
 
 </table>
 

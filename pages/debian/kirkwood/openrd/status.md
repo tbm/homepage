@@ -10,47 +10,51 @@ keywords: [Debian, OpenRD, support, status]
 The table below shows how well different components of the OpenRD are
 supported by Debian:
 
-<table>
+<table class="table table-hover">
 
+<thead>
 <tr>
 <th>Component</th>
 <th>Comment</th>
 </tr>
+</thead>
 
-<tr>
-<td style="color: white; background-color: #00AA00">Debian</td>
+<tbody>
+<tr class="table-success">
+<th>Debian</th>
 <td>Debian and Debian installer work well</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">CPU</td>
+<tr class="table-success">
+<th>CPU</th>
 <td>Supported in the kernel by the `kirkwood` platform</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">SATA</td>
+<tr class="table-success">
+<th>SATA</th>
 <td>Supported in the kernel by the `sata_mv` module</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">Ethernet</td>
+<tr class="table-success">
+<th>Ethernet</th>
 <td>Supported in the kernel by the `mv643xx` module</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">USB</td>
+<tr class="table-success">
+<th>USB</th>
 <td>Supported</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">VGA</td>
+<tr class="table-success">
+<th>VGA</th>
 <td>Supported</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">Audio</td>
+<tr class="table-success">
+<th>Audio</th>
 <td>Supported</td>
 </tr>
+</tbody>
 
 </table>
 

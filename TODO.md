@@ -2,8 +2,6 @@
 
 ## Nikola
 
-* Convert tables
-* Convert status tables
 * Add breadcrumbs
 * Change color in navigation bar
 * Get rid of "Next blog" link and link to archive

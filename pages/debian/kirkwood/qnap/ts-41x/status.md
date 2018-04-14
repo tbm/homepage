@@ -23,84 +23,88 @@ performance).
 The table below shows how well different components of the QNAP
 TS-41x/TS-42x are supported by Debian:
 
-<table>
+<table class="table table-hover">
 
+<thead>
 <tr>
 <th>Component</th>
 <th>Comment</th>
 </tr>
+</thead>
 
-<tr>
-<td style="color: white; background-color: #00AA00">Debian</td>
+<tbody>
+<tr class="table-success">
+<th>Debian</th>
 <td>Debian and the Debian installer work well</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">CPU</td>
+<tr class="table-success">
+<th>CPU</th>
 <td>Supported in the kernel by the `kirkwood` platform</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">SATA</td>
+<tr class="table-success">
+<th>SATA</th>
 <td>Supported in the kernel by the `sata_mv` module</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">Ethernet</td>
+<tr class="table-success">
+<th>Ethernet</th>
 <td>Supported in the kernel by the `mv643xx` module</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">USB</td>
+<tr class="table-success">
+<th>USB</th>
 <td>Supported</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">RTC</td>
+<tr class="table-success">
+<th>RTC</th>
 <td>Supported in the kernel by the `rtc-s35390a` module</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">LEDs</td>
+<tr class="table-success">
+<th>LEDs</th>
 <td>Supported in qcontrol</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">LCD</td>
+<tr class="table-success">
+<th>LCD</th>
 <td>Supported in qcontrol; you have to <a href="../tips/#qcontrol-upgrade">install
 the qcontrol backport</a></td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">Fan</td>
+<tr class="table-success">
+<th>Fan</th>
 <td>Supported in qcontrol; you can <a href="../tips/#qcontrol-upgrade">upgrade
 qcontrol</a> to get automatic temperature regulation.</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">Beeper</td>
+<tr class="table-success">
+<th>Beeper</th>
 <td>Supported in qcontrol</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">XOR engine</td>
+<tr class="table-success">
+<th>XOR engine</th>
 <td>Supported</td>
 </tr>
 
-<tr>
-<td style="color: black; background-color: #FFFF00">Crypto engine</td>
+<tr class="table-warning">
+<th>Crypto engine</th>
 <td>Basic support</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">Wake-on-LAN (WOL)</td>
+<tr class="table-success">
+<th>Wake-on-LAN (WOL)</th>
 <td>Supported in qcontrol.</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">Scheduled power</td>
+<tr class="table-success">
+<th>Scheduled power</th>
 <td>Supported; see <a href = "../tips/#wakealarm">instructions</a></td>
 </tr>
+</tbody>
 
 </table>
 

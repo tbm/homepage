@@ -15,3 +15,55 @@ margin-left: auto;
 margin-right: auto
 }
 
+/* Taken from https://bootswatch.com/4/flatly/bootstrap.css */
+
+.table-success,
+.table-success > th,
+.table-success > td {
+  background-color: #beece3;
+}
+
+.table-hover .table-success:hover {
+  background-color: #aae6db;
+}
+
+.table-hover .table-success:hover > td,
+.table-hover .table-success:hover > th {
+  background-color: #aae6db;
+}
+
+.table-warning,
+.table-warning > th,
+.table-warning > td {
+  background-color: #fce3bd;
+}
+
+.table-hover .table-warning:hover {
+  background-color: #fbd9a5;
+}
+
+.table-hover .table-warning:hover > td,
+.table-hover .table-warning:hover > th {
+  background-color: #fbd9a5;
+}
+
+.table-success, .table-info, .table-warning, .table-danger {
+  color: #fff;
+}
+
+.table-success, .table-success > th, .table-success > td {
+  background-color: #18BC9C;
+}
+
+.table-hover .table-success:hover, .table-hover .table-success:hover > th, .table-hover .table-success:hover > td {
+  background-color: #15a589;
+}
+
+.table-warning, .table-warning > th, .table-warning > td {
+  background-color: #F39C12;
+}
+
+.table-hover .table-warning:hover, .table-hover .table-warning:hover > th, .table-hover .table-warning:hover > td {
+  background-color: #e08e0b;
+}
+

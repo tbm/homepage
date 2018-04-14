@@ -19,14 +19,17 @@ released as needed and there is an overall release of X.org in which all
 stable components are put together.  These roll-up releases take place
 every six months.
 
-<table class="phd">
+<table class="table table-hover">
 
+<thead>
 <tr>
 <th>Version</th>
 <th>Date</th>
 <th>Months></th>
 </tr>
+</thead>
 
+<tbody>
 <tr>
 <td>7.0</td>
 <td>2005-12-21</td>
@@ -44,6 +47,7 @@ every six months.
 <td>2007-02-15</td>
 <td class="months">9</td>
 </tr>
+</tbody>
 
 </table>
 

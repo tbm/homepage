@@ -21,14 +21,17 @@ discussion took place in which a six month interval was suggested.
 Apparently users didn't want new features every three months and the short
 interval between releases put a lot of pressure on the QA team.
 
-<table class="phd">
+<table class="table table-hover">
 
+<thead>
 <tr>
 <th>Version</th>
 <th>Date</th>
 <th>Months</th>
 </tr>
+</thead>
 
+<tbody>
 <tr>
 <td>1.0</td>
 <td>2002-05-01</td>
@@ -76,6 +79,7 @@ interval between releases put a lot of pressure on the QA team.
 <td>2006-12-12</td>
 <td class="months">2</td>
 </tr>
+</tbody>
 
 </table>
 

@@ -16,59 +16,63 @@ supported by Debian 7 (wheezy).
 
 Note that this device is no longer supported by Debian 8 (jessie).
 
-<table>
+<table class="table table-hover">
 
+<thead>
 <tr>
 <th>Component</th>
 <th>Comment</th>
 </tr>
+</thead>
 
-<tr>
-<td style="color: white; background-color: #00AA00">Debian</td>
+<tbody>
+<tr class="table-success">
+<th>Debian</th>
 <td>Debian installer works well.</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">CPU</td>
+<tr class="table-success">
+<th>CPU</th>
 <td>Supported in mainline and Debian kernel.</td>
 </tr>
 
-<tr>
-<td style="color: black; background-color: #FFFF00">SATA</td>
+<tr class="table-warning">
+<th>SATA</th>
 <td>Supported in the kernel by the `sata_sil` module.  However,
 the hard drive speed is slow.</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">Ethernet</td>
+<tr class="table-success">
+<th>Ethernet</th>
 <td>Supported in the kernel by the `r8169` module.</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">USB</td>
+<tr class="table-success">
+<th>USB</th>
 <td>Supported in the kernel.</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">RTC</td>
+<tr class="table-success">
+<th>RTC</th>
 <td>Supported in the kernel by the `rtc-rs5c372` module.</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">LEDs</td>
+<tr class="table-success">
+<th>LEDs</th>
 <td>Supported in the kernel.</td>
 </tr>
 
-<tr>
-<td style="color: black; background-color: #FFFF00">Fan</td>
+<tr class="table-warning">
+<th>Fan</th>
 <td>Supported in in the kernel, but there is no automatic regulation
 of the fan based on the current temperature.</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">Beeper</td>
+<tr class="table-success">
+<th>Beeper</th>
 <td>Supported in the kernel.</td>
 </tr>
+</tbody>
 
 </table>
 

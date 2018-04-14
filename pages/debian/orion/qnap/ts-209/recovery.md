@@ -35,14 +35,17 @@ cksum /dev/mtdblock0
 Please compare the first value that is printed with those from the
 following table to see whether your device has the recovery mode already:
 
-<table>
+<table class="table table-hover">
 
+<thead>
 <tr>
 <th>Checksum</th>
 <th>Recovery mode</th>
 <th>Build date</th>
 </tr>
+</thead>
 
+<tbody>
 <tr>
 <td>1567861493</td>
 <td>no</td>
@@ -66,6 +69,7 @@ following table to see whether your device has the recovery mode already:
 <td>yes</td>
 <td>Nov 14 2008 - 17:05:22</td>
 </tr>
+</tbody>
 
 </table>
 

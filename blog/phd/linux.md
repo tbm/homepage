@@ -18,14 +18,17 @@ worried about the number of significant changes and lack of stability in
 the kernel.  Andrew Morton, a lead developer, has expressed several times
 that he believes the kernel is getting buggier.
 
-<table class="phd">
+<table class="table table-hover">
 
+<thead>
 <tr>
 <th>Version</th>
 <th>Date</th>
 <th>Months</th>
 </tr>
+</thead>
 
+<tbody>
 <tr>
 <td>1.0</td>
 <td>1994-03-14</td>
@@ -61,6 +64,7 @@ that he believes the kernel is getting buggier.
 <td>2003-12-17</td>
 <td class="months">35</td>
 </tr>
+</tbody>
 
 </table>
 

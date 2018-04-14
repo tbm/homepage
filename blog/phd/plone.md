@@ -12,14 +12,17 @@ issues when 2.1 was finally released and had many changes.  Partly to
 address these problems and partly in order to sync their releases with
 Zope, they decided in 2005 to move to a six month time based release cycle.
 
-<table class="phd">
+<table class="table table-hover">
 
+<thead>
 <tr>
 <th>Version</th>
 <th>Date</th>
 <th>Months</th>
 </tr>
+</thead>
 
+<tbody>
 <tr>
 <td>1.0</td>
 <td>2003-02-06</td>
@@ -43,6 +46,7 @@ Zope, they decided in 2005 to move to a six month time based release cycle.
 <td>2006-06-16</td>
 <td class="months">9</td>
 </tr>
+</tbody>
 
 </table>
 

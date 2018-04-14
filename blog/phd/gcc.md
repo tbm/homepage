@@ -15,14 +15,17 @@ make important decisions.  In theory, the project follows a time based
 release with an interval of six months.  In practice, the project has
 released only one new version every year in recent times.
 
-<table class="phd">
+<table class="table table-hover">
 
+<thead>
 <tr>
 <th>Version</th>
 <th>Date</th>
 <th>Months</th>
 </tr>
+</thead>
 
+<tbody>
 <tr>
 <td>3.0</td>
 <td>2001-06-18</td>
@@ -64,6 +67,7 @@ released only one new version every year in recent times.
 <td>2006-02-28</td>
 <td class="months">10</td>
 </tr>
+</tbody>
 
 </table>
 

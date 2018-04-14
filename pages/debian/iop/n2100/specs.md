@@ -15,67 +15,71 @@ This page lists the internals of the Thecus N2100.  There is another page
 which shows the <a href = "../status/">status of support in Debian</a> for
 these components.
 
-<table>
+<table class="table table-hover">
 
+<thead>
 <tr>
 <th>Component</th>
 <th>Comment</th>
 </tr>
+</thead>
 
+<tbody>
 <tr>
-<td>CPU</td>
+<th>CPU</th>
 <td>Intel IOP32x (80219), 600 MHz</td>
 </tr>
 
 <tr>
-<td>RAM</td>
+<th>RAM</th>
 <td>DDR DIMM socket with up to 512 MB.  128 or 256 MB by default</td>
 </tr>
 
 <tr>
-<td>Flash ROM</td>
+<th>Flash ROM</th>
 <td>16 MB</td>
 </tr>
 
 <tr>
-<td>Hard drive</td>
+<th>Hard drive</th>
 <td>2x 3.5" SATA, Silicon Image SiI 3512</td>
 </tr>
 
 <tr>
-<td>Ethernet</td>
+<th>Ethernet</th>
 <td>2x 10/100/1000 Mbit, Realtek RTL8110SB</td>
 </tr>
 
 <tr>
-<td>USB</td>
+<th>USB</th>
 <td>3x USB 2.0, VIA VT6212L</td>
 </tr>
 
 <tr>
-<td>RTC</td>
+<th>RTC</th>
 <td>Ricoh RS5C372</td>
 </tr>
 
 <tr>
-<td>Fan</td>
+<th>Fan</th>
 <td>Fintek F75375S</td>
 </tr>
 
 <tr>
-<td>LEDs and beeper</td>
+<th>LEDs and beeper</th>
 <td>Philips PCA9532</td>
 </tr>
 
 <tr>
-<td>Boot loader</td>
+<th>Boot loader</th>
 <td>RedBoot</td>
 </tr>
 
 <tr>
-<td>Other</td>
+<th>Other</th>
 <td>1 mini-PCI slot</td>
 </tr>
+</tbody>
 
 </table>
 

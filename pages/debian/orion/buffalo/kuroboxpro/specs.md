@@ -13,72 +13,76 @@ keywords: [Buffalo, Revogear, Kurobox Pro, specs, specification]
 
 This page lists the internals of the Kurobox Pro.
 
-<table>
+<table class="table table-hover">
 
+<thead>
 <tr>
 <th>Component</th>
 <th>Comment</th>
 </tr>
+</thead>
 
+<tbody>
 <tr>
-<td>CPU</td>
+<th>CPU</th>
 <td>Marvell Orion 88F5182 A2, 400-500 MHz</td>
 </tr>
 
 <tr>
-<td>RAM</td>
+<th>RAM</th>
 <td>128 MB</td>
 </tr>
 
 <tr>
-<td>Flash ROM</td>
+<th>Flash ROM</th>
 <td>256 KB NOR (boot loader), 256 MB NAND</td>
 </tr>
 
 <tr>
-<td>Hard drive</td>
+<th>Hard drive</th>
 <td>1x 3.5" SATA, integrated in SoC</td>
 </tr>
 
 <tr>
-<td>Ethernet</td>
+<th>Ethernet</th>
 <td>1x 10/100/1000 Mbit, integrated in SoC</td>
 </tr>
 
 <tr>
-<td>USB</td>
+<th>USB</th>
 <td>2x USB 2.0, integrated in SoC</td>
 </tr>
 
 <tr>
-<td>RTC</td>
+<th>RTC</th>
 <td>Ricoh RS5C372A/B</td>
 </tr>
 
 <tr>
-<td>Fan</td>
+<th>Fan</th>
 <td>Yes, one</td>
 </tr>
 
 <tr>
-<td>Boot loader</td>
+<th>Boot loader</th>
 <td>U-Boot</td>
 </tr>
 
 <tr>
-<td>Other</td>
+<th>Other</th>
 <td>1x PCI Express (PCIe) X1</td>
 </tr>
 
 <tr>
-<td>Other</td>
+<th>Other</th>
 <td>1x external SATA (but not eSATA)</td>
 </tr>
 
 <tr>
-<td>Other</td>
+<th>Other</th>
 <td>Expansion pin headers: UART, GPIO, I2C</td>
 </tr>
+</tbody>
 
 </table>
 

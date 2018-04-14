@@ -35,13 +35,16 @@ RedBoot supports a partition table for flash (the FIS directory).
 Unfortunately, the NSLU2 does not use this partition table to refer to the
 kernel and ramdisk.  Instead, it uses the following hard-coded values:
 
-<table>
+<table class="table table-hover">
 
+<thead>
 <tr>
 <th>Partition</th>
 <th>Location</th>
 </tr>
+</thead>
 
+<tbody>
 <tr>
 <td>Kernel</td>
 <td>0x00060000</td>
@@ -51,6 +54,7 @@ kernel and ramdisk.  Instead, it uses the following hard-coded values:
 <td>Ramdisk</td>
 <td>0x00160000</td>
 </tr>
+</tbody>
 
 </table>
 
@@ -72,14 +76,17 @@ the tool `slugimage`, which we use to generate the NSLU2 firmware image, to
 support the `Loader` partition.  The flash layout used by Debian is the
 following:
 
-<table>
+<table class="table table-hover">
 
+<thead>
 <tr>
 <th>Partition</th>
 <th>Location</th>
 <th>Size</th>
 </tr>
+</thead>
 
+<tbody>
 <tr>
 <td>Loader</td>
 <td>0x00060000</td>
@@ -97,6 +104,7 @@ following:
 <td>0x001e0000</td>
 <td>6 MB</td>
 </tr>
+</tbody>
 
 </table>
 

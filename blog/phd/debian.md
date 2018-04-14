@@ -13,14 +13,17 @@ the software was finally released in June 2005: a delay of one and a half
 years.  Since then, the project has made a number of improvements to its
 release process.
 
-<table class="phd">
+<table class="table table-hover">
 
+<thead>
 <tr>
 <th>Version</th>
 <th>Date</th>
 <th>Months</th>
 </tr>
+<thead>
 
+<tbody>
 <tr>
 <td>1.1</td>
 <td>1996-06-17</td>
@@ -68,6 +71,7 @@ release process.
 <td>2005-06-06</td>
 <td class="months">35</td>
 </tr>
+</tbody>
 
 </table>
 

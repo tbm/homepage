@@ -22,69 +22,73 @@ to performance).
 The table below shows how well different components of the QNAP TS-109 are
 supported by Debian:
 
-<table>
+<table class="table table-hover">
 
+<thead>
 <tr>
 <th>Component</th>
 <th>Comment</th>
 </tr>
+</thead>
 
-<tr>
-<td style="color: white; background-color: #00AA00">Debian</td>
+<tbody>
+<tr class="table-success">
+<th>Debian</th>
 <td>Debian installer works well</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">CPU</td>
+<tr class="table-success">
+<th>CPU</th>
 <td>Supported in mainline and Debian kernel since 2.6.25</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">TS-109 kernel</td>
+<tr class="table-success">
+<th>TS-109 kernel</th>
 <td>Supported in mainline and Debian kernel since 2.6.25</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">SATA</td>
+<tr class="table-success">
+<th>SATA</th>
 <td>Supported in the kernel by the `sata_mv` module</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">Ethernet</td>
+<tr class="table-success">
+<th>Ethernet</th>
 <td>Supported in the kernel by the `mv643xx` module</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">USB</td>
+<tr class="table-success">
+<th>USB</th>
 <td>Supported in the kernel since 2.6.25</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">RTC</td>
+<tr class="table-success">
+<th>RTC</th>
 <td>Supported in the kernel by the `rtc-s35390a` module since 2.6.25</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">LEDs</td>
+<tr class="table-success">
+<th>LEDs</th>
 <td>Supported in qcontrol</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">Beeper</td>
+<tr class="table-success">
+<th>Beeper</th>
 <td>Supported in qcontrol</td>
 </tr>
 
-<tr>
-<td style="color: white; background-color: #00AA00">XOR engine</td>
+<tr class="table-success">
+<th>XOR engine</th>
 <td>Supported in the Debian kernel since 2.6.26 and in the mainline
 kernel since 2.6.27.  Support is mainly helpful for RAID5 at the
 moment, so it's not quite useful on the TS-109</td>
 </tr>
 
-<tr>
-<td style="color: black; background-color: #FFFF00">Crypto engine</td>
+<tr class="table-warning">
+<th>Crypto engine</th>
 <td>Basic support</td>
 </tr>
+</tbody>
 
 </table>
 

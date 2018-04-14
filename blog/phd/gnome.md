@@ -14,14 +14,17 @@ reference model for a good implementation of time based release management.
 They have shown that it's possible to set and meet deadlines in volunteer
 projects and to release on time.
 
-<table class="phd">
+<table class="table table-hover">
 
+<thead>
 <tr>
 <th>Version</th>
 <th>Date</th>
 <th>Months</th>
 </tr>
+</thead>
 
+<tbody>
 <tr>
 <td>1.0</td>
 <td>1999-03-03</td>
@@ -99,6 +102,7 @@ projects and to release on time.
 <td>2007-03-14</td>
 <td class="months">6</td>
 </tr>
+</tbody>
 
 </table>
 

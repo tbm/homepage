@@ -25,10 +25,11 @@ supported models:
 
 Here is a table showing the differences between the supported devices:
 
-<table>
+<table class="table table-hover">
 
+<thead>
 <tr>
-<th style="background-color: white"></th>
+<th></th>
 <th>TS-109</th>
 <th>TS-109 II</th>
 <th>TS-209</th>
@@ -36,9 +37,11 @@ Here is a table showing the differences between the supported devices:
 <th>TS-409</th>
 <th>TS-409U</th>
 </tr>
+</thead>
 
+<tbody>
 <tr>
-<td style="background-color: #E0E0FF">CPU</td>
+<th>CPU</th>
 <td>88F5182 500MHz</td>
 <td>88F5182 500MHz</td>
 <td>88F5182 500MHz</td>
@@ -48,7 +51,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">RAM</td>
+<th>RAM</th>
 <td>128 MB</td>
 <td>256 MB</td>
 <td>128 MB</td>
@@ -58,7 +61,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">Flash</td>
+<th>Flash</th>
 <td>8 MB</td>
 <td>8 MB</td>
 <td>8 MB</td>
@@ -68,7 +71,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">HDD</td>
+<th>HDD</th>
 <td>1</td>
 <td>1</td>
 <td>2</td>
@@ -78,7 +81,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">eSATA</td>
+<th>eSATA</th>
 <td>1</td>
 <td>1</td>
 <td>no</td>
@@ -88,7 +91,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">USB 2.0 front</td>
+<th>USB 2.0 front</th>
 <td>1</td>
 <td>1</td>
 <td>1</td>
@@ -98,7 +101,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">USB 2.0 back</td>
+<th>USB 2.0 back</th>
 <td>2</td>
 <td>2</td>
 <td>2</td>
@@ -108,7 +111,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">Ethernet</td>
+<th>Ethernet</th>
 <td>1</td>
 <td>1</td>
 <td>1</td>
@@ -118,7 +121,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">Fan</td>
+<th>Fan</th>
 <td>no</td>
 <td>no</td>
 <td>1</td>
@@ -126,6 +129,7 @@ Here is a table showing the differences between the supported devices:
 <td>1</td>
 <td>3</td>
 </tr>
+</tbody>
 
 </table>
 

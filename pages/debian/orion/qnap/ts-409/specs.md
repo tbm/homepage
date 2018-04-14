@@ -15,57 +15,61 @@ This page lists the internals of the QNAP TS-409.  There is another page
 which shows the <a href = "../status/">status of support in Debian</a> for
 these components.
 
-<table>
+<table class="table table-hover">
 
+<thead>
 <tr>
 <th>Component</th>
 <th>Comment</th>
 </tr>
+</thead>
 
+<tbody>
 <tr>
-<td>CPU</td>
+<th>CPU</th>
 <td>Marvell Orion 88F5281 D0, 500 MHz</td>
 </tr>
 
 <tr>
-<td>RAM</td>
+<th>RAM</th>
 <td>256 MB DDR II (or 512 MB on TS-409U)</td>
 </tr>
 
 <tr>
-<td>Flash ROM</td>
+<th>Flash ROM</th>
 <td>8 MB NOR</td>
 </tr>
 
 <tr>
-<td>Hard drive</td>
+<th>Hard drive</th>
 <td>4x 3.5" SATA, Marvell 88SX7042</td>
 </tr>
 
 <tr>
-<td>Ethernet</td>
+<th>Ethernet</th>
 <td>1x 10/100/1000 Mbit, integrated in SoC</td>
 </tr>
 
 <tr>
-<td>USB</td>
+<th>USB</th>
 <td>3x USB 2.0, GL852 and integrated in SoC</td>
 </tr>
 
 <tr>
-<td>RTC</td>
+<th>RTC</th>
 <td>Seiko Instruments S-35390A</td>
 </tr>
 
 <tr>
-<td>Fan</td>
+<th>Fan</th>
 <td>Yes</td>
 </tr>
 
 <tr>
-<td>Boot loader</td>
+<th>Boot loader</th>
 <td>U-Boot</td>
 </tr>
+</tbody>
 
 </table>
 

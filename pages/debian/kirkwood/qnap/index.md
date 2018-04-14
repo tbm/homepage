@@ -25,10 +25,11 @@ don't use Marvell Kirkwood chips.
 
 Here is a table showing the differences between the supported devices:
 
-<table>
+<table class="table table-hover">
 
+<thead>
 <tr>
-<th style="background-color: white"></th>
+<th></th>
 <th>TS-110</th>
 <th>TS-112</th>
 <th>TS-112P</th>
@@ -38,9 +39,11 @@ Here is a table showing the differences between the supported devices:
 <th>TS-120</th>
 <th>TS-121</th>
 </tr>
+</thead>
 
+<tbody>
 <tr>
-<td style="background-color: #E0E0FF">CPU</td>
+<th>CPU</th>
 <td>800 MHz</td>
 <td>1.2 GHz</td>
 <td>1.6 GHz</td>
@@ -52,7 +55,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">RAM</td>
+<th>RAM</th>
 <td>256 MB</td>
 <td>256 MB</td>
 <td>512 MB</td>
@@ -64,7 +67,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">Flash</td>
+<th>Flash</th>
 <td>16 MB</td>
 <td>16 MB</td>
 <td>16 MB</td>
@@ -76,7 +79,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">HDD</td>
+<th>HDD</th>
 <td>1</td>
 <td>1</td>
 <td>1</td>
@@ -88,7 +91,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">eSATA</td>
+<th>eSATA</th>
 <td>1</td>
 <td>1</td>
 <td>1</td>
@@ -100,7 +103,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">USB front</td>
+<th>USB front</th>
 <td>1</td>
 <td>1</td>
 <td>1</td>
@@ -112,7 +115,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">USB back</td>
+<th>USB back</th>
 <td>2</td>
 <td>2</td>
 <td>2</td>
@@ -124,7 +127,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">USB 3.0</td>
+<th>USB 3.0</th>
 <td>none</td>
 <td>none</td>
 <td>2</td>
@@ -136,7 +139,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">Ethernet</td>
+<th>Ethernet</th>
 <td>1</td>
 <td>1</td>
 <td>1</td>
@@ -148,7 +151,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">Fan</td>
+<th>Fan</th>
 <td>1</td>
 <td>1</td>
 <td>1</td>
@@ -158,13 +161,15 @@ Here is a table showing the differences between the supported devices:
 <td>1</td>
 <td>1</td>
 </tr>
+</tbody>
 
 </table>
 
-<table>
+<table class="table table-hover">
 
+<thead>
 <tr>
-<th style="background-color: white"></th>
+<th></th>
 <th>HS-210</th>
 <th>TS-210</th>
 <th>TS-212</th>
@@ -177,9 +182,11 @@ Here is a table showing the differences between the supported devices:
 <th>TS-220</th>
 <th>TS-221</th>
 </tr>
+</thead>
 
+<tbody>
 <tr>
-<td style="background-color: #E0E0FF">CPU</td>
+<th scope="row">CPU</th>
 <td>1.6 GHz</td>
 <td>800 MHz</td>
 <td>1.2 GHz</td>
@@ -194,7 +201,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">RAM</td>
+<th>RAM</th>
 <td>512 MB</td>
 <td>256 MB</td>
 <td>256 MB</td>
@@ -209,7 +216,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">Flash</td>
+<th>Flash</th>
 <td>16 MB</td>
 <td>16 MB</td>
 <td>16 MB</td>
@@ -224,7 +231,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">HDD</td>
+<th>HDD</th>
 <td>2</td>
 <td>2</td>
 <td>2</td>
@@ -239,7 +246,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">eSATA</td>
+<th>eSATA</th>
 <td>no</td>
 <td>no</td>
 <td>no</td>
@@ -254,7 +261,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">USB front</td>
+<th>USB front</th>
 <td>0</td>
 <td>1</td>
 <td>1</td>
@@ -269,7 +276,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">USB back</td>
+<th>USB back</th>
 <td>4</td>
 <td>2</td>
 <td>2</td>
@@ -284,7 +291,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">USB 3.0</td>
+<th>USB 3.0</th>
 <td>2</td>
 <td>none</td>
 <td>none</td>
@@ -299,7 +306,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">Ethernet</td>
+<th>Ethernet</th>
 <td>1</td>
 <td>1</td>
 <td>1</td>
@@ -314,7 +321,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">Fan</td>
+<th>Fan</th>
 <td>none</td>
 <td>1</td>
 <td>1</td>
@@ -327,13 +334,15 @@ Here is a table showing the differences between the supported devices:
 <td>1</td>
 <td>1</td>
 </tr>
+</tbody>
 
 </table>
 
-<table>
+<table class="table table-hover">
 
+<thead>
 <tr>
-<th style="background-color: white"></th>
+<th></th>
 <th>TS-410</th>
 <th>TS-410U</th>
 <th>TS-412</th>
@@ -341,9 +350,11 @@ Here is a table showing the differences between the supported devices:
 <th>TS-419P+</th>
 <th>TS-419P II</th>
 </tr>
+</thead>
 
+<tbody>
 <tr>
-<td style="background-color: #E0E0FF">CPU</td>
+<th>CPU</th>
 <td>800 MHz</td>
 <td>800 MHz</td>
 <td>1.2 GHz</td>
@@ -353,7 +364,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">RAM</td>
+<th>RAM</th>
 <td>256 MB</td>
 <td>512 MB</td>
 <td>256 MB</td>
@@ -363,7 +374,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">Flash</td>
+<th>Flash</th>
 <td>16 MB</td>
 <td>16 MB</td>
 <td>16 MB</td>
@@ -373,7 +384,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">HDD</td>
+<th>HDD</th>
 <td>4</td>
 <td>4</td>
 <td>4</td>
@@ -383,7 +394,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">eSATA</td>
+<th>eSATA</th>
 <td>2</td>
 <td>2</td>
 <td>2</td>
@@ -393,7 +404,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">USB front</td>
+<th>USB front</th>
 <td>1</td>
 <td>1</td>
 <td>1</td>
@@ -403,7 +414,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">USB back</td>
+<th>USB back</th>
 <td>3</td>
 <td>3</td>
 <td>3</td>
@@ -413,7 +424,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">USB 3.0</td>
+<th>USB 3.0</th>
 <td>none</td>
 <td>none</td>
 <td>none</td>
@@ -423,7 +434,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">Ethernet</td>
+<th>Ethernet</th>
 <td>2</td>
 <td>2</td>
 <td>2</td>
@@ -433,7 +444,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">Fan</td>
+<th>Fan</th>
 <td>1</td>
 <td>3</td>
 <td>1</td>
@@ -443,7 +454,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">LCD panel</td>
+<th>LCD panel</th>
 <td>no</td>
 <td>no</td>
 <td>no</td>
@@ -451,13 +462,15 @@ Here is a table showing the differences between the supported devices:
 <td>yes</td>
 <td>yes</td>
 </tr>
+</tbody>
 
 </table>
 
-<table>
+<table class="table table-hover">
 
+<thead>
 <tr>
-<th style="background-color: white"></th>
+<th></th>
 <th>TS-419U</th>
 <th>TS-419U+</th>
 <th>TS-420</th>
@@ -465,9 +478,11 @@ Here is a table showing the differences between the supported devices:
 <th>TS-421</th>
 <th>TS-421U</th>
 </tr>
+<thead>
 
+<tbody>
 <tr>
-<td style="background-color: #E0E0FF">CPU</td>
+<th>CPU</th>
 <td>1.2 GHz</td>
 <td>1.6 GHz</td>
 <td>1.6 GHz</td>
@@ -477,7 +492,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">RAM</td>
+<th>RAM</th>
 <td>512 MB</td>
 <td>512 MB</td>
 <td>512 MB</td>
@@ -487,7 +502,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">Flash</td>
+<th>Flash</th>
 <td>16 MB</td>
 <td>16 MB</td>
 <td>16 MB</td>
@@ -497,7 +512,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">HDD</td>
+<th>HDD</th>
 <td>4</td>
 <td>4</td>
 <td>4</td>
@@ -507,7 +522,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">eSATA</td>
+<th>eSATA</th>
 <td>2</td>
 <td>2</td>
 <td>2</td>
@@ -517,7 +532,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">USB front</td>
+<th>USB front</th>
 <td>1</td>
 <td>1</td>
 <td>1</td>
@@ -527,7 +542,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">USB back</td>
+<th>USB back</th>
 <td>3</td>
 <td>3</td>
 <td>3</td>
@@ -537,7 +552,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">USB 3.0</td>
+<th>USB 3.0</th>
 <td>none</td>
 <td>none</td>
 <td>2</td>
@@ -547,7 +562,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">Ethernet</td>
+<th>Ethernet</th>
 <td>2</td>
 <td>2</td>
 <td>2</td>
@@ -557,7 +572,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">Fan</td>
+<th>Fan</th>
 <td>3</td>
 <td>2</td>
 <td>1</td>
@@ -567,7 +582,7 @@ Here is a table showing the differences between the supported devices:
 </tr>
 
 <tr>
-<td style="background-color: #E0E0FF">LCD panel</td>
+<th>LCD panel</th>
 <td>no</td>
 <td>no</td>
 <td>no</td>
@@ -575,6 +590,7 @@ Here is a table showing the differences between the supported devices:
 <td>yes</td>
 <td>no</td>
 </tr>
+</tbody>
 
 </table>
 

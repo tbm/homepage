@@ -21,63 +21,67 @@ chip.  Revision B1, on the other hand, uses a Marvell 88F5182 CPU which
 integrates SATA into the SoC itself.  The DNS-323 revision B1 is also sold
 by Conceptronic as the CH3SNAS.
 
-<table>
+<table class="table table-hover">
 
+<thead>
 <tr>
 <th>Component</th>
 <th>Comment</th>
 </tr>
+</thead>
 
+<tbody>
 <tr>
-<td>CPU</td>
+<th>CPU</th>
 <td>Marvell Orion 88F5181 (revision A1) or 88F5182 (revision B1), 500 MHz</td>
 </tr>
 
 <tr>
-<td>RAM</td>
+<th>RAM</th>
 <td>64 MB</td>
 </tr>
 
 <tr>
-<td>Flash ROM</td>
+<th>Flash ROM</th>
 <td>8 MB NOR</td>
 </tr>
 
 <tr>
-<td>Hard drive</td>
+<th>Hard drive</th>
 <td>2x 3.5" SATA, Marvell 88X7042 (revision A1) or integrated in SoC
 (revision B1)</td>
 </tr>
 
 <tr>
-<td>Ethernet</td>
+<th>Ethernet</th>
 <td>1x 10/100/1000 Mbit, integrated in SoC</td>
 </tr>
 
 <tr>
-<td>USB</td>
+<th>USB</th>
 <td>1x USB 2.0, integrated in SoC</td>
 </tr>
 
 <tr>
-<td>RTC</td>
+<th>RTC</th>
 <td>ST M41T80</td>
 </tr>
 
 <tr>
-<td>Fan</td>
+<th>Fan</th>
 <td>One, controlled by GMT G760Af</td>
 </tr>
 
 <tr>
-<td>Temperature sensor</td>
+<th>Temperature sensor</th>
 <td>GMT G751-2f</td>
 </tr>
 
 <tr>
-<td>Boot loader</td>
+<th>Boot loader</th>
 <td>U-Boot</td>
 </tr>
+</tbody>
 
 </table>
 

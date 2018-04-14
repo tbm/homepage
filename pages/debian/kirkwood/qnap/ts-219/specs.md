@@ -19,57 +19,61 @@ TS-219P.  There is another page which shows the <a href =
 
 <p>
 
-<table>
+<table class="table table-hover">
 
+<thead>
 <tr>
 <th>Component</th>
 <th>Comment</th>
 </tr>
+</thead>
 
+<tbody>
 <tr>
-<td>CPU</td>
+<th>CPU</th>
 <td>Marvell Kirkwood 88F6281 A0, 800 MHz (TS-210) or 1.2 GHz (TS-219)</td>
 </tr>
 
 <tr>
-<td>RAM</td>
+<th>RAM</th>
 <td>256 MB (TS-210) or 512 MB (TS-219) DDR II</td>
 </tr>
 
 <tr>
-<td>Flash ROM</td>
+<th>Flash ROM</th>
 <td>16 MB STMicroelectronics 25P28V6P SPI</td>
 </tr>
 
 <tr>
-<td>Hard drive</td>
+<th>Hard drive</th>
 <td>2x 3.5" SATA, integrated in SoC</td>
 </tr>
 
 <tr>
-<td>Ethernet</td>
+<th>Ethernet</th>
 <td>1x 10/100/1000 Mbit, integrated in SoC</td>
 </tr>
 
 <tr>
-<td>USB</td>
+<th>USB</th>
 <td>3x USB 2.0, GL850G and integrated in SoC</td>
 </tr>
 
 <tr>
-<td>RTC</td>
+<th>RTC</th>
 <td>Seiko Instruments S-35390A</td>
 </tr>
 
 <tr>
-<td>Fan</td>
+<th>Fan</th>
 <td>Yes, one; Bi-Sonic SP702012L</td>
 </tr>
 
 <tr>
-<td>Boot loader</td>
+<th>Boot loader</th>
 <td>U-Boot</td>
 </tr>
+</tbody>
 
 </table>
 
@@ -77,62 +81,66 @@ TS-219P.  There is another page which shows the <a href =
 
 <p>
 
-<table>
+<table class="table table-hover">
 
+<thead>
 <tr>
 <th>Component</th>
 <th>Comment</th>
 </tr>
+</thead>
 
+<tbody>
 <tr>
-<td>CPU</td>
+<th>CPU</th>
 <td>Marvell Kirkwood 88F6281 A0, 1.2 GHz (TS-219P) or 88F6282 1.6 GHz (TS-219P+)</td>
 </tr>
 
 <tr>
-<td>RAM</td>
+<th>RAM</th>
 <td>512 MB DDR II</td>
 </tr>
 
 <tr>
-<td>Flash ROM</td>
+<th>Flash ROM</th>
 <td>16 MB STMicroelectronics 25P28V6P SPI</td>
 </tr>
 
 <tr>
-<td>Internal hard drive</td>
+<th>Internal hard drive</th>
 <td>2x 3.5" SATA, integrated in SoC</td>
 </tr>
 
 <tr>
-<td>External hard drive</td>
+<th>External hard drive</th>
 <td>2x eSATA, JMB362</td>
 </tr>
 
 <tr>
-<td>Ethernet</td>
+<th>Ethernet</th>
 <td>1x 10/100/1000 Mbit, integrated in SoC</td>
 </tr>
 
 <tr>
-<td>USB</td>
+<th>USB</th>
 <td>3x USB 2.0, GL850G and integrated in SoC</td>
 </tr>
 
 <tr>
-<td>RTC</td>
+<th>RTC</th>
 <td>Seiko Instruments S-35390A</td>
 </tr>
 
 <tr>
-<td>Fan</td>
+<th>Fan</th>
 <td>Yes, one; Y.S. Tech FD127025LB</td>
 </tr>
 
 <tr>
-<td>Boot loader</td>
+<th>Boot loader</th>
 <td>U-Boot</td>
 </tr>
+</tbody>
 
 </table>
 

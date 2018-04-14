@@ -122,13 +122,16 @@ the file.
 
 You can check the following table to find out which string to use:
 
-<table>
+<table class="table table-hover">
 
+<thead>
 <tr>
 <th>Device</th>
 <th>String</th>
 </tr>
+</thead>
 
+<tbody>
 <tr>
 <td>TS-410</td>
 <td>`F_TS-410`</td>
@@ -183,6 +186,7 @@ You can check the following table to find out which string to use:
 <td>TS-421</td>
 <td>`F_TS-421`</td>
 </tr>
+</tbody>
 
 </table>
 
