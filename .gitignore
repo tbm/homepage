@@ -1,4 +1,4 @@
-crash.log
-output.diff
+.doit.db.db
+__pycache__
+cache
 output
-tmp

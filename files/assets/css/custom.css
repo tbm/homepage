@@ -1,0 +1,17 @@
+
+/* add a border to e.g. images */
+.border {
+border: #434343 1px solid;
+}
+
+.right {
+margin-left: 0.5em;
+float: right;
+}
+
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto
+}
+
