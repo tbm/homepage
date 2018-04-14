@@ -1,0 +1,12 @@
+language: python
+sudo: false
+python:
+- 3.6
+install:
+- pip install 'Nikola[extras]'
+script:
+- nikola build
+notifications:
+    email:
+        on_success: change
+        on_failure: always
