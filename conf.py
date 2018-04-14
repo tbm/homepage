@@ -514,12 +514,26 @@ FEED_LINKS_APPEND_QUERY = False
 # (translatable)
 LICENSE = """<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>"""
 
+SOCIAL_ICONS = """
+<a href="/blog/feed/" title="RSS blog feed"><i class="fas fa-rss"></i></a>
+<a href="https://github.com/tbm" title="Martin's GitHub"><i class="fab fa-github"></i></a>
+<a href="https://twitter.com/MartinMichlmayr" title="Martin's Twitter"><i class="fab fa-twitter"></i></a>
+<a href="https://www.linkedin.com/in/martinmichlmayr/" title="Martin's LinkedIn"><i class="fab fa-linkedin"></i></a>
+"""
+
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
 CONTENT_FOOTER = """
-<div id="copyright">&copy; {date} {author}</div>
-<div id="license">{license}</div>
+<div id="footer-line">
+  <div class="copyright">&copy; {date} {author}</div>
+  <div class="social">{social_icons}</div>
+</div>
+<div id="footer-line">
+  <div class="license">{license}</div>
+</div>
 """
+
+EXTRA_HEAD_DATA = """<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>"""
 
 CONTENT_FOOTER_FORMATS = {
     DEFAULT_LANG: (
@@ -529,6 +543,7 @@ CONTENT_FOOTER_FORMATS = {
             "author": BLOG_AUTHOR,
             "date": time.gmtime().tm_year,
             "license": LICENSE,
+            "social_icons": SOCIAL_ICONS,
         }
     )
 }

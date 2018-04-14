@@ -5,7 +5,6 @@
 * Add breadcrumbs
 * Change color in navigation bar
 * Get rid of "Next blog" link and link to archive
-* Add social media links to footer
 
 ## v1.1 - Migrate blog from pyblosxom
 
