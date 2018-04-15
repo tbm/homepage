@@ -1,5 +1,5 @@
 ---
-title: Quality Improvement in Volunteer Free and Open Source Software Projects: Exploring the Impact of Release Management
+title: "Quality Improvement in Volunteer Free and Open Source Software Projects: Exploring the Impact of Release Management"
 nav:
 description: The abstract of my PhD dissertation on quality improvement and release management
 keywords: [release management, open source, FOSS, quality improvement, thesis, dissertation]

@@ -1,5 +1,5 @@
 ---
-title: From the Cathedral to the Bazaar: An Empirical Study of the Lifecycle of Volunteer Community Projects
+title: "From the Cathedral to the Bazaar: An Empirical Study of the Lifecycle of Volunteer Community Projects"
 nav:
 description: The abstract of a paper on release management practices and problems in free software projects
 keywords: [release management, practices, quality, open source, FLOSS, quality improvement]

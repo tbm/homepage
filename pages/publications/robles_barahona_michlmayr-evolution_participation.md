@@ -1,5 +1,5 @@
 ---
-title: Evolution of Volunteer Participation in Libre Software Projects: Evidence from Debian
+title: "Evolution of Volunteer Participation in Libre Software Projects: Evidence from Debian"
 nav:
 keywords: [Debian, FLOSS, open source, volunteer management]
 ---
