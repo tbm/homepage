@@ -181,7 +181,9 @@ USE_BASE_TAG = False
 # Final location for the blog main RSS feed is:
 # output / TRANSLATION[lang] / RSS_PATH / rss.xml
 # (translatable)
-RSS_PATH = "blog/rss"
+#RSS_PATH = "blog/feed"
+# Workaround for issue #3036
+RSS_PATH = "blog/feed/rss"
 
 # Slug the Tag URL. Easier for users to type, special characters are
 # often removed or replaced as well.
@@ -198,7 +200,7 @@ RSS_PATH = "blog/rss"
 # relative URL.
 #
 # If you don't need any of these, just set to []
-REDIRECTIONS = [("blog/feed/index.html", "/blog/rss.xml")]
+REDIRECTIONS = []
 
 # Presets of commands to execute to deploy. Can be anything, for
 # example, you may use rsync:
