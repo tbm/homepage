@@ -48,5 +48,3 @@ Michlmayr, M., Robles, G., Gonzalez-Barahona, J. M.
 Analysis Over Time.</i>&ensp;In: Sowe, S. K., Stamelos, I. G., Samoladas,
 I. (Eds.), <i>Emerging Free and Open Source Software Practices</i>.&ensp;1&ndash;24.
 
-Back to <a href = "..">my publications</a>.
-

@@ -79,5 +79,3 @@ Voila
 </a>
 </p>
 
-Go back to my <a href = "..">Debian on GLAN Tank</a> page.
-

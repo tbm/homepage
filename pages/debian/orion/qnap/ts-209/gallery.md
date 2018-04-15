@@ -41,7 +41,3 @@ keywords: [QNAP, TS-209, gallery, pictures, images, photos]
 </a>
 </p>
 
-Go back to my <a href = "..">Debian on QNAP TS-209</a> page or check out
-the <a href = "../../ts-109/gallery/">TS-109</a> and <a href =
-"../../ts-409/gallery/">TS-409</a> galleries.
-

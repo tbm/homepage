@@ -138,5 +138,3 @@ increasing the swappiness) depending on your workload.
 
 This article has been contributed by David Härdeman &lt;david@hardeman.nu&gt;
 
-Go back to the <a href = "..">Debian on NSLU2</a> page.
-

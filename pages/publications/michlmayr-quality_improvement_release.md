@@ -42,5 +42,3 @@ Software Projects: Exploring the Impact of Release Management.</i>&ensp;In:
 <i>Proceedings of the First International Conference on Open Source
 Systems.</i>&ensp;309&ndash;310.
 
-Back to <a href = "..">my publications</a>.
-

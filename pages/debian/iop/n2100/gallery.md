@@ -92,5 +92,3 @@ After soldering a 9 pin header to the board...
 </a>
 </p>
 
-Go back to my <a href = "..">Debian on Thecus N2100</a> page.
-

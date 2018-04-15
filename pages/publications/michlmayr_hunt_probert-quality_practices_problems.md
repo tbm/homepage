@@ -50,5 +50,3 @@ Michlmayr, M., Hunt, F., Probert, D. R. (2005).&ensp;<i>Quality Practices
 and Problems in Free Software Projects.</i>&ensp;In: <i>Proceedings of the First
 International Conference on Open Source Systems.</i>&ensp;24&ndash;28.
 
-Back to <a href = "..">my publications</a>.
-

@@ -49,5 +49,3 @@ nvram -c set bootcmd 'ide reset; ext2load ide 0:1 ${default_kernel_addr} /${kern
 </pre>
 </div>
 
-Go back to my <a href = "..">Debian on Kurobox Pro</a> page.
-

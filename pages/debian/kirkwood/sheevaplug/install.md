@@ -212,7 +212,5 @@ run bootcmd
 </pre>
 </div>
 
-Go back to my <a href = "..">Debian on Plug Computer</a> page.
-
 {{% paypal desc="Debian on Plug Computer donation" %}}
 

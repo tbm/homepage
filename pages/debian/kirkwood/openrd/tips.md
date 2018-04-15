@@ -68,7 +68,5 @@ file for X.Org (see <a href = "../files/xorg.conf">this example</a>).
 If you want to install a full desktop environment, you can run `tasksel`
 and choose `Graphical desktop environment`.
 
-Go back to my <a href = "..">Debian on OpenRD</a> page.
-
 {{% paypal desc="Debian/OpenRD donation" %}}
 

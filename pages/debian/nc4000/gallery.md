@@ -31,5 +31,3 @@ Here are some pictures of the HP Compaq nc4000 notebook:
 <img src = "../images/dscf0006.jpg" class="border" alt = "HP Compaq nc4000 notebook and Debian mug" width="800" height="600" />
 </p>
 
-Go back to my <a href = "..">Debian on the HP Compaq nc4000</a> page.
-

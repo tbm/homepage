@@ -250,7 +250,5 @@ the latest updates.</li>
 
 </ul>
 
-Go back to my <a href = "..">Debian on QNAP TS-21x</a> page.
-
 {{% paypal desc="Debian/QNAP TS-21x donation" %}}
 

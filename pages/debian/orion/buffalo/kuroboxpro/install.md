@@ -265,5 +265,3 @@ can use `apt` and other tools to install additional software.  The
 Kurobox Pro is an ARM based device and the `armel` architecture is fully
 supported by Debian.
 
-Go back to my <a href = "..">Debian on Kurobox Pro</a> page.
-

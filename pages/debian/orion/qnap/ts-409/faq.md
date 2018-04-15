@@ -70,5 +70,3 @@ console</a>.
 No, the installation and operation of Debian on your QNAP doesn't require a
 serial console.
 
-Go back to my <a href = "..">Debian on QNAP TS-409</a> page.
-

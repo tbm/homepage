@@ -45,5 +45,3 @@ Defects in Debian and Strategies for Improving Quality in Free Software
 Projects.</i>&ensp;In: Bitzer, J., Schröder, P. J. H. (Eds.), <i>The
 Economics of Open Source Software Development.</i>&ensp;131&ndash;148.
 
-Back to <a href = "..">my publications</a>.
-

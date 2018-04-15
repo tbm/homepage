@@ -125,7 +125,5 @@ They will not be supported:
 
 </ul>
 
-Go back to my <a href = "..">Debian on Plug Computer</a> page.
-
 {{% paypal desc="Debian on Plug Computer donation" %}}
 

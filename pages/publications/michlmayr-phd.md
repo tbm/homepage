@@ -50,5 +50,3 @@ quality of the output.
 
 </ul>
 
-Back to <a href = "..">my publications</a>.
-

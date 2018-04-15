@@ -40,5 +40,3 @@ in Free Software Projects: Practices and Problems.</i>&ensp;In: Feller, J.,
 Fitzgerald, B., Scacchi, W., Silitti, A. (Eds.), <i>Open Source
 Development, Adoption and Innovation</i>.&ensp;295&ndash;300.
 
-Back to <a href = "..">my publications</a>.
-

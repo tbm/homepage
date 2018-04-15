@@ -333,5 +333,3 @@ In case you run into any bugs or problems, you may want to check the list
 of <a href = "../known-issues/">known issues and bugs</a> with Debian on the
 QNAP TS-109.
 
-Go back to my <a href = "..">Debian on QNAP TS-109</a> page.
-

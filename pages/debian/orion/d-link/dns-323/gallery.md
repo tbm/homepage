@@ -29,5 +29,3 @@ keywords: [Debian, D-Link, DNS-323, Conceptronic, CH3SNAS, gallery, pictures, im
 </a>
 </p>
 
-Go back to my <a href = "..">Debian on D-Link DNS-323</a> page.
-

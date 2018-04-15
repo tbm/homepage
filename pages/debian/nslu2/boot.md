@@ -175,7 +175,5 @@ root device).
 
 This pretty much sums up the boot process of Debian on the Linksys NSLU2.
 
-Go back to the <a href = "..">Debian on NSLU2</a> page.
-
 {{% paypal desc="Debian/NSLU2 donation" %}}
 

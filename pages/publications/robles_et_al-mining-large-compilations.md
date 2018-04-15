@@ -59,5 +59,3 @@ Perspective of Software Evolution</i>.&ensp; In: <i>Proceedings of the
 International Workshop on Mining Software Repositories (MSR
 2006)</i>.&ensp;3&ndash;9.
 
-Back to <a href = "..">my publications</a>.
-

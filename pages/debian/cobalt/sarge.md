@@ -12,5 +12,3 @@ install the current version of Debian.
 If you link to this page, please update your page and link to
 `http://www.cyrius.com/debian/cobalt/install/` instead.
 
-Go back to my <a href = "..">Debian on Cobalt</a> page.
-

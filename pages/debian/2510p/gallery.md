@@ -43,5 +43,3 @@ Here are some pictures of the HP Compaq 2510p notebook:
 </a>
 </p>
 
-Go back to my <a href = "..">Debian on the HP Compaq 2510p</a> page.
-

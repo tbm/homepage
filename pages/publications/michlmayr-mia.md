@@ -41,5 +41,3 @@ Michlmayr, M. (2004).&ensp;<i>Managing Volunteer Activity in Free Software
 Projects.</i>&ensp;In: <i>Proceedings of the 2004 USENIX Annual Technical
 Conference, Freenix Track.</i>&ensp;93&ndash;102.
 
-Back to <a href = "..">my publications</a>.
-

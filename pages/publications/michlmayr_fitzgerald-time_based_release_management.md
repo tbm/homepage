@@ -42,5 +42,3 @@ Michlmayr, M., Fitzgerald, B. (2012).&ensp;Time-Based Release Management in
 Free and Open Source (FOSS) Projects.&ensp;<i>International Journal of Open
 Source Software and Processes</i>, 4(1).&ensp;1&ndash;19.
 
-Back to <a href = "..">my publications</a>.
-

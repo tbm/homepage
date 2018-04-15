@@ -91,5 +91,3 @@ possible to run Debian on such a device.  However, so far this has not been
 tested.  If you're interested in running Debian on your Q700, please <a
 href = "/contact/">contact me</a> and I'll help you.
 
-Go back to my <a href = "..">Debian on QNAP TS-21x/TS-22x</a> page.
-

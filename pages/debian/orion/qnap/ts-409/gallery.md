@@ -73,7 +73,3 @@ TS-109 machines) courtesy of Marco van Zwetselaar:
 </a>
 </p>
 
-Go back to my <a href = "..">Debian on QNAP TS-409</a> page or check out
-the <a href = "../../ts-109/gallery/">TS-109</a> and <a href =
-"../../ts-209/gallery/">TS-209</a> galleries.
-

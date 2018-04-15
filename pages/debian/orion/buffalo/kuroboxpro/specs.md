@@ -84,5 +84,3 @@ This page lists the internals of the Kurobox Pro.
 
 </table>
 
-Go back to my <a href = "..">Debian on Kurobox Pro</a> page.
-

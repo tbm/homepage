@@ -61,5 +61,3 @@ Empirical Study of the Lifecycle of Volunteer Community
 Projects.&ensp;<i>The European Journal for the Informatics
 Professional</i>, 8(6).&ensp;8&ndash;17.
 
-Back to <a href = "..">my publications</a>.
-

@@ -200,6 +200,3 @@ about running Debian on the D-Link DNS-323 and Conceptronic CH3SNAS.  In
 case you run into any bugs or problems, you may want to check the list of
 <a href = "../known-issues/">known issues and bugs</a>.
 
-Go back to my <a href = "..">Debian on D-Link DNS-323 and
-Conceptronic CH3SNAS</a> page.
-

@@ -82,5 +82,3 @@ console</a>.
 No, the installation and operation of Debian on your HP doesn't require a
 serial console.
 
-Go back to my <a href = "..">Debian on HP mv2120</a> page.
-

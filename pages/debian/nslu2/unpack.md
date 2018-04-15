@@ -244,5 +244,3 @@ page</a>.
 
 {{% paypal desc="Debian/NSLU2 donation" %}}
 
-Go back to my <a href = "..">Debian on NSLU2</a> page.
-

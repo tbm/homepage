@@ -37,5 +37,3 @@ is available on the <a href =
 "http://buffalo.nas-central.org/wiki/Install_Debian_on_the_Linkstation_Pro/Live">NAS-Central
 Buffalo wiki</a>.
 
-Go back to my <a href = "..">Debian on Kurobox Pro</a> page.
-

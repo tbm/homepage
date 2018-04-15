@@ -50,5 +50,3 @@ of Volunteer Participation in Libre Software Projects:
 Evidence from Debian.</i>&ensp;In: <i>Proceedings of the First International
 Conference on Open Source Systems.</i>&ensp;100&ndash;107.
 
-Back to <a href = "..">my publications</a>.
-

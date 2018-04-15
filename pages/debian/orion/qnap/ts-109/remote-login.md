@@ -24,5 +24,3 @@ Finally, enable <em>telnet</em>, leave the port they use (13131) and press
 <img src = "../../images/qnap-remote-login.png" class="border" alt = "QNAP firmware: remote login"
  width="640" height="480" />
 
-Go back to the <a href = "../">installing Debian on QNAP TS-109</a> page.
-

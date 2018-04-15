@@ -74,5 +74,3 @@ rm -f x x2
 Now you can use new `initrd.buffalo` file and the `uImage.buffalo` file you
 downloaded in order to start the Debian installer.
 
-Go back to my <a href = "..">Debian on Kurobox Pro</a> page.
-

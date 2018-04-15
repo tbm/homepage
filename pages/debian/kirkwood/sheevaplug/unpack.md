@@ -11,5 +11,3 @@ keywords: [SheevaPlug, Marvell, Kirkwood, Debian, lenny, ARM]
 
 This installation method is no longer supported.
 
-Go back to my <a href = "..">Debian on SheevaPlug</a> page.
-

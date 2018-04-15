@@ -43,5 +43,3 @@ Michlmayr, M. (2005).&ensp;<i>Software Process Maturity and the Success of
 Free Software Projects.</i>&ensp;In: Zieliński, K., Szmuc, T. (Eds.),
 <i>Software Engineering: Evolution and Emerging Technologies.</i>&ensp;3&ndash;14.
 
-Back to <a href = "..">my publications</a>.
-

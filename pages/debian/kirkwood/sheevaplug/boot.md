@@ -152,7 +152,5 @@ directly and requires special images made with `mkimage`.</li>
 
 </ol>
 
-Go back to my <a href = "..">Debian on Plug Computers</a> page.
-
 {{% paypal desc="Debian on Plug Computer donation" %}}
 

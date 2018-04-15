@@ -326,7 +326,5 @@ be able to let you know of important updates.</li>
 
 </ul>
 
-Go back to my <a href = "..">Debian on QNAP TS-41x</a> page.
-
 {{% paypal desc="Debian/QNAP TS-41x donation" %}}
 

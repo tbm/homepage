@@ -224,5 +224,3 @@ depending on how you did the installation.
 
 {{% paypal desc="Debian/Cobalt donation" %}}
 
-Go back to my <a href = "../">Debian on Cobalt</a> page.
-

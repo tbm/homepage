@@ -50,5 +50,3 @@ The Linux/MIPS project maintains a wiki which has a <a href =
 "http://www.linux-mips.org/wiki/Cobalt">page with Cobalt related
 information.</a>
 
-Go back to my <a href = "..">Debian on Cobalt</a> page.
-

@@ -29,5 +29,3 @@ sudo cp i.gz /mnt/initrd
 </pre>
 </div>
 
-Go back to my <a href = "../install/">Debian installation guide for GLAN Tank</a> page.
-

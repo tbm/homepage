@@ -38,5 +38,3 @@ Michlmayr, M. (2009).&ensp;Community Management in Open Source
 Projects.&ensp;<i>The European Journal for the Informatics
 Professional</i>, X(3).&ensp;22&ndash;26.
 
-Back to <a href = "..">my publications</a>.
-

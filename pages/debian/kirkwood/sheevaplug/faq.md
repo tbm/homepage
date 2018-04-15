@@ -21,5 +21,3 @@ A normal installation of Debian (i.e. base system plus standard components)
 will take about 400 MB, so a 1 GB USB stick or SD card is enough (even
 though more is recommended).
 
-Go back to my <a href = "..">Debian on Marvell SheevaPlug</a> page.
-

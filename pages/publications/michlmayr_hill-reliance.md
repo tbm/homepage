@@ -44,5 +44,3 @@ Michlmayr, M., Hill, B. M. (2003).&ensp;<i>Quality and the Reliance on
 Individuals in Free Software Projects.</i>&ensp;In: <i>Proceedings of the 3rd
 Workshop on Open Source Software Engineering.</i>&ensp;105&ndash;109.
 
-Back to <a href = "..">my publications</a>.
-

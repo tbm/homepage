@@ -33,5 +33,3 @@ Michlmayr, M., Fitzgerald, B., Stol, K. (2015).&ensp;Why and How Should
 Open Source Projects Adopt Time-Based Releases?&ensp;<i>IEEE Software</i>,
 32(2).&ensp;55&ndash;63.
 
-Back to <a href = "..">my publications</a>.
-

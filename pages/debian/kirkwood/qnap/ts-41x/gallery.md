@@ -24,5 +24,3 @@ Connecting a serial console to the QNAP TS-419P:<br />
 <img src = "../images/img_0203s.jpg" class="border" alt = "TS-419P with serial console" width="640" height="480" />
 </a>
 
-Go back to my <a href = "..">Debian on QNAP TS-41x</a> page.
-

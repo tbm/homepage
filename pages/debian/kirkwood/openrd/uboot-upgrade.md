@@ -155,7 +155,5 @@ In order to boot Debian, you have to set `bootcmd`, `bootargs_console` and
 one of `bootcmd_sata`, `bootcmd_usb` or `bootcmd_mmc`.  Please see the
 [installation page](../install#install) for detailed instructions.
 
-Go back to my <a href = "..">Debian on Plug Computer</a> page.
-
 {{% paypal desc="Debian on Plug Computer donation" %}}
 

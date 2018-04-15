@@ -35,5 +35,3 @@ keywords: [Buffalo, Revogear, Kurobox Pro, pictures, images, photos]
 </a>
 </p>
 
-Go back to my <a href = "..">Debian on Kurobox Pro</a> page.
-

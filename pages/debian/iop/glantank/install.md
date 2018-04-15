@@ -170,5 +170,3 @@ Note that kernel support is still very basic.  It lacks support for:
 
 </ul>
 
-Go back to my <a href = "..">Debian on GLAN Tank</a> page.
-

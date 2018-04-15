@@ -95,5 +95,3 @@ moment, so it's not quite useful on the Kurobox Pro.</td>
 
 </table>
 
-Go back to my <a href = "..">Debian on Kurobox Pro</a> page.
-

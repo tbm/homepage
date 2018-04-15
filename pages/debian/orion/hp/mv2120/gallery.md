@@ -35,5 +35,3 @@ keywords: [HP, mv2120, gallery, pictures, images, photos]
 </a>
 </p>
 
-Go back to my <a href = "..">Debian on HP mv2120</a> page.
-

@@ -334,7 +334,5 @@ of <a href = "../known-issues/">known issues and bugs</a> with Debian on the
 QNAP TS-209.  Finally, make sure to read the <a href = "../tips/">tips and
 tricks</a> about running Debian on the QNAP TS-209.
 
-Go back to my <a href = "..">Debian on QNAP TS-209</a> page.
-
 {{% paypal desc="Debian/QNAP TS-209 donation" %}}
 

@@ -57,5 +57,3 @@ The CPU, RAM chips, flash chip and other components.<br />
 <img src = "../images/img_0011s.jpg" class="border" alt = "SheevaPlug main board" width="640" height="480" />
 </a>
 
-Go back to my <a href = "..">Debian on Plug Computer</a> page.
-

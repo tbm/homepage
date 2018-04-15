@@ -43,5 +43,3 @@ select additional installer modules.  However, you can simply skip this
 menu and and follow the normal installation procedure <a href =
 "../install/">described in my guide</a>.
 
-Go back to my <a href = "..">Debian on Cobalt</a> page.
-

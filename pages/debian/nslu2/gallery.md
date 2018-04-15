@@ -35,5 +35,3 @@ purposes.<br />
  width="640" height="480" />
 </a>
 
-Go back to my <a href = "..">Debian on NSLU2</a> page.
-

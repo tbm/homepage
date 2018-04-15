@@ -91,5 +91,3 @@ The Qube can be used as a jukebox when you equip it with a sound card.
 </a>
 </p>
 
-Go back to my <a href = "..">Debian on Cobalt</a> page.
-

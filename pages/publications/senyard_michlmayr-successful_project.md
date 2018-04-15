@@ -47,5 +47,3 @@ Senyard, A., Michlmayr, M. (2004).&ensp;<i>How to Have a Successful Free
 Software Project.</i>&ensp;In: <i>Proceedings of the 11th Asia-Pacific Software
 Engineering Conference.</i>&ensp;84&ndash;91.
 
-Back to <a href = "..">my publications</a>.
-

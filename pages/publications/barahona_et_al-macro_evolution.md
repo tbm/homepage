@@ -55,5 +55,3 @@ D. M. (2009).&ensp;Macro-level software evolution: a case study of a large
 software compilation.&ensp;<i>Empirical Software Engineering</i>,
 14(3).&ensp;262&ndash;285.
 
-Back to <a href = "..">my publications</a>.
-
