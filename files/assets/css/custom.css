@@ -1,4 +1,31 @@
 
+/* Navigation bar */
+
+.navbar-inverse {
+    background-color: #2C3E50;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #294867;
+}
+
+/* red line at the top */
+.navbar-inverse {
+    border-top-width: 3px;
+    border-top-color: #691919;
+}
+
+/* Make text easier to read on the dark background */
+.navbar-inverse .navbar-brand {
+    color: #ddd;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #ddd;
+}
+
+/* Images */
+
 /* add a border to e.g. images */
 .border {
 border: #434343 1px solid;

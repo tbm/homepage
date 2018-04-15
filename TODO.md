@@ -3,7 +3,6 @@
 ## Nikola
 
 * Add breadcrumbs
-* Change color in navigation bar
 * Get rid of "Next blog" link and link to archive
 
 ## v1.1 - Migrate blog from pyblosxom
