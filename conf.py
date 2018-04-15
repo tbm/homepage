@@ -524,12 +524,12 @@ SOCIAL_ICONS = """
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
 CONTENT_FOOTER = """
-<div id="footer-line">
-  <div class="copyright">&copy; {date} {author}</div>
-  <div class="social">{social_icons}</div>
+<div class="footer-line">
+  <div id="copyright">&copy; {date} {author}</div>
+  <div id="social">{social_icons}</div>
 </div>
-<div id="footer-line">
-  <div class="license">{license}</div>
+<div class="footer-line">
+  <div id="license">{license}</div>
 </div>
 """
 
