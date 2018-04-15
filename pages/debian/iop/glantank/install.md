@@ -144,11 +144,11 @@ requires a `/boot` partition as `hda1` and assumes that the root partition
 is on `hda2`.  If you following the guided partitioning, which I recommend,
 the installer will create an appropriate partition layout for you:
 
-<p><img src = "../images/partman-guided.png" class="border" alt = "Guided Partioning" width="802" height="482" /></p>
+<p><img src = "../images/partman-guided.png" class="border" alt = "Guided Partitioning" width="802" height="482" /></p>
 
-<p><img src = "../images/partman-disk.png" class="border" alt = "Guided Partioning: choosing the disk" width="802" height="482" /></p>
+<p><img src = "../images/partman-disk.png" class="border" alt = "Guided Partitioning: choosing the disk" width="802" height="482" /></p>
 
-<p><img src = "../images/partman-overview.png" class="border" alt = "Partioning: overview" width="802" height="482" /></p>
+<p><img src = "../images/partman-overview.png" class="border" alt = "Partitioning: overview" width="802" height="482" /></p>
 
 The whole installation will take about one hour.  After the installation is
 complete, you will be able to log in as `root`.

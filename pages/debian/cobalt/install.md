@@ -198,11 +198,11 @@ The best solution is not to worry about making the partitions yourself but
 use guided partitioning option in the Debian installer.  It knows about
 Cobalt and will create a proper boot partition for you.
 
-<p><img src = "../images/partman-guided.png" class="border" alt = "Guided Partioning" width="644" height="316" /></p>
+<p><img src = "../images/partman-guided.png" class="border" alt = "Guided Partitioning" width="644" height="316" /></p>
 
-<p><img src = "../images/partman-schemes.png" class="border" alt = "Guided Partioning: choosing a schema" width="644" height="316" /></p>
+<p><img src = "../images/partman-schemes.png" class="border" alt = "Guided Partitioning: choosing a schema" width="644" height="316" /></p>
 
-<p><img src = "../images/partman-overview.png" class="border" alt = "Partioning: overview" width="644" height="316" /></p>
+<p><img src = "../images/partman-overview.png" class="border" alt = "Partitioning: overview" width="644" height="316" /></p>
 
 The installation will install <a href =
 "http://www.colonel-panic.org/cobalt-mips/">CoLo</a>, a boot loader written

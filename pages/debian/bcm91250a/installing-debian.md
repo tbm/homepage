@@ -160,11 +160,11 @@ The best solution is not to worry about making the partitions yourself but
 use debian-installer's guided partitioning option.  It knows about the
 BCM91250A evaluation board and will create a proper boot partition for you.
 
-<p><img src = "../images/partman-guided.jpg" class="border" alt = "Guided Partioning" width="724" height="364" /></p>
+<p><img src = "../images/partman-guided.jpg" class="border" alt = "Guided Partitioning" width="724" height="364" /></p>
 
-<p><img src = "../images/partman-schemes.jpg" class="border" alt = "Guided Partioning: choosing a schema" width="724" height="364" /></p>
+<p><img src = "../images/partman-schemes.jpg" class="border" alt = "Guided Partitioning: choosing a schema" width="724" height="364" /></p>
 
-<p><img src = "../images/partman-overview.jpg" class="border" alt = "Partioning: overview" width="724" height="364" /></p>
+<p><img src = "../images/partman-overview.jpg" class="border" alt = "Partitioning: overview" width="724" height="364" /></p>
 
 When the installation is done, it will reboot.  You'll be dropped into CFE
 again and now you can start Debian from disk:

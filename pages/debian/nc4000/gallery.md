@@ -20,11 +20,11 @@ Here are some pictures of the HP Compaq nc4000 notebook:
 </p>
 
 <p>
-<img src = "../images/dscf0004.jpg" class="border" alt = "The noteboot's keyboard" width="800" height="600" />
+<img src = "../images/dscf0004.jpg" class="border" alt = "The notebook's keyboard" width="800" height="600" />
 </p>
 
 <p>
-<img src = "../images/dscf0005.jpg" class="border" alt = "The noteboot's keyboard" width="800" height="600" />
+<img src = "../images/dscf0005.jpg" class="border" alt = "The notebook's keyboard" width="800" height="600" />
 </p>
 
 <p>

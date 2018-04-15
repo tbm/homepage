@@ -196,7 +196,7 @@ whether the logical volume data should be removed with yes (or cancel the
 installation and make a backup of your disk if you have not done so yet).
 
 <img src = "../images/di-remove-logical-volume-data.png"
- alt = "Debian installer: remove existing locical volume data"
+ alt = "Debian installer: remove existing logical volume data"
  width="644" height="316" />
 
 At the end of the installation, the installer will create a boot image on
