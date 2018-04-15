@@ -37,7 +37,7 @@ installed by default.</li>
 
 </ol>
 
-<h2><a id = "modules">debian-installer lowmem level 2: choosing modules for Cobalt</a></h2>
+<h2 id="modules">debian-installer lowmem level 2: choosing modules for Cobalt</h2>
 
 In Debian's installer lowmem level 2, some installer modules are not
 automatically loaded and you will therefore get a screen where you can

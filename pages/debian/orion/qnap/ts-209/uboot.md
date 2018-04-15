@@ -11,7 +11,7 @@ If you have a <a href = "../serial/">serial console</a> for your QNAP
 TS-209, you can use U-Boot, the boot loader used on the TS-209, to restore
 the original QNAP firmware or load images via the network.
 
-<h2><a id = "load">Loading the installer image</a></h2>
+<h2 id="load">Loading the installer image</h2>
 
 You can load the Debian installer image (or other images) via TFTP.  First
 of all, configure the IP address of the TFTP server and of your QNAP:
@@ -46,7 +46,7 @@ bootm 0x400000
 If you'd like to load a kernel image you saved from `/boot`, please see the
 <a href = "#prepare">instructions on how to prepare the image</a>.
 
-<h2><a id = "prepare">Preparing Debian images from `/boot` to load</a></h2>
+<h2 id="prepare">Preparing Debian images from `/boot` to load</h2>
 
 You can copy the Debian kernel and ramdisk from your system to another
 machine for backup.  This way, you can load them via TFTP as described

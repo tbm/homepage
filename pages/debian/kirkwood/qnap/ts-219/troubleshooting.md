@@ -19,9 +19,9 @@ can find a solution.  If your problem is not covered here, feel free to
 contact the <a href = "http://lists.debian.org/debian-arm/">debian-arm
 list</a> for help.
 
-<h2><a id = "installer">Debian installer</a></h2>
+<h2 id="installer">Debian installer</h2>
 
-<h3><a id = "ssh-ip">I hear a beep after flashing Debian installer but cannot connect with SSH</a></h3>
+<h3 id="ssh-ip">I hear a beep after flashing Debian installer but cannot connect with SSH</h3>
 
 After writing the Debian installer to flash and rebooting, you have to wait
 a few minutes for it to start and then connect by SSH to perform the
@@ -57,7 +57,7 @@ address `192.168.1.100` is used.</li>
 
 </ul>
 
-<h3><a id = "ssh-password">Connections to the QNAP via SSH are possible but my password is not accepted</a></h3>
+<h3 id="ssh-password">Connections to the QNAP via SSH are possible but my password is not accepted</h3>
 
 Some users report that they can connect to their QNAP via SSH just fine but
 that the password is not accepted.  The account details depend on where you
@@ -70,7 +70,7 @@ use the password you chose during the installation.  You cannot login as
 installer.  Note that you also cannot login as `root` user since that
 option is disabled in SSH by default.
 
-<h3><a id = "di-network">Debian installer fails to download components</a></h3>
+<h3 id="di-network">Debian installer fails to download components</h3>
 
 The Debian installer that's written to flash is not the complete installer
 so further components have to be downloaded from the network.  Some people
@@ -106,16 +106,16 @@ ip route
 The best way to fix the network settings are to update the configuration of
 your DHCP server and to start the installer on your QNAP again.
 
-<h3><a id = "partman-stuck">Formatting the disk is stuck at 33%</a></h3>
+<h3 id="partman-stuck">Formatting the disk is stuck at 33%</h3>
 
 Formatting the disk may take a long time, especially if you have a large
 disk.  Unfortunately, the progress bar is not updated while the disk is
 being formatted so you may think that it is stuck (at 33%).  If this
 happens, just be patient.  The installer is in fact formatting your disk.
 
-<h2><a id = "debian">Debian</a></h2>
+<h2 id="debian">Debian</h2>
 
-<h3><a id = "no-boot">My QNAP no longer boots</a></h3>
+<h3 id="no-boot">My QNAP no longer boots</h3>
 
 There can be many reasons why a QNAP running Debian no longer boots,
 ranging from a broken disk, to a bad upgrade or configuration.

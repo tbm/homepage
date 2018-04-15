@@ -41,20 +41,20 @@ flash storage, but you can use it to install to USB, SD or eSATA.  In order
 to proceed, you will therefore need either a USB stick (or disk), an SD
 card or an external disk with an eSATA port.
 
-<h2><a id = "prepare">Preparation</a></h2>
+<h2 id="prepare">Preparation</h2>
 
 Make sure to connect an Ethernet cable to your plug computer (if you
 haven't already) because the installer will download files from the
 Internet for the installation.
 
-<h2><a id = "uboot">Upgrading U-Boot</a></h2>
+<h2 id="uboot">Upgrading U-Boot</h2>
 
 You have to upgrade the u-boot boot loader before you can install Debian.
 Please visit the page describing the <a href = "../uboot-upgrade/">u-boot
 upgrade process</a> to ensure that you have the right version of u-boot
 before proceeding with the installation of Debian.
 
-<h2><a id = "starting">Starting the Installer</a></h2>
+<h2 id="starting">Starting the Installer</h2>
 
 First of all, you have to download the installer.  Download the uImage and
 uInitrd files and store them either on a USB stick, MMC/SD card or a TFTP
@@ -152,7 +152,7 @@ bootm 0x00800000 0x01100000
 </pre>
 </div>
 
-<h2><a id = "install">The Installation</a></h2>
+<h2 id="install">The Installation</h2>
 
 The installation itself should be pretty standard and you can follow the <a
 href = "http://www.debian.org/releases/stretch/armel/">installation

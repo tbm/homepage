@@ -17,7 +17,7 @@ over the serial console and write them to flash.  For this, you first have
 to make a serial connector according to <a href =
 "http://dns323.kood.org/hardware%3Aserial">these instructions</a>.
 
-<h2><a id = "extract">Extracting the Kernel and Ramdisk from a Firmware Image</a></h2>
+<h2 id="extract">Extracting the Kernel and Ramdisk from a Firmware Image</h2>
 
 Both the firmware from D-Link and the installer from Debian are shipped as
 firmware images that the original firmware will accept.  When you want to
@@ -33,7 +33,7 @@ splitdns323fw -k uKernel -i uRamdisk netboot.img
 </pre>
 </div>
 
-<h2><a id = "upload">Uploading the Kernel and Ramdisk with Kermit</a></h2>
+<h2 id="upload">Uploading the Kernel and Ramdisk with Kermit</h2>
 
 Now that you have extracted the kernel and ramdisk, you can upload them to
 your DNS-323 via the serial console.  You need kermit for this task, and if

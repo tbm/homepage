@@ -22,20 +22,20 @@ but you may have to restart the device several times so u-boot will find
 the disk.  There are also problems booting from USB when more than one USB
 device is connected.
 
-<h2><a id = "prepare">Preparation</a></h2>
+<h2 id="prepare">Preparation</h2>
 
 Make sure to connect an Ethernet cable to the `GbE 0` port of your OpenRD
 (if you haven't already) because the installer will download files from the
 Internet for the installation.
 
-<h2><a id = "uboot">Upgrading U-Boot</a></h2>
+<h2 id="uboot">Upgrading U-Boot</h2>
 
 You have the option to install a new version of the u-boot boot loader but
 this step is optional.  Please visit the page describing the <a href =
 "../uboot-upgrade/">u-boot upgrade process</a> if you want to use a modern
 u-boot provided by Debian.
 
-<h2><a id = "starting">Starting the Installer</a></h2>
+<h2 id="starting">Starting the Installer</h2>
 
 First of all, you have to download the installer and store them either on a
 USB stick or a TFTP server.  Please download the installer images for your
@@ -141,7 +141,7 @@ bootm 0x00800000 0x01100000
 </pre>
 </div>
 
-<h2><a id = "install">The Installation</a></h2>
+<h2 id="install">The Installation</h2>
 
 The installation itself should be pretty standard and you can follow the <a
 href = "http://www.debian.org/releases/stretch/armel/">installation

@@ -209,7 +209,7 @@ add the files `mtd1`, `mtd2` and `mtd3` to your regular backup.
 
 Now you can go ahead and download the installer.
 
-<h3><a id = "download">Download and Flash the Installer</a></h3>
+<h3 id="download">Download and Flash the Installer</h3>
 
 You can download the Debian installer images from the web using the
 following commands:
@@ -247,7 +247,7 @@ Please reboot your QNAP device.
 Once the command has completed, you can shut down or reboot your TS-109.
 When you turn the TS-109 on again, the Debian installer will start.
 
-<h2><a id = "install">The Installation</a></h2>
+<h2 id="install">The Installation</h2>
 
 After you have flashed the Debian installer image and restarted your QNAP
 device, the Debian installer will start.  Since the TS-109 does not have
@@ -259,7 +259,7 @@ will change to solid green and your device will beep briefly to indicate
 that you can now login via SSH. (Note: there's currently no beep due to a
 bug; just wait about 1-2 minutes and connect with SSH.)
 
-<a id = "net-config"></a>
+<div id = "net-config">
 
 Since the TS-109 does not have an LCD, the installer cannot tell you which
 IP address to connect to or which password to use.  With regards to the IP
@@ -292,6 +292,8 @@ have access since the installer uses a very generic password, namely
 `install`. The user is `installer`.  Connect to the installer (again,
 replacing the address in the example with the actual IP address of your
 TS-109):
+
+</div>
 
 <div class="code">
 <pre>

@@ -11,7 +11,7 @@ keywords: [NSLU2, Linksys NSLU2, Debian, tips, tricks]
 
 <h1>Tips and tricks for Debian on the Linksys NSLU2</h1>
 
-<h3><a id = "led">Controlling the LEDs and beeper</a></h3>
+<h3 id="led">Controlling the LEDs and beeper</h3>
 
 You can use the tool `leds` to control the LEDs and beeper.  Typing `leds`
 without any arguments will show a help screen.
@@ -34,7 +34,7 @@ beep -e /dev/input/event0 -f 220 -l 500 -d 500 -r 3
 </pre>
 </div>
 
-<h3><a id = "halt">Use power button to shut down system</a></h3>
+<h3 id="halt">Use power button to shut down system</h3>
 
 By default, Debian will reboot the NSLU2 when you press the power button.
 If you want your NSLU2 to shut down when you press the button, you have to
@@ -55,7 +55,7 @@ telinit q
 </pre>
 </div>
 
-<h3><a id = "upgrade">Upgrading Debian</a></h3>
+<h3 id="upgrade">Upgrading Debian</h3>
 
 Here are some notes regarding upgrades of Debian:
 
@@ -73,7 +73,7 @@ NSLU2 has and will cause your upgrade to take 24 hours or more!</li>
 
 </ul>
 
-<h3><a id = "uuid">Using UUIDs to reference disks</a></h3>
+<h3 id="uuid">Using UUIDs to reference disks</h3>
 
 Debian 5.0 (lenny) uses names like `/dev/sda1` to refer to your disk but
 there is no guarantee for device ordering with USB devices.  This means

@@ -34,7 +34,7 @@ After you put the QNAP firmware back in flash and installed the complete
 the QNAP software, your device will run the original software from QNAP
 again.
 
-<h2><a id="reinstall">Re-installing Debian</a></h2>
+<h2 id="reinstall">Re-installing Debian</h2>
 
 If you want to re-install Debian using Debian installer, you can put the
 installer in flash and restart your device.

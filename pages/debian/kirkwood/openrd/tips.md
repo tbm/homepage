@@ -9,7 +9,7 @@ keywords: [Debian, OpenRD, VGA, xgi, tips, tricks]
 
 Here are some tips and tricks about running Debian on the OpenRD.
 
-<h2><a id = "vga">Making use of the VGA chip</a></h2>
+<h2 id="vga">Making use of the VGA chip</h2>
 
 The OpenRD-Client and OpenRD-Ultimate feature a graphics chip from XGI.
 This section describes how you can configure your machine so you can use

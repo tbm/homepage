@@ -101,7 +101,7 @@ the `mtdX` files to your regular backup.
 
 Now you can go ahead and download the installer.
 
-<h3><a id = "download">Download and Flash the Installer</a></h3>
+<h3 id="download">Download and Flash the Installer</h3>
 
 Issue the following commands to download the Debian installer images:
 
@@ -148,7 +148,7 @@ exit
 </pre>
 </div>
 
-<h2><a id = "install">The Installation</a></h2>
+<h2 id="install">The Installation</h2>
 
 After you have flashed the Debian installer image and restarted your QNAP
 device, the Debian installer will start.  Since the TS-11x/TS-12x does not have
@@ -159,7 +159,7 @@ system before you can connect.  When the installer is ready, the status LED
 will change to solid green and your device will beep briefly to indicate
 that you can now login via SSH.
 
-<a id = "net-config"></a>
+<div id = "net-config">
 
 Since the TS-11x/TS-12x does not have an LCD, the installer cannot tell you which
 IP address to connect to or which password to use.  With regards to the IP
@@ -197,6 +197,8 @@ from your `known_hosts` file:
 <pre>
 ssh-keygen -f ~/.ssh/known_hosts -R <span class="input">192.168.1.100</span>
 </pre>
+</div>
+
 </div>
 
 Now connect to the installer (again, replacing the address in the

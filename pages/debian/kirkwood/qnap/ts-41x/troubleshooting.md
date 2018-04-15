@@ -19,9 +19,9 @@ see whether you can find a solution.  If your problem is not covered here,
 feel free to contact the <a href =
 "http://lists.debian.org/debian-arm/">debian-arm list</a> for help.
 
-<h2><a id = "installer">Debian installer</a></h2>
+<h2 id="installer">Debian installer</h2>
 
-<h3><a id = "connect">Cannot connect to Debian installer</a></h3>
+<h3 id="connect">Cannot connect to Debian installer</h3>
 
 If you cannot connect to the Debian installer via SSH, make sure that you
 connect the Ethernet cable to the correct port.  Ethernet port numeration
@@ -29,16 +29,16 @@ differs between the QNAP firmware and Debian.  Under Debian, `eth0` is the
 port marked with "LAN2".  On the TS-419P, this is the lower (and not the
 upper) connector!
 
-<h3><a id = "partman-stuck">Formatting the disk is stuck at 33%</a></h3>
+<h3 id="partman-stuck">Formatting the disk is stuck at 33%</h3>
 
 Formatting the disk may take a long time, especially if you have a large
 disk.  Unfortunately, the progress bar is not updated while the disk is
 being formatted so you may think that it is stuck (at 33%).  If this
 happens, just be patient.  The installer is in fact formatting your disk.
 
-<h2><a id = "debian">Debian</a></h2>
+<h2 id="debian">Debian</h2>
 
-<h3><a id = "no-boot">My QNAP no longer boots</a></h3>
+<h3 id="no-boot">My QNAP no longer boots</h3>
 
 There can be many reasons why a QNAP running Debian no longer boots,
 ranging from a broken disk, to a bad upgrade or configuration.

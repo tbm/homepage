@@ -14,7 +14,7 @@ keywords: [Debian, QNAP, TS-110, TS-112, TS-112P, TS-119, TS-120, TS-121, tips, 
 Here are some tips and tricks about running Debian on the QNAP
 TS-11x/TS-12x.
 
-<h2><a id="qcontrol-upgrade">Automatic fan control</a></h2>
+<h2 id="qcontrol-upgrade">Automatic fan control</h2>
 
 Debian ships a program called `qcontrol` which can be used to control the
 fan, LEDs and buttons on QNAP devices.  You can edit the
@@ -22,7 +22,7 @@ fan, LEDs and buttons on QNAP devices.  You can edit the
 qcontrol, for example how the fans are regulated depending on the
 temperature or which commands to run when a button is pressed.
 
-<h2><a id="wakealarm">Scheduled power</a></h2>
+<h2 id="wakealarm">Scheduled power</h2>
 
 You can tell your QNAP device to power on at a specific time using the
 `wakealarm` system.  For example, if you want your QNAP to power on in 5
@@ -45,7 +45,7 @@ cat /proc/driver/rtc
 
 Look for `alrm_time` and `and alrm_date`.
 
-<h2><a id="autopower">Automatic power on</a></h2>
+<h2 id="autopower">Automatic power on</h2>
 
 QNAP machines can turn on automatically when power is applied if the device
 was not powered down correctly.  This is helpful when your power goes down.

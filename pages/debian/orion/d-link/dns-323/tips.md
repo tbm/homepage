@@ -13,7 +13,7 @@ keywords: [Debian, D-Link, DNS-323, Conceptronic, CH3SNAS, tips, tricks]
 Here are some tips and tricks about running Debian on the D-Link DNS-323
 and Conceptronic CH3SNAS.
 
-<h2><a id = "fan-control">Controlling the fan</a></h2>
+<h2 id="fan-control">Controlling the fan</h2>
 
 According to Anselmo Luginbuhl, you should be able to use the `lm-sensors`
 package to automatically control the fan:

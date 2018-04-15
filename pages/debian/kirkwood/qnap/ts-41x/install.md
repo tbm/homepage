@@ -101,7 +101,7 @@ the `mtdX` files to your regular backup.
 
 Now you can go ahead and download the installer.
 
-<h3><a id = "download">Download and Flash the Installer</a></h3>
+<h3 id="download">Download and Flash the Installer</h3>
 
 In order to download the Debian installer images, issue the following
 commands:
@@ -149,7 +149,7 @@ exit
 </pre>
 </div>
 
-<h2><a id = "install">The Installation</a></h2>
+<h2 id="install">The Installation</h2>
 
 After you have flashed the Debian installer image and restarted your QNAP
 device, the Debian installer will start.  Since the TS-41x/TS-42x does not have
@@ -164,7 +164,7 @@ Please note that Ethernet port numeration differs between the QNAP firmware
 and Debian.  Under Debian, `eth0` is the port marked with "LAN2".  On the
 TS-419P, this is the lower (and not the upper) connector!
 
-<a id = "net-config"></a>
+<div id = "net-config">
 
 Since most TS-41x/TS-42x devices do not have an LCD, the installer cannot tell you which
 IP address to connect to or which password to use.  (On the devices that
@@ -203,6 +203,8 @@ from your `known_hosts` file:
 <pre>
 ssh-keygen -f ~/.ssh/known_hosts -R <span class="input">192.168.1.100</span>
 </pre>
+</div>
+
 </div>
 
 Now connect to the installer (again, replacing the address in the

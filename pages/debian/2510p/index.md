@@ -27,7 +27,7 @@ the HP 2510p.</li>
 
 </ul>
 
-<h2><a id = "links">Links</a></h2>
+<h2 id="links">Links</h2>
 
 <ul>
 

@@ -13,7 +13,7 @@ keywords: [Debian, QNAP, TS-409, tips, tricks]
 
 Here are some tips and tricks about running Debian on the QNAP TS-409.
 
-<h2><a id="qcontrol-upgrade">Automatic fan control</a></h2>
+<h2 id="qcontrol-upgrade">Automatic fan control</h2>
 
 Debian ships a program called `qcontrol` which can be used to control the
 fan, LEDs and buttons on QNAP devices.  You can edit the
@@ -21,7 +21,7 @@ fan, LEDs and buttons on QNAP devices.  You can edit the
 qcontrol, for example how the fans are regulated depending on the
 temperature or which commands to run when a button is pressed.
 
-<h2><a id="autopower">Automatic power on</a></h2>
+<h2 id="autopower">Automatic power on</h2>
 
 QNAP machines can turn on automatically when power is applied if the device
 was not powered down correctly.  This is helpful when your power goes down.

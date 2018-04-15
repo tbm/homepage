@@ -154,7 +154,7 @@ via SSH.
 
 <h2>Usage</h2>
 
-<h3><a id = "fan">Fan</a></h3>
+<h3 id="fan">Fan</h3>
 
 By default, the fan should run at full speed.  If you need to regulate the
 speed, you can write to the `pwm` files in `/sys`.  If you want to stop the
@@ -179,7 +179,7 @@ echo 255 &gt; /sys/bus/i2c/devices/0-002e/pwm2
 There's currently no script to regulate the fan automatically, so I suggest
 you run the fan at full speed.
 
-<h3><a id = "beeper">Beeper</a></h3>
+<h3 id="beeper">Beeper</h3>
 
 You can install the `beep` package and then user the beeper in the
 following way:

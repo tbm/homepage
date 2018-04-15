@@ -65,7 +65,7 @@ development kit.  This plug is available from <a href =
 
 </ul>
 
-<h2><a id = "limited">Models with limited support</a></h2>
+<h2 id="limited">Models with limited support</h2>
 
 The following model is supported by Debian but you have to manually add a
 serial console to your device in order to install Debian.  No help is given

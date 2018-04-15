@@ -20,14 +20,14 @@ Debian's more general <a href =
 Please note that I no longer own a HP Compaq nc4000 notebook, so I won't
 provide further updates to this page.
 
-<h2><a id = "install">Installing Debian</a></h2>
+<h2 id="install">Installing Debian</h2>
 
 There are multiple ways to install Debian.  The most convenient method is
 probably net booting via PXE.  Alternatively, you can boot from an USB
 CD-ROM drive if you have the docking station with a CD drive or an external
 USB drive.  Finally, it is also possible to boot from an USB memory stick.
 
-<h3><a id = "install-pxe">Installation via the net using PXE</a></h3>
+<h3 id="install-pxe">Installation via the net using PXE</h3>
 
 In order to perform the installation via booting from the net using PXE,
 you first have to configure a PXE server.  Joe Nahmias wrote a good <a href
@@ -43,7 +43,7 @@ mode` to `PXE`.  After you've enabled PXE, you'll be able to select
 `Notebook NIC` when the nc4000 asks you where to boot from.  If your PXE
 server is configured properly, it will be found automatically.
 
-<h3><a id = "install-cd">Installation from a CD</a></h3>
+<h3 id="install-cd">Installation from a CD</h3>
 
 First, you have to download a CD image with Debian on it.  Torrents are <a
 href = "http://www.debian.org/CD/torrent-cd/">available</a>.  Once you have
@@ -52,7 +52,7 @@ have to first turn `Enable USB Legacy Support` on in your BIOS.  You will
 then have the choice to boot either from the laptop hard drive or from the
 USB CD-ROM drive.
 
-<h3><a id = "boot-usb-stick">Booting from USB memory stick</a></h3>
+<h3 id="boot-usb-stick">Booting from USB memory stick</h3>
 
 Aleksandr Koltsoff wrote that he was able to boot from a USB memory stick.
 He said that you have to do some trickery:
@@ -65,29 +65,29 @@ He said that you have to do some trickery:
 
 (or whatever the memory stick is instead of `/dev/sda`)
 
-<h2><a id = "ethernet">Ethernet</a></h2>
+<h2 id="ethernet">Ethernet</h2>
 
 The nc4000 has a Broadcom NetXtreme BCM5705M chip which supports Gigabit
 Ethernet (10/100/1000).  The Linux kernel includes the `tg3` driver for
 these types of chipsets.
 
-<h2><a id = "sound">Sound</a></h2>
+<h2 id="sound">Sound</h2>
 
 The laptop has an ALi Corporation M5451 audio chip which is supported by
 Linux.  By default, ALSA will be used and the `snd_ali5451` module is
 loaded.
 
-<h2><a id = "video">Video</a></h2>
+<h2 id="video">Video</h2>
 
 The nc4000 features a ATI Radeon IGP 340M graphics chip.  As far as I know,
 this chip is also known as Mobility U1.  During the installation, X.org
 will be installed and it will automatically work, using the `ati` driver.
 
-<h2><a id = "touchpad">Touchpad</a></h2>
+<h2 id="touchpad">Touchpad</h2>
 
 Both the touchpad and pointer stick work without any problems.
 
-<h2><a id = "buttons">Additional Buttons</a></h2>
+<h2 id="buttons">Additional Buttons</h2>
 
 Aki Mimoto mentioned that you can also get the 7 special buttons on the
 upper side of the keyboard to work.  Simply add the following lines to your
@@ -105,22 +105,22 @@ keycode 138 = F26
 (160 = cpqmute, 174 = cpqvoldown, 176 = cpqvolup, 136 = cpqpresentation,
 248 = cpqwireless, 138 = cpqlock)
 
-<h2><a id = "usb">USB</a></h2>
+<h2 id="usb">USB</h2>
 
 USB works without any problems.
 
-<h2><a id = "wireless">Wireless</a></h2>
+<h2 id="wireless">Wireless</h2>
 
 The Linux 2.6.26 kernel shipped in Debian lenny has the `ath5k` module with
 which wireless works without any problems.  You don't need any binary
 firmware to use wireless.
 
-<h2><a id = "pm">Power management</a></h2>
+<h2 id="pm">Power management</h2>
 
 ACPI correctly reports the battery status as well as information about the
 fans.  Frequency scaling is done automatically.
 
-<h3><a id = "powerplay">Radeon PowerPlay</a></h3>
+<h3 id="powerplay">Radeon PowerPlay</h3>
 
 Fabian Kneißl pointed out to me that the Radeon IGP video chip has a
 power-saving feature known as PowerPlay which can be activated in X.org
@@ -140,24 +140,24 @@ it as `/etc/X11/xorg.conf`.  You should see the following in
 (II) RADEON(0): Dynamic Power Management Enabled
 </pre>
 
-<h2><a id = "swsusp">Software Suspend</a></h2>
+<h2 id="swsusp">Software Suspend</h2>
 
 You can use `s2disk` to hibernate your system (i.e. to write the content to
 disk and power it off).  Suspend to memory does not work on the nc4000.
 
-<h2><a id = "modem">Modem</a></h2>
+<h2 id="modem">Modem</h2>
 
 Not tested.  Bdale Garbee said he got it to work.
 
-<h2><a id = "irda">IRDA</a></h2>
+<h2 id="irda">IRDA</h2>
 
 Not tested.
 
-<h2><a id = "pcmcia">PCMCIA</a></h2>
+<h2 id="pcmcia">PCMCIA</h2>
 
 It works without any problems.  All modules are loaded automatically.
 
-<h2><a id = "tools">Useful utilities</a></h2>
+<h2 id="tools">Useful utilities</h2>
 
 Michael Rasmussen pointed out that <a href =
 "http://packages.debian.org/laptop-mode-tools">laptop-mode-tools</a> is a
@@ -168,7 +168,7 @@ on battery.  Unfortunately, this breaks mutt, a popular e-mail client.
 Please be sure to read through the documentation of this package and to
 look at the configuration file, `/etc/laptop-mode/laptop-mode.conf`.
 
-<h2><a id = "caveats">Caveats</a></h2>
+<h2 id="caveats">Caveats</h2>
 
 <ul>
 
@@ -185,14 +185,14 @@ stick during bootup, the system freezes hard.</li>
 
 </ul>
 
-<h2><a id = "config">Configuration Files</a></h2>
+<h2 id="config">Configuration Files</h2>
 
 The <a href = "info/lspci">output of `lspci`</a> is available, along with
 the output from <a href = "info/lspciv">`lspci -v`</a> and <a href =
 "info/lspcivv">`lspci -vv`</a>.  The output of <a href =
 "info/dmesg">`dmesg`</a> from a 2.6 kernel can be viewed as well.
 
-<h2><a id = "links">Links</a></h2>
+<h2 id="links">Links</h2>
 
 <ul>
 
@@ -205,7 +205,7 @@ nc4010 laptop</a> page.</li>
 
 </ul>
 
-<h2><a id = "ack">Acknowledgements</a></h2>
+<h2 id="ack">Acknowledgements</h2>
 
 Thanks to Herbert Xu for kernel related help.  Jerullah K. and Aki Mimoto
 for various tips.  Michael Schulz for telling me that wireless works, and

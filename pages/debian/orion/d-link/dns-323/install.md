@@ -117,7 +117,7 @@ The firmware upgrade page on the D-Link DNS-323 looks very similar:
 
 <p><img src = "../images/firmware-select-dns323.jpg" class="border" alt = "Firmware upgrade on the D-Link DNS-323" width="650" height="418" /></p>
 
-<h2><a id = "install">The Installation</a></h2>
+<h2 id="install">The Installation</h2>
 
 After you have flashed the Debian installer image and restarted your
 device, the Debian installer will start.  Since the DNS-323 and CH3SNAS do

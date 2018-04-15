@@ -19,9 +19,9 @@ problem is not covered here, feel free to contact the <a href =
 "http://lists.debian.org/debian-arm/">debian-arm list</a> for help.  Always
 include the full boot log as well as the output of `printenv` from U-Boot.
 
-<h2><a id = "u-boot">U-Boot</a></h2>
+<h2 id="u-boot">U-Boot</h2>
 
-<h3><a id = "serial">Cannot connect to serial console</a></h3>
+<h3 id="serial">Cannot connect to serial console</h3>
 
 If you cannot connect to the serial console of your plug computer, make
 sure that your device is working correctly.  It has been reported that the
@@ -33,7 +33,7 @@ when connecting to the serial console, make sure that your user is in the
 `dialout` group.  This is the group associated with the `/dev/ttyUSBx`
 device nodes.
 
-<h3><a id = "uncompress">No output after "Uncompressing Linux..."</a></h3>
+<h3 id="uncompress">No output after "Uncompressing Linux..."</h3>
 
 You get no output after seeing this line:
 
@@ -48,7 +48,7 @@ your version of u-boot is too old.  You need 2011.12-3 (or higher).  Please
 <a href = "../uboot-upgrade/">upgrade u-boot</a> and everything will work
 again.  There's no need to re-install Debian!
 
-<h3><a id = "bad-magic">Error "Bad Magic Number" when loading image</a></h3>
+<h3 id="bad-magic">Error "Bad Magic Number" when loading image</h3>
 
 Some users report that they get the following error when booting:
 
@@ -67,7 +67,7 @@ maybe U-Boot failed to load the image from your USB stick).  Look for the
 first problem in your boot log and you'll probably be able to figure out
 the solution.
 
-<h3><a id = "dev-part">Error "** Unable to read "/uImage" from usb 0:1 **" when booting</a></h3>
+<h3 id="dev-part">Error "** Unable to read "/uImage" from usb 0:1 **" when booting</h3>
 
 If you receive the error message `Unable to read "/uImage" from usb 0:1`
 when booting the first time, it's likely that `0:1` is not the correct boot
@@ -115,7 +115,7 @@ In the example, the device is device `0` and the boot partition is
 partition `1`.  Therefore, the correct path is `0:1`.  However, in your
 case it might be something else.
 
-<h3><a id = "tftp-timeout">Output "T T T T" when loading via TFTP</a></h3>
+<h3 id="tftp-timeout">Output "T T T T" when loading via TFTP</h3>
 
 Some users report that they get the following output when loading an image
 via TFTP:
@@ -134,7 +134,7 @@ to try to load an image via TFTP.  If you unexpectedly see the `T T T`
 messages, check your U-Boot configuration with `printenv` to ensure it's
 loading the image from the right location.
 
-<h3><a id = "usb-lvm">Boot fails with LVM on USB drive</a></h3>
+<h3 id="usb-lvm">Boot fails with LVM on USB drive</h3>
 
 If you have installed Debian on a USB drive and put the root device on a
 LVM volume it's possible that the system won't boot because Debian tries to
@@ -149,7 +149,7 @@ bootargs_console console=ttyS0,115200 rootdelay=10
 </pre>
 </div>
 
-<h3><a id = "fat">Loading image from a USB stick with FAT fails</a></h3>
+<h3 id="fat">Loading image from a USB stick with FAT fails</h3>
 
 U-Boot may have problems loading an image from a FAT32 filesystem whereas
 FAT works.  I believe you can make a FAT filesystem under Linux with the
@@ -161,16 +161,16 @@ mkfs.vfat -F 16
 </pre>
 </div>
 
-<h2><a id = "installer">Debian installer</a></h2>
+<h2 id="installer">Debian installer</h2>
 
-<h3><a id = "partman-stuck">Formatting the disk is stuck at 33%</a></h3>
+<h3 id="partman-stuck">Formatting the disk is stuck at 33%</h3>
 
 Formatting the disk may take a long time, especially if you have a large
 disk.  Unfortunately, the progress bar is not updated while the disk is
 being formatted so you may think that it is stuck (at 33%).  If this
 happens, just be patient.  The installer is in fact formatting your disk.
 
-<h3><a id = "esata-sheevaplug">eSATA disk not found on eSATA SheevaPlug</a></h3>
+<h3 id="esata-sheevaplug">eSATA disk not found on eSATA SheevaPlug</h3>
 
 If your eSATA disk is not recognized on your eSATA SheevaPlug when booting
 Debian or the Debian installer, it's probably because you didn't use the

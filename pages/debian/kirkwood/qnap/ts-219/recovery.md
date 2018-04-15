@@ -19,7 +19,7 @@ how to create recovery images and how to use the recovery mode.  As an
 alternative to the instructions on this page, you can use a <a href =
 "http://wiki.qnap.com/wiki/Firmware_Recovery">Live CD provided by QNAP</a>.
 
-<h2><a id = "create">Creating recovery images</a></h2>
+<h2 id="create">Creating recovery images</h2>
 
 In order to create a recovery image for your QNAP TS-21x/TS-22x, you have to take
 an exact copy of your flash memory.  That is, the recovery image consists
@@ -33,7 +33,7 @@ your recovery image.  In order to make a valid QNAP recovery image, you
 therefore have to put all `mtd` partitions into one file in the order
 described above.
 
-<h3><a id = "image-qnap">Making a recovery image of the QNAP backup</a></h3>
+<h3 id="image-qnap">Making a recovery image of the QNAP backup</h3>
 
 Before installing Debian, you should have made a backup of the QNAP
 firmware and have several `mtdX` files.  You can now make a recovery image
@@ -45,7 +45,7 @@ cat mtd0 mtd4 mtd5 mtd1 mtd2 mtd3 &gt; F_TS-219_qnap
 </pre>
 </div>
 
-<h3><a id = "image-system">Making a recovery image from a running system</a></h3>
+<h3 id="image-system">Making a recovery image from a running system</h3>
 
 You can easily make a valid recovery image with the following command:
 
@@ -58,7 +58,7 @@ cat /dev/mtdblock0 /dev/mtdblock4 /dev/mtdblock5 /dev/mtdblock1 /dev/mtdblock2 /
 It is recommended to create periodic recovery images of your flash, so you
 have a recovery image in case something goes wrong.
 
-<h3><a id = "image-di">Making a recovery image containing the Debian installer</a></h3>
+<h3 id="image-di">Making a recovery image containing the Debian installer</h3>
 
 If you want to make a QNAP recovery image containing the Debian installer,
 you can follow these steps.
@@ -103,7 +103,7 @@ cat mtd0 mtd4 mtd5 kernel.pad initrd mtd3 &gt; F_TS-219_di
 Note that the `mtdX` files in this command refer to the backup you created
 earlier (before the installation).
 
-<h2><a id = "use">Using the recovery mode</a></h2>
+<h2 id="use">Using the recovery mode</h2>
 
 In case your Debian system no longer boots after a system upgrade, you can
 use the QNAP system recovery mode to restore a previous image, an image of

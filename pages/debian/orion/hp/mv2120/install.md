@@ -111,7 +111,7 @@ File is 5849213 bytes in 11425 blocks of 512 bytes
 Once the recovery has completed, your HP mv2120 will automatically reboot
 and the Debian installer will start.
 
-<h2><a id = "install">The Installation</a></h2>
+<h2 id="install">The Installation</h2>
 
 Since the HP mv2120 does not have any IO device, SSH will be used for the
 installation.  The installer will bring up the network, start the OpenSSH

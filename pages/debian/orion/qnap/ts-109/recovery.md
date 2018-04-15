@@ -19,7 +19,7 @@ you can verify whether your device includes the recovery mode, how to
 upgrade your firmware to a version that includes the recovery mode, how to
 create recovery images and finally how to use the recovery mode.
 
-<h2><a id = "verify">Verifying whether your system has the recovery mode</a></h2>
+<h2 id="verify">Verifying whether your system has the recovery mode</h2>
 
 The QNAP recovery mode is relatively new and is not included in QNAP
 devices that were manufactured prior to 2009.  Even if you have a new QNAP
@@ -77,14 +77,14 @@ If your device does not have the recovery mode, please read on to see how
 you can upgrade your firmware.  If the value printed by `cksum` is not
 listed in this table, please <a href = "/contact/">contact me</a>.
 
-<h2><a id = "install">Installing the recovery mode</a></h2>
+<h2 id="install">Installing the recovery mode</h2>
 
 You can install the recovery mode according to two ways, depending on
 whether you are <a href = "#install-initialized">running the full QNAP
 firmware</a> or <a href = "#install-uninitialized">have an uninitialized QNAP
 system</a>.
 
-<h3><a id = "install-initialized">Fully Initialized QNAP System</a></h3>
+<h3 id="install-initialized">Fully Initialized QNAP System</h3>
 
 QNAP provides a <a href =
 "http://wiki.qnap.com/wiki/System_Recovery_Mode">page about the recovery
@@ -92,7 +92,7 @@ mode</a> which tells you exactly how to install the recovery mode.  In
 short, you have to install a QPKG provided by QNAP that will automatically
 install the recovery mode.
 
-<h3><a id = "install-uninitialized">Uninitialized QNAP System</a></h3>
+<h3 id="install-uninitialized">Uninitialized QNAP System</h3>
 
 You need a USB stick on which you can store some files.  Please put the USB
 stick in your PC, download the zip file for your QNAP device from QNAP's <a
@@ -197,12 +197,12 @@ You have successfully upgraded your firmware to a version that includes the
 recovery mode.  You can now go ahead with the <a href =
 "../install/">installation of Debian</a>.
 
-<h2><a id = "create">Creating recovery images</a></h2>
+<h2 id="create">Creating recovery images</h2>
 
 The QNAP recovery image contains a copy of `mtd1`, `mtd2` and `mtd3`, i.e.
 the kernel partition, ramdisk partition and second ramdisk partition.
 
-<h3><a id = "image-qnap">Making a recovery image of the QNAP backup</a></h3>
+<h3 id="image-qnap">Making a recovery image of the QNAP backup</h3>
 
 Before installing Debian, you should have made a backup of the QNAP
 firmware and have several `mtdX` files.  You can now make a recovery image
@@ -214,7 +214,7 @@ cat mtd1 mtd2 mtd3 &gt; qnapimg.bin
 </pre>
 </div>
 
-<h3><a id = "image-system">Making a recovery image from a running system</a></h3>
+<h3 id="image-system">Making a recovery image from a running system</h3>
 
 You can easily make a valid recovery image with the following command:
 
@@ -227,7 +227,7 @@ cat /dev/mtdblock1 /dev/mtdblock2 /dev/mtdblock3 &gt; qnapimg.bin
 It is recommended to create periodic recovery images of your flash,
 so you have a recovery image in case something goes wrong.
 
-<h3><a id = "image-di">Making a recovery image containing the Debian installer</a></h3>
+<h3 id="image-di">Making a recovery image containing the Debian installer</h3>
 
 If you want to make a QNAP recovery image containing the Debian installer,
 you can follow these steps.  First of all, download the <a href =
@@ -253,7 +253,7 @@ cat kernel.pad initrd mtd3 &gt; qnapimg.bin
 Note that the `mtd3` file in this command refers to the backup you created
 earlier (before the installation).
 
-<h2><a id = "use">Using the recovery mode</a></h2>
+<h2 id="use">Using the recovery mode</h2>
 
 In case your Debian system no longer boots after a system upgrade, you can
 use the QNAP system recovery mode to restore a previous image, an image of
