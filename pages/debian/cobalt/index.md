@@ -1,5 +1,5 @@
 ---
-title: Debian on Cobalt
+title: Debian on MIPS based Cobalt machines
 description: A page giving useful help for running Debian on MIPS based Cobalt machines
 keywords: [Debian, Cobalt, MIPS, RaQ, Qube, RaQ2, Qube2]
 ---
@@ -7,8 +7,6 @@ keywords: [Debian, Cobalt, MIPS, RaQ, Qube, RaQ2, Qube2]
 <div class="right">
 <img src = "images/r_cobalt_front.jpg" class="border" alt="Cobalt Qube and two RaQs" width="148" height="109" />
 </div>
-
-<h1>Debian on MIPS based Cobalt machines</h1>
 
 The following pages describe how to install Debian on MIPS based Cobalt
 machines, such as the RaQ, Qube2, RaQ2, and Gateway Microserver.  Please

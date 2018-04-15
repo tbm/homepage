@@ -9,8 +9,6 @@ keywords: [Buffalo, Revogear, Kurobox Pro, recovery, emergency, rescue]
 <img src = "../images/r_kuroboxpro_front.jpg" class="border" alt="Kurobox Pro from the front" width="148" height="231" />
 </div>
 
-<h1>Recovery mode of the Kurobox Pro</h1>
-
 If the Kurobox Pro is configured to boot from disk but there is no disk,
 the device will request the files `uImage.buffalo` and `initrd.buffalo` via
 TFTP.  The Kurobox Pro will use the IP address `192.168.11.150` and request

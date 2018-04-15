@@ -1,5 +1,5 @@
 ---
-title: Debian tar ball for NSLU2
+title: Debian tar ball for Linksys NSLU2
 nav: Installation
 description: Manual installation guide of Debian on NSLU2
 keywords: [Debian, squeeze, NSLU2, ARM]
@@ -8,8 +8,6 @@ keywords: [Debian, squeeze, NSLU2, ARM]
 <div class="right">
 <img src = "../images/r_nslu2_front.jpg" class="border" alt="A NSLU2 from the front" width="148" height="218" />
 </div>
-
-<h1>Manually unpacking a tar ball of Debian on NSLU2</h1>
 
 If you want to run Debian on your NSLU2, you can manually unpack a tar
 ball which I have prepared for these systems.  You simply have to attach

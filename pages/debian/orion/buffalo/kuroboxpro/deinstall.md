@@ -1,5 +1,5 @@
 ---
-title: De-installing Debian on the Kurobox Pro
+title: Restoring the original Buffalo firmware
 nav: De-installing Debian
 description: Restoring the original Buffalo firmware on the Kurobox Pro
 keywords: [Buffalo, Revogear, Kurobox Pro, original firmware, guide]
@@ -8,8 +8,6 @@ keywords: [Buffalo, Revogear, Kurobox Pro, original firmware, guide]
 <div class="right">
 <img src = "../images/r_kuroboxpro_front.jpg" class="border" alt="Kurobox Pro from the front" width="148" height="231" />
 </div>
-
-<h1>Restoring the original Buffalo firmware</h1>
 
 Restoring the original Buffalo firmware is easy because Debian was
 installed to SATA disk whereas the Buffalo firmware is stored in flash and

@@ -9,8 +9,6 @@ keywords: [Debian, Thecus, N2100, original firmware, guide]
 <img src = "../images/r_n2100.jpg" class="border" alt="Thecus N2100" width="141" height="148" />
 </div>
 
-<h1>De-installing Debian</h1>
-
 If you need to restore the original Thecus firmware for some reason, you
 can follow the instructions below.  Please note that this will only work if
 your Debian system is still working.  If Debian is broken but the machine

@@ -9,8 +9,6 @@ keywords: [Debian, Orion, Marvell, ARM, NAS, SoC]
 <img src = "images/r_mv2120_kurobox_ts109.jpg" class="border" alt="HP mv2120, Buffalo Kurobox and QNAP TS-109 from the front" width="148" height="97" />
 </div>
 
-<h1>Debian on Orion devices</h1>
-
 Orion is a system on a chip (SoC) from Marvell that integrates an ARM CPU,
 Ethernet, SATA, USB, and other functionality in one chip.  There are many
 Network Attached Storage (NAS) devices that are based on an Orion chip.

@@ -9,8 +9,6 @@ keywords: [Debian, Thecus, N2100, installation, guide, IOP, NAS, server, hack]
 <img src = "../images/r_n2100_debian.jpg" class="border" alt="Thecus N2100" width="133" height="148" />
 </div>
 
-<h1>Installing Debian on the Thecus N2100</h1>
-
 While the Thecus N2100 is supported in Debian 7 (wheezy), it is no longer
 supported in Debian 8 (jessie).
 

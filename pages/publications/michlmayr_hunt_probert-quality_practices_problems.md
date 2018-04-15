@@ -1,10 +1,8 @@
 ---
-title: Abstract for Quality Practices and Problems in Free Software Projects
+title: Quality Practices and Problems in Free Software Projects
 description: The abstract of a paper on quality practices and problems in free software projects
 keywords: [quality problems, open source, FLOSS, quality improvement]
 ---
-
-<h1>Quality Practices and Problems in Free Software Projects</h1>
 
 <ul class = "author">
 <li><span class = "author">Martin Michlmayr,</span>

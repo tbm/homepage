@@ -5,8 +5,6 @@ description: Connecting a serial console to the QNAP TS-109
 keywords: [Debian, QNAP, TS-109, serial, console, RS-232, hack]
 ---
 
-<h1>Connecting a serial console to the QNAP TS-109</h1>
-
 The serial port is a 2x3 pin connector (labelled JP1) that is located close
 to the button on the left side on the front of the mainboard.  If you look
 at the picture below, you'll see that the layout of the row closer to the

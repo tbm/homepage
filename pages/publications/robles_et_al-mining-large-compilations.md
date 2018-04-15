@@ -1,11 +1,8 @@
 ---
-title: Abstract for Mining Large Software Compilations over Time
+title: Mining Large Software Compilations over Time: Another Perspective of Software Evolution
 description: The abstract of a paper on mining large software compilations
 keywords: [Linux, distributions, software evolution, free software, open source, FLOSS]
 ---
-
-<h1>Mining Large Software Compilations over Time: Another Perspective of
-Software Evolution</h1>
 
 <ul class = "author">
 <li><span class = "author">Gregorio Robles,</span>

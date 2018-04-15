@@ -1,11 +1,9 @@
 ---
-title: Debian on Cobalt with no serial console
+title: Installing Debian on Cobalt machines with no serial console
 nav: Installation Without Serial Console
 description: Installation guide of Debian for Cobalt machines with no serial console
 keywords: [Debian, lenny, Cobalt, MIPS, Qube 2700]
 ---
-
-<h1>Installing Debian on Cobalt machines without a serial console</h1>
 
 Installations on Cobalt machines without a serial console are supported by
 using SSH.  Please follow the <a href = "../install/">installation

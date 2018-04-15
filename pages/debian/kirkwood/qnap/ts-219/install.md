@@ -9,8 +9,6 @@ keywords: [Debian, QNAP, HS-210, TS-210, TS-212, TS-212-E, TS-212P, TS-219, TS-2
 <img src = "../images/r_ts219p.jpg" class="border" alt="Open QNAP TS-219" width="148" height="188" />
 </div>
 
-<h1>Installing Debian on QNAP HS-210, TS-21x and TS-22x devices</h1>
-
 <h2>Overview</h2>
 
 In a nutshell, the installation of Debian on your QNAP HS-210, TS-21x or TS-22x works like

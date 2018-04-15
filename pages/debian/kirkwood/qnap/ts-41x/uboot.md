@@ -9,8 +9,6 @@ keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420, TS-4
 <img src = "../images/r_qnap_ts419p.jpg" class="border" alt="QNAP TS-419P from the front" width="148" height="148" />
 </div>
 
-<h1>Using U-Boot on the QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419P II, TS-419U, TS-420 and TS-421</h1>
-
 If you have a <a href = "../serial/">serial console</a> for your QNAP
 device, you can use U-Boot, the boot loader used on the TS-41x/TS-42x, to restore
 the original QNAP firmware or load images via the network.

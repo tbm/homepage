@@ -5,8 +5,6 @@ description: Instructions for running Debian on the HP t5325 Thin Client
 keywords: [Debian, NAS, HP, t5325, thin client]
 ---
 
-<h1>Debian on HP t5325</h1>
-
 Debian has partial support for the HP t5325 thin client.  However, there
 are two reasons why Debian is not suited for the HP t5325:
 

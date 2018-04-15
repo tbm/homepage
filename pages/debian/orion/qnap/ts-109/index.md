@@ -9,8 +9,6 @@ keywords: [Debian, NAS, QNAP, QNAP Turbo Station, Orion, TS-109, TS-109 II, TS-1
 <img src = "images/r_ts109_front.jpg" class="border" alt="QNAP TS-109 from the front" width="148" height="217" />
 </div>
 
-<h1>Debian on QNAP TS-109</h1>
-
 The QNAP TS-109 is a NAS device that can be used for a variety of tasks.
 In the following, I will describe what is needed to get Debian running on
 your TS-109, TS-109 II, TS-109 Pro or TS-109 Pro II.

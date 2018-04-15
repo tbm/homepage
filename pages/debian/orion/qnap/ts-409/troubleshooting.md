@@ -9,8 +9,6 @@ keywords: [Debian, QNAP, NAS, TS-409, troubleshooting, problems]
 <img src = "../images/r_ts409_front.jpg" class="border" alt="QNAP TS-409 from the front" width="148" height="147" />
 </div>
 
-<h1>Troubleshooting</h1>
-
 This page describes common problems that users of Debian on the QNAP TS-409
 have run into.  If you have any problems with your QNAP TS-409, either
 while trying to install Debian or when running Debian, please look through

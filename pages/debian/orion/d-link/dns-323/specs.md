@@ -1,5 +1,5 @@
 ---
-title: Specification of the D-Link DNS-323
+title: Specs of the D-Link DNS-323
 nav: Specs
 description: Specs of the D-Link DNS-323
 keywords: [Debian, D-Link, DNS-323, Conceptronic, CH3SNAS, specs, specification]
@@ -8,8 +8,6 @@ keywords: [Debian, D-Link, DNS-323, Conceptronic, CH3SNAS, specs, specification]
 <div class="right">
 <img src = "../images/r_ch3snas_front.jpg" class="border" alt="Conceptronic CH3SNAS from the front" width="148" height="146" />
 </div>
-
-<h1>Specs of the D-Link DNS-323</h1>
 
 This page lists the internals of the D-Link DNS-323.  There is another page
 which shows the <a href = "../status/">status of support in Debian</a> for

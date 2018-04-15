@@ -8,8 +8,6 @@ keywords: [Debian, D-Link, DNS-323, Conceptronic, CH3SNAS, tips, tricks]
 <img src = "../images/r_ch3snas_front.jpg" class="border" alt="Conceptronic CH3SNAS from the front" width="148" height="146" />
 </div>
 
-<h1>Tips and tricks for Debian on D-Link DNS-323 and Conceptronic CH3SNAS</h1>
-
 Here are some tips and tricks about running Debian on the D-Link DNS-323
 and Conceptronic CH3SNAS.
 

@@ -1,10 +1,8 @@
 ---
-title: "Abstract for Release Management in Free Software Projects: Practices and Problems"
+title: Release Management in Free Software Projects: Practices and Problems
 description: The abstract of a paper on release management practices and problems in free software projects
 keywords: [release management, practices, quality, open source, FLOSS, quality improvement]
 ---
-
-<h1>Release Management in Free Software Projects: Practices and Problems</h1>
 
 <ul class = "author">
 <li><span class = "author">Martin Michlmayr,</span>

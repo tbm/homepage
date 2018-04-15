@@ -1,5 +1,5 @@
 ---
-title: De-installing Debian on the D-Link DNS-323
+title: Restoring the original firmware
 nav: De-installing Debian
 description: Restoring the original Firmware on the D-Link DNS-323
 keywords: [Debian, D-Link, DNS-323, Conceptronic, CH3SNAS, original firmware]
@@ -8,8 +8,6 @@ keywords: [Debian, D-Link, DNS-323, Conceptronic, CH3SNAS, original firmware]
 <div class="right">
 <img src = "../images/r_ch3snas_front.jpg" class="border" alt="Conceptronic CH3SNAS from the front" width="148" height="146" />
 </div>
-
-<h1>Restoring the original firmware</h1>
 
 If you want to restore the original firmware for some reason, you can
 follow the instructions below.  Please note that this will only work if

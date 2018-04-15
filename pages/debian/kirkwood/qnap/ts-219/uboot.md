@@ -5,8 +5,6 @@ description: Using U-Boot on the QNAP TS-21x/TS-22x
 keywords: [Debian, QNAP, HS-210, TS-210, TS-212, TS-219, TS-219P, TS-220, TS-221, serial, console, uboot, U-Boot]
 ---
 
-<h1>Using U-Boot on TS-21x/TS-22x</h1>
-
 If you have a <a href = "../serial/">serial console</a> for your QNAP
 device, you can use U-Boot, the boot loader used on the TS-21x/TS-22x, to restore
 the original QNAP firmware or load images via the network.

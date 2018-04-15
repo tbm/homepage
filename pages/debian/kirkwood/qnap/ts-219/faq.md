@@ -9,8 +9,6 @@ keywords: [Debian, QNAP, TS-210, TS-212, TS-219, TS-219P, TS-219P+, TS-220, TS-2
 <img src = "../images/r_ts219p.jpg" class="border" alt="Open QNAP TS-219" width="148" height="188" />
 </div>
 
-<h1>Frequently Asked Questions (FAQ)</h1>
-
 <h3>Is Debian on the QNAP HS-210, TS-210, TS-212, TS-212-E, TS-212P, TS-219, TS-219P, TS-219P+, TS-219P II, TS-220 and TS-221 fully supported?</h3>
 
 Debian includes support for the QNAP HS-210, TS-210, TS-212, TS-212-E, TS-212P, TS-219, TS-219P,

@@ -9,8 +9,6 @@ keywords: [Debian, QNAP, HS-210, TS-210, TS-212, TS-219, TS-219P, TS-219P+, TS-2
 <img src = "../images/r_ts219p.jpg" class="border" alt="Open QNAP TS-219" width="148" height="188" />
 </div>
 
-<h1>Recovery mode of QNAP HS-210, TS-21x and TS-22x devices</h1>
-
 QNAP HS-210, TS-21x and TS-22x devices have a recovery mode that can be used when there is a
 problem with your installation of Debian that renders your device
 unbootable.  The system recovery mode allows you write a recovery image to

@@ -1,11 +1,9 @@
 ---
-title: Debian on Cobalt with little memory
+title: Installing Debian on Cobalt machines with little memory
 nav: Installation With Low Memory
 description: Installation guide of Debian for Cobalt machines with little memory
 keywords: [Debian, installation, Cobalt]
 ---
-
-<h1>Installing Debian on Cobalt machines with little memory</h1>
 
 Debian's installer requires 64 MB of memory in normal operation on MIPS
 based Cobalt machines.  If your machine has less memory, you can still

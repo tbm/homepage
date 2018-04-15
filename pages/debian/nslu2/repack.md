@@ -1,5 +1,5 @@
 ---
-title: Modify NSLU2 image
+title: Modify NSLU2 flash image
 nav: Modify Image
 description: Modify NSLU2 image
 keywords: [NSLU2, Linksys NSLU2, Debian, modify, image]
@@ -8,8 +8,6 @@ keywords: [NSLU2, Linksys NSLU2, Debian, modify, image]
 <div class="right">
 <img src = "../images/r_nslu2_front.jpg" class="border" alt="A NSLU2 from the front" width="148" height="218" />
 </div>
-
-<h1>How to modify a NSLU2 flash image</h1>
 
 The Linksys NSLU2 has a nice feature that allows users to write a firmware
 image to flash to the NSLU2 via the network.  The tool `upslug2` can be

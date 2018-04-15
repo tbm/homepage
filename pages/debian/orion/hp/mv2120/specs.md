@@ -1,5 +1,5 @@
 ---
-title: Specification of the HP mv2120
+title: Specs of the HP mv2120
 nav: Specs
 description: Specs of the HP mv2120
 keywords: [Debian, HP, mv2120, specs, specification]
@@ -8,8 +8,6 @@ keywords: [Debian, HP, mv2120, specs, specification]
 <div class="right">
 <img src = "../images/r_mv2120_front.jpg" class="border" alt="HP mv2120 from the front" width="148" height="212" />
 </div>
-
-<h1>Specs of the HP mv2120</h1>
 
 This page lists the internals of the HP mv2120.  There is another page
 which shows the <a href = "../status/">status of support in Debian</a> for

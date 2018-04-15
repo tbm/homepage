@@ -9,8 +9,6 @@ keywords: [Debian, QNAP, TS-109, installation]
 <img src = "../images/r_ts109_front.jpg" class="border" alt="QNAP TS-109 from the front" width="148" height="217" />
 </div>
 
-<h1>Installing Debian on the QNAP TS-109</h1>
-
 <h2>Overview</h2>
 
 In a nutshell, the installation of Debian on your QNAP TS-109 works like

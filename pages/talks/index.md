@@ -1,5 +1,5 @@
 ---
-title: Talks by Martin Michlmayr
+title: Talks
 nav: Talks
 description: Past and future talks of Martin Michlmayr
 keywords: [talks, presentations, free software, project management, quality]

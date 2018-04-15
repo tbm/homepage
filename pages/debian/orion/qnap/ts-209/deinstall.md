@@ -1,11 +1,9 @@
 ---
-title: De-installing Debian on the QNAP TS-209
+title: Restoring the original QNAP firmware
 nav: De-installing Debian
 description: Restoring the original QNAP Firmware on the QNAP TS-209
 keywords: [Debian, QNAP, TS-209, original firmware]
 ---
-
-<h1>Restoring the original QNAP firmware</h1>
 
 If you want to restore the original QNAP firmware for some reason, you can
 follow the instructions below.  Please note that this will only work if

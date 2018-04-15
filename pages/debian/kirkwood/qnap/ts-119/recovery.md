@@ -9,8 +9,6 @@ keywords: [Debian, QNAP, TS-110, TS-112, TS-112P, TS-119, TS-119P+, TS-120, TS-1
 <img src = "../images/r_qnap_ts110.jpg" class="border" alt="QNAP TS-110 from the front" width="148" height="206" />
 </div>
 
-<h1>Recovery mode of QNAP TS-11x/TS-12x devices</h1>
-
 QNAP TS-11x/TS-12x devices have a recovery mode that can be used when there is a
 problem with your installation of Debian that renders your device
 unbootable.  The system recovery mode allows you write a recovery image to

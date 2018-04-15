@@ -8,8 +8,6 @@ keywords: [Qstarz, BT-Q1000X, GPS, MTK II, Debian, Linux, mtkbabel]
 <img src = "images/r_bt-q1000x_hand.jpg" class="border" alt="Qstarz BT-Q1000X in my hand" width="148" height="136" />
 </div>
 
-<h1>Qstarz BT-Q1000X and Debian</h1>
-
 The <a href =
 "http://www.qstarz.com/Products/GPS%20Products/BT-Q1000X-F.htm">Qstarz
 BT-Q1000X</a> (Travel Recorder X) is a GPS device that can act as data

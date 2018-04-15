@@ -9,8 +9,6 @@ keywords: [Debian, D-Link, DNS-323, Conceptronic, CH3SNAS, recovery, flash]
 <img src = "../images/r_ch3snas_front.jpg" class="border" alt="Conceptronic CH3SNAS from the front" width="148" height="146" />
 </div>
 
-<h1>Recovery Option for your D-Link DNS-323</h1>
-
 In case there is a problem with the kernel or ramdisk on your D-Link
 DNS-323 or Conceptronic CH3SNAS, you can upload a new kernel and ramdisk
 over the serial console and write them to flash.  For this, you first have

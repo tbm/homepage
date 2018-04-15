@@ -9,8 +9,6 @@ keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420, TS-4
 <img src = "../images/r_qnap_ts419p.jpg" class="border" alt="QNAP TS-419P from the front" width="148" height="148" />
 </div>
 
-<h1>Connecting a serial console to the QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+. TS-419P II, TS-419U, TS-420 and TS-421</h1>
-
 If you want to connect a serial console to the QNAP TS-41x/TS-42x, you'll
 need a TTL to RS-232 level shifter.  Unfortunately, there are several
 revisions of the TS-41x/TS-42x mainboard that behave differently in terms

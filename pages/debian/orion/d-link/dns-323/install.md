@@ -1,5 +1,5 @@
 ---
-title: Installing Debian on the D-Link DNS-323
+title: Installing Debian on the D-Link DNS-323 and Conceptronic CH3SNAS
 nav: Installing Debian
 description: Installation instructions for Debian on the D-Link DNS-323
 keywords: [Debian, D-Link, DNS-323, Conceptronic, CH3SNAS, installation]
@@ -8,8 +8,6 @@ keywords: [Debian, D-Link, DNS-323, Conceptronic, CH3SNAS, installation]
 <div class="right">
 <img src = "../images/r_ch3snas_front.jpg" class="border" alt="Conceptronic CH3SNAS from the front" width="148" height="146" />
 </div>
-
-<h1>Installing Debian on the D-Link DNS-323 and Conceptronic CH3SNAS</h1>
 
 <h2>Overview</h2>
 

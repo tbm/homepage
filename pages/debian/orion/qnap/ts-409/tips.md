@@ -9,8 +9,6 @@ keywords: [Debian, QNAP, TS-409, tips, tricks]
 <img src = "../images/r_ts409_front.jpg" class="border" alt="QNAP TS-409 from the front" width="148" height="147" />
 </div>
 
-<h1>Tips and tricks for Debian on the QNAP TS-409</h1>
-
 Here are some tips and tricks about running Debian on the QNAP TS-409.
 
 <h2 id="qcontrol-upgrade">Automatic fan control</h2>

@@ -5,8 +5,6 @@ description: Installation instructions for Debian on GLAN Tank
 keywords: [IOP, GLAN Tank, Supertank, SOTO-HDLGW, IO-Data, ARM, Debian, installation]
 ---
 
-<h1>Installing Debian on GLAN Tank</h1>
-
 While the GLAN Tank is supported in Debian 7 (wheezy), it is no longer
 supported in Debian 8 (jessie).
 

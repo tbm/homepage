@@ -1,5 +1,5 @@
 ---
-title: Contact Martin Michlmayr
+title: Contact
 nav: Contact Information
 description: Contact information for Martin Michlmayr
 keywords: [Martin Michlmayr, contact, address, email]

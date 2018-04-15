@@ -8,8 +8,6 @@ keywords: [Debian, D-Link, DNS-323, Conceptronic, CH3SNAS, bugs, issues, defects
 <img src = "../images/r_ch3snas_front.jpg" class="border" alt="Conceptronic CH3SNAS from the front" width="148" height="146" />
 </div>
 
-<h1>Known issues and bugs</h1>
-
 Here is a list of known issues and bugs with Debian on the D-Link DNS-323
 and Conceptronic CH3SNAS:
 

@@ -9,8 +9,6 @@ keywords: [Debian, Buffalo, Kurobox Pro, serial, console, RS-232]
 <img src = "../images/r_kuroboxpro_front.jpg" class="border" alt="Kurobox Pro from the front" width="148" height="231" />
 </div>
 
-<h1>Connecting a serial console to the Kurobox Pro</h1>
-
 You have to solder a 4 pin connector to the daughter board of the Kurobox
 Pro labelled as UART0.  The pin layout is described on the board.  In order
 to connect to this serial port, you need a 3.3V TTL to RS-232 level shifter.

@@ -9,8 +9,6 @@ keywords: [Debian, HP, mv2120, support, status]
 <img src = "../images/r_mv2120_front.jpg" class="border" alt="HP mv2120 from the front" width="148" height="212" />
 </div>
 
-<h1>Status of HP mv2120 support</h1>
-
 The HP mv2120 is based on a Marvell Orion System on a Chip.  Marvell has
 done a lot of work to get support for the Orion platform into the mainline
 kernel.  However, some features of the Orion platform are not as well

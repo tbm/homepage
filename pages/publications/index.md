@@ -1,5 +1,5 @@
 ---
-title: Publications by Martin Michlmayr
+title: Publications
 nav: Publications
 description: The publications of Martin Michlmayr
 keywords: [Publications, quality, project management, release management, FLOSS]

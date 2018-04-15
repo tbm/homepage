@@ -9,8 +9,6 @@ keywords: [Debian, SheevaPlug, plug, troubleshooting, problems]
 <img src = "../images/r_sheevaplug_hand.jpg" class="border" alt="SheevaPlug in my hand" width="148" height="129" />
 </div>
 
-<h1>Troubleshooting</h1>
-
 This page describes common problems that users of Debian on plug computers
 have run into.  If you have any problems with your plug computer, either
 while trying to install Debian or when running Debian, please look through

@@ -5,8 +5,6 @@ description: Upgrading u-boot on OpenRD
 keywords: [OpenRD, Marvell, Kirkwood, u-boot]
 ---
 
-<h1>Upgrading U-Boot on OpenRD</h1>
-
 This page describes how to install a new version of U-Boot on your OpenRD.
 
 First of all, check which version of U-Boot is installed on your plug

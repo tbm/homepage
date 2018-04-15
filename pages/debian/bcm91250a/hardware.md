@@ -5,8 +5,6 @@ description: List of hardware compatible with Broadcom's SWARM
 keywords: [hardware list, compatibility, SWARM, PCI]
 ---
 
-<h1>Hardware compatible with the BCM91250A</h1>
-
 The BCM91250A has standard PCI slots (two 32 and two 64 bit slots, 3.3v
 only) but not all PCI cards (especially graphics cards) are supported.
 I had a particularly hard time finding a graphics card which would work.

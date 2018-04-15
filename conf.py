@@ -910,7 +910,7 @@ UNSLUGIFY_TITLES = True
 # past.  Useful especially if your post titles are in <h1> tags too, for
 # example.
 # (defaults to 1.)
-# DEMOTE_HEADERS = 1
+DEMOTE_HEADERS = 0
 
 # Docutils, by default, will perform a transform in your documents
 # extracting unique titles at the top of your document and turning

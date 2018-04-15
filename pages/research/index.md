@@ -1,5 +1,5 @@
 ---
-title: Research of Martin Michlmayr
+title: PhD research
 nav: Research
 description: A description of Martin Michlmayr's research at Cambridge
 keywords: [research, Cambridge, quality, release management, free software, FLOSS, open source]

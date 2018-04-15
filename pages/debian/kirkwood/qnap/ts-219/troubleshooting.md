@@ -9,8 +9,6 @@ keywords: [Debian, QNAP, NAS, TS-210, TS-212, TS-219, TS-219P, TS-220, TS-221, t
 <img src = "../images/r_ts219p.jpg" class="border" alt="Open QNAP TS-219" width="148" height="188" />
 </div>
 
-<h1>Troubleshooting</h1>
-
 This page describes common problems that users of Debian on the QNAP
 TS-210, TS-212, TS-219, TS-219P, TS-220 and TS-221 have run into.  If you have any problems
 with your QNAP device, either while trying to install Debian or when

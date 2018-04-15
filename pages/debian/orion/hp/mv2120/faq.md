@@ -9,8 +9,6 @@ keywords: [Debian, HP, mv2120, FAQ, frequently asked questions, help, troublesho
 <img src = "../images/r_mv2120_front.jpg" class="border" alt="HP mv2120 from the front" width="148" height="212" />
 </div>
 
-<h1>Frequently Asked Questions (FAQ)</h1>
-
 <h3>Is Debian on the HP mv2120 fully supported?</h3>
 
 Debian includes support for the HP mv2120.  However, some functionality

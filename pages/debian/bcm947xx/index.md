@@ -1,10 +1,8 @@
 ---
-title: Debian on BCM947xx
+title: Debian on BCM947xx devices
 description: Running Debian on BCM947xx based devices
 keywords: [Debian, BCM947xx, router, AP, NAS]
 ---
-
-<h1>Debian on BCM947xx based devices</h1>
 
 <b>Note:</b> I'm not interested in this platform any more, but below
 are some links to other efforts on Debian on BCM947xx based devices.

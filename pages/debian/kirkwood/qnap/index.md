@@ -9,8 +9,6 @@ keywords: [Debian, QNAP, QNAP Turbo NAS, Kirkwood, TS-110, TS-119, TS-119P+, TS-
 <img src = "ts-219/images/r_ts219_open.jpg" class="border" alt="Open QNAP TS-219" width="148" height="119" />
 </div>
 
-<h1>Debian on QNAP Turbo NAS</h1>
-
 Debian supports devices from QNAP's Turbo NAS devices that are based on the
 Marvell Kirkwood platform.   This includes the following devices:
 

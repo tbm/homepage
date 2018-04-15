@@ -9,8 +9,6 @@ keywords: [NSLU2, Linksys NSLU2, Marvell, SheevaPlug, migration]
 <img src = "../images/r_nslu2_front.jpg" class="border" alt="A NSLU2 from the front" width="148" height="218" />
 </div>
 
-<h1>Migrating your Debian installation from NSLU2 to SheevaPlug</h1>
-
 While the Linksys NSLU2 is a nice device, its performance does not meet the
 requirements of today's software.  A great alternative to the NSLU2 is the
 <a href = "/debian/kirkwood/sheevaplug/">SheevaPlug from Marvell</a>, a

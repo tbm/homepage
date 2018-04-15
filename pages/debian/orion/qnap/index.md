@@ -9,8 +9,6 @@ keywords: [Debian, QNAP, QNAP Turbo Station, Orion, TS-109, TS-209, TS-409]
 <img src = "images/r_ts109_ts209_front.jpg" class="border" alt="QNAP TS-109 and TS-209 from the front" width="148" height="120" />
 </div>
 
-<h1>Debian on QNAP Turbo Station</h1>
-
 Debian supports all Orion based QNAP Turbo Stations.  This includes the
 TS-109, TS-209, TS-409 and TS-409U.
 

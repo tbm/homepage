@@ -1,5 +1,5 @@
 ---
-title: Specification of the Kurobox Pro
+title: Specs of the Kurobox Pro
 nav: Specs
 description: Specs of the Kurobox Pro
 keywords: [Buffalo, Revogear, Kurobox Pro, specs, specification]
@@ -8,8 +8,6 @@ keywords: [Buffalo, Revogear, Kurobox Pro, specs, specification]
 <div class="right">
 <img src = "../images/r_kuroboxpro_front.jpg" class="border" alt="Kurobox Pro from the front" width="148" height="231" />
 </div>
-
-<h1>Specs of the Kurobox Pro</h1>
 
 This page lists the internals of the Kurobox Pro.
 

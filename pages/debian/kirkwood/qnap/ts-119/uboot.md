@@ -5,8 +5,6 @@ description: Using U-Boot on the QNAP TS-11x/TS-12x
 keywords: [Debian, QNAP, TS-110, TS-112, TS-112P, TS-119, TS-120, TS-121, serial, console, uboot, U-Boot]
 ---
 
-<h1>Using U-Boot on QNAP TS-11x/TS-12x</h1>
-
 If you have a <a href = "../serial/">serial console</a> for your QNAP
 device, you can use U-Boot, the boot loader used on the TS-11x/TS-12x, to restore
 the original QNAP firmware or load images via the network.

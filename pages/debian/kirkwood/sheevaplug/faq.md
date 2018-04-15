@@ -9,8 +9,6 @@ keywords: [Debian, SheevaPlug, Marvell, FAQ, frequently asked questions, help, t
 <img src = "../images/r_sheevaplug_hand.jpg" class="border" alt="SheevaPlug in my hand" width="148" height="129" />
 </div>
 
-<h1>Frequently Asked Questions (FAQ)</h1>
-
 <h3>Which Plug Computers are supported by Debian?</h3>
 
 There are many different Plug Computer models.  The SheevaPlug is the

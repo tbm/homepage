@@ -9,8 +9,6 @@ keywords: [Debian, NAS, QNAP, QNAP Turbo Station, Orion, TS-409, TS-409U]
 <img src = "images/r_ts409_front.jpg" class="border" alt="QNAP TS-409 from the front" width="148" height="147" />
 </div>
 
-<h1>Debian on QNAP TS-409</h1>
-
 The QNAP TS-409 is a NAS device that can be used for a variety of tasks.
 In the following, I will describe what is needed to get Debian running on
 your TS-409, TS-409 Pro or TS-409U.

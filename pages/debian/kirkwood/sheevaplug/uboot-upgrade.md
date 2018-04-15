@@ -9,8 +9,6 @@ keywords: [SheevaPlug, Marvell, Kirkwood, u-boot]
 <img src = "../images/r_sheevaplug_hand.jpg" class="border" alt="SheevaPlug in my hand" width="148" height="129" />
 </div>
 
-<h1>Upgrading U-Boot on SheevaPlug and other plug computers</h1>
-
 This page describes how to install a new version of U-Boot on your plug
 computer.  U-Boot is the boot loader used on plug computers.
 

@@ -9,8 +9,6 @@ keywords: [Debian, GLAN Tank, installation, guide, IOP, NAS, server]
 <img src = "images/r_glantank.jpg" class="border" alt="Thecus N2100" width="148" height="100" />
 </div>
 
-<h1>Debian on the GLAN Tank</h1>
-
 The GLAN Tank is a Network Attached Storage (NAS) device based on Intel's
 IOP 80219 CPU.  Other devices from IO-Data, in particular the HDL-Gxxx,
 HDL-GWxxx, and HDL-GZxxx series, are very similar.  The GLAN Tank

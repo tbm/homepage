@@ -5,8 +5,6 @@ description: Preseeding instructions for Debian on GLAN Tank
 keywords: [IOP, GLAN Tank, Supertank, SOTO-HDLGW, IO-Data, ARM, Debian, installation]
 ---
 
-<h1>Preseeding network values</h1>
-
 If you need to change the default network settings, you have to change the
 preseeding file included in the image.  As user `root`, create a temporary
 directory, go into it and unpack the initrd:

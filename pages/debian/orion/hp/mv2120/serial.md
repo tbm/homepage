@@ -5,8 +5,6 @@ description: Connecting a serial console to the HP mv2120
 keywords: [Debian, HP, mv2120, mv5100, serial, console, RS-232]
 ---
 
-<h1>Connecting a serial console to the HP mv2120</h1>
-
 The serial port is a 2x5 pin connector (labelled CN4) that is located
 behind the front cover.  The pin layout is shown in the picture below.  In
 order to connect to this serial port, you need a 3.3V TTL to RS-232 level

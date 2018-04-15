@@ -9,8 +9,6 @@ keywords: [Debian, Thecus, N2100, installation, guide, IOP, NAS, server]
 <img src = "images/r_n2100.jpg" class="border" alt="Thecus N2100" width="141" height="148" />
 </div>
 
-<h1>Debian on the Thecus N2100</h1>
-
 The Thecus N2100 is a Network Attached Storage (NAS) device based on
 Intel's IOP 80219 CPU and it can be used to run Debian.  It offers the
 following features:

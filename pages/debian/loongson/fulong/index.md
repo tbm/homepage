@@ -1,11 +1,9 @@
 ---
-title: "Debian on Lemote's Fulong mini-PC"
+title: Debian on Lemote's Fulong mini-PC
 nav: Fulong mini-PC
 description: "Information about running Debian on Lemote's Fulong mini-PC"
 keywords: [Debian, Lemote, Fulong, Fulong mini-PC, Loongson, Godson, MIPS, CPU]
 ---
-
-<h1>Debian on the Fulong mini-PC</h1>
 
 The Fulong Miniature Computer (mini-PC) is an inexpensive computer based on
 the Loongson chip.  It features:

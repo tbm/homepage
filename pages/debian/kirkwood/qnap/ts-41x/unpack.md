@@ -12,8 +12,6 @@ keywords: [Debian, lenny, QNAP, TS-410, TS-410U, TS-419, TS-419P, TS-419U, ARM, 
 <p><b>This page is deprecated.  Please use <a href = "../install/">the
 installer</a> instead.</b></p>
 
-<h1>Manually unpacking a tar ball of Debian on QNAP TS-41x</h1>
-
 This page describes how to manually unpack a tar ball of Debian 5.0 (lenny)
 for the QNAP TS-41x class devices, i.e. QNAP TS-410, TS-410U, TS-419P and
 TS-419U.  However, please note that the user-friendly <a href =

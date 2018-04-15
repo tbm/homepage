@@ -5,8 +5,6 @@ description: Information about running Debian on devices based on the Loongson c
 keywords: [Debian, Loongson, Godson, MIPS, CPU]
 ---
 
-<h1>Debian on Loongson</h1>
-
 The Loongson (formally known as the Godson) is a MIPS-like CPU developed in
 China.  It's used for cheap desktop PCs and laptops for the Chinese market.
 

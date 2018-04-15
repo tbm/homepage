@@ -9,8 +9,6 @@ keywords: [SheevaPlug, GuruPlug, Marvell, Kirkwood, Debian, boot process, boot]
 <img src = "../images/r_sheevaplug_hand.jpg" class="border" alt="SheevaPlug in my hand" width="148" height="129" />
 </div>
 
-<h1>The Boot Process of Plug Computers (such as SheevaPlug) running Debian</h1>
-
 This page describes the complete boot process of plug computers (such as
 SheevaPlug) running Debian.  While the information from this document is
 not needed to run Debian on your plug computer, some users might find it

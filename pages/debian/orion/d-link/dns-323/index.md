@@ -1,5 +1,5 @@
 ---
-title: Debian on D-Link DNS-323
+title: Debian on D-Link DNS-323 and Conceptronic CH3SNAS
 nav: DNS-323
 description: Instructions for running Debian on the D-Link DNS-323
 keywords: [Debian, D-Link, DNS-323, Conceptronic, CH3SNAS, Orion]
@@ -8,8 +8,6 @@ keywords: [Debian, D-Link, DNS-323, Conceptronic, CH3SNAS, Orion]
 <div class="right">
 <img src = "images/r_ch3snas_front.jpg" class="border" alt="Conceptronic CH3SNAS from the front" width="148" height="146" />
 </div>
-
-<h1>Debian on D-Link DNS-323 and Conceptronic CH3SNAS</h1>
 
 The D-Link DNS-323 (revision A1 and B1, but not C1) and Conceptronic
 CH3SNAS (Grab'n'GO) devices were supported by Debian thanks to work done by

@@ -5,8 +5,6 @@ description: Tips and tricks for Debian on OpenRD
 keywords: [Debian, OpenRD, VGA, xgi, tips, tricks]
 ---
 
-<h1>Tips and tricks for Debian on OpenRD</h1>
-
 Here are some tips and tricks about running Debian on the OpenRD.
 
 <h2 id="vga">Making use of the VGA chip</h2>

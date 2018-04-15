@@ -1,5 +1,5 @@
 ---
-title: Specification of the QNAP TS-119 and TS-119
+title: Specs of the QNAP TS-110 and TS-119
 nav: Specs
 description: Specs of the QNAP TS-110 and TS-119
 keywords: [Debian, QNAP, TS-110, TS-112, TS-112P, TS-119, specs, specification]
@@ -8,8 +8,6 @@ keywords: [Debian, QNAP, TS-110, TS-112, TS-112P, TS-119, specs, specification]
 <div class="right">
 <img src = "../images/r_qnap_ts110.jpg" class="border" alt="QNAP TS-110 from the front" width="148" height="206" />
 </div>
-
-<h1>Specs of the QNAP TS-110 and TS-119</h1>
 
 This page lists the internals of the QNAP TS-110, TS-119, TS-119P+.  There
 is another page which shows the <a href = "../status/">status of support in

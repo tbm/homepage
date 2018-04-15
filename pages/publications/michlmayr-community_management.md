@@ -1,10 +1,8 @@
 ---
-title: Abstract for Community Management in Open Source Projects
+title: Community Management in Open Source Projects
 description: The abstract of a paper about community management in open source projects
 keywords: [community, management, open source]
 ---
-
-<h1>Community Management in Open Source Projects</h1>
 
 <ul class = "author">
 <li><span class = "author">Martin Michlmayr,</span>

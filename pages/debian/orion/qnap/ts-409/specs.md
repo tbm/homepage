@@ -1,5 +1,5 @@
 ---
-title: Specification of the QNAP TS-409
+title: Specs of the QNAP TS-409
 nav: Specs
 description: Specs of the QNAP TS-409
 keywords: [Debian, QNAP, TS-409, specs, specification]
@@ -8,8 +8,6 @@ keywords: [Debian, QNAP, TS-409, specs, specification]
 <div class="right">
 <img src = "../images/r_ts409_front.jpg" class="border" alt="QNAP TS-409 from the front" width="148" height="147" />
 </div>
-
-<h1>Specs of the QNAP TS-409</h1>
 
 This page lists the internals of the QNAP TS-409.  There is another page
 which shows the <a href = "../status/">status of support in Debian</a> for

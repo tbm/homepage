@@ -9,8 +9,6 @@ keywords: [Buffalo, Revogear, Kurobox Pro, FAQ, frequently asked questions, help
 <img src = "../images/r_kuroboxpro_front.jpg" class="border" alt="Kurobox Pro from the front" width="148" height="231" />
 </div>
 
-<h1>Frequently Asked Questions (FAQ)</h1>
-
 <h3>Is Debian on the Kurobox Pro fully supported?</h3>
 
 Most things are working already.  You can install and use Debian on your

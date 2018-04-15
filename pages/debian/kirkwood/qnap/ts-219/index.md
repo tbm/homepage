@@ -9,8 +9,6 @@ keywords: [Debian, NAS, QNAP, QNAP Turbo NAS, Kirkwood, HS-210 TS-210, TS-212, T
 <img src = "images/r_ts219p.jpg" class="border" alt="Open QNAP TS-219" width="148" height="188" />
 </div>
 
-<h1>Debian on QNAP HS-210, TS-21x and TS-22x devices</h1>
-
 The QNAP HS-210, TS-210, TS-212, TS-212-E, TS-212P, TS-219, TS-219P, TS-219P+, TS-219P II, TS-220 and TS-221 are
 powerful NAS devices that can be used for a variety of tasks.  You can use
 the user-friendly <a href = "install/">Debian installer to install</a>

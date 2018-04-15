@@ -8,8 +8,6 @@ keywords: [Debian, QNAP, TS-109, bugs, issues, defects]
 <img src = "../images/r_ts109_front.jpg" class="border" alt="QNAP TS-109 from the front" width="148" height="217" />
 </div>
 
-<h1>Known issues and bugs</h1>
-
 Here is a list of known issues and bugs with Debian on the QNAP TS-109:
 
 * The installer fails to make the system bootable, especially on

@@ -9,8 +9,6 @@ keywords: [Debian, QNAP, TS-210, TS-212, TS-219, TS-219P, TS-220, TS-221, suppor
 <img src = "../images/r_ts219p.jpg" class="border" alt="Open QNAP TS-219" width="148" height="188" />
 </div>
 
-<h1>Status of QNAP TS-21x/TS-22x support</h1>
-
 QNAP TS-21x/TS-22x devices are based on a Marvell Kirkwood System on a Chip.
 Marvell has done a lot of work to get support for the Kirkwood platform
 into the mainline kernel.  However, some features of the Kirkwood platform

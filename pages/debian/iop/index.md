@@ -9,8 +9,6 @@ keywords: [Debian, Intel, IOP, I/O processor, NAS, SAN, installation, guide]
 <img src = "images/r_intel.gif" class="border" alt="Intel logo" width="148" height="107" />
 </div>
 
-<h1>Debian on Intel's IOP lines of CPUs</h1>
-
 Intel's IOP (I/O processor) line is based on their XScale core, an
 implementation of the ARM instruction set.  There are a number of NAS
 devices based on IOP chips that can run Debian.  This page provides

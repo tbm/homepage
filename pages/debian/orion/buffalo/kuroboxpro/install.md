@@ -9,8 +9,6 @@ keywords: [Buffalo, Revogear, Kurobox Pro, installation]
 <img src = "../images/r_kuroboxpro_front.jpg" class="border" alt="Kurobox Pro from the front" width="148" height="231" />
 </div>
 
-<h1>Installing Debian on the Kurobox Pro</h1>
-
 <h2>by Per Andersson and Martin Michlmayr</h2>
 
 In a nutshell, the installation of Debian works like this: you partition

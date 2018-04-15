@@ -9,8 +9,6 @@ keywords: [Debian, QNAP, TS-409, FAQ, frequently asked questions, help, troubles
 <img src = "../images/r_ts409_front.jpg" class="border" alt="QNAP TS-409 from the front" width="148" height="147" />
 </div>
 
-<h1>Frequently Asked Questions (FAQ)</h1>
-
 <h3>Is Debian on the QNAP TS-409 fully supported?</h3>
 
 Debian 9 (stretch) includes support for the QNAP TS-409 and TS-409U.

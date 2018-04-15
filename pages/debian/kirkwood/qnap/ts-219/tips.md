@@ -9,8 +9,6 @@ keywords: [Debian, QNAP, TS-210, TS-212, TS-219, TS-219P, TS-220, TS-221, tips, 
 <img src = "../images/r_ts219p.jpg" class="border" alt="Open QNAP TS-219" width="148" height="188" />
 </div>
 
-<h1>Tips and tricks for Debian on QNAP TS-21x/TS-22x</h1>
-
 Here are some tips and tricks about running Debian on the QNAP
 TS-21x/TS-22x.
 

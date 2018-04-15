@@ -1,5 +1,5 @@
 ---
-title: Specification of the QNAP TS-219, TS-219 and TS-219P
+title: Specs of the QNAP TS-219, TS-219 and TS-219P
 nav: Specs
 description: Specs of the QNAP TS-210, TS-212, TS-219 and TS-219P
 keywords: [Debian, QNAP, TS-210, TS-219, TS-210P, specs, specification]
@@ -8,8 +8,6 @@ keywords: [Debian, QNAP, TS-210, TS-219, TS-210P, specs, specification]
 <div class="right">
 <img src = "../images/r_ts219p.jpg" class="border" alt="Open QNAP TS-219" width="148" height="188" />
 </div>
-
-<h1>Specs of the QNAP TS-210, TS-219 and TS-219P</h1>
 
 This page lists the internals of the QNAP TS-210, QNAP TS-219 and the QNAP
 TS-219P.  There is another page which shows the <a href =

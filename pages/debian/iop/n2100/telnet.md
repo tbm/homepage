@@ -9,8 +9,6 @@ keywords: [Debian, Thecus, N2100, installation, RedBoot, telnet]
 <img src = "../images/r_n2100.jpg" class="border" alt="Thecus N2100" width="141" height="148" />
 </div>
 
-<h1>Using telnet to access RedBoot</h1>
-
 RedBoot, the boot loader used in the N2100, has a feature which allows you
 to connect to it via telnet.  This makes it possible to run some RedBoot
 commands without access to the serial console.  In old firmware versions of

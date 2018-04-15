@@ -9,8 +9,6 @@ keywords: [Debian, SheevaPlug, GuruPlug, sheeva, plug, plugcomputer, NAS]
 <img src = "images/r_sheevaplug_hand.jpg" class="border" alt="SheevaPlug in my hand" width="148" height="129" />
 </div>
 
-<h1>Debian on Plug Computers like the SheevaPlug and GuruPlug</h1>
-
 Plug computers, like the SheevaPlug and GuruPlug, are powerful and
 affordable devices that can be combined with Debian to perform a variety of
 tasks, such as acting as a file or media server.  There are many different

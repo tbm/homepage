@@ -8,8 +8,6 @@ keywords: [Debian, HP, mv2120, bugs, issues, defects]
 <img src = "../images/r_mv2120_front.jpg" class="border" alt="HP mv2120 from the front" width="148" height="212" />
 </div>
 
-<h1>Known issues and bugs</h1>
-
 Here is a list of known issues and bugs with Debian on the HP mv2120:
 
 <ul>

@@ -1,11 +1,8 @@
 ---
-title: Abstract for Quality Improvement in Volunteer Free and Open Source Software Projects
+title: Quality Improvement in Volunteer Free and Open Source Software Projects: Exploring the Impact of Release Management
 description: The abstract of my PhD dissertation on quality improvement and release management
 keywords: [release management, open source, FOSS, quality improvement, thesis, dissertation]
 ---
-
-<h1>Quality Improvement in Volunteer Free and Open Source Software
-Projects: Exploring the Impact of Release Management</h1>
 
 <ul class = "author">
 <li><span class = "author">Martin Michlmayr,</span>

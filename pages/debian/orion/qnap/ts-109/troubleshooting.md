@@ -9,8 +9,6 @@ keywords: [Debian, QNAP, NAS, TS-109, troubleshooting, problems]
 <img src = "../images/r_ts109_front.jpg" class="border" alt="QNAP TS-109 from the front" width="148" height="217" />
 </div>
 
-<h1>Troubleshooting</h1>
-
 This page describes common problems that users of Debian on the QNAP TS-109
 have run into.  If you have any problems with your QNAP TS-109, either
 while trying to install Debian or when running Debian, please look through

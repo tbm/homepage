@@ -9,8 +9,6 @@ keywords: [Debian, NAS, QNAP, QNAP Turbo NAS, Kirkwood, TS-110, TS-112, TS-112P,
 <img src = "images/r_qnap_ts110.jpg" class="border" alt="QNAP TS-110 from the front" width="148" height="206" />
 </div>
 
-<h1>Debian on QNAP TS-11x/TS-12x devices</h1>
-
 The QNAP TS-110, TS-112, TS-112P, TS-119, TS-119P+, TS-119P II, TS-120 and TS-121 are powerful NAS
 devices that can be used for a variety of tasks.  You can use the
 user-friendly <a href = "install/">Debian installer to install</a> Debian.

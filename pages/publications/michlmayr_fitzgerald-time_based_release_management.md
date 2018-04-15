@@ -1,10 +1,8 @@
 ---
-title: "Abstract for Time-Based Release Management in Free and Open Source Projects"
+title: Time-Based Release Management in Free and Open Source (FOSS) Projects
 description: The abstract of a paper on time-based release management in open source projects
 keywords: [release management, time-based, open source, FLOSS]
 ---
-
-<h1>Time-Based Release Management in Free and Open Source (FOSS) Projects</h1>
 
 <ul class = "author">
 <li><span class = "author">Martin Michlmayr,</span>

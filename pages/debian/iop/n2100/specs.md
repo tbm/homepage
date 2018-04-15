@@ -1,5 +1,5 @@
 ---
-title: Specification of the Thecus N2100
+title: Specs of the Thecus N2100
 nav: Specs
 description: Specs of the Thecus N2100
 keywords: [Debian, Thecus, N2100, specs, specification]
@@ -8,8 +8,6 @@ keywords: [Debian, Thecus, N2100, specs, specification]
 <div class="right">
 <img src = "../images/r_n2100_debian.jpg" class="border" alt="Thecus N2100" width="133" height="148" />
 </div>
-
-<h1>Specs of the Thecus N2100</h1>
 
 This page lists the internals of the Thecus N2100.  There is another page
 which shows the <a href = "../status/">status of support in Debian</a> for

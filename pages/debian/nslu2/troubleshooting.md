@@ -9,8 +9,6 @@ keywords: [NSLU2, Linksys NSLU2, Debian, troubleshooting, problems]
 <img src = "../images/r_nslu2_front.jpg" class="border" alt="A NSLU2 from the front" width="148" height="218" />
 </div>
 
-<h1>Troubleshooting</h1>
-
 This page describes common problems that users of Debian on the Linksys
 NSLU2 have run into.  If you have any problems with your NSLU2, either
 while trying to install Debian or when running Debian, please look through

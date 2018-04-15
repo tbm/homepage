@@ -5,8 +5,6 @@ description: An image gallery of Lemote's Fulong mini-PC
 keywords: [Lemote, Fulong, Fulong mini-PC, pictures, images, photo gallery]
 ---
 
-<h1>Fulong's mini-PC</h1>
-
 The Fulong Miniature Computer (mini-PC) is an inexpensive computer based on
 the Loongson chip.
 

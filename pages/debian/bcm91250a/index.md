@@ -1,5 +1,5 @@
 ---
-title: "Debian on Broadcom's BCM91250A evaluation board"
+title: Debian on Broadcom's BCM91250A evaluation board
 nav: Debian on the BCM91250A
 description: "Useful information for running Debian on Broadcom's SWARM board"
 keywords: [BCM91250A, MIPS, evaluation board, Debian]
@@ -12,8 +12,6 @@ keywords: [BCM91250A, MIPS, evaluation board, Debian]
 <b>Important note:</b> I no longer own an BCM91250A board, so these pages
 are not out-of-date and no longer updated.  They are only provided in the
 hope that some of the information might be useful.
-
-<h1>Debian on the BCM91250A evaluation board</h1>
 
 The BCM91250A is an ATX form factor evaluation board from Broadcom based on
 their SiByte processor family.  Specifically, the BCM91250A uses the

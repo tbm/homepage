@@ -8,8 +8,6 @@ keywords: [Debian, QNAP, TS-409, bugs, issues, defects]
 <img src = "../images/r_ts409_front.jpg" class="border" alt="QNAP TS-409 from the front" width="148" height="147" />
 </div>
 
-<h1>Known issues and bugs</h1>
-
 Here is a list of known issues and bugs with Debian on the QNAP TS-409:
 
 * The installer fails to make the system bootable, especially on

@@ -9,8 +9,6 @@ keywords: [Debian, HP, mv2120, mv5020, installation]
 <img src = "../images/r_mv2120_front.jpg" class="border" alt="HP mv2120 from the front" width="148" height="212" />
 </div>
 
-<h1>Installing Debian on the HP mv2120 and mv5020</h1>
-
 <h2>Overview</h2>
 
 In a nutshell, the installation of Debian on your HP mv2120 and mv5020

@@ -9,8 +9,6 @@ keywords: [Debian, QNAP, NAS, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420,
 <img src = "../images/r_qnap_ts419p.jpg" class="border" alt="QNAP TS-419P from the front" width="148" height="148" />
 </div>
 
-<h1>Troubleshooting</h1>
-
 This page describes common problems that users of Debian on the QNAP
 TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419P II, TS-419U, TS-420 and TS-421 have run into.  If
 you have any problems with your QNAP device, either while trying to install

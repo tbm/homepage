@@ -9,8 +9,6 @@ keywords: [NSLU2, Linksys NSLU2, Debian, clone]
 <img src = "../images/r_nslu2_front.jpg" class="border" alt="A NSLU2 from the front" width="148" height="218" />
 </div>
 
-<h1>How to clone a NSLU2</h1>
-
 When you have installed Debian on one Linksys NSLU2, it is relatively easy
 to clone your installation for a second NSLU2.  This pages describes the
 steps necessary to clone an existing NSLU2.

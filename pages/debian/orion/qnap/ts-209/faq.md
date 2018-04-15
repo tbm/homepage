@@ -9,8 +9,6 @@ keywords: [Debian, QNAP, TS-209, FAQ, frequently asked questions, help, troubles
 <img src = "../images/r_ts209_front.jpg" class="border" alt="QNAP TS-209 from the front" width="148" height="97" />
 </div>
 
-<h1>Frequently Asked Questions (FAQ)</h1>
-
 <h3>Is Debian on the QNAP TS-209 fully supported?</h3>
 
 Debian 9 (stretch) includes support for the QNAP TS-209.  However, please

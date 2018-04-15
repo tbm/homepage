@@ -9,8 +9,6 @@ keywords: [NSLU2, Linksys NSLU2, Debian, tips, tricks]
 <img src = "../images/r_nslu2_front.jpg" class="border" alt="A NSLU2 from the front" width="148" height="218" />
 </div>
 
-<h1>Tips and tricks for Debian on the Linksys NSLU2</h1>
-
 <h3 id="led">Controlling the LEDs and beeper</h3>
 
 You can use the tool `leds` to control the LEDs and beeper.  Typing `leds`

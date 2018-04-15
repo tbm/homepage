@@ -1,11 +1,9 @@
 ---
-title: De-installing Debian on QNAP TS-21x/TS-22x
+title: Restoring the original QNAP firmware or re-installing Debian
 nav: De-installing Debian
 description: Restoring the original QNAP firmware or re-installing Debian on QNAP TS-21x/TS-22x
 keywords: [Debian, QNAP, HS-210, TS-210, TS-212, TS-219, TS-219P, TS-220, TS-221, original firmware]
 ---
-
-<h1>Restoring the original QNAP firmware or re-installing Debian</h1>
 
 If you want to restore the original QNAP firmware or re-install Debian on your HS-210, TS-21x or TS-22x device for
 some reason, you can follow the instructions below.  Please note that this

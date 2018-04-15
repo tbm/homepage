@@ -1,10 +1,8 @@
 ---
-title: Abstract for Software Process Maturity and the Success of Free Software Projects
+title: Software Process Maturity and the Success of Free Software Projects
 description: The abstract of a paper on process maturity and the success of free software projects
 keywords: [process maturity, success, open source, FLOSS]
 ---
-
-<h1>Software Process Maturity and the Success of Free Software Projects</h1>
 
 <ul class = "author">
 <li><span class = "author">Martin Michlmayr,</span>

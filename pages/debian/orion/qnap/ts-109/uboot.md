@@ -5,8 +5,6 @@ description: Using U-Boot on the QNAP TS-109
 keywords: [Debian, QNAP, TS-109, serial, console, uboot, U-Boot]
 ---
 
-<h1>Using U-Boot on the QNAP TS-109</h1>
-
 If you have a <a href = "../serial/">serial console</a> for your QNAP
 TS-109, you can use U-Boot, the boot loader used on the TS-109, to restore
 the original QNAP firmware or load images via the network.

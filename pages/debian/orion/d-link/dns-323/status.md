@@ -9,8 +9,6 @@ keywords: [Debian, D-Link, DNS-323, Conceptronic, CH3SNAS, support, status]
 <img src = "../images/r_ch3snas_front.jpg" class="border" alt="Conceptronic CH3SNAS from the front" width="148" height="146" />
 </div>
 
-<h1>Status of D-Link DNS-323 support</h1>
-
 The D-Link DNS-323 is based on a Marvell Orion System on a Chip.  Marvell
 has done a lot of work to get support for the Orion platform into the
 mainline kernel.  However, some features of the Orion platform are not as

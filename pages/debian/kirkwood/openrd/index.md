@@ -5,8 +5,6 @@ description: Instructions for running Debian on the OpenRD
 keywords: [Debian, OpenRD, OpenRD-Base, OpenRD-Client, OpenRD-Ultimate, development, ARM, Marvell, Kirkwood]
 ---
 
-<h1>Debian on the OpenRD platform</h1>
-
 OpenRD is a reference design for Marvell's Kirkwood platform (Marvell's
 88F6281 System On Chip).  There are three variants: the OpenRD-Base, the
 OpenRD-Client and the OpenRD-Ultimate.  You can install Debian on all of

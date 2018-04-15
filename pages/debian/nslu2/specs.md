@@ -9,8 +9,6 @@ keywords: [NSLU2, Linksys NSLU2, specs, specification]
 <img src = "../images/r_nslu2_front.jpg" class="border" alt="A NSLU2 from the front" width="148" height="218" />
 </div>
 
-<h1>Specs of the Linksys NSLU2</h1>
-
 <p>
 
 <table class="table table-hover">

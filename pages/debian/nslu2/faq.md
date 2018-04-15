@@ -9,8 +9,6 @@ keywords: [NSLU2, Linksys NSLU2, Debian, FAQ, questions]
 <img src = "../images/r_nslu2_front.jpg" class="border" alt="A NSLU2 from the front" width="148" height="218" />
 </div>
 
-<h1>Frequently Asked Questions (FAQ)</h1>
-
 <h3>Is Debian on the NSLU2 fully supported?</h3>
 
 Debian 8 (jessie) was the last release to include some support for the Linksys NSLU2.  There

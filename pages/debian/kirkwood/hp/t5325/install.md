@@ -5,8 +5,6 @@ description: Installation instructions for Debian on the HP t5325 Thin Client
 keywords: [Debian, NAS, HP, t5325, thin client]
 ---
 
-<h1>Installing Debian on HP t5325</h1>
-
 <em>Note: first of all, if you follow these instructions you'll end up with
 a system that does not boot.  I no longer have to look into this... so
 continue Debian on the HP t5325 as unsupported.</em>  Below are some

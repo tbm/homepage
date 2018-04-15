@@ -5,8 +5,6 @@ description: Connecting a serial console to the QNAP TS-209
 keywords: [Debian, QNAP, TS-209, serial, console, RS-232, hack]
 ---
 
-<h1>Connecting a serial console to the QNAP TS-209</h1>
-
 The serial port is a 2x3 pin connector (labelled JP1) that is located close
 to the button on the left side on the front of the mainboard.  The pin
 layout of the row closer to the edge of the mainboard is 3.3V, N/C, N/C

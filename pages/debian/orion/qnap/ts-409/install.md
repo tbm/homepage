@@ -9,8 +9,6 @@ keywords: [Debian, QNAP, TS-409, installation]
 <img src = "../images/r_ts409_front.jpg" class="border" alt="QNAP TS-409 from the front" width="148" height="147" />
 </div>
 
-<h1>Installing Debian on the QNAP TS-409</h1>
-
 <h2>Overview</h2>
 
 In a nutshell, the installation of Debian on your QNAP TS-409 works like

@@ -8,8 +8,6 @@ keywords: [Debian, NSLU2, Linksys NSLU2, memory, RAM, usage]
 <img src = "../images/r_nslu2_front.jpg" class="border" alt="A NSLU2 from the front" width="148" height="218" />
 </div>
 
-<h1>Tips for reducing memory usage</h1>
-
 <h2>by David Härdeman &lt;david@hardeman.nu&gt;</h2>
 
 <em>Note:</em> this document currently describes Debian etch (4.0) and

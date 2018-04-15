@@ -1,10 +1,8 @@
 ---
-title: Abstract for Quality and the Reliance on Individuals in Free Software Projects
+title: Quality and the Reliance on Individuals in Free Software Projects
 description: The abstract of a paper on the problem of reliance on volunteer developers
 keywords: [volunteer management, Debian, project management]
 ---
-
-<h1>Quality and the Reliance on Individuals in Free Software Projects</h1>
 
 <ul class = "author">
 <li><span class = "author">Martin Michlmayr,</span>

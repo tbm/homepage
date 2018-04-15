@@ -9,8 +9,6 @@ keywords: [Debian, QNAP, TS-109, support, status]
 <img src = "../images/r_ts109_front.jpg" class="border" alt="QNAP TS-109 from the front" width="148" height="217" />
 </div>
 
-<h1>Status of QNAP TS-109 support</h1>
-
 The QNAP TS-109 is based on a Marvell Orion System on a Chip.  Marvell has
 done a lot of work to get support for the Orion platform into the mainline
 kernel.  However, some features of the Orion platform are not as well

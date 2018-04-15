@@ -1,5 +1,5 @@
 ---
-title: debian-installer images for NSLU2
+title: Linksys NSLU2 installer images for Debian
 nav: Installer Images
 description: debian-installer images for Linksys NSLU2
 keywords: [Debian, NSLU2, Linksys NSLU2, DebianSlug, Ethernet, IXP4xx, SlugDebian]
@@ -8,8 +8,6 @@ keywords: [Debian, NSLU2, Linksys NSLU2, DebianSlug, Ethernet, IXP4xx, SlugDebia
 <div class="right">
 <img src = "../images/r_nslu2_front.jpg" class="border" alt="A NSLU2 from the front" width="148" height="218" />
 </div>
-
-<h1>Linksys NSLU2 installer images for Debian</h1>
 
 The Intel IXP4xx chip used in the Linksys NSLU2 needs some proprietary
 microcode for the Ethernet driver.  As such, it cannot be distributed by

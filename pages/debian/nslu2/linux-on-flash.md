@@ -8,8 +8,6 @@ keywords: [Debian, NSLU2, flash, Linux]
 <img src = "../images/r_nslu2_front.jpg" class="border" alt="A NSLU2 from the front" width="148" height="218" />
 </div>
 
-<h1>Tips for running Linux on a flash device</h1>
-
 <h2>by David Härdeman &lt;david@hardeman.nu&gt;</h2>
 
 If you are running your NSLU2 on a USB flash key, there are a number of

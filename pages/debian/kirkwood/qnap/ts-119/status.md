@@ -9,8 +9,6 @@ keywords: [Debian, QNAP, TS-110, TS-112, TS-112P, TS-119, TS-120, TS-121, suppor
 <img src = "../images/r_qnap_ts110.jpg" class="border" alt="QNAP TS-110 from the front" width="148" height="206" />
 </div>
 
-<h1>Status of QNAP TS-11x/TS-12x support</h1>
-
 QNAP TS-11x/TS-12x devices are based on a Marvell Kirkwood System on a Chip.
 Marvell has done a lot of work to get support for the Kirkwood platform
 into the mainline kernel.  However, some features of the Kirkwood platform

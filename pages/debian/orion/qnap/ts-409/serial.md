@@ -5,8 +5,6 @@ description: Connecting a serial console to the QNAP TS-409
 keywords: [Debian, QNAP, TS-409, serial, console, RS-232, hack]
 ---
 
-<h1>Connecting a serial console to the QNAP TS-409</h1>
-
 If you want to connect a serial console to the QNAP TS-409, you'll need a
 3.3V TTL to RS-232 level shifter.  The serial connector is marked as CN9 on
 the board and is a connector of type JST PHR-4.  The pin layout is as

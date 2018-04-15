@@ -12,8 +12,6 @@ keywords: [Debian, lenny, QNAP, TS-119, TS-219, TS-219P, ARM, armel]
 <p><b>This page is deprecated.  Please use <a href = "../install/">the
 installer</a> instead.</b></p>
 
-<h1>Manually unpacking a tar ball of Debian on QNAP TS-119, TS-219 and TS-219P</h1>
-
 This page describes how to manually unpack a tar ball of Debian 5.0 (lenny)
 for the QNAP TS-119, TS-219 and TS-219P.  However, please note that the
 user-friendly <a href = "../install/">user-friendly Debian installer</a> is

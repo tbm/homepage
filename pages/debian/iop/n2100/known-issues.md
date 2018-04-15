@@ -1,5 +1,5 @@
 ---
-title: Known issues of Debian on Thecus N2100
+title: Known issues and bugs
 nav: Known issues
 keywords: [Debian, Thecus, N2100, bugs, issues, defects]
 ---
@@ -7,8 +7,6 @@ keywords: [Debian, Thecus, N2100, bugs, issues, defects]
 <div class="right">
 <img src = "../images/r_n2100_debian.jpg" class="border" alt="Thecus N2100" width="133" height="148" />
 </div>
-
-<h1>Known issues and bugs</h1>
 
 Here is a list of known issues and bugs with Debian on the Thecus N2100.
 

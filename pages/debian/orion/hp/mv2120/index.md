@@ -1,5 +1,5 @@
 ---
-title: Debian on HP mv2120 and mv5020
+title: Debian on HP mv2120, mv5020 and mv5100 series
 nav: mv2120
 description: Useful page for running Debian on the HP mv2120
 keywords: [Debian, HP, Media Vault, mv2120, mv5020, mv5100]
@@ -8,8 +8,6 @@ keywords: [Debian, HP, Media Vault, mv2120, mv5020, mv5100]
 <div class="right">
 <img src = "images/r_mv2120_front.jpg" class="border" alt="HP mv2120 from the front" width="148" height="212" />
 </div>
-
-<h1>Debian on HP mv2120, mv5020 and the mv5100 series</h1>
 
 The HP Media Vault mv2120 and the HP Media Vault Pro mv5020 are NAS devices
 that can be used for a variety of tasks.  In the following, I will describe

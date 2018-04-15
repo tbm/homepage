@@ -9,8 +9,6 @@ keywords: [SheevaPlug, Marvell, Kirkwood, Debian, installer, ARM, GuruPlug]
 <img src = "../images/r_sheevaplug_hand.jpg" class="border" alt="SheevaPlug in my hand" width="148" height="129" />
 </div>
 
-<h1>Installing Debian on Plug Computers</h1>
-
 This page describes how to install Debian 9 (stretch) on plug computers,
 such as the SheevaPlug and GuruPlug.
 

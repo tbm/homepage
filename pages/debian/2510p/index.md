@@ -1,5 +1,5 @@
 ---
-title: HP 2510p and Debian
+title: Debian on HP Compaq 2510p
 nav: Debian on HP 2510p
 description: Installation hints for Debian on the HP 2510p laptop
 keywords: [Debian, lenny, installation, HP, Compaq 2510p, laptop]
@@ -8,8 +8,6 @@ keywords: [Debian, lenny, installation, HP, Compaq 2510p, laptop]
 <div class="right">
 <img src = "images/r_2510p_front.jpg" class="border" alt="HP 2510p" width="148" height="128" />
 </div>
-
-<h1>Debian GNU/Linux on the HP Compaq 2510p</h1>
 
 Here are a few problems I ran into and what to do about them:
 

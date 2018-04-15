@@ -9,8 +9,6 @@ keywords: [Debian, QNAP, TS-110, TS-112, TS-112P, TS-119, TS-119P+, TS-120, TS-1
 <img src = "../images/r_qnap_ts110.jpg" class="border" alt="QNAP TS-110 from the front" width="148" height="206" />
 </div>
 
-<h1>Installing Debian on QNAP TS-11x and TS-12x devices</h1>
-
 <h2>Overview</h2>
 
 In a nutshell, the installation of Debian on your QNAP TS-11x/TS-12x works like

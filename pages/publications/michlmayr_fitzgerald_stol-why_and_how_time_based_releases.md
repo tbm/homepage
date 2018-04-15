@@ -1,10 +1,8 @@
 ---
-title: "Abstract for Why and How Should Open Source Projects Adopt Time-Based Releases?"
+title: Why and How Should Open Source Projects Adopt Time-Based Releases?
 description: The abstract of a paper on why and how open source projects should adopt time-based release management
 keywords: [release management, time-based, open source, FLOSS]
 ---
-
-<h1>Why and How Should Open Source Projects Adopt Time-Based Releases?</h1>
 
 <ul class = "author">
 <li><span class = "author">Martin Michlmayr,</span>

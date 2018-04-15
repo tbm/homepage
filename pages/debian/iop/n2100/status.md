@@ -9,8 +9,6 @@ keywords: [Debian, Thecus, N2100, support, status]
 <img src = "../images/r_n2100_debian.jpg" class="border" alt="Thecus N2100" width="133" height="148" />
 </div>
 
-<h1>Status of Thecus N2100 support</h1>
-
 The table below shows how well different components of the Thecus N2100 are
 supported by Debian 7 (wheezy).
 

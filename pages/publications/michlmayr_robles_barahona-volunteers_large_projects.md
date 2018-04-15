@@ -1,11 +1,8 @@
 ---
-title: "Abstract for Volunteers in Large Libre Software Projects: A Quantitative Analysis Over Time"
+title: Volunteers in Large Libre Software Projects: A Quantitative Analysis Over Time
 description: The abstract of a paper doing a quantitative analysis of volunteers in Debian
 keywords: [volunteer, large projects, libre software, FLOSS, Debian]
 ---
-
-<h1>Volunteers in Large Libre Software Projects: A Quantitative Analysis
-Over Time</h1>
 
 <ul class = "author">
 <li><span class = "author">Martin Michlmayr,</span>

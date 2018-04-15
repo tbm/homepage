@@ -1,5 +1,5 @@
 ---
-title: Debian on NSLU2
+title: Debian on Linksys NSLU2
 description: A page giving useful help for running Debian on the Linksys NSLU2
 keywords: [Debian, NAS, NSLU2, Linksys NSLU2, DebianSlug, IXP4xx, SlugDebian]
 ---
@@ -7,8 +7,6 @@ keywords: [Debian, NAS, NSLU2, Linksys NSLU2, DebianSlug, IXP4xx, SlugDebian]
 <div class="right">
 <img src = "images/r_nslu2_front.jpg" class="border" alt="A NSLU2 from the front" width="148" height="218" />
 </div>
-
-<h1>Debian on the Linksys NSLU2</h1>
 
 In the following, I will describe what is needed to get Debian running on
 your NSLU2.  Please note that this page only provides information on

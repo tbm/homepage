@@ -1,10 +1,8 @@
 ---
-title: Abstract for Managing Volunteer Activity in Free Software Projects
+title: Managing Volunteer Activity in Free Software Projects
 description: The abstract for a paper on managing volunteers and problems associated with this
 keywords: [human resources, volunteers, Debian, MIA]
 ---
-
-<h1>Managing Volunteer Activity in Free Software Projects</h1>
 
 <ul class = "author">
 <li><span class = "author">Martin Michlmayr,</span>

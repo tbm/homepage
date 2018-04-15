@@ -5,8 +5,6 @@ description: Status of OpenRD support in Debian
 keywords: [Debian, OpenRD, support, status]
 ---
 
-<h1>Status of OpenRD support</h1>
-
 The table below shows how well different components of the OpenRD are
 supported by Debian:
 

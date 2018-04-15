@@ -1,11 +1,9 @@
 ---
-title: Debian Cobalt FAQs
+title: FAQ about Debian on Cobalt
 nav: Frequently Asked Questions
 description: Frequently Answered Questions regarding Debian on Cobalt
 keywords: [Debian, Cobalt, FAQ, troubleshooting]
 ---
-
-<h1>Frequently Asked Questions</h1>
 
 In the following, a number of frequently asked questions (FAQ) and their
 answers are presented.  This may answer some of the questions you have and

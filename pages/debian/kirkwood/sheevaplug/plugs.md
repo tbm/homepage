@@ -1,5 +1,5 @@
 ---
-title: Debian and Plug Computer models
+title: Supported Plug Computer models
 nav: Plug Variants
 description: Plug Variants and whether they're supported by Debian
 keywords: [Debian, SheevaPlug, plug, plugs, plug computer]
@@ -8,8 +8,6 @@ keywords: [Debian, SheevaPlug, plug, plugs, plug computer]
 <div class="right">
 <img src = "../images/r_sheevaplug_hand.jpg" class="border" alt="SheevaPlug in my hand" width="148" height="129" />
 </div>
-
-<h1>Plug Computer models and how well they are supported in Debian</h1>
 
 There are many different variants of the plug computer and not all variants
 are supported by Debian.  This page provides an overview of different plug

@@ -1,10 +1,8 @@
 ---
-title: Abstract for How to Have a Successful Free Software Project
+title: How to Have a Successful Free Software Project
 description: The abstract of a paper on having a successful free software project
 keywords: [success, free software, open source, FLOSS, bazaar]
 ---
-
-<h1>How to Have a Successful Free Software Project</h1>
 
 <ul class = "author">
 <li><span class = "author">Anthony Senyard,</span>

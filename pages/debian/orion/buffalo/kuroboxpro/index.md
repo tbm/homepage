@@ -9,8 +9,6 @@ keywords: [Debian, Buffalo, Revogear, Kurobox Pro, Orion, ARM]
 <img src = "images/r_kuroboxpro_front.jpg" class="border" alt="Kurobox Pro from the front" width="148" height="231" />
 </div>
 
-<h1>Debian on Kurobox Pro</h1>
-
 Per Andersson ported the Debian installer to the Buffalo Kurobox Pro as
 part of a Google Summer of Code project in 2008.  The following pages
 describe the installation and operation of Debian on the Kurobox Pro.

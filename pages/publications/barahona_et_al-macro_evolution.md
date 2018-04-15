@@ -1,10 +1,8 @@
 ---
-title: Abstract for Mining Large Software Compilations over Time
+title: Macro-level software evolution: a case study of a large software
 description: The abstract of a paper on mining large software compilations
 keywords: [Linux, distributions, software evolution, free software, open source, FLOSS]
 ---
-
-<h1>Macro-level software evolution: a case study of a large software</h1>
 
 <ul class = "author">
 <li><span class = "author">Jesus M. Gonzalez-Barahona,</span>

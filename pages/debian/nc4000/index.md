@@ -1,5 +1,5 @@
 ---
-title: HP nc4000 and Debian
+title: Debian on HP Compaq nc4000 and Debian
 nav: Debian on HP nc4000
 description: Installation guide for Debian on the HP nc4000 and nc4010 laptops
 keywords: [Debian, lenny, installation, HP, Compaq nc4000, Compaq nc4010, laptop]
@@ -8,8 +8,6 @@ keywords: [Debian, lenny, installation, HP, Compaq nc4000, Compaq nc4010, laptop
 <div class="right">
 <img src = "images/r_nc4000.jpg" class="border" alt="HP nc4000" width="148" height="122" />
 </div>
-
-<h1>Debian GNU/Linux on the HP Compaq nc4000</h1>
 
 In the following, I'm going to describe how to install Debian GNU/Linux 5.0
 (lenny) on a HP Compaq nc4000 notebook.  This page only contains

@@ -1,11 +1,8 @@
 ---
-title: Abstract for A Statistical Analysis of Defects in Debian and Strategies for Improving Quality in Free Software Projects
+title: A Statistical Analysis of Defects in Debian and Strategies for Improving Quality in Free Software Projects
 description: "The abstract of a paper analyzing defects in Debian's base system"
 keywords: [Debian, defects, bug tracking, quality, quality improvement, open source, FLOSS]
 ---
-
-<h1>A Statistical Analysis of Defects in Debian and Strategies for
-Improving Quality in Free Software Projects</h1>
 
 <ul class = "author">
 <li><span class = "author">Martin Michlmayr,</span>

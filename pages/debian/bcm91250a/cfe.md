@@ -1,11 +1,9 @@
 ---
-title: Upgrade CFE on your BCM91250A
+title: Upgrade CFE on the BCM91250A
 nav: CFE Upgrade
 description: Upgrade guide of the CFE firmware
 keywords: [upgrade, CFE, SWARM, firmware, MIPS]
 ---
-
-<h1>Upgrade CFE on your BCM91250A</h1>
 
 In order to install Debian, you might have to upgrade the firmware (CFE) on
 your BCM91250A.  Older versions used `ide0` to refer to the first IDE

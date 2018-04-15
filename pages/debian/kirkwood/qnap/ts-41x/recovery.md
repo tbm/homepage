@@ -9,8 +9,6 @@ keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420, TS-4
 <img src = "../images/r_qnap_ts419p.jpg" class="border" alt="QNAP TS-419P from the front" width="148" height="148" />
 </div>
 
-<h1>Recovery mode of QNAP TS-41x/TS-42x devices</h1>
-
 QNAP TS-41x/TS-42x devices have a recovery mode that can be used when there is a
 problem with your installation of Debian that renders your device
 unbootable.  The system recovery mode allows you write a recovery image to

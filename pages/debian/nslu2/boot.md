@@ -9,8 +9,6 @@ keywords: [NSLU2, Linksys NSLU2, boot process, boot]
 <img src = "../images/r_nslu2_front.jpg" class="border" alt="A NSLU2 from the front" width="148" height="218" />
 </div>
 
-<h1>The Boot Process of the Linksys NSLU2 running Debian</h1>
-
 This page describes the complete boot process of a Linksys NSLU2 running
 Debian.  While the information from this document is not needed to run
 Debian on your NSLU2, some users might find it interesting to know what's

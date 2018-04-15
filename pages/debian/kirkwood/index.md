@@ -9,8 +9,6 @@ keywords: [Debian, Kirkwood, Marvell, ARM, NAS, SoC]
 <img src = "sheevaplug/images/r_sheevaplug_hand.jpg" class="border" alt="SheevaPlug in my hand" width="148" height="129" />
 </div>
 
-<h1>Debian on Kirkwood devices</h1>
-
 Kirkwood is a system on a chip (SoC) from Marvell that integrates an ARM
 CPU, Ethernet, SATA, USB, SDIO and other functionality in one chip.
 Kirkwood is targeted at Network Attached Storage (NAS) devices, digital

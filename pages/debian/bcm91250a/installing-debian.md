@@ -9,8 +9,6 @@ keywords: [SWARM, Broadcom, sarge, installation]
 from the Debian installer.  Therefore, the information from this page no
 longer applies.  The page is only provided for historical purposes.
 
-<h1>Installing Debian on BCM91250A</h1>
-
 In order to install Debian on an BCM91250A evaluation board (SWARM), you
 need the following:
 

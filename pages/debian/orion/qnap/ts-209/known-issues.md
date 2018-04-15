@@ -8,8 +8,6 @@ keywords: [Debian, QNAP, TS-209, bugs, issues, defects]
 <img src = "../images/r_ts209_front.jpg" class="border" alt="QNAP TS-209 from the front" width="148" height="97" />
 </div>
 
-<h1>Known issues and bugs</h1>
-
 Here is a list of known issues and bugs with Debian on the QNAP TS-209:
 
 * The installer fails to make the system bootable, especially on

@@ -9,8 +9,6 @@ keywords: [Debian, QNAP, TS-409, recovery, emergency, rescue]
 <img src = "../images/r_ts409_front.jpg" class="border" alt="QNAP TS-409 from the front" width="148" height="147" />
 </div>
 
-<h1>Recovery mode of the QNAP TS-409</h1>
-
 QNAP added a recovery mode to their devices that can be used when there is
 a problem with your installation of Debian that renders your device
 unbootable.  The system recovery mode allows you write a recovery image to

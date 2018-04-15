@@ -5,8 +5,6 @@ description: Connecting a serial console to the QNAP TS-11x/TS-12x
 keywords: [Debian, QNAP, TS-110, TS-112, TS-112P, TS-119, TS-120, TS-121, serial, console, RS-232, hack]
 ---
 
-<h1>Connecting a serial console to QNAP TS-11x/TS-12x devices</h1>
-
 If you want to connect a serial console to a QNAP TS-11x/TS-12x device, you'll
 need a 3.3V TTL to RS-232 level shifter.  The serial connector is of type
 JST PHR-4 and the wires need to be crimped into a JST SPH-002T-P0.5S

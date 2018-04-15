@@ -1,5 +1,5 @@
 ---
-title: Biography of Martin Michlmayr
+title: Biography
 nav: Biography
 description: A short biography of Martin Michlmayr
 keywords: [Martin Michlmayr, biography, background, interests]

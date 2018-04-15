@@ -1,11 +1,7 @@
 ---
-title: "Abstract for Evolution of Volunteer Participation in Libre Software Projects: Evidence from Debian"
-description: The abstract of a paper on the evolution of volunteers in Debian
+title: Evolution of Volunteer Participation in Libre Software Projects: Evidence from Debian
 keywords: [Debian, FLOSS, open source, volunteer management]
 ---
-
-<h1>Evolution of Volunteer Participation in Libre Software Projects:
-Evidence from Debian</h1>
 
 <ul class = "author">
 <li><span class = "author">Gregorio Robles,</span>

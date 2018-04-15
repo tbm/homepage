@@ -9,8 +9,6 @@ keywords: [Debian, D-Link, DNS-323, Conceptronic, CH3SNAS, FAQ, frequently asked
 <img src = "../images/r_ch3snas_front.jpg" class="border" alt="Conceptronic CH3SNAS from the front" width="148" height="146" />
 </div>
 
-<h1>Frequently Asked Questions (FAQ)</h1>
-
 <h3>Is Debian on the D-Link DNS-323 and Conceptronic CH3SNAS fully supported?</h3>
 
 Debian on the D-Link DNS-323 (revision A1 and B1) and Conceptronic CH3SNAS

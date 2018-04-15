@@ -9,8 +9,6 @@ keywords: [Buffalo, Revogear, Kurobox Pro, support, status]
 <img src = "../images/r_kuroboxpro_front.jpg" class="border" alt="Kurobox Pro from the front" width="148" height="231" />
 </div>
 
-<h1>Status of Kurobox Pro support</h1>
-
 The Kurobox Pro is based on a Marvell Orion System on a Chip.  Marvell has
 done a lot of work to get support for the Orion platform into the mainline
 kernel.  However, some features of the Orion platform are not as well

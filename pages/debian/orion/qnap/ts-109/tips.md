@@ -9,8 +9,6 @@ keywords: [Debian, QNAP, TS-109, tips, tricks]
 <img src = "../images/r_ts109_front.jpg" class="border" alt="QNAP TS-109 from the front" width="148" height="217" />
 </div>
 
-<h1>Tips and tricks for Debian on the QNAP TS-109</h1>
-
 <h2 id="autopower">Automatic power on</h2>
 
 QNAP machines can turn on automatically when power is applied if the device

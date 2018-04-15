@@ -5,8 +5,6 @@ description: Installation guide of Debian on OpenRD
 keywords: [OpenRD, OpenRD-Base, OpenRD-Client, OpenRD-Ultimate, Marvell, Kirkwood, Debian, installer, ARM]
 ---
 
-<h1>Installing Debian on OpenRD (Base and Client)</h1>
-
 This page explains how to use the Debian installer to install Debian 9
 (stretch) on the OpenRD platform (OpenRD-Base, OpenRD-Client and
 OpenRD-Ultimate).

@@ -1,11 +1,8 @@
 ---
-title: "Abstract for Release Management in Free Software Projects: Practices and Problems"
+title: From the Cathedral to the Bazaar: An Empirical Study of the Lifecycle of Volunteer Community Projects
 description: The abstract of a paper on release management practices and problems in free software projects
 keywords: [release management, practices, quality, open source, FLOSS, quality improvement]
 ---
-
-<h1>From the Cathedral to the Bazaar: An Empirical Study of the Lifecycle
-of Volunteer Community Projects</h1>
 
 <ul class = "author">
 <li><span class = "author">Andrea Capiluppi,</span>
