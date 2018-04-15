@@ -24,6 +24,14 @@
     color: #ddd;
 }
 
+/* Breadcrumbs */
+
+.breadcrumb > li + li:before {
+    padding: 0 5px;
+    content: ">";
+    color: #8E2110; /* darkred */
+}
+
 /* headers */
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {

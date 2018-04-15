@@ -2,6 +2,7 @@
 title: Debian HOWTOs
 description: Various technical documents for running Debian on specific hardware
 keywords: [Debian, technical information, HOWTO]
+nav: Debian
 ---
 
 <div class="right">

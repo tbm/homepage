@@ -890,7 +890,9 @@ UNSLUGIFY_TITLES = True
 # Add the absolute paths to directories containing plugins to use them.
 # For example, the `plugins` directory of your clone of the Nikola plugins
 # repository.
-# EXTRA_PLUGINS_DIRS = []
+EXTRA_PLUGINS_DIRS = ["plugins"]
+
+PRETTY_CRUMBS_TAG = "nav"
 
 # Add the absolute paths to directories containing themes to use them.
 # For example, the `v7` directory of your clone of the Nikola themes
