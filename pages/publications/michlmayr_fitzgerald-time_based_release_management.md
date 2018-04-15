@@ -1,5 +1,6 @@
 ---
 title: Time-Based Release Management in Free and Open Source (FOSS) Projects
+nav:
 description: The abstract of a paper on time-based release management in open source projects
 keywords: [release management, time-based, open source, FLOSS]
 ---

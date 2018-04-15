@@ -1,5 +1,6 @@
 ---
 title: Macro-level software evolution: a case study of a large software
+nav:
 description: The abstract of a paper on mining large software compilations
 keywords: [Linux, distributions, software evolution, free software, open source, FLOSS]
 ---

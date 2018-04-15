@@ -1,5 +1,6 @@
 ---
 title: Quality and the Reliance on Individuals in Free Software Projects
+nav:
 description: The abstract of a paper on the problem of reliance on volunteer developers
 keywords: [volunteer management, Debian, project management]
 ---

@@ -1,5 +1,6 @@
 ---
 title: Mining Large Software Compilations over Time: Another Perspective of Software Evolution
+nav:
 description: The abstract of a paper on mining large software compilations
 keywords: [Linux, distributions, software evolution, free software, open source, FLOSS]
 ---

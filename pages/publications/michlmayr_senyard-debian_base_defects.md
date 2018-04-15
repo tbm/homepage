@@ -1,5 +1,6 @@
 ---
 title: A Statistical Analysis of Defects in Debian and Strategies for Improving Quality in Free Software Projects
+nav:
 description: "The abstract of a paper analyzing defects in Debian's base system"
 keywords: [Debian, defects, bug tracking, quality, quality improvement, open source, FLOSS]
 ---

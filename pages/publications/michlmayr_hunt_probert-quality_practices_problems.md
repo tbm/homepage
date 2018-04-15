@@ -1,5 +1,6 @@
 ---
 title: Quality Practices and Problems in Free Software Projects
+nav:
 description: The abstract of a paper on quality practices and problems in free software projects
 keywords: [quality problems, open source, FLOSS, quality improvement]
 ---

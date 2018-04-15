@@ -1,5 +1,6 @@
 ---
 title: How to Have a Successful Free Software Project
+nav:
 description: The abstract of a paper on having a successful free software project
 keywords: [success, free software, open source, FLOSS, bazaar]
 ---

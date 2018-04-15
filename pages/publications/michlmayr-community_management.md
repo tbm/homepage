@@ -1,5 +1,6 @@
 ---
 title: Community Management in Open Source Projects
+nav:
 description: The abstract of a paper about community management in open source projects
 keywords: [community, management, open source]
 ---

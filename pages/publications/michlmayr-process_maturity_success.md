@@ -1,5 +1,6 @@
 ---
 title: Software Process Maturity and the Success of Free Software Projects
+nav:
 description: The abstract of a paper on process maturity and the success of free software projects
 keywords: [process maturity, success, open source, FLOSS]
 ---

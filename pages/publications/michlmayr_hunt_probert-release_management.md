@@ -1,5 +1,6 @@
 ---
 title: Release Management in Free Software Projects: Practices and Problems
+nav:
 description: The abstract of a paper on release management practices and problems in free software projects
 keywords: [release management, practices, quality, open source, FLOSS, quality improvement]
 ---

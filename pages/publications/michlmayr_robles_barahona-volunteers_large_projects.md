@@ -1,5 +1,6 @@
 ---
 title: Volunteers in Large Libre Software Projects: A Quantitative Analysis Over Time
+nav:
 description: The abstract of a paper doing a quantitative analysis of volunteers in Debian
 keywords: [volunteer, large projects, libre software, FLOSS, Debian]
 ---
