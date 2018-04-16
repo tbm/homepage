@@ -28,17 +28,23 @@ platform are <a href = "/debian/orion/qnap/">also supported</a>.
 
 Unfortunately, none of the current ARM-based devices from QNAP are
 supported.  We use the mainline Linux kernel from kernel.org in Debian
-and none of the CPU platforms used in current QNAP devices are supported
+and most of the CPU platforms used in current QNAP devices are supported
 adequately there:
 
-* TS-x28 series (TS-128 and TS-228) and TAS-168 use a Realtek RTD1195
-chip which is not supported at all.
+* The TS-128, TS-228 and TAS-168 use a Realtek RTD1195 chip which is not
+supported at all.
 * TS-x31 series (TS-131, TS-231 and TS-431) use a Freescale chip which
 is not supported at all.
 * TS-x31+ series (TS-231+ and TS-431+) and TS-x31P series (TS-131P,
 TS-231P and TS-431P) use an Annapurna Labs Alpine AL-212 chip.  There
 has been some work by consulting company Bootlin on Alpine but
 currently support is too basic.
+
+There is support for these chips in the Linux kernel but I'm not aware
+of any work going on to support these devices:
+
+* TS-x28A series (TS-128A and TS-228A) use a Realtek RTD1295.
+* TS-328 uses a Realtek RTD1296 chip.
 
 While none of the current ARM-based devices from QNAP work with Debian,
 the devices based on Intel processors (such as the TS-x51 series) should
