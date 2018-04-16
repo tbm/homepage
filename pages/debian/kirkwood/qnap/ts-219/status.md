@@ -38,7 +38,7 @@ TS-21x/TS-22x are supported by Debian:
 
 <tr class="table-success">
 <th>CPU</th>
-<td>Supported in the kernel by the kirkwood platform</td>
+<td>Supported in the kernel</td>
 </tr>
 
 <tr class="table-success">
