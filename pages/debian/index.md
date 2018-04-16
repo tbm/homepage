@@ -10,11 +10,15 @@ nav: Debian
 </div>
 
 I have documented my experience in getting Debian to work on various
-hardware platforms.  Generic information about Debian can be found on the
-<a href = "http://www.debian.org/">project's official web page</a> and
-there is also a good <a href =
-"http://www.debian.org/releases/stable/installmanual">installation
-manual</a>.  The HOWTOs I currently provide are about the following
+hardware platforms.  My recent work is documented and maintained
+collaboratively on the [Debian wiki](https://wiki.debian.org/):
+
+* [Dell XPS 13 9350](https://wiki.debian.org/InstallingDebianOn/Dell/Dell_XPS_13_9350)
+* [NVIDIA Jetson TK1](https://wiki.debian.org/InstallingDebianOn/NVIDIA/Jetson-TK1)
+* [NVIDIA Jetson TX1](https://wiki.debian.org/InstallingDebianOn/NVIDIA/Jetson-TX1)
+* [Seagate Personal Cloud and Seagate NAS](https://wiki.debian.org/InstallingDebianOn/Seagate/PersonalCloud)
+
+The HOWTOs I provide and maintain on my homepage are about the following
 hardware platforms:
 
 <ul>
