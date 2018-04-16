@@ -37,13 +37,13 @@ releases.
 
 <tr class="table-warning">
 <th>SATA</th>
-<td>Supported in the kernel by the `sata_sil` module.  However,
+<td>Supported in the kernel by the sata_sil module.  However,
 the hard drive speed is slow.</td>
 </tr>
 
 <tr class="table-success">
 <th>Ethernet</th>
-<td>Supported in the kernel by the `r8169` module.</td>
+<td>Supported in the kernel by the r8169 module.</td>
 </tr>
 
 <tr class="table-success">
@@ -53,7 +53,7 @@ the hard drive speed is slow.</td>
 
 <tr class="table-success">
 <th>RTC</th>
-<td>Supported in the kernel by the `rtc-rs5c372` module.</td>
+<td>Supported in the kernel by the rtc-rs5c372 module.</td>
 </tr>
 
 <tr class="table-success">

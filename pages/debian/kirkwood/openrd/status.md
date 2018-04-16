@@ -25,17 +25,17 @@ supported by Debian:
 
 <tr class="table-success">
 <th>CPU</th>
-<td>Supported in the kernel by the `kirkwood` platform</td>
+<td>Supported in the kernel by the kirkwood platform</td>
 </tr>
 
 <tr class="table-success">
 <th>SATA</th>
-<td>Supported in the kernel by the `sata_mv` module</td>
+<td>Supported in the kernel by the sata_mv module</td>
 </tr>
 
 <tr class="table-success">
 <th>Ethernet</th>
-<td>Supported in the kernel by the `mv643xx` module</td>
+<td>Supported in the kernel by the mv643xx module</td>
 </tr>
 
 <tr class="table-success">
