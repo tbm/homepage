@@ -25,6 +25,12 @@ hardware platforms:
 <li><a href = "orion/">Devices based on Marvell's Orion platform</a> (such
 as QNAP TS-109, TS-209 and TS-409).</li>
 
+</ul>
+
+The following information is obsolete:
+
+<ul>
+
 <li><a href = "nslu2/">Linksys NSLU2</a> (Network Storage Link for USB 2.0
 Disk Drives)</li>
 
