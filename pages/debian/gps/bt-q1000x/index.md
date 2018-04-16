@@ -30,12 +30,8 @@ download the GPS information stored on the device.  You have to load the
 other modern distributions, the module should get loaded automatically when
 you plug in the device and turn it on (you can set the device either to
 navigate or log but I use navigate).  The GPS chip used in the Qstarz
-BT-Q1000X is supported by the Linux kernel since 2.6.29; if you're using an
-older kernel, you have to <a href =
-"http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=0f9c7b4a1cc24d6f05a848f0acf72dbff7c5d42d">apply
-this fix</a>.  On Debian, you can either use 2.6.29 or higher, or 2.6.26-16
-or higher (Debian lenny 5.0.2 or newer will work).  When you connect your
-BT-Q1000X via USB and turn it on, the device will show up as
+BT-Q1000X is supported by the Linux kernel since 2.6.29.  When you connect
+your BT-Q1000X via USB and turn it on, the device will show up as
 `/dev/ttyACM0`.
 
 <h2>Qstarz BT-Q1000X and gpsbabel</h2>
