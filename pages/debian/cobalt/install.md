@@ -5,13 +5,16 @@ description: Installation guide for Debian on Cobalt machines
 keywords: [Debian, installation, Cobalt, MIPS, Qube, RaQ, Qube2, RaQ2]
 ---
 
+<b>Debian no longer supports MIPS-based Cobalt machines.  This information
+is obsolete.</b>
+
 <div class="right">
 <img src = "../images/r_cobalt_front.jpg" class="border" alt="Cobalt Qube and two RaQs" width="148" height="109" />
 </div>
 
 This page describes how to install Debian 7 (wheezy) on a Cobalt machine.
 Please note that Cobalt machines are no longer supported in Debian 8
-(jessie).
+(jessie) or later releases.
 
 <h2>Requirements</h2>
 

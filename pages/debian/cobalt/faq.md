@@ -5,6 +5,9 @@ description: Frequently Answered Questions regarding Debian on Cobalt
 keywords: [Debian, Cobalt, FAQ, troubleshooting]
 ---
 
+<b>Debian no longer supports MIPS-based Cobalt machines.  This information
+is obsolete.</b>
+
 In the following, a number of frequently asked questions (FAQ) and their
 answers are presented.  This may answer some of the questions you have and
 may also help with troubleshooting.

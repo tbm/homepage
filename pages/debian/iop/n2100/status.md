@@ -12,7 +12,8 @@ keywords: [Debian, Thecus, N2100, support, status]
 The table below shows how well different components of the Thecus N2100 are
 supported by Debian 7 (wheezy).
 
-Note that this device is no longer supported by Debian 8 (jessie).
+Note that this device is no longer supported by Debian 8 (jessie) or later
+releases.
 
 <table class="table table-hover">
 

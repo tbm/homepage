@@ -5,6 +5,8 @@ description: Information about running Debian on devices based on Intel's IOP ch
 keywords: [Debian, Intel, IOP, I/O processor, NAS, SAN, installation, guide]
 ---
 
+<b>Intel's IOP platform is no longer supported in Debian.</b>
+
 <div class="right">
 <img src = "images/r_intel.gif" class="border" alt="Intel logo" width="148" height="107" />
 </div>

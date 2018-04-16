@@ -5,6 +5,8 @@ description: Instructions for running Debian on the Thecus N2100
 keywords: [Debian, Thecus, N2100, installation, guide, IOP, NAS, server]
 ---
 
+<b>Intel's IOP platform is no longer supported in Debian.</b>
+
 <div class="right">
 <img src = "images/r_n2100.jpg" class="border" alt="Thecus N2100" width="141" height="148" />
 </div>

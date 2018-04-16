@@ -4,6 +4,8 @@ description: Installation guide for Debian on SGI O2
 keywords: [Debian, SGI, O2, sarge, installation]
 ---
 
+<b>SGI O2 machines are no longer supported in Debian.</b>
+
 <div class="right">
 <img src = "images/r_sgi_o2.jpg" class="border" alt="SGI O2" width="148" height="188" />
 </div>
