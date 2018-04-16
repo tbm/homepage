@@ -68,8 +68,7 @@ TS-21x/TS-22x are supported by Debian:
 
 <tr class="table-success">
 <th>Fan</th>
-<td>Supported in qcontrol; you can <a href="../tips/#qcontrol-upgrade">upgrade
-qcontrol</a> to get automatic temperature regulation.</td>
+<td>Supported in qcontrol</td>
 </tr>
 
 <tr class="table-success">
