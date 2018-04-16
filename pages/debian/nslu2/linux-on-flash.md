@@ -14,9 +14,12 @@ If you are running your NSLU2 on a USB flash key, there are a number of
 things you might want to do in order to reduce the wear and tear on the
 underlying flash device (as it only supports a limited number of writes).
 
-<em>Note:</em> this document currently describes Debian etch (4.0) and
-needs to be updated to Debian squeeze (6.0) and Debian wheezy (7.0).
-Some of the hints may still apply, but some may not.
+<div class="alert alert-danger">
+
+This document describes Debian etch (4.0).  Some of the hints may still
+apply, but some may not.
+
+</div>
 
 * The ext3 filesystem per default writes metadata changes every five
 seconds to disk.  This can be increased by mounting the root filesystem

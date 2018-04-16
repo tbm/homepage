@@ -10,9 +10,12 @@ keywords: [Debian, NSLU2, Linksys NSLU2, memory, RAM, usage]
 
 <h2>by David Härdeman &lt;david@hardeman.nu&gt;</h2>
 
-<em>Note:</em> this document currently describes Debian etch (4.0) and
-needs to be updated to Debian squeeze (6.0) and Debian wheezy (7.0).
-Some of the hints may still apply, but some may not.
+<div class="alert alert-danger">
+
+This document describes Debian etch (4.0).  Some of the hints may still
+apply, but some may not.
+
+</div>
 
 <ul>
 

@@ -4,6 +4,12 @@ nav: Known issues
 keywords: [Debian, Thecus, N2100, bugs, issues, defects]
 ---
 
+<div class="alert alert-danger">
+
+Intel's IOP platform is no longer supported in Debian.
+
+</div>
+
 <div class="right">
 <img src = "../images/r_n2100_debian.jpg" class="border" alt="Thecus N2100" width="133" height="148" />
 </div>

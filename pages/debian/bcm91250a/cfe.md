@@ -5,6 +5,13 @@ description: Upgrade guide of the CFE firmware
 keywords: [upgrade, CFE, SWARM, firmware, MIPS]
 ---
 
+<div class="alert alert-danger">
+
+Support for the BCM91250A board was dropped from Debian.  This page is
+only provided for historical purposes.
+
+</div>
+
 In order to install Debian, you might have to upgrade the firmware (CFE) on
 your BCM91250A.  Older versions used `ide0` to refer to the first IDE
 device while newer versions use `ide0.0`.  I've obtained an <a href =

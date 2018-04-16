@@ -9,9 +9,13 @@ keywords: [BCM91250A, MIPS, evaluation board, Debian]
 <img src = "images/r_swarm_mobo.jpg" class="border" alt="SWARM motherboard" width="148" height="184" />
 </div>
 
-<b>Important note:</b> I no longer own an BCM91250A board, so these pages
-are not out-of-date and no longer updated.  They are only provided in the
-hope that some of the information might be useful.
+<div class="alert alert-danger">
+
+I no longer own an BCM91250A board and Debian no longer has support.
+These pages are only provided in the hope that some of the information
+might be useful.
+
+</div>
 
 The BCM91250A is an ATX form factor evaluation board from Broadcom based on
 their SiByte processor family.  Specifically, the BCM91250A uses the

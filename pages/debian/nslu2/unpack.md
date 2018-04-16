@@ -5,6 +5,14 @@ description: Manual installation guide of Debian on NSLU2
 keywords: [Debian, squeeze, NSLU2, ARM]
 ---
 
+<div class="alert alert-warning">
+
+While it's still possible to install Debian on the NSLU2 using the manual
+method described on this page, I suggest you upgrade to a more modern
+device.  Support for the Linksys NSLU2 was dropped in Debian 9 (stretch).
+
+</div>
+
 <div class="right">
 <img src = "../images/r_nslu2_front.jpg" class="border" alt="A NSLU2 from the front" width="148" height="218" />
 </div>
@@ -102,9 +110,14 @@ wget http://people.debian.org/~tbm/nslu2/wheezy/base.tar.bz2.asc
 
 </ul>
 
+<div class="alert alert-danger">
+
 Please be aware that these tar balls are not up-to-date and therefore lack
-important security updates.  Please upgrade to the latest Debian release
-(jessie, version 8) immediately after the installation.
+important security updates.  Please upgrade to the Debian 8 (jessie)
+immediately after the installation.  However, even that release is no
+longer supported!
+
+</div>
 
 Verify that the GPG signature matches:
 

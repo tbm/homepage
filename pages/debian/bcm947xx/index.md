@@ -4,8 +4,11 @@ description: Running Debian on BCM947xx based devices
 keywords: [Debian, BCM947xx, router, AP, NAS]
 ---
 
-<b>Note:</b> I'm not interested in this platform any more, but below
-are some links to other efforts on Debian on BCM947xx based devices.
+<div class="alert alert-danger">
+
+Debian does not support BCM947xx devices.
+
+</div>
 
 <h2>Links</h2>
 

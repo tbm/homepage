@@ -5,6 +5,12 @@ description: Tips and tricks about Debian on Linksys NSLU2
 keywords: [NSLU2, Linksys NSLU2, Debian, tips, tricks]
 ---
 
+<div class="alert alert-danger">
+
+The Linksys NSLU2 is no longer supported by Debian.
+
+</div>
+
 <div class="right">
 <img src = "../images/r_nslu2_front.jpg" class="border" alt="A NSLU2 from the front" width="148" height="218" />
 </div>

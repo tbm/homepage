@@ -5,7 +5,12 @@ description: Running Debian on the Netgear WGT634U
 keywords: [Debian, WGT634U, Netgear, BCM947xx, router, AP, NAS]
 ---
 
-<b>Note:</b> I'm no longer working on Debian support for Netgear WGT634U.
+<div class="alert alert-danger">
+
+Debian does not support BCM947xx devices.
+
+</div>
+
 However, Michel Lespinasse has provided an installation guide for
 <a href = "http://people.zoy.org/~walken/wgt634u/HOWTO.html">Debian on
 WGT634U</a>.

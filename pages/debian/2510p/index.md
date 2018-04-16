@@ -5,6 +5,12 @@ description: Installation hints for Debian on the HP 2510p laptop
 keywords: [Debian, lenny, installation, HP, Compaq 2510p, laptop]
 ---
 
+<div class="alert alert-warning">
+
+This information is out of date.
+
+</div>
+
 <div class="right">
 <img src = "images/r_2510p_front.jpg" class="border" alt="HP 2510p" width="148" height="128" />
 </div>

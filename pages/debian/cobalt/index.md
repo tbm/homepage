@@ -4,8 +4,12 @@ description: A page giving useful help for running Debian on MIPS based Cobalt m
 keywords: [Debian, Cobalt, MIPS, RaQ, Qube, RaQ2, Qube2]
 ---
 
-<b>Debian no longer supports MIPS-based Cobalt machines.  This information
-is obsolete.</b>
+<div class="alert alert-danger">
+
+Debian no longer supports MIPS-based Cobalt machines.  This information
+is obsolete.
+
+</div>
 
 <div class="right">
 <img src = "images/r_cobalt_front.jpg" class="border" alt="Cobalt Qube and two RaQs" width="148" height="109" />

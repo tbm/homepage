@@ -5,7 +5,11 @@ description: Installation instructions for Debian on GLAN Tank
 keywords: [IOP, GLAN Tank, Supertank, SOTO-HDLGW, IO-Data, ARM, Debian, installation]
 ---
 
-<b>Intel's IOP platform is no longer supported in Debian.</b>
+<div class="alert alert-danger">
+
+Intel's IOP platform is no longer supported in Debian.
+
+</div>
 
 While the GLAN Tank is supported in Debian 7 (wheezy), it is no longer
 supported in Debian 8 (jessie) or later releases.

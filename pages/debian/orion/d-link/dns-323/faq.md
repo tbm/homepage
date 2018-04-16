@@ -5,6 +5,12 @@ description: FAQ about Debian on D-Link DNS-323
 keywords: [Debian, D-Link, DNS-323, Conceptronic, CH3SNAS, FAQ, frequently asked questions, help, troubleshooting]
 ---
 
+<div class="alert alert-danger">
+
+The D-Link DNS-323 is no longer supported by Debian.
+
+</div>
+
 <div class="right">
 <img src = "../images/r_ch3snas_front.jpg" class="border" alt="Conceptronic CH3SNAS from the front" width="148" height="146" />
 </div>

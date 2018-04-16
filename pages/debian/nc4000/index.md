@@ -5,6 +5,12 @@ description: Installation guide for Debian on the HP nc4000 and nc4010 laptops
 keywords: [Debian, lenny, installation, HP, Compaq nc4000, Compaq nc4010, laptop]
 ---
 
+<div class="alert alert-warning">
+
+This information is out of date
+
+</div>
+
 <div class="right">
 <img src = "images/r_nc4000.jpg" class="border" alt="HP nc4000" width="148" height="122" />
 </div>
