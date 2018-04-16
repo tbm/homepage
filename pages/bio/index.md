@@ -6,7 +6,7 @@ keywords: [Martin Michlmayr, biography, background, interests]
 ---
 
 <div class="right">
-<img src = "../images/r_debconf4_tbm1.jpg" class="border" alt="Martin Michlmayr" width="148" height="182" />
+<img src = "../images/martin_2017_ibk.jpg" alt = "Photo of Martin" width="186" height="200" />
 </div>
 
 I'm a contributor to various free and open source software projects.

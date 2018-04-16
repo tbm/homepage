@@ -6,7 +6,7 @@ keywords: [Martin Michlmayr, Michlmayr, tbm, cyrius, cyrius.com, free software]
 ---
 
 <div class="right">
-<img src = "images/palm.jpg" alt = "Photo of Martin" width="148" height="209" />
+<img src = "images/martin_2017_ibk.jpg" alt = "Photo of Martin" width="186" height="200" />
 </div>
 
 I'm a contributor to various free and open source software projects, such
