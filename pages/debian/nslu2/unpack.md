@@ -174,9 +174,9 @@ upgrade mode.</li>
 
 Download the firmware image:
 
-* <a href = "http://www.cyrius.com/debian/nslu2/files/armel/sda2-2.6.32-5">Debian 6
+* <a href = "https://people.debian.org/~tbm/nslu2/squeeze/sda2-2.6.32-5">Debian 6
 (squeeze)</a> (md5sum: `3c1457de133ac0f3a8b1a1423f7d0c2c`)
-* <a href = "http://www.cyrius.com/debian/nslu2/files/armel/sda2-3.2.0-4">Debian 7
+* <a href = "https://people.debian.org/~tbm/nslu2/wheezy/sda2-3.2.0-4">Debian 7
 (wheezy)</a> (md5sum: `adb46e8e114834ef840bc50011361c4b`)
 
 Write the firmware file to your NSLU2 using upslug2:
