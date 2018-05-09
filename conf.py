@@ -181,9 +181,7 @@ USE_BASE_TAG = False
 # Final location for the blog main RSS feed is:
 # output / TRANSLATION[lang] / RSS_PATH / rss.xml
 # (translatable)
-#RSS_PATH = "blog/feed"
-# Workaround for issue #3036
-RSS_PATH = "blog/feed/rss"
+RSS_PATH = "blog/feed/"
 
 # Slug the Tag URL. Easier for users to type, special characters are
 # often removed or replaced as well.
