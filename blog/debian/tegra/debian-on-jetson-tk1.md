@@ -4,7 +4,7 @@ date: 2016-07-24 18:31:28 -0700
 category: debian
 ---
 
-<img src="http://www.cyrius.com/images/jetson-tk1-debian8.jpg"
+<img src="/images/jetson-tk1-debian8.jpg"
  alt="Debian on Jetson TK1" class="right" width="504" height="378" />
 
 I became interested in running Debian on NVIDIA's Tegra platform recently.

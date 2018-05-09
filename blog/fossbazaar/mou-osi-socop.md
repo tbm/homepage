@@ -23,7 +23,7 @@ translation of the talks, the majority of the people listened in
 English... this gives me hope that some of these folks will end up
 becoming involved in the international open source community.
 
-<img src="http://www.cyrius.com/images/mou-socop-osi.jpg"
+<img src="/images/mou-socop-osi.jpg"
  alt="Mr Koo and Dr Michlmayr signing MOU" class="right" width="400" height="266" />
 
 SOCOP is working on a number of activities related to open source,
