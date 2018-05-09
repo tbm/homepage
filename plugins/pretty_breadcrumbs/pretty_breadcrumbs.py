@@ -31,18 +31,18 @@ from nikola.plugin_categories import SignalHandler
 from nikola import utils
 
 
-class PrettyCrumbs(SignalHandler):
+class PrettyBreadcrumbs(SignalHandler):
 
     def _set_pretty_crumbs(self, site):
         old_get_crumbs = utils.get_crumbs
 
-        if 'PRETTY_CRUMBS_TAG' in self.site.config:
-            tag = self.site.config['PRETTY_CRUMBS_TAG']
+        if 'PRETTY_BREADCRUMBS_TAG' in self.site.config:
+            tag = self.site.config['PRETTY_BREADCRUMBS_TAG']
         else:
             tag = 'crumb'
 
         def pretty_get_crumbs(path, is_file=False, index_folder=None, lang=None):
-            lang = lang if lang else self.site.default_lang
+            lang = lang if lang else utils.LocaleBorg().current_lang
             crumbs = old_get_crumbs(path, is_file=is_file, index_folder=index_folder, lang=lang)
             _crumbs = []
             for link, text in crumbs:
@@ -51,7 +51,7 @@ class PrettyCrumbs(SignalHandler):
                 else:
                     file = os.path.normpath(os.path.join(path, link))
                 if not is_file:
-                    file += "/" + self.site.config['INDEX_FILE']
+                    file = os.path.join(file, self.site.config['INDEX_FILE'])
                 if file in self.site.post_per_file:
                     post = self.site.post_per_file[file]
                     if tag in post.meta[lang]:
@@ -60,12 +60,11 @@ class PrettyCrumbs(SignalHandler):
                 _crumbs.append([link, text])
             return _crumbs
 
-        # Setting it as utils.get_crumbs
+        # Set pretty_get_crumbs() as the new utils.get_crumbs()
         utils.get_crumbs = pretty_get_crumbs
 
     def set_site(self, site):
         """Set site, which is a Nikola instance."""
-        super(PrettyCrumbs, self).set_site(site)
+        super(PrettyBreadcrumbs, self).set_site(site)
         # Add hook for after post scanning
         blinker.signal("scanned").connect(self._set_pretty_crumbs)
-
