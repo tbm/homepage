@@ -1,11 +1,11 @@
 language: python
 sudo: false
 python:
-- 3.6
+  - 3.6
 install:
-- pip install 'Nikola[extras]'
+  - pip install 'Nikola[extras]'
 script:
-- nikola build
+  - nikola build
 notifications:
     email:
         on_success: change
