@@ -1,7 +1,6 @@
 ---
 title: "The European Open Source Observatory and Repository (OSOR)"
 date: 2008-09-04 14:57:00 +0200
-section: fossbazaar
 ---
 
 I attended the Open Nordic Conference in Norway in June, a conference that

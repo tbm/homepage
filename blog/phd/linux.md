@@ -1,7 +1,6 @@
 ---
 title: "Linux kernel"
 date: 2007-03-15 16:31:49 +0100
-section: phd
 ---
 
 The Linux kernel project has seen major changes to its development and

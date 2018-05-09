@@ -1,7 +1,7 @@
 ---
 title: "Debian on Jetson TX1"
 date: 2017-01-26 13:51:25 -0800
-section: debian
+category: debian
 ---
 
 Debian is now working on the NVIDIA Jetson TX1 developer kit, a

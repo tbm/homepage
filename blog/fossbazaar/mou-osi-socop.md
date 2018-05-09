@@ -1,7 +1,6 @@
 ---
 title: "OSI signs an MOU with the Korea Software Copyright Committee"
 date: 2009-04-22 15:12:51 +0200
-section: fossbazaar
 ---
 
 I visited Seoul last week to represent the Open Source Initiative (OSI) at

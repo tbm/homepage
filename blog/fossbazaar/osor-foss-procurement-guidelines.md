@@ -1,7 +1,6 @@
 ---
 title: "European Commission publishes guidelines on the procurement of FOSS"
 date: 2008-11-06 14:04:25 +0100
-section: fossbazaar
 ---
 
 The Open Source Repository and Observatory (OSOR), a new site sponsored

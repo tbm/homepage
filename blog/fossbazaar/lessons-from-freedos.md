@@ -1,7 +1,6 @@
 ---
 title: "Project management lessons from the FreeDOS Project"
 date: 2009-11-10 17:12:18 +0000
-section: fossbazaar
 ---
 
 A lot of people seem to think that open source is a magic solution to

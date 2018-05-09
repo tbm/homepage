@@ -52,7 +52,7 @@ management in free software projects.
 
 <li><a href = "/publications/michlmayr-phd.pdf">My PhD dissertation</a>.</li>
 
-<li>Some <a href = "/blog/phd/">summaries describing my findings</a>.</li>
+<li>Some <a href = "summaries/">summaries describing my findings</a>.</li>
 
 <li>A <a href = "http://www.youtube.com/watch?v=IKsQsxubuAA">video of a
 talk</a> I gave at Google about my research</li>

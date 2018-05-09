@@ -1,7 +1,6 @@
 ---
 title: "FLOSSInclude wants to foster FOSS in developing countries"
 date: 2008-03-20 16:44:00 +0200
-section: fossbazaar
 ---
 
 The EU is sponsoring a new two year project called <a href =

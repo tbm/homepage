@@ -1,7 +1,6 @@
 ---
 title: "OSI and License Proliferation"
 date: 2008-08-21 16:38:00 +0200
-section: fossbazaar
 ---
 
 License proliferation has been a topic for discussion for quite a while now

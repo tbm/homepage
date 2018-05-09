@@ -1,7 +1,6 @@
 ---
 title: "Driving forces of FOSS adoption and development"
 date: 2008-01-23 19:16:00 +0200
-section: fossbazaar
 ---
 
 Matt Asay of Alfresco recently observed <a href =

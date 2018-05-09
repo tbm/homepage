@@ -1,7 +1,6 @@
 ---
 title: "Open Source Contributor Agreements: Purpose and Scope"
 date: 2010-08-06 08:34:23 -0400
-section: fossbazaar
 ---
 
 Contributor Agreements, also known as Contributor License Agreements

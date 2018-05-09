@@ -1,7 +1,6 @@
 ---
 title: "Obstacles for making FOSS development truly global"
 date: 2008-02-21 15:56:00 +0200
-section: fossbazaar
 ---
 
 Li Yang, who works for Freescale Semiconductor, gave a very interesting

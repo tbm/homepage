@@ -1,7 +1,6 @@
 ---
 title: "Lessons learned from Munich's migration to Linux"
 date: 2011-05-19 15:15:09 +0100
-section: fossbazaar
 ---
 
 I attended LinuxTag in Berlin last week and there was a very interesting

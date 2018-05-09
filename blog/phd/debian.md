@@ -1,7 +1,6 @@
 ---
 title: "Debian"
 date: 2007-03-14 09:42:53 +0100
-section: phd
 ---
 
 The aim of Debian is to integrate software produced by other projects to

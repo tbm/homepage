@@ -1,7 +1,6 @@
 ---
 title: "OpenOffice.org"
 date: 2007-03-16 08:44:50 +0100
-section: phd
 ---
 
 OpenOffice.org is an office suite offering various integrated applications,

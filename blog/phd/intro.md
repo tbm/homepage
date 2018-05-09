@@ -1,7 +1,6 @@
 ---
 title: "Quality Improvement in Free Software: Release Management"
 date: 2007-03-13 22:22:22 +0100
-section: phd
 ---
 
 As I'm nearing the completion of my PhD, I'm starting to write about the

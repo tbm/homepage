@@ -1,7 +1,6 @@
 ---
 title: "Models and tools for FOSS quality"
 date: 2008-01-31 04:47:00 +0200
-section: fossbazaar
 ---
 
 There has been interest in quality models for FOSS for a long time.  There

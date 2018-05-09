@@ -1,7 +1,6 @@
 ---
 title: "Links"
 date: 2007-04-28 11:30:29 +0200
-section: phd
 ---
 
 Here are a number of links to various postings and other information

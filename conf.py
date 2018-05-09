@@ -26,7 +26,7 @@ NAVIGATION_LINKS = {
     ),
 }
 
-THEME = "bootstrap3"
+THEME = "bootstrap4"
 
 THEME_COLOR = '#2C3E50'
 
@@ -54,36 +54,6 @@ METADATA_FORMAT = "YAML"
 # Writes tag cloud data in form of tag_cloud_data.json.
 # Warning: this option will change its default value to False in v8!
 WRITE_TAG_CLOUD = False
-
-# Generate pages for each section. The site must have at least two sections
-# for this option to take effect. It wouldn't build for just one section.
-POSTS_SECTIONS = True
-
-# Setting this to False generates a list page instead of an index. Indexes
-# are the default and will apply GENERATE_ATOM if set.
-#POSTS_SECTIONS_ARE_INDEXES = True
-
-# Final locations are:
-# output / TRANSLATION[lang] / SECTION_PATH / SECTION_NAME / index.html (list of posts for a section)
-# output / TRANSLATION[lang] / SECTION_PATH / SECTION_NAME / rss.xml (RSS feed for a section)
-# (translatable)
-SECTION_PATH = "blog"
-
-# Sections are determined by their output directory as set in POSTS by default,
-# but can alternatively be determined from file metadata instead.
-POSTS_SECTION_FROM_META = True
-
-# Names are determined from the output directory name automatically or the
-# metadata label. Unless overwritten below, names will use title cased and
-# hyphens replaced by spaces.
-POSTS_SECTION_NAME = {
-    DEFAULT_LANG: {
-        'beancount': 'Open source accouting, including beancount and fava',
-        'debian': 'Debian',
-        'fossbazaar': 'Posts from the open source governance site FOSSBazaar',
-        'phd': 'PhD research on open source release management',
-    },
-}
 
 # Final locations are:
 # output / TRANSLATION[lang] / TAG_PATH / index.html (list of tags)
@@ -126,6 +96,102 @@ TAG_PATH = "blog/tags"
 # The tag will not be displayed on the tag list page, the tag cloud and posts.
 # Tag pages will still be generated.
 #HIDDEN_TAGS = ['mathjax']
+
+# Final locations are:
+# output / TRANSLATION[lang] / CATEGORY_PATH / index.html (list of categories)
+# output / TRANSLATION[lang] / CATEGORY_PATH / CATEGORY_PREFIX category.html (list of posts for a category)
+# output / TRANSLATION[lang] / CATEGORY_PATH / CATEGORY_PREFIX category RSS_EXTENSION (RSS feed for a category)
+# (translatable)
+# CATEGORY_PATH = "categories"
+# CATEGORY_PREFIX = "cat_"
+
+# By default, the list of categories is stored in
+#     output / TRANSLATION[lang] / CATEGORY_PATH / index.html
+# (see explanation for CATEGORY_PATH). This location can be changed to
+#     output / TRANSLATION[lang] / CATEGORIES_INDEX_PATH
+# with an arbitrary relative path CATEGORIES_INDEX_PATH.
+# (translatable)
+CATEGORIES_INDEX_PATH = "blog/categories/index.html"
+
+# If CATEGORY_ALLOW_HIERARCHIES is set to True, categories can be organized in
+# hierarchies. For a post, the whole path in the hierarchy must be specified,
+# using a forward slash ('/') to separate paths. Use a backslash ('\') to escape
+# a forward slash or a backslash (i.e. '\//\\' is a path specifying the
+# subcategory called '\' of the top-level category called '/').
+CATEGORY_ALLOW_HIERARCHIES = True
+# If CATEGORY_OUTPUT_FLAT_HIERARCHY is set to True, the output written to output
+# contains only the name of the leaf category and not the whole path.
+CATEGORY_OUTPUT_FLAT_HIERARCHY = False
+
+# If CATEGORY_PAGES_ARE_INDEXES is set to True, each category's page will contain
+# the posts themselves. If set to False, it will be just a list of links.
+# CATEGORY_PAGES_ARE_INDEXES = False
+
+# Set descriptions for category pages to make them more interesting. The
+# default is no description. The value is used in the meta description
+# and displayed underneath the category list or index page’s title.
+CATEGORY_DESCRIPTIONS = {
+   DEFAULT_LANG: {
+        "beancount": "Open source accouting, including beancount and fava",
+        "fossbazaar": "Posts from the open source governance site FOSSBazaar",
+        "phd": "PhD research on open source release management",
+   },
+}
+
+# Set special titles for category pages. The default is "Posts about CATEGORY".
+CATEGORY_TITLES = {
+    DEFAULT_LANG: {
+        "fossbazaar": "Posts from FOSSBazaar",
+        "phd": "Posts about my PhD research"
+    },
+}
+
+# If you do not want to display a category publicly, you can mark it as hidden.
+# The category will not be displayed on the category list page.
+# Category pages will still be generated.
+HIDDEN_CATEGORIES = []
+
+# A list of dictionaries specifying categories which translate to each other.
+# Format: a list of dicts {language: translation, language2: translation2, …}
+# See TAG_TRANSLATIONS example above.
+# CATEGORY_TRANSLATIONS = []
+
+# If set to True, a category in a language will be treated as a translation
+# of the literally same category in all other languages. Enable this if you
+# do not translate categories, for example.
+# CATEGORY_TRANSLATIONS_ADD_DEFAULTS = True
+
+# If no category is specified in a post, the destination path of the post
+# can be used in its place. This replaces the sections feature. Using
+# category hierarchies is recommended.
+CATEGORY_DESTPATH_AS_DEFAULT = True
+
+# If True, the prefix will be trimmed from the category name, eg. if the
+# POSTS destination is "foo/bar", and the path is "foo/bar/baz/quux",
+# the category will be "baz/quux" (or "baz" if only the first directory is considered).
+# Note that prefixes coming from translations are always ignored.
+CATEGORY_DESTPATH_TRIM_PREFIX = True
+
+# If True, only the first directory of a path will be used.
+CATEGORY_DESTPATH_FIRST_DIRECTORY_ONLY = True
+
+# Map paths to prettier category names. (translatable)
+CATEGORY_DESTPATH_NAMES = {
+    DEFAULT_LANG: {
+        "debian": "Debian",
+        "fossbazaar": "FOSSBazaar",
+        "phd": "PhD",
+    },
+}
+
+# By default, category indexes will appear in CATEGORY_PATH and use
+# CATEGORY_PREFIX. If this is enabled, those settings will be ignored (except
+# for the index) and instead, they will follow destination paths (eg. category
+# 'foo' might appear in 'posts/foo'). If the category does not come from a
+# destpath, first entry in POSTS followed by the category name will be used.
+# For this setting, category hierarchies are required and cannot be flattened.
+CATEGORY_PAGES_FOLLOW_DESTPATH = True
+
 
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
@@ -842,7 +908,7 @@ COPY_SOURCES = False
 
 # If you hate "Filenames with Capital Letters and Spaces.md", you should
 # set this to true.
-UNSLUGIFY_TITLES = True
+FILE_METADATA_UNSLUGIFY_TITLES = True
 
 # Additional metadata that is added to a post when creating a new_post
 # ADDITIONAL_METADATA = {}

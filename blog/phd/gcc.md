@@ -1,7 +1,6 @@
 ---
 title: "GCC"
 date: 2007-03-14 15:41:55 +0100
-section: phd
 ---
 
 The GNU Compiler Collection (GCC) is a compiler suite which supports a

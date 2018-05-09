@@ -1,7 +1,6 @@
 ---
 title: "Amazing figures on the open source adoption in Finland"
 date: 2008-10-18 20:47:43 +0200
-section: fossbazaar
 ---
 
 I attended Openmind last week, an interesting conference organized by the Finnish Centre for Open

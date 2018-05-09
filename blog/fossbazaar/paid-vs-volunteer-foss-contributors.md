@@ -1,7 +1,6 @@
 ---
 title: "Differences between paid and volunteer FOSS contributors"
 date: 2008-10-02 22:33:24 +0200
-section: fossbazaar
 ---
 
 There's a lot of debate these days about the impact of the increasing

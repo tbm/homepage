@@ -1,7 +1,6 @@
 ---
 title: "ledger2beancount: a ledger to beancount converter"
 date: 2018-03-31 18:12:00 +0200
-section: beancount
 ---
 
 Stefano Zacchiroli and I released

@@ -1,7 +1,6 @@
 ---
 title: "GNOME"
 date: 2007-03-15 08:21:36 +0100
-section: phd
 ---
 
 GNOME provides a complete desktop environment that is easy to use.  The

@@ -1,7 +1,6 @@
 ---
 title: "Open source compliance: know your obligations"
 date: 2010-07-07 14:30:18 +0100
-section: fossbazaar
 ---
 
 One key element of open source compliance is to know your obligations.

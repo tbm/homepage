@@ -1,7 +1,7 @@
 ---
 title: "QNAP TS-x09 installer available again"
 date: 2016-01-23 18:30:27 -0800
-section: debian
+category: debian
 ---
 
 Debian 8.3 [came out today](https://www.debian.org/News/2016/20160123).

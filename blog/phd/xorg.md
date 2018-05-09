@@ -1,7 +1,6 @@
 ---
 title: "X.org"
 date: 2007-03-17 11:49:18 +0100
-section: phd
 ---
 
 In previous times, most Linux distributions and other free software

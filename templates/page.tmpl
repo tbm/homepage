@@ -3,11 +3,11 @@
 <%namespace name="pheader" file="post_header.tmpl"/>
 <%namespace name="comments" file="comments_helper.tmpl"/>
 <%namespace name="math" file="math_helper.tmpl"/>
-<%namespace name="ui" file="crumbs.tmpl" import="bar"/>
+<%namespace name="ui" file="ui_helper.tmpl"/>
 <%inherit file="post.tmpl"/>
 
 <%block name="content">
-${ui.bar(crumbs)}
+${ui.breadcrumbs(crumbs)}
 <article class="post-${post.meta('type')} storypage" itemscope="itemscope" itemtype="http://schema.org/Article">
     <header>
         ${pheader.html_title()}

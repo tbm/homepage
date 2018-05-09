@@ -1,7 +1,6 @@
 ---
 title: "Plone"
 date: 2007-03-16 19:52:56 +0100
-section: phd
 ---
 
 Plone is a content management system that is built on the powerful Zope

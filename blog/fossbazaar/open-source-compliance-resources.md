@@ -1,7 +1,6 @@
 ---
 title: "Resources for Open Source Compliance"
 date: 2010-07-20 13:57:16 +0100
-section: fossbazaar
 ---
 
 Open source is everywhere today and there is growing awareness that

@@ -1,7 +1,6 @@
 ---
 title: "Corporate participation in open source communities"
 date: 2009-06-05 11:10:58 +0200
-section: fossbazaar
 ---
 
 Someone recently asked me a few question about corporate participation

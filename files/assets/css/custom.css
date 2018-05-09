@@ -1,27 +1,24 @@
 
 /* Navigation bar */
 
-.navbar-inverse {
-    background-color: #2C3E50;
+.bg-dark {
+    background-color: #2C3E50!important;
 }
 
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #fff;
+li.nav-item>.active>a, li.nav-item>a:focus, li.nav-item>a:hover {
+    color: #fff!important;
     background-color: #294867;
 }
 
 /* red line at the top */
-.navbar-inverse {
-    border-top-width: 3px;
+.navbar, .navbar>.container {
+    border-top-width: 2em;
     border-top-color: #691919;
 }
 
 /* Make text easier to read on the dark background */
-.navbar-inverse .navbar-brand {
-    color: #ddd;
-}
-.navbar-inverse .navbar-nav>li>a {
-    color: #ddd;
+.navbar-nav .nav-link {
+    color: #DDD!important;
 }
 
 /* Breadcrumbs */
@@ -34,11 +31,16 @@
 
 /* headers */
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
     color: #337ab7 ; /* light blue */
 }
 
 /* Code */
+
+pre.code, code, .code pre  {
+    background-color: #eeeeee;
+    padding: 2px;
+}
 
 .input {
     color: #0000ff; /* blue */

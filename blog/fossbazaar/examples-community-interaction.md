@@ -1,7 +1,6 @@
 ---
 title: "Case stories of good and bad community interaction"
 date: 2008-11-20 19:27:39 +0100
-section: fossbazaar
 ---
 
 It is often argued that companies have to work with the FOSS community and

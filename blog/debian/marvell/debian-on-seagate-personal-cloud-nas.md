@@ -1,7 +1,7 @@
 ---
 title: "Debian on Seagate Personal Cloud and Seagate NAS"
 date: 2016-07-21 19:50:27 -0700
-section: debian
+category: debian
 ---
 
 The majority of NAS devices supported in Debian are based on Marvell's

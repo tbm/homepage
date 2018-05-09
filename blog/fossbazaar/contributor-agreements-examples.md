@@ -1,7 +1,6 @@
 ---
 title: "Open Source Contributor Agreements: Some Examples"
 date: 2010-08-18 16:10:16 +0100
-section: fossbazaar
 ---
 
 The <a href =
