@@ -23,7 +23,7 @@ keywords: [release management, time-based, open source, FLOSS]
 
 <li>PDF available on request</li>
 
-<li><a href = "../michlmayr_fitzgerald_stol-why_and_how_time_based_releases.md">BibTeX entry</a></li>
+<li><a href = "../michlmayr_fitzgerald_stol-why_and_how_time_based_releases.bib">BibTeX entry</a></li>
 
 </ul>
 
