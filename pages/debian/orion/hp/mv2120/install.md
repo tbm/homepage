@@ -68,7 +68,7 @@ the tool to serve the recovery image.  Download the <a href =
 "http://ftp.nl.debian.org/debian/dists/stretch/main/installer-armel/current/images/orion5x/network-console/hp/mv2120/netboot.img">Debian
 installer</a> image and start the tool.  If you want to use the Windows
 tool, please follow <a href =
-"http://tech.groups.yahoo.com/group/hackingthemediavault/message/376">these
+"https://groups.yahoo.com/neo/groups/hackingthemediavault/conversations/messages/376">these
 instructions</a>.  To use uphpmvault, issue the following command:
 
 <div class="code">

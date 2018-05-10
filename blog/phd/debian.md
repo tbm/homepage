@@ -127,10 +127,10 @@ for Debian&nbsp;4.0.</li>
 <li>The release team has shifted the responsibility of achieving targets to
 specific developers and teams.  There are also better criteria now defining
 these responsibilities.  For example, <a href =
-"http://release.debian.org/etch_arch_policy.html">criteria have been
+"https://release.debian.org/etch/arch_policy.html">criteria have been
 published</a> that architectures need to fulfil for inclusion in
 Debian&nbsp;4.0 and there is <a href =
-"http://release.debian.org/etch_arch_qualify.html">a page indicating the
+"https://release.debian.org/etch/arch_qualify.html">a page indicating the
 status</a> of each architecture.</li>
 
 <li>The release team is increasingly giving encouragement to developers to

@@ -7,7 +7,7 @@ Stefano Zacchiroli and I released
 [ledger2beancount](https://github.com/zacchiro/ledger2beancount/), a
 script to convert ledger files to beancount.
 [Ledger](https://www.ledger-cli.org/) is a bookkeeping system based on
-text files.  [Beancount](https://furius.ca/beancount/) is another tool
+text files.  [Beancount](http://furius.ca/beancount/) is another tool
 which follows a similar approach but which from my point of view is the
 way forward.
 

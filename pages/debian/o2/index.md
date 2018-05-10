@@ -24,11 +24,11 @@ Debian on SGI HOWTOs, such as <a href =
 "http://www.zorg.org/linux/indy.shtml">that</a> document as well as <a href
 = "http://www.debian.org/releases/stable/mips">Debian's installation guide
 for MIPS</a>, before starting.  In particular, take a look at Jiann-Ming
-Su's <a href = "http://js1.kicks-ass.org/~js1/debianO2.html">detailed
+Su's <a href = "https://web.archive.org/web/20060404222803/http://js1.kicks-ass.org/~js1/debianO2.html">detailed
 run-through</a> with the O2 images I've prepared.  Once you're familiar
 with how to set up an environment to load the installer for SGI, you can
 download the <a href =
-"http://ftp.nl.debian.org/debian/dists/stable/main/installer-mips/current/images/r5k-ip32/">installer
+"https://ftp.nl.debian.org/debian/dists/wheezy/main/installer-mips/current/images/r5k-ip32/">installer
 image for O2</a>.  This image supports installations both via serial
 console as well as framebuffer.
 

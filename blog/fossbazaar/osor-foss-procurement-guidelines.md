@@ -7,7 +7,7 @@ The Open Source Repository and Observatory (OSOR), a new site sponsored
 by the European Commission to foster the exchange of FOSS related
 information and software among European public administrations, recently
 published <a href =
-"https://joinup.ec.europa.eu/elibrary/case/guideline-public-administrations-procurement-and-open-source-software-updated-june-201">guidelines">guidelines
+"https://joinup.ec.europa.eu/document/guideline-public-procurement-open-source-software">guidelines">guidelines
 on the procurement of open source software</a>.  Public administrations
 in Europe have to follow public tender procedures and the new guidelines
 give practical and legal advice on how open source software and related
@@ -17,7 +17,7 @@ Rishab Ghosh, who presented the guidelines at the Open Source World
 Conference in Malaga, argued that the procurement guidelines were needed
 because of two reasons.  First, they studied recent tenders and found
 that many <a href =
-"http://joinup.ec.europa.eu/news/many-software-tenders-eu-maybe-illegal">explicitly
+"https://joinup.ec.europa.eu/news/many-software-tenders-eu-m">explicitly
 mentioned proprietary applications</a>.  16% of 3615 software tenders
 explicitly asked for products from top 10 software vendors, such as
 Microsoft, SAP and Oracle.  This practice may be illegal because public

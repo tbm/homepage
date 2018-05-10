@@ -61,7 +61,7 @@ anything.</li>
 <h2>Upgrading the Firmware</h2>
 
 Before installing Debian, make sure that you are running the <a href =
-"http://www.thecus.com/dl.php">latest version</a> of the Thecus firmware.
+"http://www.thecus.com/">latest version</a> of the Thecus firmware.
 In version 2.1.05 Thecus added the ability to the boot loader used on this
 machine, RedBoot, to allow users to <a href = "../telnet/">connect to the
 machine via telnet</a> while the machine is booting.  This gives you a

@@ -37,7 +37,7 @@ the HP 2510p.</li>
 
 <li><a href = "http://80.237.160.189/wikka/wikka.php?wakka=HP2510P">Linux on HP 2510p</a></li>
 
-<li><a href = "http://www.mobilnews.cz/blog/?p=40">Running Linux on HP Compaq 2510p notebook</a></li>
+<li><a href = "https://jankrupa.com/blog/2007/12/running-linux-on-hp-compaq-2510p-notebook/">Running Linux on HP Compaq 2510p notebook</a></li>
 
 </ul>
 

@@ -92,7 +92,7 @@ want to go back to the original Thecus firmware.</li>
 <ul>
 
 <li>David Karlström describes how to connect a <a href =
-"http://david.thg.se/n2100/addserial.html">serial console</a>.</li>
+"https://web.archive.org/web/20161030053329/http://david.thg.se/n2100/addserial.html">serial console</a>.</li>
 
 <li>OpenBSD's <a href = "http://www.openbsd.org/armish.html">armish
 port</a> supports the Thecus N2100.</li>

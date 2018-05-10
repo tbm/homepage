@@ -6,7 +6,7 @@ date: 2008-10-02 22:33:24 +0200
 There's a lot of debate these days about the impact of the increasing
 number of paid developers in FOSS communities that started as volunteer
 efforts and still have significant numbers of volunteers.  Evangelia
-Berdou's <a href = "http://opensource.mit.edu/papers/PhD_Berdou.pdf">PhD
+Berdou's <a href = "https://flosshub.org/sites/flosshub.org/files/PhD_Berdou.pdf">PhD
 thesis</a> "Managing the Bazaar: Commercialization and peripheral
 participation in mature, community-led Free/Open source software projects"
 contains a contains a wealth of information and insights about this topic.

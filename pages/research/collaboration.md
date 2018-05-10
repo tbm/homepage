@@ -17,7 +17,7 @@ you are interested in collaborating with me, please <a href =
 <h2>Gregorio Robles</h2>
 
 <a href = "http://gsyc.urjc.es/~grex/">Gregorio Robles</a> is
-a member of the <a href = "http://libresoft.urjc.es/">Libre Software
+a member of the <a href = "http://libresoft.es/">Libre Software
 Engineering</a> team in the System and Communication Group (GSyC) at the
 university of Universidad Rey Juan Carlos (Spain).  He studies empirical
 aspects of a variety of free software projects, such as Debian.

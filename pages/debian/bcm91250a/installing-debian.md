@@ -80,9 +80,9 @@ obtain this value by issuing the `show devices` command in CFE.
 Now, download and install the actual files needed for the installation.
 Download the whole contents of the following directory to your TFTP
 directory (`/boot` in the example above): <a href =
-"http://ftp.uk.debian.org/debian/dists/stable/main/installer-mips/current/images/sb1-bcm91250a/netboot/">big-endian</a>
+"https://ftp.uk.debian.org/debian/dists/wheezy/main/installer-mips/current/images/sb1-bcm91250a/netboot/">big-endian</a>
 or <a href =
-"http://ftp.uk.debian.org/debian/dists/stable/main/installer-mipsel/current/images/sb1-bcm91250a/netboot/">little-endian</a>.
+"https://ftp.uk.debian.org/debian/dists/wheezy/main/installer-mipsel/current/images/sb1-bcm91250a/netboot/">little-endian</a>.
 Edit `sibyl.conf` and substitute 192.168.1.1 with the IP address or name of
 your TFTP server.
 
