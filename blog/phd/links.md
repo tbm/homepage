@@ -16,10 +16,6 @@ their Tech Talks series.  A <a href =
 "http://www.youtube.com/watch?v=IKsQsxubuAA">video of this talk</a> is now
 available.</li>
 
-<li>MORITA Hajime kindly <a href =
-"http://www.hyuki.com/yukiwiki/wiki.cgi?QualityImprovementInFreeSoftware">translated
-my blog postings</a> about my research to Japanese.</li>
-
 <li>Matt Asay briefly discussed my work in his blog and relates it to commercial
 and proprietary software development.  Roberto Galoppini relates my
 findings to his work and concludes that <a href =

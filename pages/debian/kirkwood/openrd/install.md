@@ -54,13 +54,7 @@ and
 
 Now connect a mini-USB connector to `System Debug` in order to access the
 serial console.  Start your OpenRD and a few seconds later you should be able to connect to
-`/dev/ttyUSB1` with 115200 baud.  If you need help accessing the serial
-console, see the guides for <a href =
-"http://www.plugcomputer.org/Documentation/howtos/serial-terminallinuxprograms/">Linux</a>
-or
-<a href =
-"http://www.plugcomputer.org/Documentation/howtos/serial-terminal/">Windows
-and MacOS X</a>.
+`/dev/ttyUSB1` with 115200 baud.
 
 When you get serial output, press a key to interrupt the boot process.
 

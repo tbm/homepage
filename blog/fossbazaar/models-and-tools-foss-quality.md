@@ -29,16 +29,16 @@ one but several projects that study quality in FOSS:
 
 <ul>
 
-<li><a href = "http://www.qualoss.org/">QUALity in Open Source Software
-(QUALOSS)</a>: QUALOSS will develop a high level methodology to benchmark
+<li>QUALity in Open Source Software
+(QUALOSS): QUALOSS will develop a high level methodology to benchmark
 the quality of FOSS in order to ease the strategic decision of integrating
 adequate FOSS components into software systems.  The QUALOSS platform uses
 tools to analyze two types of data: source code and project-repository
 information.  The goal is to estimate the evolvability and robustness of
 the evaluated software products.</li>
 
-<li><a href = "http://www.sqo-oss.org/">Software Quality Observatory for
-Open Source Software (SQO-OSS)</a>: This project is developing a
+<li>Software Quality Observatory for
+Open Source Software (SQO-OSS): This project is developing a
 comprehensive suite of software quality assessment tools.  These tools will
 enable the objective analysis and benchmarking of FOSS.  SQO-OSS aims to
 remove one of the key barriers to entry for FOSS by providing scientific
@@ -49,8 +49,8 @@ Source Software (QSOS)</a>: QSOS is a method designed to qualify, select
 and compare free and open source software in an objective, traceable and
 argued way.  It consists of four different steps.</li>
 
-<li><a href = "http://www.qualipso.org/">Quality Platform for Open Source
-Software (QualiPSo)</a>: QualiPSo is a huge project which focuses on a
+<li>Quality Platform for Open Source
+Software (QualiPSo): QualiPSo is a huge project which focuses on a
 number of different areas.  As part of their activities on trustworthy
 processes, they are interested in developing a Capability Maturity Model
 (CMM) like model for FOSS.</li>

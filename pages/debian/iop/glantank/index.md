@@ -43,11 +43,6 @@ supported in Debian 8 (jessie) or later releases.
 
 <ul>
 
-<li>An <a href = "install/">installation guide</a> for Debian on the GLAN
-Tank.  A <a href =
-"http://iohack.sourceforge.jp/tanks/index.php?DEBIANonGLANTANK">Japanese
-translation</a> of these instructions are available.</li>
-
 <li>An <a href = "gallery/">image gallery</a> with various pictures showing
 the internals of the GLAN Tank.</li>
 

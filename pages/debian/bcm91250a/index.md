@@ -71,17 +71,6 @@ install a version which supports big and little endian.</li>
 
 </ul>
 
-<h2>Resources</h2>
-
-<ul>
-
-<li>There is a <a href =
-"http://www.bitmover.com/mailman/listinfo/sibyte-users">sibyte-users</a>
-mailing list for users of Broadcom/SiByte evaluation boards and technical
-discussion of SiByte processors.</li>
-
-</ul>
-
 <h2>Help</h2>
 
 If you need any help getting Debian running on your BCM91250A after reading
