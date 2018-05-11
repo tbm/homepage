@@ -25,14 +25,14 @@ Here are links to the articles along with a quick summary:
 <ul>
 
 <li><a href =
-"http://sourceforge.net/userapps/wordpress/jhall1/2009/11/02/open-source-and-free-software/">Free
+"http://freedos-project.blogspot.co.at/2009/11/open-source-and-free-software.html">Free
 and Open Source Software</a>: the first article just describes what free
 software and open source are all about.  It also looks at Raymond's
 model and compares the cathedral and the bazaar style of
 development.</li>
 
 <li><a href =
-"http://sourceforge.net/userapps/wordpress/jhall1/2009/11/04/starting-open-source-software/">Starting
+"http://freedos-project.blogspot.com/2009/11/starting-open-source-software.html">Starting
 Open Source Software</a>: this article summarizes a number
 of key lessons learned: every project needs a clear purpose (i.e. you
 have to solve an actual problem); initial users of the software should
@@ -40,14 +40,14 @@ be recruited as developers; releases are important; and every project
 needs an active coordinator or maintainer.</li>
 
 <li><a href =
-"http://sourceforge.net/userapps/wordpress/jhall1/2009/11/09/cultivating-open-source-software-2/">Cultivating
+"http://freedos-project.blogspot.com/2009/11/cultivating-open-source-software.html">Cultivating
 Open Source Software</a>: you need a web site; making the source code
 availability in an easy way is important; documentation is often hard to
 write but is vital; you need a bug tracking system and responding to bug
 reports is important to attract good feedback.</li>
 
 <li><a href =
-"http://sourceforge.net/userapps/wordpress/jhall1/2009/11/18/transitions-in-open-source-software/">Transitions
+"http://freedos-project.blogspot.com/2009/11/transitions-in-open-source-software.html">Transitions
 in an open source software project</a>: finally, when you need to hand
 over the project, make sure to communicate openly, arrange for your
 replacement and stick around to ensure a successful hand over.</li>
