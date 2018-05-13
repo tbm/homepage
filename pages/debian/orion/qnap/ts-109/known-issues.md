@@ -14,4 +14,5 @@ Here is a list of known issues and bugs with Debian on the QNAP TS-109:
 configurations with LVM and RAID.  You can [apply a
 workaround](../troubleshooting/#bootable).
 * qcontrol (the tool to control LEDs and beeper) doesn't work.
+* Current versions of the Linux kernel <a href="https://bugs.debian.org/892057">fail to boot</a>
 
