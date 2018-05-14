@@ -1,7 +1,6 @@
 ---
 title: "Debian on Jetson TK1"
 date: 2016-07-24 18:31:28 -0700
-category: debian
 ---
 
 <img src="/images/jetson-tk1-debian8.jpg"
