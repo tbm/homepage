@@ -141,6 +141,7 @@ CATEGORY_DESCRIPTIONS = {
 # Set special titles for category pages. The default is "Posts about CATEGORY".
 CATEGORY_TITLES = {
     DEFAULT_LANG: {
+        "debian": "Posts about Debian",
         "fossbazaar": "Posts from FOSSBazaar",
         "phd": "Posts about my PhD research"
     },
@@ -178,9 +179,6 @@ CATEGORY_DESTPATH_FIRST_DIRECTORY_ONLY = True
 # Map paths to prettier category names. (translatable)
 CATEGORY_DESTPATH_NAMES = {
     DEFAULT_LANG: {
-        "debian": "Debian",
-        "fossbazaar": "FOSSBazaar",
-        "phd": "PhD",
     },
 }
 
