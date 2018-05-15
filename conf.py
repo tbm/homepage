@@ -26,6 +26,19 @@ NAVIGATION_LINKS = {
     ),
 }
 
+# Alternative navigation links. Works the same way NAVIGATION_LINKS does,
+# although themes may not always support them. (translatable)
+# (Bootstrap 4: right-side of navbar, Bootblog 4: right side of title)
+NAVIGATION_ALT_LINKS = {
+    DEFAULT_LANG: (
+        ("/blog/feed/", '<i class="fas fa-rss"></i>'),
+        ("https://github.com/tbm", '<i class="fab fa-github"></i>'),
+        ("https://twitter.com/MartinMichlmayr", '<i class="fab fa-twitter"></i>'),
+        ("https://www.linkedin.com/in/martinmichlmayr/", '<i class="fab fa-linkedin"></i>'),
+    ),
+
+}
+
 THEME = "bootstrap4"
 
 THEME_COLOR = '#2C3E50'
@@ -568,19 +581,11 @@ FEED_LINKS_APPEND_QUERY = False
 # (translatable)
 LICENSE = """<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>"""
 
-SOCIAL_ICONS = """
-<a href="/blog/feed/" title="RSS blog feed"><i class="fas fa-rss"></i></a>
-<a href="https://github.com/tbm" title="Martin's GitHub"><i class="fab fa-github"></i></a>
-<a href="https://twitter.com/MartinMichlmayr" title="Martin's Twitter"><i class="fab fa-twitter"></i></a>
-<a href="https://www.linkedin.com/in/martinmichlmayr/" title="Martin's LinkedIn"><i class="fab fa-linkedin"></i></a>
-"""
-
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
 CONTENT_FOOTER = """
 <div class="footer-line">
   <div id="copyright">&copy; {date} {author}</div>
-  <div id="social">{social_icons}</div>
 </div>
 <div class="footer-line">
   <div id="license">{license}</div>
@@ -597,7 +602,6 @@ CONTENT_FOOTER_FORMATS = {
             "author": BLOG_AUTHOR,
             "date": time.gmtime().tm_year,
             "license": LICENSE,
-            "social_icons": SOCIAL_ICONS,
         }
     )
 }
