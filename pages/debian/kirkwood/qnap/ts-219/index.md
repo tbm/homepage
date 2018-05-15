@@ -20,6 +20,9 @@ Debian.
 
 <li>A set of <a href = "faq/">Frequently Asked Questions (FAQ)</a>.</li>
 
+<li>A list of <a href = "known-issues/">known issues and bugs</a> with
+Debian on QNAP TS-21x/TS-22x.</li>
+
 <li><a href = "troubleshooting/">Troubleshooting information</a> with common
 problems and their solutions.</li>
 

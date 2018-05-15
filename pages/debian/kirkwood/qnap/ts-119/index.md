@@ -19,6 +19,9 @@ user-friendly <a href = "install/">Debian installer to install</a> Debian.
 
 <li>A set of <a href = "faq/">Frequently Asked Questions (FAQ)</a>.</li>
 
+<li>A list of <a href = "known-issues/">known issues and bugs</a> with
+Debian on QNAP TS-11x/TS-12x.</li>
+
 <li><a href = "troubleshooting/">Troubleshooting information</a> with common
 problems and their solutions.</li>
 
