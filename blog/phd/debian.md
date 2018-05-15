@@ -20,7 +20,7 @@ release process.
 <th>Date</th>
 <th>Months</th>
 </tr>
-<thead>
+</thead>
 
 <tbody>
 <tr>

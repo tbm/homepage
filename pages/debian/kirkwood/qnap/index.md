@@ -473,7 +473,7 @@ Here is a table showing the differences between the supported devices:
 <th>TS-421</th>
 <th>TS-421U</th>
 </tr>
-<thead>
+</thead>
 
 <tbody>
 <tr>

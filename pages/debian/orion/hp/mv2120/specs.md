@@ -20,7 +20,7 @@ these components.
 <th>Component</th>
 <th>Comment</th>
 </tr>
-<thead>
+</thead>
 
 <tbody>
 <tr>

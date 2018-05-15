@@ -64,7 +64,7 @@ the u-boot variables used to boot Debian.  There are three variables
 <th>Variable</th>
 <th>Setting</th>
 </tr>
-<thead>
+</thead>
 
 <tbody>
 <tr>

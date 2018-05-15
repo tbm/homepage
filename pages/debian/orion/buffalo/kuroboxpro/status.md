@@ -27,7 +27,7 @@ supported by Debian:
 <th>Component</th>
 <th>Comment</th>
 </tr>
-<thead>
+</thead>
 
 <tbody>
 <tr class="table-success">
