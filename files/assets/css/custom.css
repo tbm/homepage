@@ -5,7 +5,7 @@
     background-color: #2C3E50!important;
 }
 
-li.nav-item>.active>a, li.nav-item>a:focus, li.nav-item>a:hover {
+.active>.nav-link, li.nav-item>.active>a, li.nav-item>a:focus, li.nav-item>a:hover {
     color: #fff!important;
     background-color: #294867;
 }
