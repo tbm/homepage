@@ -929,7 +929,7 @@ FILE_METADATA_UNSLUGIFY_TITLES = True
 # repository.
 EXTRA_PLUGINS_DIRS = ["plugins"]
 
-PRETTY_CRUMBS_TAG = "nav"
+PRETTY_BREADCRUMBS_TAG = "nav"
 
 # Add the absolute paths to directories containing themes to use them.
 # For example, the `v7` directory of your clone of the Nikola themes
