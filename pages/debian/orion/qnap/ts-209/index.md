@@ -22,14 +22,14 @@ TS-209.</li>
 
 <li>A set of <a href = "faq/">Frequently Asked Questions (FAQ)</a>.</li>
 
+<li>A list of <a href = "known-issues/">known issues and bugs</a> with
+Debian on the QNAP TS-209.</li>
+
 <li><a href = "troubleshooting/">Troubleshooting information</a> with common
 problems and their solutions.</li>
 
 <li>Some <a href = "tips/">tips and tricks</a> about running Debian on the
 QNAP TS-209.</li>
-
-<li>A list of <a href = "known-issues/">known issues and bugs</a> with
-Debian on the QNAP TS-209.</li>
 
 <li>A <a href = "status/">status page</a> showing which components of the
 TS-209 are currently supported.</li>
