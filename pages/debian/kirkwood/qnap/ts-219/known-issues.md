@@ -15,4 +15,7 @@ because of a kernel issue.  Messages in `dmesg` include `BUG: Bad
 rss-counter state` and `Unhandled fault: external abort on linefetch`.
 Unfortunately, the Linux kernel developers [haven't been able to reproduce
 this issue](https://lists.debian.org/debian-arm/2017/07/msg00051.html).
+* On fanless QNAP systems (HS-210), [fan errors are
+reported](http://bugs.debian.org/712841).  There is a [patch for this
+issue](http://bugs.debian.org/712841#169).
 
