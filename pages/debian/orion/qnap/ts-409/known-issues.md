@@ -19,5 +19,4 @@ recognized</a> in time on boot.  If you're experience, you can <a
 href="http://forum.qnap.com/viewtopic.php?p=284721#p284592">use a
 workaround</a>.
 * qcontrol (the tool to control LEDs and beeper) doesn't work.
-* Current versions of the Linux kernel <a href="https://bugs.debian.org/892057">fail to boot</a>
 
