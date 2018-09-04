@@ -10,11 +10,11 @@ keywords: [Debian, QNAP, TS-110, TS-112, TS-112P, TS-119, TS-119P+, TS-120, TS-1
 
 Here is a list of known issues and bugs with Debian on QNAP TS-11x/TS-12x:
 
-* On some QNAP devices with a Kirkwood 6282 chip, the installer fails
+* On QNAP devices with 1 GB of RAM (i.e. TS-121), the installer fails
 because of a kernel issue.  Messages in `dmesg` include `BUG: Bad
 rss-counter state` and `Unhandled fault: external abort on linefetch`.
-Unfortunately, the Linux kernel developers [haven't been able to reproduce
-this issue](https://lists.debian.org/debian-arm/2017/07/msg00051.html).
+You have two options: 1) stay with Debian jessie, or 2) [set the RAM
+size to 768 MB](https://blog.spblinux.de/2018/09/debian-with-btrfs-on-qnap-11x-21x-kirkwood/).
 * On fanless QNAP systems (TS-119), [fan errors are
 reported](http://bugs.debian.org/712841).  There is a [patch for this
 issue](http://bugs.debian.org/712841#169).

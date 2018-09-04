@@ -10,11 +10,11 @@ keywords: [Debian, QNAP, HS-210, TS-210, TS-212, TS-212-E, TS-212P, TS-219, TS-2
 
 Here is a list of known issues and bugs with Debian on QNAP TS-21x/TS-22x:
 
-* On some QNAP devices with a Kirkwood 6282 chip, the installer fails
+* On QNAP devices with 1 GB of RAM (i.e. TS-221), the installer fails
 because of a kernel issue.  Messages in `dmesg` include `BUG: Bad
 rss-counter state` and `Unhandled fault: external abort on linefetch`.
-Unfortunately, the Linux kernel developers [haven't been able to reproduce
-this issue](https://lists.debian.org/debian-arm/2017/07/msg00051.html).
+You have two options: 1) stay with Debian jessie, or 2) [set the RAM
+size to 768 MB](https://blog.spblinux.de/2018/09/debian-with-btrfs-on-qnap-11x-21x-kirkwood/).
 * On fanless QNAP systems (HS-210), [fan errors are
 reported](http://bugs.debian.org/712841).  There is a [patch for this
 issue](http://bugs.debian.org/712841#169).
