@@ -1,1 +1,1 @@
-nikola[extras]==8.0.0.beta2
+nikola[extras]==8.0.0.beta3
