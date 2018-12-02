@@ -174,6 +174,17 @@ You can check the following table to find out which string to use:
 <td>TS-221</td>
 <td>`F_TS-221`</td>
 </tr>
+
+<tr>
+<td>Fujitsu Q700</td>
+<td>`F_Q700`</td>
+</tr>
+
+<tr>
+<td>Fujitsu Q703</td>
+<td>`F_Q703`</td>
+</tr>
+
 </tbody>
 
 </table>

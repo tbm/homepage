@@ -92,8 +92,7 @@ serial console.
 
 <h3>Can I run Debian on the Fujitsu Celvin NAS Q600?</h3>
 
-The Fujitsu Q600 is very similar to the QNAP TS-119, so it should be
-possible to run Debian on such a device.  However, so far this has not
-been tested.  If you're interested in running Debian on your Q600,
-please <a href = "/contact/">contact me</a> and I'll help you.
+The Fujitsu Q600 is very similar to the QNAP TS-119, so Debian should
+work without any problems.  If you encounter any problems, please
+<a href = "/contact/">contact me</a> and I'll help you.
 

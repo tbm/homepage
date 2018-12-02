@@ -93,8 +93,7 @@ serial console.
 <h3>Can I run Debian on the Fujitsu Celvin NAS Q700 or Q703?</h3>
 
 The Fujitsu Q700 is very similar to the QNAP TS-219P and the Fujitsu Q703
-is similar to the QNAP TS-221, so it should be possible to run Debian on
-such devices.  However, so far this has not been tested.  If you're
-interested in running Debian on your Q700/Q703, please <a href =
-"/contact/">contact me</a> and I'll help you.
+is similar to the QNAP TS-221, so Debian should work without any problems.
+If you encounter any problems, please <a href = "/contact/">contact me</a>
+and I'll help you.
 

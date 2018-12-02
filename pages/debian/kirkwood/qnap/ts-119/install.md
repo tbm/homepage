@@ -30,7 +30,7 @@ In order to install Debian on a QNAP TS-11x/TS-12x device, you need the followin
 
 <ul>
 
-<li>A QNAP TS-110, TS-112, TS-112P, TS-119, TS-119P+, TS-119P II, TS-120 or TS-121.</li>
+<li>A QNAP TS-110, TS-112, TS-112P, TS-119, TS-119P+, TS-119P II, TS-120 or TS-121 or Fujitsu Celvin NAS Q600.</li>
 
 <li>An internal SATA disk.</li>
 

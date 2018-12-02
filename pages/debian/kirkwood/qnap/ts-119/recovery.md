@@ -169,6 +169,12 @@ You can check the following table to find out which string to use:
 <td>TS-121</td>
 <td>`F_TS-121`</td>
 </tr>
+
+<tr>
+<td>Fujitsu Q600</td>
+<td>`F_Q600`</td>
+</tr>
+
 </tbody>
 
 </table>
