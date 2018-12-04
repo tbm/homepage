@@ -17,8 +17,8 @@ to put the backup of the flash partitions from the QNAP firmware you made
 
 <div class="code">
 <pre>
-cat mtd1 &gt; /dev/mtdblock1
-cat mtd2 &gt; /dev/mtdblock2
+dd if=mtd1 &gt; of=/dev/mtdblock1
+dd if=mtd2 &gt; of=/dev/mtdblock2
 </pre>
 </div>
 
