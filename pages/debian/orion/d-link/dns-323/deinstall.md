@@ -31,8 +31,8 @@ image, you can write them to flash:
 
 <div class="code">
 <pre>
-dd if=uKernel &gt; of=/dev/mtdblock2
-dd if=uRamdisk &gt; of=/dev/mtdblock3
+dd if=uKernel of=/dev/mtdblock2
+dd if=uRamdisk of=/dev/mtdblock3
 </pre>
 </div>
 

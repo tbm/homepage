@@ -20,8 +20,8 @@ to put the backup of the flash partitions from the QNAP firmware you made
 
 <div class="code">
 <pre>
-dd if=mtd1 &gt; of=/dev/mtdblock1
-dd if=mtd2 &gt; of=/dev/mtdblock2
+dd if=mtd1 of=/dev/mtdblock1
+dd if=mtd2 of=/dev/mtdblock2
 </pre>
 </div>
 
@@ -62,8 +62,8 @@ You can now write the installer files to flash:
 
 <div class="code">
 <pre>
-dd if=kernel-628<span class="input">x</span> &gt; of=/dev/mtdblock1
-dd if=initrd &gt; of=/dev/mtdblock2
+dd if=kernel-628<span class="input">x</span> of=/dev/mtdblock1
+dd if=initrd of=/dev/mtdblock2
 </pre>
 </div>
 

@@ -47,8 +47,8 @@ on your machine.  Then write the files to these partitions.
 
 <div class="code">
 <pre>
-dd if=ramdisk.arm &gt; of=/dev/mtdblock1
-dd if=zImage &gt; of=/dev/mtdblock2
+dd if=ramdisk.arm of=/dev/mtdblock1
+dd if=zImage of=/dev/mtdblock2
 </pre>
 </div>
 
