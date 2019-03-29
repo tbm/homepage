@@ -28,7 +28,7 @@ I used to work for Hewlett-Packard for nine years, facilitating and
 leading internal and open source activities.  I currently work as a
 freelance consultant, providing services related to open source
 community management, open source foundations and governance, open
-source accounting tooling, and processes and business automation.
+source accounting tooling, and process and business automation.
 
 Apart from spending time at the computer, I like to read, to listen to
 music and to travel.  I love being in the ocean or on a beach and I have
