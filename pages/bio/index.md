@@ -9,34 +9,33 @@ keywords: [Martin Michlmayr, biography, background, interests]
 <img src = "../images/martin_2017_ibk.jpg" alt = "Photo of Martin" width="186" height="200" />
 </div>
 
-I'm a contributor to various free and open source software projects.
-I have Master degrees in Psychology, Philosophy, and Software
-Engineering and a PhD in Technology Management.
+I have been involved in various free and open source software projects
+for over 25 years.  I'm a member of the Debian project and acted as the
+leader of Debian for two years.  I served on the boards of the Open
+Source Initiative (OSI) for six years and of Software in the Public
+Interest (SPI) for almost five years.  I currently serve on the board of
+Software Freedom Conservancy.  I'm very interested in open source
+foundations and the role they play in supporting open source projects.
 
-My big passion is free software and open source.  Unlike traditional
-software, free software comes with certain freedoms, such as the right to
-freely distribute, study and improve the software.  I'm interested in free
-software for two reasons.  First, I believe in the concept of free software
-and that users should be given those freedoms.  Second, free software
-projects are often carried out by volunteers and I see project and quality
-management in distributed volunteer projects as an exciting challenge.  I
-have been involved in various free software projects for over 15 years.  I
-used to be the volunteer coordinator for the GNUstep project and acted as
-publicity director for Linux International.  In 2000, I joined the Debian
-project an association of roughly 1000 volunteers working on an operating
-system completely based on free software; I acted as the leader of Debian
-for two years.  I served on the Board of Directors of the Open Source
-Initiative (OSI).  I currently serve on the boards of Software Freedom
-Conservancy and Software in the Public Interest.
+I'm also an open source accounting geek and I contribute to
+[ledger](https://www.ledger-cli.org/),
+[beancount](http://furius.ca/beancount/), and
+[ledger2beancount](https://github.com/zacchiro/ledger2beancount).
+I enjoy improving financial management and governance, providing
+oversight and automating business processes.
 
-Apart from spending time at the computer, I like to read, listen to music
-and I also travel a lot.  I have a curious fascination with the ocean and
-one of my favourite activities is to spend time at a beach.  I have been to
-a number of amazing beaches over the last few years (such as Manly and
-Coogee beach in Sydney and Copacabana in Rio de Janeiro).
+I used to work for Hewlett-Packard for nine years, facilitating and
+leading internal and open source activities.  I currently work as a
+freelance consultant, providing services related to open source
+community management, open source foundations and governance, open
+source accounting tooling, and processes and business automation.
 
-I'm fairly busy but I'm quite approachable and actually pretty good at
-responding to e-mail.  If you'd like to get in contact to discuss anything
-found on this web site, see my [contact page](../contact/).  I also maintain
-a [blog](../blog/) which I update every now and then.
+Apart from spending time at the computer, I like to read, to listen to
+music and to travel.  I love being in the ocean or on a beach and I have
+been to a number of amazing beaches all over the world.
+
+I'm fairly busy but tend to be pretty good at responding to e-mail.  If
+you'd like to get in contact to discuss anything found on this web site,
+see my [contact page](../contact/).  I also maintain a [blog](../blog/)
+which I update every now and then.
 
