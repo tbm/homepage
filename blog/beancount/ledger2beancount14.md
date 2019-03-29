@@ -1,6 +1,6 @@
 ---
 title: "ledger2beancount 1.4 released"
-date: 2018-01-12 14:42:37 +0200
+date: 2018-12-01 14:42:37 +0200
 ---
 
 Stefano Zacchiroli and I released version 1.4 of [ledger2beancount](https://github.com/zacchiro/ledger2beancount),
