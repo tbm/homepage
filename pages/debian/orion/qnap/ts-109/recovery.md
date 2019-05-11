@@ -273,5 +273,3 @@ More information about the recovery mode can be found on <a href =
 "http://wiki.qnap.com/wiki/System_Recovery_Mode">QNAP's System Recovery
 Mode</a> page.
 
-{{% paypal desc="Debian/QNAP TS-109 donation" %}}
-

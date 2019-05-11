@@ -222,5 +222,3 @@ recovery image via TFTP.  When it has obtained the recovery image and
 written it to flash (which takes about 3.5 minutes), your QNAP will make
 two short beeps again and restart.
 
-{{% paypal desc="Debian/QNAP TS-11x/TS-12x donation" %}}
-

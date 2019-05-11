@@ -188,5 +188,3 @@ reset
 </pre>
 </div>
 
-{{% paypal desc="Debian on Plug Computer donation" %}}
-

@@ -175,5 +175,3 @@ Debian or the Debian installer, it's probably because you didn't use the
 correct kernel image.  Make sure to use the kernel image for SheevaPlug
 with eSATA for the installation.
 
-{{% paypal desc="Debian on Plug Computer donation" %}}
-

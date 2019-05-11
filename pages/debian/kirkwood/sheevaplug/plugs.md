@@ -125,5 +125,3 @@ They will not be supported:
 
 </ul>
 
-{{% paypal desc="Debian on Plug Computer donation" %}}
-

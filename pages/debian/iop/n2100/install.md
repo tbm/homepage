@@ -194,5 +194,3 @@ beep -e /dev/input/event0 -f 220 -l 500 -d 500 -r 3
 </pre>
 </div>
 
-{{% paypal desc="Debian/N2100 donation" %}}
-

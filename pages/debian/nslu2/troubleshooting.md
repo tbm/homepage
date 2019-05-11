@@ -125,5 +125,3 @@ the NSLU2 can get "stuck" and removing the battery helps.
 If none of this helps, I'm afraid you probably have to connect a serial
 console or perform a new installation.
 
-{{% paypal desc="Debian/NSLU2 donation" %}}
-

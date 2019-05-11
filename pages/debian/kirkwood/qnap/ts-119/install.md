@@ -238,5 +238,3 @@ supported by Debian.
 Finally, make sure to read the <a href = "../tips/">tips and tricks</a>
 about running Debian on the QNAP TS-11x/TS-12x.
 
-{{% paypal desc="Debian/QNAP TS-11x/TS-12x donation" %}}
-

@@ -212,5 +212,3 @@ run bootcmd
 </pre>
 </div>
 
-{{% paypal desc="Debian on Plug Computer donation" %}}
-

@@ -237,5 +237,3 @@ update-initramfs -u
 If you use a custom kernel rather than a kernel provided by Debian, please
 ensure that the `CONFIG_RD_XZ` setting is enabled.
 
-{{% paypal desc="Debian/QNAP TS-409 donation" %}}
-

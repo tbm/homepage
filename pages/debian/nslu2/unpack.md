@@ -255,5 +255,3 @@ If you run into any problems installing or running Debian on your Linksys
 NSLU2, please read the <a href = "../troubleshooting/">troubleshooting
 page</a>.
 
-{{% paypal desc="Debian/NSLU2 donation" %}}
-

@@ -229,5 +229,3 @@ if you don't press a key.
 When Debian has started, you can log in via SSH or the serial console
 depending on how you did the installation.
 
-{{% paypal desc="Debian/Cobalt donation" %}}
-

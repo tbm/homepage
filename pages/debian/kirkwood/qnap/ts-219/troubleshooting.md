@@ -177,5 +177,3 @@ If none of this helps, I'm afraid you probably have to connect <a href =
 "../recovery/">recovery mode</a> to flash the Debian installer and to
 perform a new installation.
 
-{{% paypal desc="Debian/QNAP TS-21x/TS-22x donation" %}}
-

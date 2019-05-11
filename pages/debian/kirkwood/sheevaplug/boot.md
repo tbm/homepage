@@ -152,5 +152,3 @@ directly and requires special images made with `mkimage`.</li>
 
 </ol>
 
-{{% paypal desc="Debian on Plug Computer donation" %}}
-
