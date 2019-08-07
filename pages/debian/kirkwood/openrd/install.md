@@ -9,6 +9,11 @@ This page explains how to use the Debian installer to install Debian 9
 (stretch) on the OpenRD platform (OpenRD-Base, OpenRD-Client and
 OpenRD-Ultimate).
 
+**Note**: Debian 10 (buster) is out now.  There are [no installation images
+for the OpenRD](https://bugs.debian.org/934072).  However, Debian 10 should
+work just fine on the OpenRD.  u-boot is no longer available for OpenRD
+in Debian 10, but you can use the image from Debian 9 (stretch).
+
 The OpenRD has 512 MB flash memory and SATA, USB and MMC/SD card
 interfaces.  The Debian installer doesn't currently support installations
 to MTD flash, but you can use it to install to a SATA disk, USB stick or

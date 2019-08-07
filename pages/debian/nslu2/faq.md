@@ -22,7 +22,7 @@ is no installer but you can install a <a href = "../unpack/">tar ball
 of Debian 7</a> and then upgrade to Debian 8.
 
 Please note that Debian 8 was the last release to support the NSLU2.  There
-is no support in Debian 9 (stretch).
+is no support in Debian 9 (stretch) or Debian 10 (buster).
 
 <h3>The NSLU2 is slow... what alternatives are there to the NSLU2?</h3>
 

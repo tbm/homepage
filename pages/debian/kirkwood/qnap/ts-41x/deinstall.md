@@ -52,13 +52,13 @@ script:
 </div>
 
 If the output is `kirkwood-ts419-6281.dtb`, you need the <a
-href="http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/kernel-6281">kernel-6281</a>
+href="http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/kernel-6281">kernel-6281</a>
 file.  If the output is `kirkwood-ts419-6282.dtb`, you need the <a
-href="http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/kernel-6282">kernel-6282</a>
+href="http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/kernel-6282">kernel-6282</a>
 file.
 
 You also have to download the <a
-href="http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/initrd">initrd</a>
+href="http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/initrd">initrd</a>
 files of the installer (make sure the initrd does not get uncompressed when
 you download it).
 

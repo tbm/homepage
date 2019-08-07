@@ -12,9 +12,10 @@ keywords: [Debian, HP, mv2120, u-boot, stretch, upgrade]
 
 Before you can upgrade Debian from Debian 8 (jessie) to Debian 9
 (stretch), you have to change a setting in the u-boot configuration.
-Unfortunately, the default settings no longer work with Debian 9.
-The new settings are compatible with Debian 8 (jessie) and Debian 9
-(stretch), so I suggest you make the changes now.
+Unfortunately, the default settings no longer work with Debian 9 or 10.
+The new settings are compatible with Debian 8 (jessie), Debian 9
+(stretch) and Debian 10 (buster), so you can make the changes at
+any time (before upgrading).
 
 If you have serial console access to the mv2120, you can run some
 commands in u-boot.  Simply interrupt the boot process by pressing a key
@@ -39,7 +40,5 @@ uses `fw_setenv` to update two boot variables.
 
 Once you made the changes, upgrades to Debian 9 should work fine and you
 can also use the [Debian installer](../install) if you want to perform a
-new installation.
-
-Please note that Debian 9 is the last release to support the HP mv2120.
+new installation of Debian.
 

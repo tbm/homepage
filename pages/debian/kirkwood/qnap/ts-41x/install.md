@@ -18,7 +18,7 @@ login via SSH to perform the installation.  Debian will be installed to
 disk and a Debian kernel will be put in flash that will start Debian from
 disk.
 
-If you follow this procedure, Debian 9 (stretch) will be installed to
+If you follow this procedure, Debian 10 (buster) will be installed to
 your SATA disk and the QNAP firmware on disk and in flash will be replaced
 with Debian.  Debian does not install a web interface to configure your
 machine, although it's possible to install such software.  If this is not
@@ -107,11 +107,11 @@ commands:
 <div class="code">
 <pre>
 cd /tmp
-busybox wget http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/initrd
-busybox wget http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/kernel-6281
-busybox wget http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/kernel-6282
-busybox wget http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/flash-debian
-busybox wget http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/model
+busybox wget http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/initrd
+busybox wget http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/kernel-6281
+busybox wget http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/kernel-6282
+busybox wget http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/flash-debian
+busybox wget http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/model
 </pre>
 </div>
 
@@ -216,7 +216,7 @@ ssh installer@<span class="input">192.168.1.100</span>
 </div>
 
 The installation itself should be pretty standard and you can follow the <a
-href = "http://www.debian.org/releases/stretch/armel/">installation
+href = "http://www.debian.org/releases/buster/armel/">installation
 guide</a>.  The installer knows about the TS-41x/TS-42x and at the end of the
 installation it will flash a kernel and ramdisk that will automatically
 boot into Debian.  It will also install the `qcontrol` package that can be
