@@ -20,6 +20,36 @@ fan, LEDs and buttons on QNAP devices.  You can edit the
 qcontrol, for example how the fans are regulated depending on the
 temperature or which commands to run when a button is pressed.
 
+<h3 id="Fanless">qcontrol on fanless QNAP systems</h3>
+
+On QNAP systems without fan (i.e. HS-210), fan errors will be reported by
+qcontrol because it tries to regulate the fan and fails.
+
+To avoid these errors, edit the qcontrol config file `/etc/qcontrol.conf`
+and change:
+
+<div class="code">
+<pre>
+has_fan = true
+</pre>
+</div>
+
+to:
+
+<div class="code">
+<pre>
+has_fan = false
+</pre>
+</div>
+
+Restart qcontrol:
+
+<div class="code">
+<pre>
+systemctl restart qcontrol.service qcontrold.service
+</pre>
+</div>
+
 <h2 id="wakealarm">Scheduled power</h2>
 
 You can tell your QNAP device to power on at a specific time using the

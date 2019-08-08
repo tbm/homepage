@@ -21,3 +21,33 @@ qcontrol --direct autopower on
 </pre>
 </div>
 
+<h2 id="Fanless">qcontrol on fanless QNAP systems</h2>
+
+On QNAP systems without fan (TS-109 and TS-109 II), fan errors will be
+reported by qcontrol because it tries to regulate the fan and fails.
+
+To avoid these errors, edit the qcontrol config file `/etc/qcontrol.conf`
+and change:
+
+<div class="code">
+<pre>
+has_fan = true
+</pre>
+</div>
+
+to:
+
+<div class="code">
+<pre>
+has_fan = false
+</pre>
+</div>
+
+Restart qcontrol:
+
+<div class="code">
+<pre>
+systemctl restart qcontrol.service qcontrold.service
+</pre>
+</div>
+

@@ -15,7 +15,4 @@ because of a kernel issue.  Messages in `dmesg` include `BUG: Bad
 rss-counter state` and `Unhandled fault: external abort on linefetch`.
 You have two options: 1) stay with Debian jessie, or 2) [set the RAM
 size to 768 MB](https://blog.spblinux.de/2018/09/debian-with-btrfs-on-qnap-11x-21x-kirkwood/).
-* On fanless QNAP systems (HS-210), [fan errors are
-reported](http://bugs.debian.org/712841).  There is a [patch for this
-issue](http://bugs.debian.org/712841#169).
 
