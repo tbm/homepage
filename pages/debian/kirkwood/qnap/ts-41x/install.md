@@ -82,7 +82,7 @@ Now go to this directory and make a backup of your flash partitions:
 
 <div class="code">
 <pre>
-cd /share/external/sdi1
+cd /share/external/<span class=input>sdi1</span>
 cat /dev/mtdblock0 &gt; mtd0
 cat /dev/mtdblock1 &gt; mtd1
 cat /dev/mtdblock2 &gt; mtd2
@@ -90,7 +90,7 @@ cat /dev/mtdblock3 &gt; mtd3
 cat /dev/mtdblock4 &gt; mtd4
 cat /dev/mtdblock5 &gt; mtd5
 cd
-umount /share/external/sdi1
+umount /share/external/<span class=input>sdi1</span>
 </pre>
 </div>
 

@@ -198,7 +198,7 @@ cat /dev/mtdblock1 &gt; mtd1
 cat /dev/mtdblock2 &gt; mtd2
 cat /dev/mtdblock3 &gt; mtd3
 cd
-umount /share/external/sdi
+umount /share/external/<span class=input>sdi</span>
 </pre>
 </div>
 

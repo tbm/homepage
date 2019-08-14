@@ -162,7 +162,7 @@ You have to restart your machine now so the new kernel is loaded:
 <div class="code">
 <pre>
 cd
-umount /share/external/sdi
+umount /share/external/<span class=input>sdi</span>
 reboot
 </pre>
 </div>
