@@ -214,7 +214,8 @@ following commands:
 
 <div class="code">
 <pre>
-cd /tmp
+mkdir /tmp/debian
+cd /tmp/debian
 busybox wget http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/orion5x/network-console/qnap/ts-109/flash-debian
 busybox wget http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/orion5x/network-console/qnap/ts-109/model
 busybox wget http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/orion5x/network-console/qnap/ts-109/initrd

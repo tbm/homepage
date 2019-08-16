@@ -105,7 +105,8 @@ Issue the following commands to download the Debian installer images:
 
 <div class="code">
 <pre>
-cd /tmp
+mkdir /tmp/debian
+cd /tmp/debian
 busybox wget http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-21x/initrd
 busybox wget http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-21x/kernel-6281
 busybox wget http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-21x/kernel-6282
