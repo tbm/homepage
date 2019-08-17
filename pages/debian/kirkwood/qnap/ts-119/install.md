@@ -132,7 +132,7 @@ will see the following on your screen:
 <div class="code">
 <pre>
 Updating MAC address...
-Your MAC address is 00:08:9B:8C:xx:xx
+Your MAC address is 00:08:9B:<span class=input>xx:xx:xx</span>
 Writing debian-installer to flash... done.
 Please reboot your QNAP device.
 </pre>
