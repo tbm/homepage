@@ -100,3 +100,21 @@ If none of this helps, I'm afraid you probably have to connect <a href =
 "../recovery/">recovery mode</a> to flash the Debian installer and to
 perform a new installation.
 
+<h3 id="ramdisk-space">Not enough space for initrd in MTD</h3>
+
+When upgrading your system, you might get an error message like this:
+
+    Not enough space for initrd in MTD 'RootFS1' (need 9670100 but is actually 9437184).
+
+The kernel and initramfs (the initial ramdisk that loads Debian from
+disk) are stored in MTD flash.  There's only 9 MB available for the
+initramfs.  This might not be enough if you use LVM or RAID.
+
+If this is the case, you can apply the following workaround:
+
+    echo "COMPRESS=xz" > /target/etc/initramfs-tools/conf.d/compress
+
+This configures initramfs-tools to use XZ compression, which achieves
+higher compression.  Hopefully your ramdisk will not fit in flash.  If
+it still doesn't fit, there's unfortunately not much you can do.
+

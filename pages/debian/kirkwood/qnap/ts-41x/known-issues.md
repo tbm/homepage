@@ -16,3 +16,6 @@ installer fails because of a kernel issue.  Messages in `dmesg` include
 linefetch`.  You have two options: 1) stay with Debian jessie, or 2) [set
 the RAM size to 768 MB](https://blog.spblinux.de/2018/09/debian-with-btrfs-on-qnap-11x-21x-kirkwood/).
 
+* The initramfs might not fit in flash.  You can try to [use XZ
+compression to make it fit](../troubleshooting/#ramdisk-space).
+
