@@ -195,3 +195,7 @@ This configures initramfs-tools to use XZ compression, which achieves
 higher compression.  Hopefully your ramdisk will not fit in flash.  If
 it still doesn't fit, there's unfortunately not much you can do.
 
+The initramfs in Debian buster is larger than in previous releases
+[due to the inclusion of OpenSSL](http://bugs.debian.org/930752)
+and unfortunately there's no fix or workaround for that issue.
+
