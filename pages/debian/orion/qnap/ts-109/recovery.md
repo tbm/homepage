@@ -218,6 +218,7 @@ You can easily make a valid recovery image with the following command:
 
 <div class="code">
 <pre>
+modprobe mtdblock
 cat /dev/mtdblock1 /dev/mtdblock2 /dev/mtdblock3 &gt; qnapimg.bin
 </pre>
 </div>

@@ -1337,3 +1337,5 @@ eval
 Siljak
 systemctl
 qcontrold
+modprobe
+mtdblock

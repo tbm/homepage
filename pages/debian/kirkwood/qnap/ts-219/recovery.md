@@ -49,6 +49,7 @@ You can easily make a valid recovery image with the following command:
 
 <div class="code">
 <pre>
+modprobe mtdblock
 cat /dev/mtdblock0 /dev/mtdblock4 /dev/mtdblock5 /dev/mtdblock1 /dev/mtdblock2 /dev/mtdblock3 &gt; F_TS-219_debian
 </pre>
 </div>
