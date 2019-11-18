@@ -214,7 +214,7 @@ First, configure `initramfs-tools`:
 
 <div class="code">
 <pre>
-echo "COMPRESS=xz" &gt; /etc/initramfs-tools/conf.d/compress
+echo "COMPRESS=xz" | sudo tee /etc/initramfs-tools/conf.d/compress
 </pre>
 </div>
 
@@ -222,7 +222,7 @@ Second, ensure that the `xz-utils` package is installed:
 
 <div class="code">
 <pre>
-apt install xz-utils
+sudo apt install xz-utils
 </pre>
 </div>
 
@@ -230,7 +230,7 @@ Finally, update the ramdisk:
 
 <div class="code">
 <pre>
-update-initramfs -u
+sudo update-initramfs -u
 </pre>
 </div>
 

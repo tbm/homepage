@@ -189,7 +189,7 @@ initramfs.  This might not be enough if you use LVM or RAID.
 
 If this is the case, you can apply the following workaround:
 
-    echo "COMPRESS=xz" > /etc/initramfs-tools/conf.d/compress
+    echo "COMPRESS=xz" | sudo tee /etc/initramfs-tools/conf.d/compress
 
 This configures initramfs-tools to use XZ compression, which achieves
 higher compression.  Hopefully your ramdisk will not fit in flash.  If

@@ -46,7 +46,7 @@ Restart qcontrol:
 
 <div class="code">
 <pre>
-systemctl restart qcontrol.service qcontrold.service
+sudo systemctl restart qcontrol.service qcontrold.service
 </pre>
 </div>
 
@@ -58,8 +58,8 @@ minutes, issue the following commands and turn off your device:
 
 <div class="code">
 <pre>
-echo 0 > /sys/class/rtc/rtc0/wakealarm
-echo `date '+%s' -d '+ 5 minutes'` > /sys/class/rtc/rtc0/wakealarm
+echo 0 | sudo tee /sys/class/rtc/rtc0/wakealarm
+echo `date '+%s' -d '+ 5 minutes'` | sudo tee /sys/class/rtc/rtc0/wakealarm
 </pre>
 </div>
 
@@ -81,7 +81,7 @@ In order to enable this feature, run the following command:
 
 <div class="code">
 <pre>
-qcontrol --direct autopower on
+sudo qcontrol --direct autopower on
 </pre>
 </div>
 

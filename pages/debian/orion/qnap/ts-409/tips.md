@@ -27,7 +27,7 @@ In order to enable this feature, run the following command:
 
 <div class="code">
 <pre>
-qcontrol --direct autopower on
+sudo qcontrol --direct autopower on
 </pre>
 </div>
 
