@@ -200,7 +200,7 @@ ssh-keygen -f ~/.ssh/known_hosts -R <span class="input">192.168.1.100</span>
 
 </div>
 
-Now connect to the installer (again, replacing the address in the
+Now connect to the installer (again, replace the address in the
 example with the actual IP address of your QNAP) and login as user
 `installer` with the password `install`:
 

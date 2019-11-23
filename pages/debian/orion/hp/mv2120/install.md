@@ -169,7 +169,7 @@ back in and connect to this fallback address.</li>
 Please make sure that the HP mv2120 is on a local network to which only you
 have access since the installer uses a very generic password, namely
 `install`. The user is `installer`.  Connect to the installer (again,
-replacing the address in the example with the actual IP address of your
+replace the address in the example with the actual IP address of your
 mv2120):
 
 <div class="code">
