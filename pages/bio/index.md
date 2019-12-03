@@ -25,7 +25,7 @@ I enjoy improving financial management and governance, providing
 oversight and automating business processes.
 
 I used to work for Hewlett-Packard for nine years, facilitating and
-leading internal and open source activities.  I currently work as a
+leading internal and external open source activities.  I currently work as a
 freelance consultant, providing services related to open source
 community management, open source foundations and governance, open
 source accounting tooling, and process and business automation.
