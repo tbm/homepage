@@ -43,7 +43,10 @@ If you cannot connect to your QNAP, here are some things you can try:
 <li>Check the logs of your DHCP server to see whether your QNAP has
 requested an IP address.  Alternatively, you can also install the `nast`
 package on your PC and run `nast -m` to find all machines on your network.
-The MAC address of your QNAP probably starts with `00:08:9B`.</li>
+The MAC address of your QNAP probably starts with `00:08:9B`.  The
+hostname is probably <tt>NAS</tt> followed by the last 3 elements of the
+MAC address (NAS<span class="input">CCDCA1</span> for 00:08:9B:<span
+class="input">CC:DC:A1</span>).</li>
 
 <li>Remove all hard drives from the QNAP.  In this case, Debian installer
 won't find your existing network configuration on disk and will use
