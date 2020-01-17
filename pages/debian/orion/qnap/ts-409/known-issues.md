@@ -18,5 +18,5 @@ href="http://comments.gmane.org/gmane.linux.ide/47799">not all disks being
 recognized</a> in time on boot.  If you're experience, you can <a
 href="http://forum.qnap.com/viewtopic.php?p=284721#p284592">use a
 workaround</a>.
-* qcontrol (the tool to control LEDs and beeper) doesn't work.
+* qcontrol (the tool to control LEDs and beeper) [doesn't work](http://bugs.debian.org/933294).
 
