@@ -11,9 +11,25 @@ your Debian system is still working.  If your Debian system is broken but
 the machine itself works, you can use the <a href = "../recovery/">recovery
 mode</a> to restore the QNAP firmware.
 
-There are two steps to restore the original QNAP firmware.  First, you have
-to put the backup of the flash partitions from the QNAP firmware you made
-<a href = "../install/">before the installation of Debian</a> into flash.
+First of all, you need a copy of the QNAP firmware.  If you made a copy
+of the flash partitions from your QNAP device, copy the backup files `mtd1`
+and `mtd2` to your QNAP device.  If you did not keep a copy, you can
+[obtain an image of the firmware from QNAP](https://wiki.qnap.com/wiki/System_Recovery_Mode#Operating_Guideline_of_System_Recovery_Mode)
+and extract the files manually (make sure you obtain the correct file
+for your model):
+
+<div class="code">
+<pre>
+wget http://download.qnap.com/Storage/tsd/<span class="input">flashimage/F_TS-409_20081024-2.1.2.zip</span>
+sudo apt install unzip
+unzip <span class="input">F_TS-409_20081024-2.1.2.zip</span>
+dd if=<span class="input">F_TS-409_20081024-2.1.2.img</span> of=mtd1 bs=1M count=2
+dd if=<span class="input">F_TS-409_20081024-2.1.2.img</span> of=mtd2 bs=1M skip=2 count=4
+</pre>
+</div>
+
+There are two steps to restore the original QNAP firmware.  First, write
+the QNAP firmware to flash:
 
 <div class="code">
 <pre>
