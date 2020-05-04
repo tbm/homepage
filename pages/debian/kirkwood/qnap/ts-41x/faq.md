@@ -11,10 +11,13 @@ keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419P II, TS-419U, 
 
 <h3>Is Debian on the QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419P II, TS-419U, TS-419U+, TS-420, TS-420U, TS-421 and TS-421U fully supported?</h3>
 
-Debian includes support for the QNAP TS-410, TS-410U, TS-412, TS-419P,
+Debian 10 (buster) includes support for the QNAP TS-410, TS-410U, TS-412, TS-419P,
 TS-419P+, TS-419P II, TS-419U, TS-419U+, TS-420, TS-420U, TS-421 and TS-421U.  However, some
 functionality from the original firmware may not be available.  Please see
 the <a href = "../status/">status page</a> to see what is supported.
+
+Please note that there are no plans to support these devices in Debian
+11 (bullseye).
 
 <h3>Which QNAP devices are supported?</h3>
 
