@@ -51,3 +51,9 @@ sudo systemctl restart qcontrol.service qcontrold.service
 </pre>
 </div>
 
+<h2 id="battery">Battery for clock</h2>
+
+There's a CR-2032 battery hidden on the bottom of the main board (similar
+to the CMOS battery on most PCs).  It's likely that the battery is dead
+after all these years and has to be replaced.
+
