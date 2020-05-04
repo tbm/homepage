@@ -1348,3 +1348,6 @@ thdox
 0x700000
 flashimage
 modeline
+mem
+768M
+0x900000

@@ -13,8 +13,8 @@ Here is a list of known issues and bugs with Debian on QNAP TS-41x/TS-42x:
 * On QNAP devices with 1 GB of RAM (i.e. TS-420U, TS-421 and TS-421U), the
 installer fails because of a kernel issue.  Messages in `dmesg` include
 `BUG: Bad rss-counter state` and `Unhandled fault: external abort on
-linefetch`.  You have two options: 1) stay with Debian jessie, or 2) [set
-the RAM size to 768 MB](https://blog.spblinux.de/2018/09/debian-with-btrfs-on-qnap-11x-21x-kirkwood/).
+linefetch`.  You can [set the RAM size to 768 MB](../mem-768m/) as a
+workaround.
 
 * The initramfs might not fit in flash.  You can try to [use XZ
 compression to make it fit](../troubleshooting/#ramdisk-space).
