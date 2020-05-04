@@ -24,6 +24,10 @@ Debian does not install a web interface to configure your machine, although
 it's possible to install such software.  If this is not what you want,
 please don't proceed with the installation.
 
+As of Debian 10 (buster), no installer is provided for the QNAP TS-209
+because the installer no longer fits into flash memory.  Therefore, you
+have to install Debian 9 (stretch).
+
 <h2>Requirements and Preparation</h2>
 
 In order to install Debian on a QNAP TS-209, you need the following:
@@ -329,6 +333,12 @@ You should now have a complete Debian system running on your QNAP.  You can
 use `apt` and other tools to install additional software.  The TS-209
 is an ARM based device and the `armel` architecture is fully supported by
 Debian.
+
+In theory, you could follow the [release
+notes](https://www.debian.org/releases/buster/armel/release-notes/) and
+upgrade to Debian 10 (buster).  However, please be aware that buster
+currently [does *not* boot on the QNAP TS-209](../known-issues/)!  Wait
+with the upgrade until this issue is resolved.
 
 In case you run into any bugs or problems, you may want to check the list
 of <a href = "../known-issues/">known issues and bugs</a> with Debian on the
