@@ -19,3 +19,10 @@ size to 768 MB](https://blog.spblinux.de/2018/09/debian-with-btrfs-on-qnap-11x-2
 * The initramfs might not fit in flash.  You can try to [use XZ
 compression to make it fit](../troubleshooting/#ramdisk-space).
 
+* There are some reports that LED lights don't work correctly on some
+QNAP models (they always show red).
+
+* There are some reports that Wake-on-LAN (WOL) no longer works.
+
+* There are [problems setting the clock (RTC)](https://lists.debian.org/debian-arm/2019/09/msg00023.html).
+
