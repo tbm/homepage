@@ -67,3 +67,28 @@ bootm 0x400000
 </pre>
 </div>
 
+<h2 id="deinstall">Installing the original QNAP firmware</h2>
+
+You can restore the original QNAP firmware directly from u-boot if you
+no longer want to run Debian.  First of all, obtain the [firmware
+image from the QNAP web
+site](https://wiki.qnap.com/wiki/System_Recovery_Mode#Operating_Guideline_of_System_Recovery_Mode).
+Unzip the file and you'll get an `.img` file.  Save that file as
+`qnapimg.bin` on your TFTP server.
+
+Now you can write this image to flash.  This is exactly what the
+[recovery mode](../recovery) does.
+
+<div class="code">
+<pre>
+setenv serverip 192.168.0.2
+setenv ipaddr 192.168.0.100
+tftp 0x400000 qnapimg.bin
+protect off 0xff000000 0xff6fffff
+erase 0xff000000 0xff6fffff
+cp.b 0x400000 0xff000000 0x700000
+</pre>
+</div>
+
+Afterwards you have to run QNAP Finder to install your system.
+

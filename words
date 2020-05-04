@@ -1343,3 +1343,7 @@ tt
 CCDCA1
 thdox
 1M
+0xff000000
+0xff6fffff
+0x700000
+flashimage
