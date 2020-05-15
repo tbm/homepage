@@ -44,8 +44,8 @@ for Windows.</li>
 
 </ul>
 
-**Note:** if you have a QNAP device with 1 GB of RAM (i.e. TS-221), you
-have to [apply this workaround first](../mem-768m/).
+**Note:** if you have a device with 1 GB of RAM (i.e. QNAP TS-221 or
+Fujitsu Q703), you have to [apply this workaround first](../mem-768m/).
 
 <h2>Making a Backup</h2>
 

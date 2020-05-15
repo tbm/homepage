@@ -21,13 +21,10 @@ following commands.  These commands will:
 * Output `bootargs` from the file so you can verify it looks good.
 * Write the new u-boot configuration to flash.
 
-**Please note that this is untested**.  If you can verify that this works,
-please email me at tbm@cyrius.com
-
 <div class="code">
 <pre>
 ubootcfg -b 0 -f /dev/mtdblock4 -o - | sed "s/^\(bootargs=.*\)/\1 mem=768M/" &gt; /tmp/debian.uboot
-grep "^bootargs" /tmp/debian.uboot
+grep "^bootargs" /tmp/debian.uboot # Check it looks sane
 ubootcfg -b 0 -f /dev/mtdblock4 -i /tmp/debian.uboot
 </pre>
 </div>

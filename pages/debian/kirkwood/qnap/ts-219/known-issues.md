@@ -1,7 +1,7 @@
 ---
 title: Known issues of Debian on QNAP TS-21x/TS-22x
 nav: Known issues
-keywords: [Debian, QNAP, HS-210, TS-210, TS-212, TS-212-E, TS-212P, TS-219, TS-219P, TS-219P+, TS-220, TS-221, bugs, issues, defects]
+keywords: [Debian, QNAP, HS-210, TS-210, TS-212, TS-212-E, TS-212P, TS-219, TS-219P, TS-219P+, TS-220, TS-221, Fujitsu, Q703, bugs, issues, defects]
 ---
 
 <div class="right">
@@ -10,7 +10,7 @@ keywords: [Debian, QNAP, HS-210, TS-210, TS-212, TS-212-E, TS-212P, TS-219, TS-2
 
 Here is a list of known issues and bugs with Debian on QNAP TS-21x/TS-22x:
 
-* On QNAP devices with 1 GB of RAM (i.e. TS-221), the installer fails
+* On devices with 1 GB of RAM (i.e. QNAP TS-221 and Fujitsu Q703), the installer fails
 because of a kernel issue.  Messages in `dmesg` include `BUG: Bad
 rss-counter state` and `Unhandled fault: external abort on linefetch`.
 You can [set the RAM size to 768 MB](../mem-768m/) as a workaround.

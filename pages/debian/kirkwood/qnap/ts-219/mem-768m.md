@@ -5,7 +5,7 @@ description: Setting mem=768M on the QNAP TS-221
 keywords: [Debian, QNAP, TS-221]
 ---
 
-Debian doesn't work on QNAP devices with 1 GB of RAM (i.e. TS-221).
+Debian doesn't work on QNAP devices with 1 GB of RAM (i.e. QNAP TS-221 or Fujitsu Q703).
 Even though we reported this to the Linux kernel developers, they found
 it difficult to investigate this issue and it never got fixed.  The best
 workaround is to add `mem=768M` to the kernel command line to limit the
@@ -21,13 +21,10 @@ following commands.  These commands will:
 * Output `bootargs` from the file so you can verify it looks good.
 * Write the new u-boot configuration to flash.
 
-**Please note that this is untested**.  If you can verify that this works,
-please email me at tbm@cyrius.com
-
 <div class="code">
 <pre>
 ubootcfg -b 0 -f /dev/mtdblock4 -o - | sed "s/^\(bootargs=.*\)/\1 mem=768M/" &gt; /tmp/debian.uboot
-grep "^bootargs" /tmp/debian.uboot
+grep "^bootargs" /tmp/debian.uboot # Check it looks sane
 ubootcfg -b 0 -f /dev/mtdblock4 -i /tmp/debian.uboot
 </pre>
 </div>
