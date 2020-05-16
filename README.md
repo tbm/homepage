@@ -2,23 +2,15 @@
 
 This is the source for my personal homepage at <http://www.cyrius.com/>
 
-I am currently in the process of converting this site to [nanoc](http://nanoc.ws/).
-Everything has been converted to nanoc except for the blog.
-
 ## Requirements
 
-Ruby dependencies are managed using bundler:
+This site uses [Nikola](https://getnikola.com/).  You can install it with:
 
-    bundle install
-
-On Debian 8 (jessie), you can install the dependencies like this:
-
-    apt-get install nanoc pandoc
-    gem install pandoc-ruby w3c_validators
+    pip3 install --user -r requirements.txt
 
 The site also requires various Debian packages:
 
-    apt-get install make hunspell myspell-en-gb myspell-en-us
+    sudo apt-get install make hunspell myspell-en-gb myspell-en-us
 
 ## Style guidelines
 
