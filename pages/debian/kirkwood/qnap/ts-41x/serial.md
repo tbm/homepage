@@ -46,7 +46,7 @@ The TS-419P+ with revision V1.4 and QV20 V1.2 mainboards use 5V rather than
 * RX
 * GND
 
-The TS-419U+ with QU43 V1.3 mainboard has a connector connector labelled
+The TS-419U+ with QU43 V1.3 mainboard has a connector labelled
 "CN3 / CONSOLE" and the pin lay is:
 
 * TX

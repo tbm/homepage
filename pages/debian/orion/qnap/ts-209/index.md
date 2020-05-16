@@ -10,7 +10,7 @@ keywords: [Debian, NAS, QNAP, QNAP Turbo Station, Orion, TS-209, TS-209 II, TS-2
 </div>
 
 The QNAP TS-209 is a NAS device that can be used for a variety of tasks.
-In the following, I will describe what is needed needed to get Debian
+In the following, I will describe what is needed to get Debian
 running on your TS-209, TS-209 II, TS-209 Pro or TS-209 Pro II.
 
 <h2>Information</h2>

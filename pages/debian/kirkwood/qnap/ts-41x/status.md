@@ -1,7 +1,7 @@
 ---
 title: Status of QNAP TS-41x/TS-42x support
 nav: Status
-description: Status of QNAP QNAP TS-41x/TS-42x support in Debian
+description: Status of QNAP TS-41x/TS-42x support in Debian
 keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420, TS-421, support, status]
 ---
 

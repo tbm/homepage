@@ -115,7 +115,7 @@ Since the HP mv2120 does not have any IO device, SSH will be used for the
 installation.  The installer will bring up the network, start the OpenSSH
 server and you can then connect to the device using SSH.  You have to wait
 approximately two minutes after starting the system before you can connect.
-When the installer is ready, it will change the health LED to to indicate
+When the installer is ready, it will change the health LED to indicate
 that you can now login via SSH.
 
 Here is a list of stages and the corresponding signals the boot process of

@@ -39,7 +39,7 @@ original creation.</li>
 <li>Contributors are not expected to provide support for their
 contributions, except to the extent they desire to provide support.</li>
 
-<li>How to handle submissions of work that that is not their original
+<li>How to handle submissions of work that is not their original
 creation (i.e. works by a third-party).</li>
 
 <li>Contributors agree to notify the ASF when any circumstances

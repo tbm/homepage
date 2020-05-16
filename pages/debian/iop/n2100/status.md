@@ -69,7 +69,7 @@ the hard drive speed is slow.</td>
 
 <tr class="table-warning">
 <th>Fan</th>
-<td>Supported in in the kernel, but there is no automatic regulation
+<td>Supported in the kernel, but there is no automatic regulation
 of the fan based on the current temperature.</td>
 </tr>
 

@@ -1,5 +1,5 @@
 ---
-title: Tips and tricks for for Debian on the D-Link DNS-323
+title: Tips and tricks for Debian on the D-Link DNS-323
 nav: Tips
 keywords: [Debian, D-Link, DNS-323, Conceptronic, CH3SNAS, tips, tricks]
 ---

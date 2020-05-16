@@ -33,7 +33,7 @@ echo `date '+%s' -d '+ 5 minutes'` | sudo tee /sys/class/rtc/rtc0/wakealarm
 </pre>
 </div>
 
-You can check check whether a wakealarm has been configured with:
+You can check whether a wakealarm has been configured with:
 
 <div class="code">
 <pre>
