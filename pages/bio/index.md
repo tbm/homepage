@@ -6,7 +6,7 @@ keywords: [Martin Michlmayr, biography, background, interests]
 ---
 
 <div class="right">
-<img src = "../images/martin_2017_ibk.jpg" alt = "Photo of Martin" width="186" height="200" />
+<img src = "../images/tbm-2020-cebu.jpg" alt = "Photo of Martin" width="191" height="200" />
 </div>
 
 I have been involved in various free and open source software projects
