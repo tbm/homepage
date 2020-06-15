@@ -12,6 +12,8 @@ Here is a list of known issues and bugs with Debian on the HP mv2120:
 
 <ul>
 
+<li>Debian 10 is the last release with support for the HP mv2120.</li>
+
 <li>Although the kernel reports button presses, there's currently no
 userland tool that will listen to the button events and actually do
 something with them (i.e. reset or power down the machine).</li>

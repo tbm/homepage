@@ -11,12 +11,12 @@ keywords: [Debian, HP, mv2120, FAQ, frequently asked questions, help, troublesho
 
 <h3>Is Debian on the HP mv2120 fully supported?</h3>
 
-Debian includes support for the HP mv2120.  However, some functionality
+Debian used to include support for the HP mv2120.  However, some functionality
 from the original firmware may not be available.  In particular, the hard
 drive speed will be lower with Debian.  Please see the <a href =
 "../status/">status page</a> to see what is supported.
 
-Please note that Debian 9 is the last release to support the HP mv2120.
+Please note that Debian 10 is the last release to support the HP mv2120.
 
 <h3>Is Debian on the HP mv2120 suited for people new to Linux?</h3>
 
@@ -56,10 +56,7 @@ Server).
 
 <h3>Is Debian on the HP mv2120 supported by HP?</h3>
 
-No.  Even though I currently work for HP, all of this work was done in my
-spare time.  Debian on the HP mv2120 is not supported by HP in any way.  I
-should also mention that my work at HP is not related to the mv2120 or
-other NAS devices at all.
+No.
 
 <h3>Is there a recovery mode?</h3>
 

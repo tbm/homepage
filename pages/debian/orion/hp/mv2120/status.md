@@ -17,6 +17,8 @@ HP.  Please take this into account before deciding whether you want to
 install Debian, especially if you have specific requirements (e.g. related
 to performance).
 
+Debian 10 is the last release to support the HP mv2120.
+
 The table below shows how well different components of the HP mv2120 are
 supported by Debian:
 
