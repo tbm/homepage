@@ -38,7 +38,7 @@ Here is a table showing the differences between the supported devices:
 
 <tbody>
 <tr>
-<th>CPU</th>
+<th>CPU speed</th>
 <td>800 MHz</td>
 <td>1.2 GHz</td>
 <td>1.6 GHz</td>
@@ -181,7 +181,7 @@ Here is a table showing the differences between the supported devices:
 
 <tbody>
 <tr>
-<th scope="row">CPU</th>
+<th scope="row">CPU speed</th>
 <td>1.6 GHz</td>
 <td>800 MHz</td>
 <td>1.2 GHz</td>
@@ -349,7 +349,7 @@ Here is a table showing the differences between the supported devices:
 
 <tbody>
 <tr>
-<th>CPU</th>
+<th>CPU speed</th>
 <td>800 MHz</td>
 <td>800 MHz</td>
 <td>1.2 GHz</td>
@@ -477,7 +477,7 @@ Here is a table showing the differences between the supported devices:
 
 <tbody>
 <tr>
-<th>CPU</th>
+<th>CPU speed</th>
 <td>1.2 GHz</td>
 <td>1.6 GHz</td>
 <td>1.6 GHz</td>
