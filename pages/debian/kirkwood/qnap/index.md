@@ -37,6 +37,19 @@ Here is a table showing the differences between the supported devices:
 </thead>
 
 <tbody>
+
+<tr>
+<th>CPU model</th>
+<td>6281</td>
+<td>6281</td>
+<td>6282</td>
+<td>6281</td>
+<td>6282</td>
+<td>6282</td>
+<td>6282</td>
+<td>6282</td>
+</tr>
+
 <tr>
 <th>CPU speed</th>
 <td>800 MHz</td>
@@ -180,6 +193,22 @@ Here is a table showing the differences between the supported devices:
 </thead>
 
 <tbody>
+
+<tr>
+<th scope="row">CPU model</th>
+<td>6282</td>
+<td>6281</td>
+<td>6281</td>
+<td>6282</td>
+<td>6282</td>
+<td>6281</td>
+<td>6281</td>
+<td>6282</td>
+<td>6282</td>
+<td>6282</td>
+<td>6282</td>
+</tr>
+
 <tr>
 <th scope="row">CPU speed</th>
 <td>1.6 GHz</td>
@@ -348,6 +377,17 @@ Here is a table showing the differences between the supported devices:
 </thead>
 
 <tbody>
+
+<tr>
+<th>CPU model</th>
+<td>6281</td>
+<td>6281</td>
+<td>6281</td>
+<td>6281</td>
+<td>6282</td>
+<td>6282</td>
+</tr>
+
 <tr>
 <th>CPU speed</th>
 <td>800 MHz</td>
@@ -476,6 +516,17 @@ Here is a table showing the differences between the supported devices:
 </thead>
 
 <tbody>
+
+<tr>
+<th>CPU model</th>
+<td>6281</td>
+<td>6282</td>
+<td>6282</td>
+<td>6282</td>
+<td>6282</td>
+<td>6282</td>
+</tr>
+
 <tr>
 <th>CPU speed</th>
 <td>1.2 GHz</td>
