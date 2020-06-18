@@ -140,6 +140,11 @@ You can check the following table to find out which string to use:
 </tr>
 
 <tr>
+<td>TS-410U</td>
+<td>`F_TS-410U`</td>
+</tr>
+
+<tr>
 <td>TS-412</td>
 <td>`F_TS-412`</td>
 </tr>
@@ -147,11 +152,6 @@ You can check the following table to find out which string to use:
 <tr>
 <td>TS-412U</td>
 <td>`F_TS-412U`</td>
-</tr>
-
-<tr>
-<td>TS-410U</td>
-<td>`F_TS-410U`</td>
 </tr>
 
 <tr>
