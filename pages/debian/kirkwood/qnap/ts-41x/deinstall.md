@@ -52,6 +52,9 @@ script:
 </pre>
 </div>
 
+Alternatively, you can look up the CPU model in the [table listing all
+supported QNAP devices](../../).
+
 If the output is `kirkwood-ts419-6281.dtb`, you need the <a
 href="http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/kernel-6281">kernel-6281</a>
 file.  If the output is `kirkwood-ts419-6282.dtb`, you need the <a
