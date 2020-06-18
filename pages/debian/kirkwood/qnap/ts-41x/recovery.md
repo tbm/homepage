@@ -2,7 +2,7 @@
 title: Recovery mode of the QNAP TS-41x/TS-42x
 nav: Recovery mode
 description: System Recovery Mode of the QNAP TS-41x/TS-42x
-keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420, TS-421, recovery, emergency, rescue]
+keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-412U, TS-419P, TS-419U, TS-420, TS-421, recovery, emergency, rescue]
 ---
 
 <div class="right">
@@ -142,6 +142,11 @@ You can check the following table to find out which string to use:
 <tr>
 <td>TS-412</td>
 <td>`F_TS-412`</td>
+</tr>
+
+<tr>
+<td>TS-412U</td>
+<td>`F_TS-412U`</td>
 </tr>
 
 <tr>

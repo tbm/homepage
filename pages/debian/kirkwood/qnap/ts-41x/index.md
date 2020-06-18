@@ -2,14 +2,14 @@
 title: Debian on QNAP TS-41x/TS-42x
 nav: TS-41x/TS-42x
 description: Instructions for running Debian on the QNAP TS-41x/TS-42x
-keywords: [Debian, NAS, QNAP, QNAP Turbo NAS, Kirkwood, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420, TS-421]
+keywords: [Debian, NAS, QNAP, QNAP Turbo NAS, Kirkwood, TS-410, TS-410U, TS-412, TS-412U, TS-419P, TS-419U, TS-420, TS-421]
 ---
 
 <div class="right">
 <img src = "images/r_qnap_ts419p.jpg" class="border" alt="QNAP TS-419P from the front" width="148" height="148" />
 </div>
 
-The QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419P II, TS-419U, TS-419U+, TS-420, TS-420U, TS-421 and TS-421U
+The QNAP TS-410, TS-410U, TS-412, TS-412U, TS-419P, TS-419P+, TS-419P II, TS-419U, TS-419U+, TS-420, TS-420U, TS-421 and TS-421U
 are powerful NAS devices that can be used for a variety of tasks.  You can
 use the user-friendly <a href = "install/">Debian installer to install</a>
 Debian.

@@ -2,7 +2,7 @@
 title: Restoring the original QNAP firmware or re-installing Debian
 nav: De-installing Debian
 description: Restoring the original QNAP firmware or re-installing Debian on the QNAP TS-41x/TS-42x
-keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420, TS-421, original firmware]
+keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-412U, TS-419P, TS-419U, TS-420, TS-421, original firmware]
 ---
 
 <div class="right">

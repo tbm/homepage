@@ -2,7 +2,7 @@
 title: Installing Debian on QNAP TS-41x/TS-42x
 nav: Installing Debian
 description: Installation instructions for Debian on QNAP TS-41x/TS-42x
-keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420, TS-421, ARM, armel, installation]
+keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-412U, TS-419P, TS-419U, TS-420, TS-421, ARM, armel, installation]
 ---
 
 <div class="right">
@@ -30,7 +30,7 @@ In order to install Debian on a QNAP device, you need the following:
 
 <ul>
 
-<li>A QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419P II, TS-419U, TS-419U+, TS-420, TS-420U, TS-421 or TS-421U.</li>
+<li>A QNAP TS-410, TS-410U, TS-412, TS-412U, TS-419P, TS-419P+, TS-419P II, TS-419U, TS-419U+, TS-420, TS-420U, TS-421 or TS-421U.</li>
 
 <li>An internal SATA disk.</li>
 

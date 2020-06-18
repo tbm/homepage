@@ -2,16 +2,16 @@
 title: FAQ about Debian on QNAP TS-41x/TS-42x
 nav: FAQ
 description: FAQ about Debian on QNAP TS-41x/TS-42x
-keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419P II, TS-419U, TS-420, TS-421, FAQ, frequently asked questions, help, troubleshooting]
+keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-412U, TS-419P, TS-419P II, TS-419U, TS-420, TS-421, FAQ, frequently asked questions, help, troubleshooting]
 ---
 
 <div class="right">
 <img src = "../images/r_qnap_ts419p.jpg" class="border" alt="QNAP TS-419P from the front" width="148" height="148" />
 </div>
 
-<h3>Is Debian on the QNAP TS-410, TS-410U, TS-412, TS-419P, TS-419P+, TS-419P II, TS-419U, TS-419U+, TS-420, TS-420U, TS-421 and TS-421U fully supported?</h3>
+<h3>Is Debian on the QNAP TS-410, TS-410U, TS-412, TS-412U, TS-419P, TS-419P+, TS-419P II, TS-419U, TS-419U+, TS-420, TS-420U, TS-421 and TS-421U fully supported?</h3>
 
-Debian 10 (buster) includes support for the QNAP TS-410, TS-410U, TS-412, TS-419P,
+Debian 10 (buster) includes support for the QNAP TS-410, TS-410U, TS-412, TS-412U, TS-419P,
 TS-419P+, TS-419P II, TS-419U, TS-419U+, TS-420, TS-420U, TS-421 and TS-421U.  However, some
 functionality from the original firmware may not be available.  Please see
 the <a href = "../status/">status page</a> to see what is supported.
@@ -25,7 +25,7 @@ All QNAP devices based on the Marvell Kirkwood platform are supported.
 This includes the <a href = "../../ts-119/">QNAP TS-110, TS-112, TS-112P, TS-119,
 TS-119P+, TS-119P II, TS-120 and TS-121</a>, <a href = "../../ts-219/">QNAP HS-210, TS-210, TS-212, TS-212-E, TS-212P, TS-219,
 TS-219P, TS-219P+, TS-219P II, TS-220 and TS-221</a> as well as the QNAP TS-410, TS-410U,
-TS-412, TS-419P, TS-419P+, TS-419P II, TS-419U, TS-419U+, TS-420, TS-420U, TS-421 and TS-421U.  Older QNAP devices based
+TS-412, TS-412U, TS-419P, TS-419P+, TS-419P II, TS-419U, TS-419U+, TS-420, TS-420U, TS-421 and TS-421U.  Older QNAP devices based
 on the Marvell Orion platform are <a href = "/debian/orion/qnap/">also
 supported</a>.
 

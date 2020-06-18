@@ -2,7 +2,7 @@
 title: Tips and tricks for Debian on QNAP TS-41x/TS-42x
 nav: Tips
 description: Tips and tricks for Debian on the QNAP TS-41x/TS-42x
-keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420, TS-421, tips, tricks]
+keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-412U, TS-419P, TS-419U, TS-420, TS-421, tips, tricks]
 ---
 
 <div class="right">

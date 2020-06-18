@@ -2,7 +2,7 @@
 title: U-Boot on the QNAP TS-41x/TS-42x
 nav: U-Boot
 description: Using U-Boot on the QNAP TS-41x/TS-42x
-keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420, TS-421, serial, console, uboot, U-Boot]
+keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-412U, TS-419P, TS-419U, TS-420, TS-421, serial, console, uboot, U-Boot]
 ---
 
 <div class="right">

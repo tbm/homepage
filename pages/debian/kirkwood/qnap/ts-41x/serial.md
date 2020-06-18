@@ -2,7 +2,7 @@
 title: Serial console for QNAP TS-41x/TS-42x
 nav: Serial Console
 description: Connecting a serial console to the QNAP TS-41x/TS-42x
-keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420, TS-421, serial, console, RS-232, hack]
+keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-412U, TS-419P, TS-419U, TS-420, TS-421, serial, console, RS-232, hack]
 ---
 
 <div class="right">

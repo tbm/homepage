@@ -1,7 +1,7 @@
 ---
 title: Known issues of Debian on QNAP TS-41x/TS-42x
 nav: Known issues
-keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-419P, TS-419U, TS-420, TS-421, bugs, issues, defects]
+keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-412U, TS-419P, TS-419U, TS-420, TS-421, bugs, issues, defects]
 ---
 
 <div class="right">
