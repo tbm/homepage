@@ -8,9 +8,9 @@ a ledger to beancount converter.
 
 There are three notable changes with this release:
 
-1) Performance has significantly improved.  One large, real-world test case has gone from around 160 seconds to 33 seconds.  A smaller test case has gone from 11 seconds to ~3.5 seconds.
-2) The documentation is [available online now](https://ledger2beancount.readthedocs.io/) (via Read the Docs).
-3) The [repository has moved](https://github.com/beancount/ledger2beancount) to the beancount GitHub organization.
+1. Performance has significantly improved.  One large, real-world test case has gone from around 160 seconds to 33 seconds.  A smaller test case has gone from 11 seconds to ~3.5 seconds.
+2. The documentation is [available online now](https://ledger2beancount.readthedocs.io/) (via Read the Docs).
+3. The [repository has moved](https://github.com/beancount/ledger2beancount) to the beancount GitHub organization.
 
 Here are the changes in 2.3:
 
