@@ -200,6 +200,16 @@ recovery mode.  You can now go ahead with the <a href =
 The QNAP recovery image contains a copy of `mtd1`, `mtd2` and `mtd3`, i.e.
 the kernel partition, ramdisk partition and second ramdisk partition.
 
+The official recovery image is 8 MB, but only the first 7 MB are
+actually used during the recovery process: the first 2 MB for `mtd1`
+(the Linux kernel), 4 MB for `mtd2` (the ramdisk) and 1 MB for
+`mtd3` (another ramdisk).  The remaining 1 MB are ignored (`mtd4`
+and `mtd5` contain device-specific information and `mtd0` contains
+the u-boot boot loader which is not replaced during recovery).
+
+Since only the first 7 MB are important, we generate a 7 MB recovery
+image.
+
 <h3 id="image-qnap">Making a recovery image of the QNAP backup</h3>
 
 Before installing Debian, you should have made a backup of the QNAP
