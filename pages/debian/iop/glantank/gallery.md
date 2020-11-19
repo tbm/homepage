@@ -59,7 +59,7 @@ Putting it together
 
 <p>
 <a href = "../images/img_1842.jpg">
-<img src = "../images/img_1842s.jpg" class="border" alt = "" width="640" height="480" />
+<img src = "../images/img_1842s.jpg" class="border" alt = "GLAN Tank" width="640" height="480" />
 </a>
 <br/>
 Voila
