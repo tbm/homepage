@@ -338,7 +338,8 @@ In theory, you could follow the [release
 notes](https://www.debian.org/releases/buster/armel/release-notes/) and
 upgrade to Debian 10 (buster).  However, please be aware that buster
 currently [does *not* boot on the QNAP TS-109](../known-issues/)!  Wait
-with the upgrade until this issue is resolved.
+with the upgrade until this issue is resolved.  (The issue will be resolved
+in Debian 10.7 on 2020-12-05.)
 
 In case you run into any bugs or problems, you may want to check the list
 of <a href = "../known-issues/">known issues and bugs</a> with Debian on the
