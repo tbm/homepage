@@ -12,3 +12,8 @@ jobs:
       - run: nikola build
       - run: sudo gem install html-proofer
       - run: htmlproofer --disable-external --check-html output --url-ignore /feed/
+  checks:
+    name: Checks
+    runs-on: ubuntu-latest
+    steps:
+      - run: find -name "*.yaml" -exec yamllint -s {} \;
