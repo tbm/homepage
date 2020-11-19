@@ -1,22 +1,22 @@
 spellchecker: aspell
 
 matrix:
-- name: markdown
-  sources:
-    - "**/*.md"
-  pipeline:
-    - pyspelling.filters.markdown:
-      markdown_extensions:
-        - markdown.extensions.extra:
-    - pyspelling.filters.html:
-        comments: true
-        ignores:
-          - div.code
-          - code
-          - pre
-    - pyspelling.filters.url:
-  aspell:
-    lang: en
-  dictionary:
-    wordlists:
-      - .aspell.en.pws
+  - name: markdown
+    sources:
+      - "**/*.md"
+    pipeline:
+      - pyspelling.filters.markdown:
+        markdown_extensions:
+          - markdown.extensions.extra:
+      - pyspelling.filters.html:
+          comments: true
+          ignores:
+            - div.code
+            - code
+            - pre
+      - pyspelling.filters.url:
+    aspell:
+      lang: en
+    dictionary:
+      wordlists:
+        - .aspell.en.pws
