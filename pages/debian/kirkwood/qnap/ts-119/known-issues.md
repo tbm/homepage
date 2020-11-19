@@ -25,3 +25,5 @@ QNAP models (they always show red).
 
 * There are [problems setting the clock (RTC)](https://lists.debian.org/debian-arm/2019/09/msg00023.html).
 
+* Debian 10 (buster) is the last release to support this device.  There's no support in Debian 11 (bullseye).
+

@@ -14,6 +14,9 @@ are powerful NAS devices that can be used for a variety of tasks.  You can
 use the user-friendly <a href = "install/">Debian installer to install</a>
 Debian.
 
+Please be aware that Debian 10 is the last release to support these
+devices.
+
 <h2>Information</h2>
 
 <ul>

@@ -18,6 +18,9 @@ Marvell Kirkwood platform.   This includes the following devices:
 <li><a href = "ts-41x/">QNAP TS-410, TS-410U, TS-412, TS-412U, TS-419P, TS-419P+, TS-419P II, TS-419U, TS-419U+, TS-420, TS-420U, TS-421 and TS-421U</a></li>
 </ul>
 
+Please be aware that Debian 10 is the last release to support these QNAP
+devices.
+
 Here is a table showing the differences between the supported devices:
 
 <table class="table table-hover">

@@ -13,6 +13,9 @@ The QNAP TS-109 is a NAS device that can be used for a variety of tasks.
 In the following, I will describe what is needed to get Debian running on
 your TS-109, TS-109 II, TS-109 Pro or TS-109 Pro II.
 
+Please be aware that Debian 10 is the last release to support these QNAP
+devices.
+
 <h2>Information</h2>
 
 <ul>
