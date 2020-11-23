@@ -41,10 +41,8 @@ sudo fw_printenv bootargs
 </pre>
 </div>
 
-**Note:** I'm not sure if this configuration will work on the
-TS-41x/TS-42x.  I believe it should.  If the command gives the right
-output, it's working.  If so, please email me at tbm@cyrius.com to
-confirm.
+(The config file is for TS-119/TS-219, but it will work fine on TS-4xx
+models.)
 
 The output should be something like this:
 
