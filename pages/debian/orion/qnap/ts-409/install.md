@@ -26,7 +26,8 @@ please don't proceed with the installation.
 
 As of Debian 10 (buster), no installer is provided for the QNAP TS-409
 because the installer no longer fits into flash memory.  Therefore, you
-have to install Debian 9 (stretch).
+have to install Debian 9 (stretch); afterwards you can upgrade to
+Debian 10 (buster).
 
 <h2>Requirements and Preparation</h2>
 
@@ -334,12 +335,10 @@ use `apt` and other tools to install additional software.  The TS-409
 is an ARM based device and the `armel` architecture is fully supported by
 Debian.
 
-In theory, you could follow the [release
+Now you can follow the [release
 notes](https://www.debian.org/releases/buster/armel/release-notes/) and
-upgrade to Debian 10 (buster).  However, please be aware that buster
-currently [does *not* boot on the QNAP TS-409](../known-issues/)!  Wait
-with the upgrade until this issue is resolved.  (The issue will be resolved
-in Debian 10.7 on 2020-12-05.)
+upgrade to Debian 10 (buster).
+
 
 In case you run into any bugs or problems, you may want to check the list
 of <a href = "../known-issues/">known issues and bugs</a> with Debian on the

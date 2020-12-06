@@ -19,6 +19,5 @@ recognized</a> in time on boot.  If you're experience, you can <a
 href="http://forum.qnap.com/viewtopic.php?p=284721#p284592">use a
 workaround</a>.
 * qcontrol (the tool to control LEDs and beeper) [doesn't work](http://bugs.debian.org/933294).
-* The Linux kernel in Debian 10 [fails to boot](https://bugs.debian.org/908712).  **Do not upgrade to Debian 10 (buster) until this issue is resolved!**  The issue will be resolved in Debian 10.7 on 2020-12-05.
 * Debian 10 (buster) is the last release to support this device.  There's no support in Debian 11 (bullseye).
 
