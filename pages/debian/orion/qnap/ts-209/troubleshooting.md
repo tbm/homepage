@@ -130,8 +130,10 @@ If this is the case, you can apply the following workaround:
 
     echo "COMPRESS=xz" > /target/etc/initramfs-tools/conf.d/compress
 
-This configures initramfs-tools to use XZ compression, which will allow the
-ramdisk to fit in flash.
+This configures initramfs-tools to use XZ compression, which offers
+better compression, and might mean that the ramdisk will now fit in
+flash.  Unfortunately, it might still not fit if you use RAID or LVM.
+In this case, install without RAID or LVM.
 
 Exit the shell and repeat the "make the system bootable" step.
 
@@ -239,4 +241,8 @@ sudo update-initramfs -u
 
 If you use a custom kernel rather than a kernel provided by Debian, please
 ensure that the `CONFIG_RD_XZ` setting is enabled.
+
+Unfortunately, several components have grown substantially in Debian 10
+(buster), which means that the ramdisk might still not fit into flash,
+in particular if you use LVM.
 
