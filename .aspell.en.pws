@@ -1,4 +1,4 @@
-personal_ws-1.1 en 566 utf-8
+personal_ws-1.1 en 575 utf-8
 ABI
 ACPI
 AGPL
@@ -27,6 +27,7 @@ Arcboot
 Asay
 BCM
 BT
+Baier
 Barahona
 Bdale
 Behling
@@ -70,6 +71,7 @@ DNS
 DOI
 DPL
 DX
+Daniele
 Datacon
 De
 DebianSlug
@@ -78,6 +80,7 @@ Devlin
 Dfx
 Django
 DockStar
+Dockerfile
 DreamPlug
 EABI
 EGCS
@@ -172,6 +175,7 @@ Koltsoff
 Koo
 Korsgaard's
 Kurobox
+Kurup
 LEDs
 LSB
 LSP
@@ -222,6 +226,7 @@ NetBSD
 NetXtreme
 Netgear
 NewIT
+Nicolodi
 Nikola
 Novell
 Nvidia
@@ -371,6 +376,7 @@ Ver
 Verhelst
 Vernooij
 ViRGE
+Vinod
 Voipio
 WGT
 WL
@@ -410,6 +416,7 @@ bootargs
 bootcmd
 bootm
 bootup
+bratekarate
 busybox
 centiseconds
 chipsets
@@ -438,6 +445,7 @@ endian
 eth
 evolvability
 evtd
+faaafo
 fancontrol
 fanless
 fava
@@ -476,6 +484,7 @@ linux
 mainboard
 mainboards
 md
+mefromthepast
 mem
 memdisk
 microSD
