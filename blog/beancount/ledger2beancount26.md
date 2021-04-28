@@ -3,7 +3,7 @@ title: "ledger2beancount 2.6 released"
 date: 2021-04-15 13:18:30 +0800
 ---
 
-I released version 2.5 of [ledger2beancount](https://github.com/beancount/ledger2beancount), a ledger to beancount converter.
+I released version 2.6 of [ledger2beancount](https://github.com/beancount/ledger2beancount), a ledger to beancount converter.
 
 Here are the changes in 2.6:
 
