@@ -21,6 +21,7 @@ NAVIGATION_LINKS = {
         ("/blog/", "Blog"),
         ("/research/", "Research"),
         ("/publications/", "Publications"),
+        ("/foss-foundations/", "FOSS Foundations"),
         ("/debian/", "Debian HOWTOs"),
         ("/contact/", "Contact"),
     ),
