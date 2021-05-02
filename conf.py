@@ -19,7 +19,6 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/bio/", "Biography"),
         ("/blog/", "Blog"),
-        ("/research/", "Research"),
         ("/publications/", "Publications"),
         ("/foss-foundations/", "FOSS Foundations"),
         ("/debian/", "Debian HOWTOs"),
