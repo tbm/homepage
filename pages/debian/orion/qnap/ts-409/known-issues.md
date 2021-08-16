@@ -31,5 +31,8 @@ recognized</a> in time on boot.  If you're experienced, you can <a
 href="http://forum.qnap.com/viewtopic.php?p=284721#p284592">use a
 workaround</a>.
 * qcontrol (the tool to control LEDs and beeper) [doesn't work](http://bugs.debian.org/933294).
-* Debian 10 (buster) is the last release to support this device.  There's no support in Debian 11 (bullseye).
+
+## Support
+
+* Debian 10 (buster) is the last release to <a href="../upgrade">support this device</a>.  There's no support in Debian 11 (bullseye).
 

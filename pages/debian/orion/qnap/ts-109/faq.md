@@ -15,8 +15,8 @@ Debian 9 (stretch) includes support for the QNAP TS-109.  In Debian
 10 (buster), support for the installer was dropped due to size
 constraints of the device.
 
-Please note that there are no plans to support this device in Debian
-11 (bullseye).
+Please note that the TS-109 is <a href="../upgrade">not supported in Debian
+11 (bullseye)</a>.
 
 <h3>Is Debian on the TS-109 suited for people new to Linux?</h3>
 

@@ -10,6 +10,8 @@ keywords: [Debian, QNAP, TS-110, TS-112, TS-112P, TS-119, TS-119P+, TS-120, TS-1
 
 Here is a list of known issues and bugs with Debian on QNAP TS-11x/TS-12x:
 
+<h2>Debian 10 (buster)</h2>
+
 * On QNAP devices with 1 GB of RAM (i.e. TS-121), the installer fails
 because of a kernel issue.  Messages in `dmesg` include `BUG: Bad
 rss-counter state` and `Unhandled fault: external abort on linefetch`.
@@ -25,5 +27,7 @@ QNAP models (they always show red).
 
 * There are [problems setting the clock (RTC)](https://lists.debian.org/debian-arm/2019/09/msg00023.html).
 
-* Debian 10 (buster) is the last release to support this device.  There's no support in Debian 11 (bullseye).
+<h2>Debian 11 (bullseye)</h2>
+
+* Debian 10 (buster) is the last release to <a href="../upgrade">support this device</a>.  There's no support in Debian 11 (bullseye).
 

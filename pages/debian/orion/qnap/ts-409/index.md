@@ -13,8 +13,8 @@ The QNAP TS-409 is a NAS device that can be used for a variety of tasks.
 In the following, I will describe what is needed to get Debian running on
 your TS-409, TS-409 Pro or TS-409U.
 
-Please be aware that Debian 10 is the last release to support these QNAP
-devices.
+Please note that <a href="upgrade">Debian 10 is the last release</a> to
+support these devices.  Debian 11 (bullseye) is not supported.
 
 <h2>Information</h2>
 

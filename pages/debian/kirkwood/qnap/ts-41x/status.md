@@ -19,7 +19,7 @@ Debian, especially if you have specific requirements (e.g. related to
 performance).
 
 The table below shows how well different components of the QNAP
-TS-41x/TS-42x are supported by Debian:
+TS-41x/TS-42x are supported by Debian 10 (buster):
 
 <table class="table table-hover">
 

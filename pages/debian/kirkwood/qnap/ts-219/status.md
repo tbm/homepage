@@ -19,7 +19,7 @@ Debian, especially if you have specific requirements (e.g. related to
 performance).
 
 The table below shows how well different components of the QNAP
-TS-21x/TS-22x are supported by Debian:
+TS-21x/TS-22x are supported by Debian 10:
 
 <table class="table table-hover">
 

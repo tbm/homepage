@@ -16,18 +16,20 @@ TS-419P+, TS-419P II, TS-419U, TS-419U+, TS-420, TS-420U, TS-421 and TS-421U.  H
 functionality from the original firmware may not be available.  Please see
 the <a href = "../status/">status page</a> to see what is supported.
 
-Please note that there are no plans to support these devices in Debian
-11 (bullseye).
+Please note that these devices are <a href="../upgrade">not supported in Debian 11 (bullseye)</a>.
 
 <h3>Which QNAP devices are supported?</h3>
 
-All QNAP devices based on the Marvell Kirkwood platform are supported.
+All QNAP devices based on the Marvell Kirkwood platform are supported in
+Debian 10 (buster).
 This includes the <a href = "../../ts-119/">QNAP TS-110, TS-112, TS-112P, TS-119,
 TS-119P+, TS-119P II, TS-120 and TS-121</a>, <a href = "../../ts-219/">QNAP HS-210, TS-210, TS-212, TS-212-E, TS-212P, TS-219,
 TS-219P, TS-219P+, TS-219P II, TS-220 and TS-221</a> as well as the QNAP TS-410, TS-410U,
 TS-412, TS-412U, TS-419P, TS-419P+, TS-419P II, TS-419U, TS-419U+, TS-420, TS-420U, TS-421 and TS-421U.  Older QNAP devices based
 on the Marvell Orion platform are <a href = "/debian/orion/qnap/">also
 supported</a>.
+
+<b>Note:</b> There is <a href="../upgrade">no support in Debian 11 (bullseye)</a>.
 
 Unfortunately, none of the current ARM-based devices from QNAP are
 supported.  We use the mainline Linux kernel from kernel.org in Debian

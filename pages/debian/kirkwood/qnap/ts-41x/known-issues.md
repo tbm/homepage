@@ -10,6 +10,8 @@ keywords: [Debian, QNAP, TS-410, TS-410U, TS-412, TS-412U, TS-419P, TS-419U, TS-
 
 Here is a list of known issues and bugs with Debian on QNAP TS-41x/TS-42x:
 
+<h2>Debian 10 (buster)</h2>
+
 * On QNAP devices with 1 GB of RAM (i.e. TS-420U, TS-421 and TS-421U), the
 installer fails because of a kernel issue.  Messages in `dmesg` include
 `BUG: Bad rss-counter state` and `Unhandled fault: external abort on
@@ -26,5 +28,7 @@ QNAP models (they always show red).
 
 * There are [problems setting the clock (RTC)](https://lists.debian.org/debian-arm/2019/09/msg00023.html).
 
-* Debian 10 (buster) is the last release to support this device.  There's no support in Debian 11 (bullseye).
+<h2>Debian 11 (bullseye)</h2>
+
+* Debian 10 (buster) is the last release to <a href="../upgrade">support this device</a>.  There's no support in Debian 11 (bullseye).
 

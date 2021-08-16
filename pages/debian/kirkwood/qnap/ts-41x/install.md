@@ -24,6 +24,9 @@ with Debian.  Debian does not install a web interface to configure your
 machine, although it's possible to install such software.  If this is not
 what you want, please don't proceed with the installation.
 
+Please note that <a href="../upgrade">Debian 10 is the last release</a> to support
+these devices.  Debian 11 (bullseye) is not supported.
+
 <h2>Requirements and Preparation</h2>
 
 In order to install Debian on a QNAP device, you need the following:
@@ -241,9 +244,10 @@ SSH.  You will be able to log in your newly created user.  (Note that
 <h2>Success</h2>
 
 You should now have a complete Debian system running on your QNAP.  You can
-use `apt` and other tools to install additional software.  The
-TS-41x/TS-42x is an ARM based device and the `armel` architecture is fully
-supported by Debian.
+use `apt` and other tools to install additional software.
+
+Please note that <a href="../upgrade">Debian 10 is the last release</a> to support
+these devices.  Debian 11 (bullseye) is not supported.
 
 Finally, make sure to read the <a href = "../tips/">tips and tricks</a>
 about running Debian on the QNAP TS-41x/TS-42x.

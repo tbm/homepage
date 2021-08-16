@@ -26,5 +26,8 @@ or workaround.  If you don't use LVM, you can [apply a workaround](../troublesho
 ## General operations
 
 * qcontrol (the tool to control LEDs and beeper) [doesn't work](http://bugs.debian.org/933294).
-* Debian 10 (buster) is the last release to support this device.  There's no support in Debian 11 (bullseye).
+
+## Support
+
+* Debian 10 (buster) is the last release to <a href="../upgrade">support this device</a>.  There's no support in Debian 11 (bullseye).
 

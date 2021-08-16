@@ -13,8 +13,8 @@ The QNAP TS-110, TS-112, TS-112P, TS-119, TS-119P+, TS-119P II, TS-120 and TS-12
 devices that can be used for a variety of tasks.  You can use the
 user-friendly <a href = "install/">Debian installer to install</a> Debian.
 
-Please be aware that Debian 10 is the last release to support these
-devices.
+<b>Note:</b> Please be aware that <a href="upgrade">Debian 10 is the last
+release</a> to support these devices.
 
 <h2>Information</h2>
 

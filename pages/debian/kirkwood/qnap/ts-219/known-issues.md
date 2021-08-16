@@ -10,6 +10,8 @@ keywords: [Debian, QNAP, HS-210, TS-210, TS-212, TS-212-E, TS-212P, TS-219, TS-2
 
 Here is a list of known issues and bugs with Debian on QNAP TS-21x/TS-22x:
 
+<h2>Debian 10 (buster)</h2>
+
 * On devices with 1 GB of RAM (i.e. QNAP TS-221 and Fujitsu Q703), the installer fails
 because of a kernel issue.  Messages in `dmesg` include `BUG: Bad
 rss-counter state` and `Unhandled fault: external abort on linefetch`.
@@ -25,5 +27,7 @@ QNAP models (they always show red).
 
 * There are [problems setting the clock (RTC)](https://lists.debian.org/debian-arm/2019/09/msg00023.html).
 
-* Debian 10 (buster) is the last release to support this device.  There's no support in Debian 11 (bullseye).
+<h2>Debian 11 (bullseye)</h2>
+
+* Debian 10 (buster) is the last release to <a href="../upgrade">support this device</a>.  There's no support in Debian 11 (bullseye).
 

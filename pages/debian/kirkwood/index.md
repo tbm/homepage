@@ -21,7 +21,12 @@ pages with instructions and information about all supported devices:
 
 <ul>
 <li><a href = "openrd/">OpenRD</a></li>
-<li><a href = "qnap/">QNAP Turbo NAS (TS-11x, TS-12x, TS-21x, TS-22x, TS-41x and TS-42x)</a></li>
 <li><a href = "sheevaplug/">Plug computers (SheevaPlug, GuruPlug and DreamPlug)</a></li>
+</ul>
+
+These devices are no longer supported:
+
+<ul>
+<li><a href = "qnap/">QNAP Turbo NAS (TS-11x, TS-12x, TS-21x, TS-22x, TS-41x and TS-42x)</a></li>
 </ul>
 
