@@ -13,15 +13,16 @@ Here is a list of known issues and bugs with Debian on the QNAP TS-109:
 ## Installation
 
 * The installer fails to make the system bootable, especially on
-configurations with LVM and RAID.  You can [apply a
-workaround](../troubleshooting/#bootable) for RAID, but installation
-with LVM are not possible.
+configurations with LVM or RAID.  If you don't use LVM or RAID, you can
+apply a workaround](../troubleshooting/#bootable).  Do not use LVM or
+RAID!
 
 ## Upgrades
 
 * Upgrades may fail because the initramfs doesn't fit in flash.  If you
-use LVM, it's best to stay on Debian 9 (stretch) as there's no solution
-or workaround.  If you don't use LVM, you can [apply a workaround](../troubleshooting/#ramdisk).
+use LVM or RAID, it's best to stay on Debian 9 (stretch) as there's no
+solution or workaround.  If you don't use LVM or RAID, you can [apply a
+workaround](../troubleshooting/#ramdisk).
 
 ## General operations
 
