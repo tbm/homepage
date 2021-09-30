@@ -29,6 +29,5 @@ several options:
 2. Upgrade to Debian 11 while keeping the kernel from Debian 10.  Please
    see the [release notes](https://www.debian.org/releases/stable/armel/release-notes/ch-information.en.html#no-longer-supported-hardware)
    for instructions.
-3. Change the flash partition layout.  Someone has done this successfully
-   but someone would have to write instructions on how to do it.
+3. Change the flash partition layout.  Arnaud Mouiche has [created a script](https://github.com/amouiche/qnap_mtd_resize_for_bullseye) that re-configures the partition layout.
 
