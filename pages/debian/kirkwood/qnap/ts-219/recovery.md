@@ -150,6 +150,11 @@ You can check the following table to find out which string to use:
 </tr>
 
 <tr>
+<td>TS-212P</td>
+<td>`F_TS-212P`</td>
+</tr>
+
+<tr>
 <td>TS-219</td>
 <td>`F_TS-219`</td>
 </tr>
