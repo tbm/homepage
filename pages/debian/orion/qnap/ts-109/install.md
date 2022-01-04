@@ -313,7 +313,7 @@ boot into Debian.  It will also install the `qcontrol` package that can be
 used to control the LEDs and beeper on your QNAP device.
 
 Since the TS-109 boots from flash you don't have many limitations as to how
-you partition your hard drive.  However, do <b>not> use RAID or LVM</b>
+you partition your hard drive.  However, do <b>not use RAID or LVM</b>
 for your partitions.  The TS-109 has a small partition for the ramdisk in
 its MTD flash and the Debian 10 initramfs will not fit if you use RAID or
 LVM.
