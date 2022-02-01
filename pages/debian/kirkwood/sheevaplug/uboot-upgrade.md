@@ -192,3 +192,6 @@ reset
 </pre>
 </div>
 
+You also have to set `eth1addr` on devices with two Ethernet ports (such
+as the DreamPlug).
+
