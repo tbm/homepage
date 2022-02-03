@@ -212,3 +212,8 @@ run bootcmd
 </pre>
 </div>
 
+<h2>Additional packages</h2>
+
+On the DreamPlug, you need the non-free `firmware-libertas` package for
+WiFi and Bluetooth.
+
