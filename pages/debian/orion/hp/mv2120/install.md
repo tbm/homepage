@@ -9,6 +9,12 @@ keywords: [Debian, HP, mv2120, mv5020, installation]
 <img src = "../images/r_mv2120_front.jpg" class="border" alt="HP mv2120 from the front" width="148" height="212" />
 </div>
 
+<h2>Status</h2>
+
+Debian 10 was the last release to support these devices.  You can install
+install Debian 10 (buster) by following these instructions, but you can't
+upgrade to a newer release.
+
 <h2>Overview</h2>
 
 In a nutshell, the installation of Debian on your HP mv2120 and mv5020

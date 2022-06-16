@@ -13,7 +13,7 @@ The HP Media Vault mv2120 and the HP Media Vault Pro mv5020 are NAS devices
 that can be used for a variety of tasks.  In the following, I will describe
 what is needed to get Debian running on your HP mv2120.
 
-Please be aware that Debian 10 is the last release to support these devices.
+Please be aware that Debian 10 was the last release to support these devices.
 
 <h2>Important note</h2>
 

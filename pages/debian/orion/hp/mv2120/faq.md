@@ -11,12 +11,14 @@ keywords: [Debian, HP, mv2120, FAQ, frequently asked questions, help, troublesho
 
 <h3>Is Debian on the HP mv2120 fully supported?</h3>
 
-Debian used to include support for the HP mv2120.  However, some functionality
-from the original firmware may not be available.  In particular, the hard
-drive speed will be lower with Debian.  Please see the <a href =
-"../status/">status page</a> to see what is supported.
+Debian used to include support for the HP mv2120.  However, Debian 10 was
+the last release to support the HP mv2120.  This is due to size
+restrictions for the Linux kernel which were exceeded in Debian 11.
 
-Please note that Debian 10 is the last release to support the HP mv2120.
+Some functionality from the original firmware may not be available in
+Debian.  In particular, the hard drive speed will be lower with Debian.
+Please see the <a href = "../status/">status page</a> to see what is
+supported.
 
 <h3>Is Debian on the HP mv2120 suited for people new to Linux?</h3>
 
