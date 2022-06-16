@@ -1,4 +1,4 @@
-personal_ws-1.1 en 577 utf-8
+personal_ws-1.1 en 578 utf-8
 ABI
 ACPI
 AGPL
@@ -241,6 +241,7 @@ OSI
 OSOR
 OSS
 OpenBSD's
+OpenOCD
 OpenRD
 OpenSSH
 OpenSSL

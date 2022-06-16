@@ -9,7 +9,7 @@ keywords: [SheevaPlug, Marvell, Kirkwood, Debian, installer, ARM, GuruPlug]
 <img src = "../images/r_sheevaplug_hand.jpg" class="border" alt="SheevaPlug in my hand" width="148" height="129" />
 </div>
 
-This page describes how to install Debian 10 (buster) on plug computers,
+This page describes how to install Debian 11 (bullseye) on plug computers,
 such as the SheevaPlug and GuruPlug.
 
 The following devices are currently supported:
@@ -59,25 +59,25 @@ uInitrd files and store them either on a USB stick, MMC/SD card or a TFTP
 server:
 
 * DreamPlug: <a href =
-"http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/netboot/marvell/dreamplug/uImage">uImage</a>
+"http://ftp.debian.org/debian/dists/bullseye/main/installer-armel/current/images/kirkwood/netboot/marvell/dreamplug/uImage">uImage</a>
 and <a href =
-"http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/netboot/marvell/dreamplug/uInitrd">uInitrd</a>
+"http://ftp.debian.org/debian/dists/bullseye/main/installer-armel/current/images/kirkwood/netboot/marvell/dreamplug/uInitrd">uInitrd</a>
 * GuruPlug: <a href =
-"http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/netboot/marvell/guruplug/uImage">uImage</a>
+"http://ftp.debian.org/debian/dists/bullseye/main/installer-armel/current/images/kirkwood/netboot/marvell/guruplug/uImage">uImage</a>
 and <a href =
-"http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/netboot/marvell/guruplug/uInitrd">uInitrd</a>
+"http://ftp.debian.org/debian/dists/bullseye/main/installer-armel/current/images/kirkwood/netboot/marvell/guruplug/uInitrd">uInitrd</a>
 * SheevaPlug without eSATA: <a href =
-"http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/netboot/marvell/sheevaplug/uImage">uImage</a>
+"http://ftp.debian.org/debian/dists/bullseye/main/installer-armel/current/images/kirkwood/netboot/marvell/sheevaplug/uImage">uImage</a>
 and <a href =
-"http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/netboot/marvell/sheevaplug/uInitrd">uInitrd</a>
+"http://ftp.debian.org/debian/dists/bullseye/main/installer-armel/current/images/kirkwood/netboot/marvell/sheevaplug/uInitrd">uInitrd</a>
 * SheevaPlug with eSATA: <a href =
-"http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/netboot/marvell/sheevaplug-esata/uImage">uImage</a>
+"http://ftp.debian.org/debian/dists/bullseye/main/installer-armel/current/images/kirkwood/netboot/marvell/sheevaplug-esata/uImage">uImage</a>
 and <a href =
-"http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/netboot/marvell/sheevaplug-esata/uInitrd">uInitrd</a>
+"http://ftp.debian.org/debian/dists/bullseye/main/installer-armel/current/images/kirkwood/netboot/marvell/sheevaplug-esata/uInitrd">uInitrd</a>
 * Seagate FreeAgent DockStar: <a href =
-"http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/netboot/seagate/dockstar/uImage">uImage</a>
+"http://ftp.debian.org/debian/dists/bullseye/main/installer-armel/current/images/kirkwood/netboot/seagate/dockstar/uImage">uImage</a>
 and <a href =
-"http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/netboot/marvell/sheevaplug-esata/uInitrd">uInitrd</a>
+"http://ftp.debian.org/debian/dists/bullseye/main/installer-armel/current/images/kirkwood/netboot/marvell/sheevaplug-esata/uInitrd">uInitrd</a>
 
 Now connect the install medium (USB stick, SD card or eSATA disk) to your
 plug computer and connect a mini-USB connector in order to access the
@@ -153,7 +153,7 @@ bootm 0x00800000 0x01100000
 <h2 id="install">The Installation</h2>
 
 The installation itself should be pretty standard and you can follow the <a
-href = "http://www.debian.org/releases/buster/armel/">installation
+href = "http://www.debian.org/releases/bullseye/armel/">installation
 guide</a>.  The installer knows about all supported plug computers and will
 create a bootable kernel and ramdisk at the end of the installation.  The
 installer will also offer a partition layout that is known to work.  If you

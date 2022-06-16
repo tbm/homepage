@@ -75,9 +75,11 @@ have to use the correct u-boot binary for your device.  If your device is
 not listed on this page, it is <em>not</em> safe to use another u-boot
 binary listed here!
 
-*Note*: u-boot in Debian buster (Debian 10) appears to be [broken on the
-SheevaPlug](https://bugs.debian.org/934974) so we use u-boot from Debian
-stretch (Debian 9).
+*Note*: we use u-boot from Debian stretch (Debian 9) since the u-boot from
+Debian buster (Debian 10) appears to be [broken on the SheevaPlug](https://bugs.debian.org/934974)
+(although it's possible this got fixed).  The status of u-boot from
+Debian 11 is unknown.  If someone wants to test u-boot and knows
+how to use OpenOCD to recovery if it doesn't work, please contact me.
 
 <ul>
 
