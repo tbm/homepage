@@ -10,6 +10,8 @@ jobs:
       - uses: actions/setup-python@v2
       - run: pip install -r requirements.txt
       - run: nikola build
+      - run: pip install html5validator
+      - run: html5validator --root output
   checks:
     name: Checks
     runs-on: ubuntu-latest
