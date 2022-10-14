@@ -75,27 +75,21 @@ have to use the correct u-boot binary for your device.  If your device is
 not listed on this page, it is <em>not</em> safe to use another u-boot
 binary listed here!
 
-*Note*: we use u-boot from Debian stretch (Debian 9) since the u-boot from
-Debian buster (Debian 10) appears to be [broken on the SheevaPlug](https://bugs.debian.org/934974)
-(although it's possible this got fixed).  The status of u-boot from
-Debian 11 is unknown.  If someone wants to test u-boot and knows
-how to use OpenOCD to recovery if it doesn't work, please contact me.
-
 <ul>
 
 <li><a href =
-"http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/u-boot/sheevaplug/u-boot.kwb">SheevaPlug
+"http://ftp.debian.org/debian/dists/bullseye/main/installer-armel/current/images/kirkwood/u-boot/sheevaplug/u-boot.kwb">SheevaPlug
 (the original SheevaPlug, the eSATA SheevaPlug and the Ionics Nimbus 100)</a></li>
 
 <li><a href =
-"http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/u-boot/dreamplug/u-boot.kwb">DreamPlug</a></li>
+"http://ftp.debian.org/debian/dists/bullseye/main/installer-armel/current/images/kirkwood/u-boot/dreamplug/u-boot.kwb">DreamPlug</a></li>
 
 <li><a href =
-"http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/u-boot/guruplug/u-boot.kwb">GuruPlug
+"http://ftp.debian.org/debian/dists/bullseye/main/installer-armel/current/images/kirkwood/u-boot/guruplug/u-boot.kwb">GuruPlug
 (GuruPlug Server Standard and GuruPlug Server Plus)</a></li>
 
 <li><a href =
-"http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/u-boot/dockstar/u-boot.kwb">Seagate
+"http://ftp.debian.org/debian/dists/bullseye/main/installer-armel/current/images/kirkwood/u-boot/dockstar/u-boot.kwb">Seagate
 FreeAgent DockStar</a></li>
 
 </ul>
