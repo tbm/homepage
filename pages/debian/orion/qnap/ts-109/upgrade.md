@@ -9,7 +9,7 @@ keywords: [Debian, QNAP, support, status, buster, bullseye]
 <img src = "../images/r_ts109_front.jpg" class="border" alt="QNAP TS-109 from the front" width="148" height="217" />
 </div>
 
-Debian 10 (buster) is the last release to support QNAP TS-109 devices.
+Debian 10 (buster) was the last release to support QNAP TS-109 devices.
 These devices are not supported in Debian 11 (bullseye).
 
 The reason is that the Linux kernel no longer fits into flash memory.
@@ -25,7 +25,7 @@ this limitation.
 If you're running Debian on your QNAP TS-109 device, you have two
 options:
 
-1. Stay on Debian 10.  This release will be supported until [around August 2022](https://wiki.debian.org/DebianReleases).
+1. Stay on Debian 10.  Please note that security support [stopped in September 2022](https://www.debian.org/News/2022/20220910).
 2. Upgrade to Debian 11 while keeping the kernel from Debian 10.  Please
    see the [release notes](https://www.debian.org/releases/stable/armel/release-notes/ch-information.en.html#no-longer-supported-hardware)
    for instructions.

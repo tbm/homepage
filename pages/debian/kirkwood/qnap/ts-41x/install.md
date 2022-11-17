@@ -24,8 +24,9 @@ with Debian.  Debian does not install a web interface to configure your
 machine, although it's possible to install such software.  If this is not
 what you want, please don't proceed with the installation.
 
-Please note that <a href="../upgrade">Debian 10 is the last release</a> to support
-these devices.  Debian 11 (bullseye) is not supported.
+Please note that <a href="../upgrade">Debian 10 was the last release</a> to support
+these devices.  Debian 11 (bullseye) is not supported.  Furthermore, please
+note that there are no security updates for Debian 10 anymore!
 
 <h2>Requirements and Preparation</h2>
 
@@ -246,8 +247,12 @@ SSH.  You will be able to log in your newly created user.  (Note that
 You should now have a complete Debian system running on your QNAP.  You can
 use `apt` and other tools to install additional software.
 
-Please note that <a href="../upgrade">Debian 10 is the last release</a> to support
-these devices.  Debian 11 (bullseye) is not supported.
+Please note that <a href="../upgrade">Debian 10 was the last release</a> to support
+these devices.  There are no more security updates for Debian 10; please
+read the [upgrade page](../upgrade/) on how you can modify your system to
+allow an upgrade to Debian 11 (bullseye).  While this is not officially
+supported, it's the best solution since Debian 10 no longer receives
+security updates.
 
 Finally, make sure to read the <a href = "../tips/">tips and tricks</a>
 about running Debian on the QNAP TS-41x/TS-42x.

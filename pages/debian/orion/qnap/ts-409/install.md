@@ -339,8 +339,8 @@ Debian.
 
 Now you can follow the [release
 notes](https://www.debian.org/releases/buster/armel/release-notes/) and
-upgrade to Debian 10 (buster).
-
+upgrade to Debian 10 (buster).  However, please be aware that security
+support for Debian 10 [stopped in September 2022](https://www.debian.org/News/2022/20220910).
 
 In case you run into any bugs or problems, you may want to check the list
 of <a href = "../known-issues/">known issues and bugs</a> with Debian on the

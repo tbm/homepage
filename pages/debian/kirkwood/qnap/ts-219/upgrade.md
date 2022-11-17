@@ -9,7 +9,7 @@ keywords: [Debian, QNAP, TS-210, TS-212, TS-219, TS-220, TS-221, support, status
 <img src = "../images/r_ts219p.jpg" class="border" alt="Open QNAP TS-219" width="148" height="188" />
 </div>
 
-Debian 10 (buster) is the last release to support QNAP TS-21x/TS-22x
+Debian 10 (buster) was the last release to support QNAP TS-21x/TS-22x
 devices.  These devices are not supported in Debian 11 (bullseye).
 
 The reason is that the Linux kernel no longer fits into flash memory.
@@ -25,9 +25,11 @@ because of this limitation.
 If you're running Debian on your QNAP TS-21x/TS-22x device, you have
 several options:
 
-1. Stay on Debian 10.  This release will be supported until [around August 2022](https://wiki.debian.org/DebianReleases).
+1. Stay on Debian 10.  Please note that security support [stopped in September 2022](https://www.debian.org/News/2022/20220910).
 2. Upgrade to Debian 11 while keeping the kernel from Debian 10.  Please
    see the [release notes](https://www.debian.org/releases/stable/armel/release-notes/ch-information.en.html#no-longer-supported-hardware)
    for instructions.
 3. Change the flash partition layout.  Arnaud Mouiche has [created a script](https://github.com/amouiche/qnap_mtd_resize_for_bullseye) that re-configures the partition layout.
+
+My recommendation is for the third option: Arnaud Mouiche's method has been used by many users with success.
 

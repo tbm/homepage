@@ -13,7 +13,7 @@ The QNAP TS-109 is a NAS device that can be used for a variety of tasks.
 In the following, I will describe what is needed to get Debian running on
 your TS-109, TS-109 II, TS-109 Pro or TS-109 Pro II.
 
-Please note that <a href="upgrade">Debian 10 is the last release</a> to
+Please note that <a href="upgrade">Debian 10 was the last release</a> to
 support these devices.  Debian 11 (bullseye) is not supported.
 
 <h2>Information</h2>

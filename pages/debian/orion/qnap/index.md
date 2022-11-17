@@ -12,7 +12,7 @@ keywords: [Debian, QNAP, QNAP Turbo Station, Orion, TS-109, TS-209, TS-409]
 Debian supports all Orion based QNAP Turbo Stations.  This includes the
 TS-109, TS-209, TS-409 and TS-409U.
 
-Please be aware that Debian 10 is the last release to support these
+Please be aware that Debian 10 was the last release to support these
 devices.
 
 There are additional pages with instructions and information about all
