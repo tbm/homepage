@@ -12,10 +12,10 @@ keywords: [Martin Michlmayr, biography, background, interests]
 I have been involved in various free and open source software projects
 for over 25 years.  I'm a member of the Debian project and acted as the
 leader of Debian for two years.  I served on the boards of the Open
-Source Initiative (OSI) for six years and of Software in the Public
-Interest (SPI) for almost five years.  I currently serve on the board of
-Software Freedom Conservancy.  I'm very interested in open source
-foundations and the role they play in supporting open source projects.
+Source Initiative (OSI) for six years, Software in the Public
+Interest (SPI) for almost five years and Software Freedom Conservancy
+for almost eight years.  I'm very interested in open source foundations
+and the role they play in supporting open source projects.
 
 I'm also an open source accounting geek and I contribute to
 [ledger](https://www.ledger-cli.org/),
