@@ -14,7 +14,7 @@ Here is a list of known issues and bugs with Debian on the QNAP TS-209:
 
 * The installer fails to make the system bootable, especially on
 configurations with LVM or RAID.  If you don't use LVM or RAID, you can
-apply a workaround](../troubleshooting/#bootable).  Do not use LVM or
+[apply a workaround](../troubleshooting/#bootable).  Do not use LVM or
 RAID!
 
 ## Upgrades
