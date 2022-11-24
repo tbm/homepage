@@ -30,5 +30,5 @@ workaround](../troubleshooting/#ramdisk).
 
 ## Support
 
-* Debian 10 (buster) is the last release to <a href="../upgrade">support this device</a>.  There's no support in Debian 11 (bullseye).
+* Debian 10 (buster) was the last release to <a href="../upgrade">support this device</a>.  There's no support in Debian 11 (bullseye).
 
