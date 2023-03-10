@@ -168,7 +168,8 @@ that you can now login via SSH.
 
 Please note that Ethernet port numeration differs between the QNAP firmware
 and Debian.  Under Debian, `eth0` is the port marked with "LAN2".  On the
-TS-419P, this is the lower (and not the upper) connector!
+TS-419P, this is the lower (and not the upper) connector!  This means you
+have to swap the cable when you start the installer.
 
 <div id = "net-config">
 
