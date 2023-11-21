@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v4
       - run: pip install -r requirements.txt
       - run: nikola build
       - run: pip install html5validator
@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: find -name "*.yaml" -exec yamllint -s {} \;
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v4
       - run: sudo apt-get install aspell aspell-en
       - run: pip install pyspelling
       - run: pyspelling -c .pyspelling.yaml
