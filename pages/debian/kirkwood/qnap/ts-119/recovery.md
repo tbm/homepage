@@ -194,7 +194,8 @@ strings mtd4 | grep bootp_vendor_class
 
 Please note that by default the MAC address used by your QNAP device in the
 recovery mode is different to the one used while running the QNAP firmware.
-When you install Debian, a script is run to ensure that the same MAC
+When you install Debian, a <a
+href="http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-11x/flash-debian">script is run</a> to ensure that the same MAC
 address is used everywhere.  Therefore, depending on whether you ran that
 script, the MAC address will either be that from the QNAP firmware (the one
 printed on your device; it probably starts with `00:08:9B`) or an address
