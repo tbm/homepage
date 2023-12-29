@@ -50,6 +50,7 @@ of any work going on to support these devices:
 
 * TS-x28A series (TS-128A and TS-228A) use a Realtek RTD1295.
 * TS-328 uses a Realtek RTD1296 chip.
+* TS-x33 series (TS-133, TS-233, TS-433) use a Cortex-A55.
 
 While none of the current ARM-based devices from QNAP work with Debian,
 the devices based on Intel processors (such as the TS-x51 series) should
