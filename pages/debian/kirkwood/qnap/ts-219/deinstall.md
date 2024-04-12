@@ -17,6 +17,7 @@ re-install Debian.
 There are two steps to restore the original QNAP firmware.  First, you have
 to put the backup of the flash partitions from the QNAP firmware you made
 <a href = "../install/">before the installation of Debian</a> into flash.
+(See <a href = "../lost-backup/">lost backup</a> if you lost the backup</a>)
 
 <div class="code">
 <pre>
