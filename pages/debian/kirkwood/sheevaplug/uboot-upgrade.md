@@ -94,6 +94,10 @@ FreeAgent DockStar</a></li>
 
 </ul>
 
+(Note: we link to the u-boot image from Debian 11 (bullseye) because the
+image in <a href = "https://bugs.debian.org/1061137">Debian 12 is currently
+broken</a>.)
+
 You have to complete three steps in order to install the new U-Boot.
 First, you have to load the new U-Boot to your plug computer, either via
 USB or TFTP:
