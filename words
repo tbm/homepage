@@ -1387,3 +1387,7 @@ iso
 casper
 squashfs
 YOURMODEL
+bootfile
+0xf8200000
+0xf8ffffff
+e00000

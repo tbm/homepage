@@ -67,3 +67,26 @@ bootm 0x800000
 </pre>
 </div>
 
+<h2 id="recovery">Recovery mode</h2>
+
+QNAP devices have a <a href = "../recovery">recovery mode</a>.  If you have
+u-boot, you can run the commands directly if you wish.
+
+However, be very careful because you can brick your device if you make a
+mistake.
+
+The commands to run are:
+
+<div class="code">
+<pre>
+tftpboot 0x800000 ${bootfile}
+protect off bank 1; erase 0xf8200000 0xf8ffffff; cp.b 0xa00000 0xf8200000 e00000; protect on bank 1
+</pre>
+</div>
+
+But don't believe me.  It's better if you verify it yourself.  Take `mtd0`
+(the u-boot partition) and run `strings` on it to find the recovery
+commands.
+
+If something goes wrong, don't blame me.
+
