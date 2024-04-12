@@ -217,7 +217,7 @@ incomplete (e.g. IP address or DNS were missing), the installer will use
 DHCP instead.</li>
 
 <li>If DHCP is used but your DHCP server does not respond, the device will
-use the fallback address `192.168.11.150`.  If you are unsure what the
+use the fallback address <code>192.168.11.150</code>.  If you are unsure what the
 address of your device is, unplug the Ethernet cable, start the machine
 again, wait until Debian installer is ready for SSH and then plug the cable
 back in and connect to this fallback address.</li>

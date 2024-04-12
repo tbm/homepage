@@ -136,62 +136,62 @@ You can check the following table to find out which string to use:
 <tbody>
 <tr>
 <td>TS-410</td>
-<td>`F_TS-410`</td>
+<td><code>F_TS-410</code></td>
 </tr>
 
 <tr>
 <td>TS-410U</td>
-<td>`F_TS-410U`</td>
+<td><code>F_TS-410U</code></td>
 </tr>
 
 <tr>
 <td>TS-412</td>
-<td>`F_TS-412`</td>
+<td><code>F_TS-412</code></td>
 </tr>
 
 <tr>
 <td>TS-412U</td>
-<td>`F_TS-412U`</td>
+<td><code>F_TS-412U</code></td>
 </tr>
 
 <tr>
 <td>TS-419P</td>
-<td>`F_TS-419P`</td>
+<td><code>F_TS-419P</code></td>
 </tr>
 
 <tr>
 <td>TS-419P+</td>
-<td>`F_TS-419P+`</td>
+<td><code>F_TS-419P+</code></td>
 </tr>
 
 <tr>
 <td>TS-419P II</td>
-<td>`F_TS-419P2+`</td>
+<td><code>F_TS-419P2+</code></td>
 </tr>
 
 <tr>
 <td>TS-419U</td>
-<td>`F_TS-419U`</td>
+<td><code>F_TS-419U</code></td>
 </tr>
 
 <tr>
 <td>TS-419U+</td>
-<td>`F_TS-419U+`</td>
+<td><code>F_TS-419U+</code></td>
 </tr>
 
 <tr>
 <td>TS-419U II</td>
-<td>`F_TS-419U2`</td>
+<td><code>F_TS-419U2</code></td>
 </tr>
 
 <tr>
 <td>TS-420</td>
-<td>`F_TS-420`</td>
+<td><code>F_TS-420</code></td>
 </tr>
 
 <tr>
 <td>TS-421</td>
-<td>`F_TS-421`</td>
+<td><code>F_TS-421</code></td>
 </tr>
 </tbody>
 

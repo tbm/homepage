@@ -88,7 +88,7 @@ USB or TFTP:
 
 <li>
 
-USB: First of all, copy the U-Boot binary `u-boot.kwb` to a USB stick
+USB: First of all, copy the U-Boot binary <code>u-boot.kwb</code> to a USB stick
 formatted with the FAT filesystem.  Then plug the USB stick into your plug
 computer, connect the serial console and type the following commands:
 
@@ -103,7 +103,7 @@ fatload usb <span class="input">0:1</span> 0x0800000 u-boot.kwb
 
 <li>
 
-TFTP: If you have a TFTP server, copy the file `u-boot.kwb` to your TFTP
+TFTP: If you have a TFTP server, copy the file <code>u-boot.kwb</code> to your TFTP
 server.  Then start your plug computer, connect the serial console and type
 the following commands:
 

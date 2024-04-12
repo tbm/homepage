@@ -174,15 +174,15 @@ continue with the installation as follows:
 <li>SSH: wait a few minutes for the installer to start and bring up SSH.
 Once it has brought up the SSH server, it will show the IP address, SSH
 host key and installer password on the LCD of your Cobalt.  Connect to the
-IP address that is shown with SSH as the user `installer` and start the
+IP address that is shown with SSH as the user <code>installer</code> and start the
 installer menu.  If no IP address is shown, your DHCP server is not
 configured properly to send all information the Cobalt needs, such as
 hostname and DNS.</li>
 
 <li>Serial console: connect the null modem cable to the serial port of your
 Cobalt machine and start a terminal emulation program (such as minicom, cu
-or screen) with the settings 115200 8N1 (for example, `screen /dev/ttyS0
-115200`).</li>
+or screen) with the settings 115200 8N1 (for example, <code>screen /dev/ttyS0
+115200</code>).</li>
 
 </ul>
 

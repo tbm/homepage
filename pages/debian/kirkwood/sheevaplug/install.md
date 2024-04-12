@@ -134,7 +134,7 @@ tftpboot 0x01100000 uInitrd
 </pre>
 </div>
 
-Of course, you have to replace `192.168.1.2` with the IP address of your
+Of course, you have to replace <code>192.168.1.2</code> with the IP address of your
 TFTP server.
 
 </li>

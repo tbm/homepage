@@ -136,47 +136,47 @@ You can check the following table to find out which string to use:
 <tbody>
 <tr>
 <td>TS-110</td>
-<td>`F_TS-110`</td>
+<td><code>F_TS-110</code></td>
 </tr>
 
 <tr>
 <td>TS-112</td>
-<td>`F_TS-112`</td>
+<td><code>F_TS-112</code></td>
 </tr>
 
 <tr>
 <td>TS-112P</td>
-<td>`F_TS-112P`</td>
+<td><code>F_TS-112P</code></td>
 </tr>
 
 <tr>
 <td>TS-119</td>
-<td>`F_TS-119` or (for older revisions) `F_TS-119PE`</td>
+<td><code>F_TS-119</code> or (for older revisions) <code>F_TS-119PE</code></td>
 </tr>
 
 <tr>
 <td>TS-119P+</td>
-<td>`F_TS-119P+`</td>
+<td><code>F_TS-119P+</code></td>
 </tr>
 
 <tr>
 <td>TS-119P II</td>
-<td>`F_TS-119P2+`</td>
+<td><code>F_TS-119P2+</code></td>
 </tr>
 
 <tr>
 <td>TS-120</td>
-<td>`F_TS-120`</td>
+<td><code>F_TS-120</code></td>
 </tr>
 
 <tr>
 <td>TS-121</td>
-<td>`F_TS-121`</td>
+<td><code>F_TS-121</code></td>
 </tr>
 
 <tr>
 <td>Fujitsu Q600</td>
-<td>`F_Q600`</td>
+<td><code>F_Q600</code></td>
 </tr>
 
 </tbody>

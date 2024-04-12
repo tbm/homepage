@@ -193,7 +193,7 @@ incomplete (e.g. IP address or DNS were missing), the installer will use
 DHCP instead.</li>
 
 <li>If DHCP is used but your DHCP server does not respond, the device will
-use the fallback address `192.168.1.100`.  If you are unsure what the
+use the fallback address <code>192.168.1.100</code>.  If you are unsure what the
 address of your QNAP is, unplug the Ethernet cable, start the machine
 again, wait until Debian installer is ready for SSH and then plug the cable
 back in and connect to this fallback address.</li>
@@ -202,9 +202,9 @@ back in and connect to this fallback address.</li>
 
 Please make sure that the QNAP is on a local network to which only you
 have access since the installer uses a very generic password, namely
-`install`. The user is `installer`.  Before you can connect to the
+<code>install</code>. The user is <code>installer</code>.  Before you can connect to the
 installer via SSH, you have to remove the SSH key from the QNAP firmware
-from your `known_hosts` file:
+from your <code>known_hosts</code> file:
 
 <div class="code">
 <pre>

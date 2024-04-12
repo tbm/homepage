@@ -165,7 +165,7 @@ DHCP instead.</li>
 installer will use DHCP.</li>
 
 <li>If DHCP is used but your DHCP server does not respond, the HP mv2120
-will use the fallback address `192.168.1.100`.  If you are unsure what the
+will use the fallback address <code>192.168.1.100</code>.  If you are unsure what the
 address of your HP mv2120 is, unplug the Ethernet cable, start the machine
 again, wait until Debian installer is ready for SSH and then plug the cable
 back in and connect to this fallback address.</li>

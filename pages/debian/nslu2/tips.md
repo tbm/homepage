@@ -71,7 +71,7 @@ follow the <a href =
 on upgrades from Debian 7</a> which explains the upgrade process in great
 detail.</li>
 
-<li>Make sure to remove the package `apt-xapian-index` from your system
+<li>Make sure to remove the package <code>apt-xapian-index</code> from your system
 before the upgrade.  This package requires substantially more RAM than the
 NSLU2 has and will cause your upgrade to take 24 hours or more!</li>
 

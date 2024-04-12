@@ -44,7 +44,7 @@ bootm 0x400000
 If you'd like to load a kernel image you saved from `/boot`, please see the
 <a href = "#prepare">instructions on how to prepare the image</a>.
 
-<h2 id="prepare">Preparing Debian images from `/boot` to load</h2>
+<h2 id="prepare">Preparing Debian images from <code>/boot</code> to load</h2>
 
 You can copy the Debian kernel and ramdisk from your system to another
 machine for backup.  This way, you can load them via TFTP as described

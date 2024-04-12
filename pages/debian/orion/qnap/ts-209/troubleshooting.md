@@ -34,28 +34,21 @@ settings in the original firmware were incomplete).
 
 If you cannot connect to your QNAP, here are some things you can try:
 
-<ul>
-
-<li>Read the explanation of how the Debian installer <a href =
-"../install/#net-config">creates the network settings</a>.</li>
-
-<li>Check the logs of your DHCP server to see whether your QNAP has
+* Read the explanation of how the Debian installer <a href =
+"../install/#net-config">creates the network settings</a>.
+* Check the logs of your DHCP server to see whether your QNAP has
 requested an IP address.  Alternatively, you can also install the `nast`
 package on your PC and run `nast -m` to find all machines on your network.
 The MAC address of your QNAP probably starts with `00:08:9B`.  The
 hostname is probably <code>NAS</code> followed by the last 3 elements of
 the MAC address (NAS<span class="input">CCDCA1</span> for 00:08:9B:<span
 class="input">CC:DC:A1</span>).</li>
-
-<li>Remove all hard drives from the QNAP.  In this case, Debian installer
+* Remove all hard drives from the QNAP.  In this case, Debian installer
 won't find your existing network configuration on disk and will use
-DHCP.</li>
-
-<li>If everything else fails, disconnect the Ethernet cable from your QNAP
+DHCP.
+* If everything else fails, disconnect the Ethernet cable from your QNAP
 and start your device again.  In this case, it is possible that the IP
-address `192.168.1.100` is used.</li>
-
-</ul>
+address `192.168.1.100` is used.
 
 <h3 id="ssh-password">Connections to the QNAP via SSH are possible but my password is not accepted</h3>
 

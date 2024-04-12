@@ -92,7 +92,7 @@ Once you have restored the QNAP firmware in flash, you have to follow the
 <a href = "../deinstall/">second step described on the restore page</a> and
 run QNAP Finder to install the QNAP software to disk.
 
-<h2 id="prepare">Preparing Debian images from `/boot` to load</h2>
+<h2 id="prepare">Preparing Debian images from <code>/boot</code> to load</h2>
 
 You can copy the Debian kernel and ramdisk from your system to another
 machine for backup.  This way, you can load them via TFTP as described

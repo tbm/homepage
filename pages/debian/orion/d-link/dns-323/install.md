@@ -150,7 +150,7 @@ incomplete (e.g. IP address or DNS were missing), the installer will use
 DHCP instead.</li>
 
 <li>If DHCP is used but your DHCP server does not respond, the installer
-will use the fallback address `192.168.0.32`.  This is the default IP
+will use the fallback address <code>192.168.0.32</code>.  This is the default IP
 address used by the D-Link firmware, but please note that it is different
 to the default IP address from the Conceptronic firmware.  If you are
 unsure what the address of your device is, unplug the Ethernet cable, start

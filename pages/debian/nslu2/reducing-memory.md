@@ -21,7 +21,7 @@ apply, but some may not.
 
 <li>If you do not have a serial port on your NSLU2, you can remove the
 getty on the serial line by commenting the corresponding line in
-`/etc/inittab`, e.g. change the line
+<code>/etc/inittab</code>, e.g. change the line
 
 <div class="code">
 <pre>
@@ -47,7 +47,7 @@ telinit q
 
 to tell init to re-read the inittab file.</li>
 
-<li>If you are not using LVM, `/etc/init.d/libdevmapper1.02` will
+<li>If you are not using LVM, <code>/etc/init.d/libdevmapper1.02</code> will
 still load the device-mapper kernel modules.  Since libblkid1 depends on
 libdevmapper1.02 and mount depends on libblkid1, it is not possible to
 remove libdevmapper1.02.  Instead you can prevent the script from loading
@@ -59,7 +59,7 @@ exit 0
 </pre>
 </div>
 
-on the second line of `/etc/init.d/libdevmapper1.02`.</li>
+on the second line of <code>/etc/init.d/libdevmapper1.02</code>.</li>
 
 <li>If you are not using IPv6, you can prevent the module from being
 automatically loaded by adding the line
@@ -70,19 +70,19 @@ blacklist ipv6
 </pre>
 </div>
 
-to `/etc/modprobe.d/blacklist`. The same goes for any other kernel
+to <code>/etc/modprobe.d/blacklist</code>. The same goes for any other kernel
 module which is automatically loaded which you know you won't need.</li>
 
 <li>Removing daemons that are not needed will of course also help.
 Starting aptitude and marking all packages as auto-installed by selecting
-the `Installed packages` line and pressing `M`, and
+the <code>Installed packages</code> line and pressing <code>M</code>, and
 thereafter checking through the list and manually marking the packages you
-want to keep by pressing `+` is usually a good start.</li>
+want to keep by pressing <code>+</code> is usually a good start.</li>
 
 <li>openbsd-inetd will only start if there are services activated in
-`/etc/inetd.conf`.  Often the only services provided are old Unix
+<code>/etc/inetd.conf</code>.  Often the only services provided are old Unix
 services which are not necessary and inetd can be disabled by commenting
-all services in `/etc/inetd.conf`.</li>
+all services in <code>/etc/inetd.conf</code>.</li>
 
 </ul>
 

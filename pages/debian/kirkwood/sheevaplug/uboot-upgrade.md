@@ -102,7 +102,7 @@ USB or TFTP:
 
 <li>
 
-USB: First of all, copy the U-Boot binary `u-boot.kwb` to a USB stick
+USB: First of all, copy the U-Boot binary <code>u-boot.kwb</code> to a USB stick
 formatted with the FAT filesystem.  Then plug the USB stick into your plug
 computer, connect the serial console and type the following commands:
 
@@ -113,16 +113,16 @@ fatload usb <span class="input">0:1</span> 0x0800000 u-boot.kwb
 </pre>
 </div>
 
-On the GuruPlug and DreamPlug, you likely have to replace `0:1` with `2:1`.
+On the GuruPlug and DreamPlug, you likely have to replace <code>0:1</code> with <code>2:1</code>.
 See the explanation on <a href = "../troubleshooting/#dev-part">how to find
 out your devices and partitions</a> in case your device does not boot with
-`0:1` or `2:1`.
+<code>0:1</code> or <code>2:1</code>.
 
 </li>
 
 <li>
 
-TFTP: If you have a TFTP server, copy the file `u-boot.kwb` to your TFTP
+TFTP: If you have a TFTP server, copy the file <code>u-boot.kwb</code> to your TFTP
 server.  Then start your plug computer, connect the serial console and type
 the following commands:
 

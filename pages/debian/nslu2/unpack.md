@@ -228,24 +228,24 @@ dpkg-reconfigure openssh-server
 
 </li>
 
-<li>edit `/etc/apt/sources.list` and use a Debian mirror close to you and
-then type: `apt-get update`</li>
+<li>edit <code>/etc/apt/sources.list</code> and use a Debian mirror close to you and
+then type: <code>apt-get update</code></li>
 
-<li>run `ntpdate pool.ntp.org` to make sure the clock is always up-to-date;
+<li>run <code>ntpdate pool.ntp.org</code> to make sure the clock is always up-to-date;
 otherwise attempts to install new packages might fail due to GPG
 verification errors (for the first time, you'll probably have to setup the
-clock manually using the `date` command).</li>
+clock manually using the <code>date</code> command).</li>
 
-<li>upgrade your system using `apt-get dist-upgrade` to make sure you have
+<li>upgrade your system using <code>apt-get dist-upgrade</code> to make sure you have
 the latest updates.</li>
 
-<li>change the timezone with `dpkg-reconfigure tzdata`</li>
+<li>change the timezone with <code>dpkg-reconfigure tzdata</code></li>
 
-<li>setup locales with `dpkg-reconfigure locales`</li>
+<li>setup locales with <code>dpkg-reconfigure locales</code></li>
 
-<li>edit `/etc/hostname` to change the hostname.</li>
+<li>edit <code>/etc/hostname</code> to change the hostname.</li>
 
-<li>edit `/etc/hosts` and change the hostname and domain in the second line.</li>
+<li>edit <code>/etc/hosts</code> and change the hostname and domain in the second line.</li>
 
 </ul>
 

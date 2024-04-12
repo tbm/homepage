@@ -36,9 +36,9 @@ the 32 MB variant (revision 85) is reported to work!</li>
 
 <ul>
 
-<li>D-Link Systems product 0x1300: works with the `8139too` module.</li>
+<li>D-Link Systems product 0x1300: works with the <code>8139too</code> module.</li>
 
-<li>3Com 3c905C-TX 10/100: works with the `3c59x` module.</li>
+<li>3Com 3c905C-TX 10/100: works with the <code>3c59x</code> module.</li>
 
 </ul>
 

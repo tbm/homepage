@@ -95,7 +95,7 @@ TS-409 with telnet.  Use the QNAP web interface and follow these steps
 <ul>
 
 <li>Click on <em>Administration</em> and enter the password (by default the
-user is `admin` and the password is also `admin`).</li>
+user is <code>admin</code> and the password is also <code>admin</code>).</li>
 
 <li>Click on <em>Remote login</em> under <em>System Tools</em> or under
 <em>Network Services</em> (depending on the version of the QNAP
@@ -284,7 +284,7 @@ incomplete (e.g. IP address or DNS were missing), the installer will use
 DHCP instead.</li>
 
 <li>If DHCP is used but your DHCP server does not respond, the TS-409 will
-use the fallback address `192.168.1.100`.  If you are unsure what the
+use the fallback address <code>192.168.1.100</code>.  If you are unsure what the
 address of your TS-409 is, unplug the Ethernet cable, start the machine
 again, wait until Debian installer is ready for SSH and then plug the cable
 back in and connect to this fallback address.</li>
@@ -293,7 +293,7 @@ back in and connect to this fallback address.</li>
 
 Please make sure that the TS-409 is on a local network to which only you
 have access since the installer uses a very generic password, namely
-`install`. The user is `installer`.  Connect to the installer (again,
+<code>install</code>. The user is <code>installer</code>.  Connect to the installer (again,
 replace the address in the example with the actual IP address of your
 TS-409):
 
