@@ -71,7 +71,7 @@ install it with `apt`.
 
 Once you have installed uphpmvault or the Windows tool, you have to tell
 the tool to serve the recovery image.  Download the <a href =
-"http://ftp.nl.debian.org/debian/dists/buster/main/installer-armel/current/images/orion5x/network-console/hp/mv2120/netboot.img">Debian
+"http://archive.debian.org/debian/dists/buster/main/installer-armel/current/images/orion5x/network-console/hp/mv2120/netboot.img">Debian
 installer</a> image and start the tool.  If you want to use the Windows
 tool, please follow <a href =
 "https://groups.yahoo.com/neo/groups/hackingthemediavault/conversations/messages/376">these
@@ -183,6 +183,23 @@ mv2120):
 ssh installer@<span class="input">192.168.1.100</span>
 </pre>
 </div>
+
+When the installer starts, it will ask you to choose a mirror of the Debian
+archive.  Since Debian 10 (buster) is no longer distributed on Debian
+mirrors, you have to tell the installer to install from
+`archive.debian.org`.  First of all, scroll up in the list of countries
+until you find the first option, which allows you to `enter information
+manually`:
+
+<img src = "../images/di-mirror2.png" class="border" alt = "Debian installer: enter mirror manually" width="842" height="462" />
+
+Enter `archive.debian.org` as the mirror hostname:
+
+<img src = "../images/di-mirror3.png" class="border" alt = "Debian installer: enter mirror hostname" width="842" height="462" />
+
+And accept `/debian/` as the mirror directory:
+
+<img src = "../images/di-mirror4.png" class="border" alt = "Debian installer: enter mirror directory" width="842" height="462" />
 
 The installation itself should be pretty standard and you can follow the <a
 href = "http://www.debian.org/releases/buster/armel/">installation

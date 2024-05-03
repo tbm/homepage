@@ -114,11 +114,11 @@ Issue the following commands to download the Debian installer images:
 <pre>
 mkdir /tmp/debian
 cd /tmp/debian
-busybox wget http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-21x/initrd
-busybox wget http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-21x/kernel-6281
-busybox wget http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-21x/kernel-6282
-busybox wget http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-21x/flash-debian
-busybox wget http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-21x/model
+busybox wget http://archive.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-21x/initrd
+busybox wget http://archive.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-21x/kernel-6281
+busybox wget http://archive.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-21x/kernel-6282
+busybox wget http://archive.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-21x/flash-debian
+busybox wget http://archive.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-21x/model
 </pre>
 </div>
 
@@ -216,6 +216,23 @@ example with the actual IP address of your QNAP) and login as user
 ssh installer@<span class="input">192.168.1.100</span>
 </pre>
 </div>
+
+When the installer starts, it will ask you to choose a mirror of the Debian
+archive.  Since Debian 10 (buster) is no longer distributed on Debian
+mirrors, you have to tell the installer to install from
+`archive.debian.org`.  First of all, scroll up in the list of countries
+until you find the first option, which allows you to `enter information
+manually`:
+
+<img src = "../../images/di-mirror2.png" class="border" alt = "Debian installer: enter mirror manually" width="842" height="462" />
+
+Enter `archive.debian.org` as the mirror hostname:
+
+<img src = "../../images/di-mirror3.png" class="border" alt = "Debian installer: enter mirror hostname" width="842" height="462" />
+
+And accept `/debian/` as the mirror directory:
+
+<img src = "../../images/di-mirror4.png" class="border" alt = "Debian installer: enter mirror directory" width="842" height="462" />
 
 The installation itself should be pretty standard and you can follow the <a
 href = "http://www.debian.org/releases/buster/armel/">installation

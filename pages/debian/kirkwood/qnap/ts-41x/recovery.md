@@ -76,13 +76,13 @@ Alternatively, you can look up the CPU model in the [table listing all
 supported QNAP devices](../../).
 
 If the output is `kirkwood-ts419-6281.dtb`, you need the <a
-href="http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/kernel-6281">kernel-6281</a>
+href="http://archive.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/kernel-6281">kernel-6281</a>
 file.  If the output is `kirkwood-ts419-6282.dtb`, you need the <a
-href="http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/kernel-6282">kernel-6282</a>
+href="http://archive.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/kernel-6282">kernel-6282</a>
 file.
 
 You also have to download the <a
-href="http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/initrd">initrd</a>
+href="http://archive.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/initrd">initrd</a>
 of the installer (make sure the initrd does not get uncompressed when
 you download it).
 
@@ -209,7 +209,7 @@ strings mtd4 | grep bootp_vendor_class
 Please note that by default the MAC address used by your QNAP device in the
 recovery mode is different to the one used while running the QNAP firmware.
 When you install Debian, a <a href =
-"http://ftp.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/flash-debian">script is run</a> to ensure that the same MAC
+"http://archive.debian.org/debian/dists/buster/main/installer-armel/current/images/kirkwood/network-console/qnap/ts-41x/flash-debian">script is run</a> to ensure that the same MAC
 address is used everywhere.  Therefore, depending on whether you ran that
 script, the MAC address will either be that from the QNAP firmware (the one
 printed on your device; it probably starts with `00:08:9B`) or an
