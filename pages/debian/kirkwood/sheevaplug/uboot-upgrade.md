@@ -78,25 +78,21 @@ binary listed here!
 <ul>
 
 <li><a href =
-"http://ftp.debian.org/debian/dists/bullseye/main/installer-armel/current/images/kirkwood/u-boot/sheevaplug/u-boot.kwb">SheevaPlug
+"http://ftp.debian.org/debian/dists/bookworm/main/installer-armel/current/images/kirkwood/u-boot/sheevaplug/u-boot.kwb">SheevaPlug
 (the original SheevaPlug, the eSATA SheevaPlug and the Ionics Nimbus 100)</a></li>
 
 <li><a href =
-"http://ftp.debian.org/debian/dists/bullseye/main/installer-armel/current/images/kirkwood/u-boot/dreamplug/u-boot.kwb">DreamPlug</a></li>
+"http://ftp.debian.org/debian/dists/bookworm/main/installer-armel/current/images/kirkwood/u-boot/dreamplug/u-boot.kwb">DreamPlug</a></li>
 
 <li><a href =
-"http://ftp.debian.org/debian/dists/bullseye/main/installer-armel/current/images/kirkwood/u-boot/guruplug/u-boot.kwb">GuruPlug
+"http://ftp.debian.org/debian/dists/bookworm/main/installer-armel/current/images/kirkwood/u-boot/guruplug/u-boot.kwb">GuruPlug
 (GuruPlug Server Standard and GuruPlug Server Plus)</a></li>
 
 <li><a href =
-"http://ftp.debian.org/debian/dists/bullseye/main/installer-armel/current/images/kirkwood/u-boot/dockstar/u-boot.kwb">Seagate
+"http://ftp.debian.org/debian/dists/bookworm/main/installer-armel/current/images/kirkwood/u-boot/dockstar/u-boot.kwb">Seagate
 FreeAgent DockStar</a></li>
 
 </ul>
-
-(Note: we link to the u-boot image from Debian 11 (bullseye) because the
-image in <a href = "https://bugs.debian.org/1061137">Debian 12 is currently
-broken</a>.)
 
 You have to complete three steps in order to install the new U-Boot.
 First, you have to load the new U-Boot to your plug computer, either via
