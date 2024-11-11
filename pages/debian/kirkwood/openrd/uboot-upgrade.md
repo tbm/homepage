@@ -76,9 +76,9 @@ Obtain the U-Boot binary for your device and save it as `u-boot.kwb`.
 Please note that since the boot loader interacts with the hardware, you
 have to use the correct u-boot binary for your device.
 
-* [OpenRD-Base](http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/u-boot/openrd-base/u-boot.kwb)
-* [OpenRD-Client](http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/u-boot/openrd-client/u-boot.kwb)
-* [OpenRD-Ultimate](http://ftp.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/u-boot/openrd-ultimate/u-boot.kwb)
+* [OpenRD-Base](http://archive.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/u-boot/openrd-base/u-boot.kwb)
+* [OpenRD-Client](http://archive.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/u-boot/openrd-client/u-boot.kwb)
+* [OpenRD-Ultimate](http://archive.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/u-boot/openrd-ultimate/u-boot.kwb)
 
 You have to complete three steps in order to install the new U-Boot.
 First, you have to load the new U-Boot to your plug computer, either via
