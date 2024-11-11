@@ -80,6 +80,9 @@ have to use the correct u-boot binary for your device.
 * [OpenRD-Client](http://archive.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/u-boot/openrd-client/u-boot.kwb)
 * [OpenRD-Ultimate](http://archive.debian.org/debian/dists/stretch/main/installer-armel/current/images/kirkwood/u-boot/openrd-ultimate/u-boot.kwb)
 
+Note that the latest Debian release that provided u-boot images for OpenRD
+was Debian 9 (stretch).
+
 You have to complete three steps in order to install the new U-Boot.
 First, you have to load the new U-Boot to your plug computer, either via
 USB or TFTP:
