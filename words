@@ -1391,3 +1391,7 @@ bootfile
 0xf8200000
 0xf8ffffff
 e00000
+RK3568
+435XeU
+Octeon
+TX2

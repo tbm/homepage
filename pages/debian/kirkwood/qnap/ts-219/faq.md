@@ -36,8 +36,6 @@ supported.  We use the mainline Linux kernel from kernel.org in Debian
 and most of the CPU platforms used in current QNAP devices are supported
 adequately there:
 
-* The TS-128, TS-228 and TAS-168 use a Realtek RTD1195 chip which is not
-supported at all.
 * TS-x31 series (TS-131, TS-231 and TS-431) use a Freescale chip which
 is not supported at all.
 * TS-x31+ series (TS-231+ and TS-431+) and TS-x31P series (TS-131P,
@@ -48,9 +46,11 @@ currently support is too basic.
 There is support for these chips in the Linux kernel but I'm not aware
 of any work going on to support these devices:
 
+* The TS-128, TS-228 and TAS-168 use a Realtek RTD1195 chip.
 * TS-x28A series (TS-128A and TS-228A) use a Realtek RTD1295.
 * TS-328 uses a Realtek RTD1296 chip.
-* TS-x33 series (TS-133, TS-233, TS-433) use a Cortex-A55.
+* TS-x33 series (TS-133, TS-233, TS-433) use a Realtek RK3568 chip.  The Linux kernel has support for the QNAP TS-433. (But someone would have to make sure Debian works.)
+* TS-435XeU uses a Marvell Octeon TX2 chip.
 
 While none of the current ARM-based devices from QNAP work with Debian,
 the devices based on Intel processors (such as the TS-x51 series) should

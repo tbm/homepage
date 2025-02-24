@@ -1,4 +1,4 @@
-personal_ws-1.1 en 582 utf-8
+personal_ws-1.1 en 585 utf-8
 ABI
 ACPI
 AGPL
@@ -242,6 +242,7 @@ OSD
 OSI
 OSOR
 OSS
+Octeon
 OpenBSD's
 OpenOCD
 OpenRD
@@ -285,6 +286,7 @@ QualiPSo
 Qube
 Qumranet
 README
+RK
 RSA
 RTC
 RTD
@@ -396,6 +398,7 @@ XGI
 XPS
 XScale
 XZ
+XeU
 Xen
 Xicor
 Xu
