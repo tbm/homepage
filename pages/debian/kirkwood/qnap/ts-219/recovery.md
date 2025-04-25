@@ -16,6 +16,9 @@ flash via the network using the TFTP protocol.  This pages describes how
 how to create recovery images and how to use the recovery mode.  As an
 alternative to the instructions on this page, you can use a <a href =
 "http://wiki.qnap.com/wiki/Firmware_Recovery">Live CD provided by QNAP</a>.
+QNAP also provides a <a
+href="https://www.qnap.com/en/how-to/faq/article/nas-recovery-guide-for-legacy-arm-based-nas">detailed
+recovery guide</a>.
 
 <h2 id="create">Creating recovery images</h2>
 
